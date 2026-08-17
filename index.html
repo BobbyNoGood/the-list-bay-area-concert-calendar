@@ -1,101 +1,1701 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Bay Area Concert Calendar</title>
+
+<title>Bay Area Concert Calendar — Aug 17–23, 2026</title>
+
 <style>
-:root{--bg:#0b0d10;--panel:#15191f;--panel2:#1d232b;--line:#303844;--text:#f5f7fa;--muted:#9aa3ae;--lime:#d7ff3f;--pink:#ff4f87}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}
-.wrap{max-width:1500px;margin:auto;padding:22px}h1{margin:0;font-size:30px}.muted{color:var(--muted)}
-.controls{display:grid;grid-template-columns:1.8fr 1fr 1fr 1fr auto;gap:10px;margin:18px 0}
-input,select,button{font:inherit}input,select{padding:11px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text)}
-button{padding:11px 14px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);cursor:pointer;font-weight:800}
-button.primary{background:var(--lime);color:#111;border-color:var(--lime)}
-.daychips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}.chip{padding:9px 11px;border-radius:999px}.chip.active{background:var(--pink);border-color:var(--pink)}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0 18px}.stat{padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--panel)}.stat small{color:var(--muted)}.stat strong{display:block;font-size:22px;margin-top:5px}
-.day{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--panel);margin:14px 0}.dayhead{display:flex;justify-content:space-between;padding:13px 16px;background:var(--panel2)}.dayhead h2{font-size:17px;margin:0}
-.show{display:grid;grid-template-columns:minmax(190px,1fr) 2.2fr;gap:15px;padding:14px 16px;border-top:1px solid var(--line)}.show.linked{cursor:pointer}.show.linked:hover{background:#20262e}
-.venue{font-weight:850}.city,.details{color:var(--muted);font-size:13px;margin-top:4px}.artists{line-height:1.45}.empty{padding:50px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}
-@media(max-width:900px){.controls{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.show{grid-template-columns:1fr}}
+:root{
+  --bg:#0b0d10;
+  --panel:#15191f;
+  --panel2:#1d232b;
+  --line:#303844;
+  --text:#f5f7fa;
+  --muted:#9aa3ae;
+  --lime:#d7ff3f;
+  --pink:#ff4f87;
+  --red:#ff718d;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;
+}
+
+.wrap{
+  max-width:1500px;
+  margin:auto;
+  padding:22px;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:flex-end;
+  flex-wrap:wrap;
+  margin-bottom:12px;
+}
+
+h1{
+  margin:0;
+  font-size:30px;
+}
+
+.muted{
+  color:var(--muted);
+}
+
+button,
+input,
+select{
+  font:inherit;
+}
+
+button{
+  padding:11px 14px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  background:var(--panel);
+  color:var(--text);
+  cursor:pointer;
+  font-weight:800;
+}
+
+button.primary{
+  background:var(--lime);
+  color:#111;
+  border-color:var(--lime);
+}
+
+.status{
+  padding:12px 14px;
+  margin:14px 0;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:var(--panel);
+}
+
+.status.ok{
+  color:var(--lime);
+}
+
+.status.error{
+  color:var(--red);
+}
+
+.controls{
+  display:grid;
+  grid-template-columns:1.8fr 1fr 1fr 1fr auto;
+  gap:10px;
+  margin:18px 0;
+}
+
+input,
+select{
+  padding:11px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  background:var(--panel);
+  color:var(--text);
+  width:100%;
+}
+
+.daychips{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-bottom:16px;
+}
+
+.chip{
+  padding:9px 11px;
+  border-radius:999px;
+}
+
+.chip.active{
+  background:var(--pink);
+  border-color:var(--pink);
+}
+
+.stats{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:10px;
+  margin:14px 0 18px;
+}
+
+.stat{
+  padding:14px;
+  border:1px solid var(--line);
+  border-radius:14px;
+  background:var(--panel);
+}
+
+.stat small{
+  color:var(--muted);
+}
+
+.stat strong{
+  display:block;
+  font-size:22px;
+  margin-top:5px;
+}
+
+.day{
+  border:1px solid var(--line);
+  border-radius:16px;
+  overflow:hidden;
+  background:var(--panel);
+  margin:14px 0;
+}
+
+.dayhead{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:13px 16px;
+  background:var(--panel2);
+}
+
+.dayhead h2{
+  font-size:17px;
+  margin:0;
+}
+
+.show{
+  display:grid;
+  grid-template-columns:minmax(200px,1fr) 2.4fr auto;
+  gap:15px;
+  padding:14px 16px;
+  border-top:1px solid var(--line);
+  align-items:center;
+}
+
+.show.clickable{
+  cursor:pointer;
+}
+
+.show.clickable:hover{
+  background:#20262e;
+}
+
+.show.clickable:focus{
+  outline:2px solid var(--lime);
+  outline-offset:-2px;
+}
+
+.venue{
+  font-weight:850;
+}
+
+.city,
+.details{
+  color:var(--muted);
+  font-size:13px;
+  margin-top:4px;
+}
+
+.artists{
+  line-height:1.45;
+}
+
+.openCue{
+  color:var(--lime);
+  font-size:12px;
+  font-weight:900;
+  white-space:nowrap;
+}
+
+.noLink{
+  color:var(--muted);
+}
+
+.empty{
+  padding:50px;
+  text-align:center;
+  color:var(--muted);
+  border:1px dashed var(--line);
+  border-radius:14px;
+}
+
+@media(max-width:900px){
+
+  .controls{
+    grid-template-columns:1fr;
+  }
+
+  .stats{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .show{
+    grid-template-columns:1fr;
+  }
+
+  .openCue{
+    white-space:normal;
+  }
+}
 </style>
 </head>
-<body><div class="wrap">
-<h1>Bay Area Concert Calendar</h1>
-<div class="muted" id="statusText">Fetching Foopee listings for Aug 17–23, 2026…</div>
+
+<body>
+
+<div class="wrap">
+
+<header>
+  <div>
+    <h1>Bay Area Concert Calendar</h1>
+    <div class="muted">
+      Aug 17–23, 2026
+    </div>
+  </div>
+
+  <button id="refresh">
+    Refresh listings
+  </button>
+</header>
+
+<div id="status" class="status">
+  Loading this week's shows...
+</div>
+
 <div class="controls">
-<input id="q" placeholder="Search artist, venue, city, price or time">
-<input id="date" type="date" min="2026-08-17" max="2026-08-23">
-<select id="city"><option value="">All cities</option></select>
-<select id="venue"><option value="">All venues</option></select>
-<button id="clear" class="primary">Clear filters</button>
+
+  <input
+    id="q"
+    placeholder="Search artist, venue, city, price or time"
+  >
+
+  <input
+    id="date"
+    type="date"
+    min="2026-08-17"
+    max="2026-08-23"
+  >
+
+  <select id="city">
+    <option value="">
+      All cities
+    </option>
+  </select>
+
+  <select id="venue">
+    <option value="">
+      All venues
+    </option>
+  </select>
+
+  <button
+    id="clear"
+    class="primary"
+  >
+    Clear filters
+  </button>
+
 </div>
-<div class="daychips" id="chips"></div>
+
+<div
+  class="daychips"
+  id="chips"
+></div>
+
 <div class="stats">
-<div class="stat"><small>Matching shows</small><strong id="showCount">0</strong></div>
-<div class="stat"><small>Venues</small><strong id="venueCount">0</strong></div>
-<div class="stat"><small>Cities</small><strong id="cityCount">0</strong></div>
-<div class="stat"><small>Date filter</small><strong id="dateStat">All</strong></div>
+
+  <div class="stat">
+    <small>Matching shows</small>
+    <strong id="showCount">0</strong>
+  </div>
+
+  <div class="stat">
+    <small>Venues</small>
+    <strong id="venueCount">0</strong>
+  </div>
+
+  <div class="stat">
+    <small>Cities</small>
+    <strong id="cityCount">0</strong>
+  </div>
+
+  <div class="stat">
+    <small>Date</small>
+    <strong id="dateStat">All</strong>
+  </div>
+
 </div>
-<div id="root"><div class="empty">Loading current listings…</div></div>
+
+<div id="root"></div>
+
 </div>
+
 <script>
-const VENUES={
-"The Chapel":"https://thechapelsf.com/","Chapel":"https://thechapelsf.com/",
-"Bottom of the Hill":"https://bottomofthehill.com/","924 Gilman Street":"https://www.924gilman.org/",
-"The Warfield":"https://www.thewarfieldtheatre.com/","Warfield":"https://www.thewarfieldtheatre.com/",
-"The Independent":"https://theindependentsf.com/","Rickshaw Stop":"https://rickshawstop.com/",
-"Great American Music Hall":"https://gamh.com/","Ivy Room":"https://ivyroom.com/","Kilowatt":"https://kilowattbar.com/",
-"Thee Stork Club":"https://theestorkclub.com/","Fox Theater":"https://thefoxoakland.com/",
-"August Hall":"https://augusthallsf.com/","Cafe Du Nord":"https://cafedunord.com/","DNA Lounge":"https://www.dnalounge.com/",
-"Mountain Winery":"https://www.mountainwinery.com/","Greek Theater":"https://thegreekberkeley.com/",
-"Frost Amphitheater":"https://live.stanford.edu/venues/frost-amphitheater","Guild Theatre":"https://guildtheatre.com/",
-"SAP Center":"https://www.sapcenter.com/","Levi's Stadium":"https://www.levisstadium.com/","49'ers Stadium":"https://www.levisstadium.com/",
-"Chase Center":"https://www.chasecenter.com/","Yoshi's":"https://yoshis.com/","San Jose Civic":"https://sanjosetheaters.org/theaters/san-jose-civic/",
-"The Ritz":"https://theritzsanjose.com/","Felton Music Hall":"https://www.feltonmusichall.com/","Phoenix Theater":"https://www.thephoenixtheater.com/",
-"Kuumbwa Jazz Center":"https://www.kuumbwajazz.org/","Bimbo's 365 Club":"https://bimbos365club.com/","Swedish American Hall":"https://swedishamericanhall.com/",
-"Hotel Utah":"https://hotelutah.com/","Black Cat":"https://blackcatsf.com/"
+
+const START_DATE = "2026-08-17";
+const END_DATE   = "2026-08-23";
+
+const DATA_URL =
+  "https://raw.githubusercontent.com/RP2/bay-punks/master/src/data/raw.json";
+
+const STATE_KEY =
+  "bayAreaConcertCalendarState";
+
+let events = [];
+
+/*
+  VERIFIED / KNOWN OFFICIAL VENUE WEBSITES
+
+  Add new venues here as they appear in future weeks.
+*/
+
+const VENUE_URLS = {
+
+  "924 Gilman Street":
+    "https://www.924gilman.org/",
+
+  "49'ers Stadium":
+    "https://www.levisstadium.com/",
+
+  "Levi's Stadium":
+    "https://www.levisstadium.com/",
+
+  "August Hall":
+    "https://www.augusthallsf.com/",
+
+  "Bimbo's 365 Club":
+    "https://bimbos365club.com/",
+
+  "Black Cat":
+    "https://blackcatsf.com/",
+
+  "Bottom of the Hill":
+    "https://www.bottomofthehill.com/",
+
+  "Brick and Mortar":
+    "https://www.brickandmortarmusic.com/",
+
+  "Brick & Mortar Music Hall":
+    "https://www.brickandmortarmusic.com/",
+
+  "Cafe Du Nord":
+    "https://cafedunord.com/",
+
+  "Chapel":
+    "https://thechapelsf.com/",
+
+  "The Chapel":
+    "https://thechapelsf.com/",
+
+  "Chase Center":
+    "https://www.chasecenter.com/",
+
+  "Warriors Stadium":
+    "https://www.chasecenter.com/",
+
+  "Davies Symphony Hall":
+    "https://www.sfsymphony.org/",
+
+  "DNA Lounge":
+    "https://www.dnalounge.com/",
+
+  "Fillmore":
+    "https://www.livenation.com/venue/KovZpZA6ta6A/the-fillmore-events",
+
+  "The Fillmore":
+    "https://www.livenation.com/venue/KovZpZA6ta6A/the-fillmore-events",
+
+  "Fox Theater":
+    "https://thefoxoakland.com/",
+
+  "Frost Amphitheater":
+    "https://live.stanford.edu/venues/frost-amphitheater",
+
+  "Great American Music Hall":
+    "https://gamh.com/",
+
+  "Greek Theater":
+    "https://thegreekberkeley.com/",
+
+  "Guild Theatre":
+    "https://guildtheatre.com/",
+
+  "Independent":
+    "https://theindependentsf.com/",
+
+  "The Independent":
+    "https://theindependentsf.com/",
+
+  "Ivy Room":
+    "https://ivyroom.com/",
+
+  "Kilowatt":
+    "https://kilowattbar.com/",
+
+  "Mountain Winery":
+    "https://www.mountainwinery.com/",
+
+  "Phoenix Theater":
+    "https://www.thephoenixtheater.com/",
+
+  "Regency Ballroom":
+    "https://www.theregencyballroom.com/",
+
+  "The Regency Ballroom":
+    "https://www.theregencyballroom.com/",
+
+  "Rickshaw Stop":
+    "https://rickshawstop.com/",
+
+  "Ritz":
+    "https://theritzsanjose.com/",
+
+  "The Ritz":
+    "https://theritzsanjose.com/",
+
+  "San Jose Civic":
+    "https://sanjosetheaters.org/theaters/san-jose-civic/",
+
+  "Shoreline Amphitheater":
+    "https://www.livenation.com/venue/KovZpZA6ta1A/shoreline-amphitheatre-events",
+
+  "Sweetwater Music Hall":
+    "https://sweetwatermusichall.com/",
+
+  "Swedish American Hall":
+    "https://swedishamericanhall.com/",
+
+  "Thee Stork Club":
+    "https://theestorkclub.com/",
+
+  "Warfield":
+    "https://www.thewarfieldtheatre.com/",
+
+  "The Warfield":
+    "https://www.thewarfieldtheatre.com/",
+
+  "Yoshi's":
+    "https://yoshis.com/"
 };
-let events=[],days=[];
-const $=x=>document.getElementById(x),esc=s=>String(s||"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
-function venueURL(v){let x=(v||"").toLowerCase();for(const [k,u] of Object.entries(VENUES))if(x.includes(k.toLowerCase()))return u;return""}
-function parse(text){
- const doc=new DOMParser().parseFromString(text,"text/html"),out=[];let currentDate="",currentDay="";
- doc.body.querySelectorAll("a[name],li").forEach(node=>{
-  if(node.tagName==="A"){const n=node.getAttribute("name");if(n&&/^\d{8}$/.test(n)){currentDate=`${n.slice(0,4)}-${n.slice(4,6)}-${n.slice(6,8)}`;currentDay=node.parentNode?.textContent.trim()||currentDate}}
-  else if(currentDate&&currentDate>="2026-08-17"&&currentDate<="2026-08-23"){
-   const raw=node.textContent.trim();if(!raw)return;let venue="Unknown Venue",city="",artists=raw,details="";
-   const a=node.querySelector('a[href*="by-club"]');if(a)venue=a.textContent.trim();
-   const i=raw.indexOf(":");if(i>=0){const left=raw.slice(0,i),right=raw.slice(i+1);if(!a)venue=left.split(",")[0].trim();if(left.includes(","))city=left.split(",").slice(1).join(",").trim();artists=right.trim()}
-   const p=artists.match(/\(([^)]+)\)$/);if(p){details=p[1];artists=artists.replace(/\(([^)]+)\)$/,"").trim()}
-   out.push({date:currentDate,day:currentDay,venue,city,artists,details});
+
+
+/*
+  DOM HELPERS
+*/
+
+const q =
+  document.getElementById("q");
+
+const date =
+  document.getElementById("date");
+
+const city =
+  document.getElementById("city");
+
+const venue =
+  document.getElementById("venue");
+
+const chips =
+  document.getElementById("chips");
+
+const root =
+  document.getElementById("root");
+
+const status =
+  document.getElementById("status");
+
+
+function escapeHtml(value){
+
+  return String(value ?? "")
+    .replace(
+      /[&<>"']/g,
+      char => ({
+        "&":"&amp;",
+        "<":"&lt;",
+        ">":"&gt;",
+        '"':"&quot;",
+        "'":"&#39;"
+      }[char])
+    );
+}
+
+
+/*
+  CITY / VENUE PARSER
+*/
+
+const CITY_NAMES = [
+
+  "San Francisco",
+  "S.F.",
+  "S.f.",
+  "Oakland",
+  "Berkeley",
+  "Albany",
+  "San Jose",
+  "Santa Clara",
+  "Santa Cruz",
+  "Mountain View",
+  "Saratoga",
+  "Mill Valley",
+  "Petaluma",
+  "Napa",
+  "Sonoma",
+  "Pleasant Hill",
+  "Concord",
+  "Pacifica",
+  "Richmond",
+  "Hayward",
+  "San Leandro",
+  "San Anselmo",
+  "Felton",
+  "Alameda",
+  "Pleasanton"
+
+];
+
+
+function parseVenueText(text){
+
+  let venueName =
+    String(text || "")
+    .trim();
+
+  let cityName = "";
+
+  for(
+    const possibleCity
+    of
+    CITY_NAMES
+      .slice()
+      .sort(
+        (a,b) =>
+          b.length - a.length
+      )
+  ){
+
+    const suffix =
+      ", " + possibleCity;
+
+    if(
+      venueName
+        .toLowerCase()
+        .endsWith(
+          suffix.toLowerCase()
+        )
+    ){
+
+      venueName =
+        venueName
+        .slice(
+          0,
+          -suffix.length
+        )
+        .trim();
+
+      cityName =
+        possibleCity;
+
+      break;
+    }
+
   }
- });return out
+
+
+  if(
+    cityName.toLowerCase() === "s.f."
+  ){
+
+    cityName =
+      "San Francisco";
+
+  }
+
+  if(
+    cityName.toLowerCase() === "s.f"
+  ){
+
+    cityName =
+      "San Francisco";
+
+  }
+
+
+  return {
+
+    venue:
+      venueName,
+
+    city:
+      cityName
+
+  };
+
 }
-async function load(){
- const target="http://www.foopee.com/punk/the-list/by-date.1.html";
- const routes=["https://api.allorigins.win/raw?url="+encodeURIComponent(target),"https://r.jina.ai/http://www.foopee.com/punk/the-list/by-date.1.html"];
- for(const url of routes){try{const r=await fetch(url);if(!r.ok)continue;const t=await r.text();const e=parse(t);if(e.length){events=e;init();$("statusText").textContent=`${e.length} current Foopee listings loaded for Aug 17–23, 2026`;return}}catch(e){}}
- $("statusText").textContent="Foopee could not be reached right now. Refresh this page to retry.";
- $("root").innerHTML='<div class="empty">Live listings could not be loaded. Refresh to try again.</div>';
+
+
+/*
+  VENUE LINK LOOKUP
+*/
+
+function getVenueUrl(
+  venueName
+){
+
+  const normalized =
+    String(
+      venueName || ""
+    )
+    .trim()
+    .toLowerCase();
+
+  for(
+    const [
+      name,
+      url
+    ]
+    of
+    Object.entries(
+      VENUE_URLS
+    )
+  ){
+
+    const key =
+      name.toLowerCase();
+
+    if(
+      normalized === key ||
+      normalized.startsWith(
+        key + ","
+      ) ||
+      normalized.includes(
+        key
+      )
+    ){
+
+      return url;
+
+    }
+
+  }
+
+  return "";
+
 }
-function init(){
- $("city").innerHTML='<option value="">All cities</option>';$("venue").innerHTML='<option value="">All venues</option>';
- [...new Set(events.map(e=>e.city).filter(Boolean))].sort().forEach(x=>$("city").add(new Option(x,x)));
- [...new Set(events.map(e=>e.venue).filter(Boolean))].sort().forEach(x=>$("venue").add(new Option(x,x)));
- days=[...new Set(events.map(e=>e.day))];$("chips").innerHTML='<button class="chip active" onclick="setDate(\'\')">All week</button>';
- days.forEach(d=>{let e=events.find(x=>x.day===d),b=document.createElement("button");b.className="chip";b.textContent=d;b.dataset.date=e.date;b.onclick=()=>setDate(e.date);$("chips").appendChild(b)});render()
+
+
+/*
+  LOAD CURRENT WEEK
+*/
+
+async function loadEvents(){
+
+  status.className =
+    "status";
+
+  status.textContent =
+    "Loading this week's shows...";
+
+  root.innerHTML =
+    '<div class="empty">Loading concert listings...</div>';
+
+
+  try{
+
+    const response =
+      await fetch(
+        DATA_URL,
+        {
+          cache:"no-store"
+        }
+      );
+
+
+    if(
+      !response.ok
+    ){
+
+      throw new Error(
+        "HTTP " +
+        response.status
+      );
+
+    }
+
+
+    const data =
+      await response.json();
+
+
+    const parsedEvents = [];
+
+
+    for(
+      const day
+      of
+      data.shows || []
+    ){
+
+      if(
+        day.normalizedDate <
+        START_DATE
+      ){
+
+        continue;
+
+      }
+
+
+      if(
+        day.normalizedDate >
+        END_DATE
+      ){
+
+        continue;
+
+      }
+
+
+      for(
+        const show
+        of
+        day.events || []
+      ){
+
+        const venueInfo =
+          parseVenueText(
+            show.venue?.text ||
+            "Unknown Venue"
+          );
+
+
+        const artists =
+          (
+            show.bands || []
+          )
+          .map(
+            band =>
+              band.text
+          )
+          .filter(Boolean)
+          .join(", ");
+
+
+        parsedEvents.push({
+
+          date:
+            day.normalizedDate,
+
+          day:
+            day.day,
+
+          venue:
+            venueInfo.venue,
+
+          city:
+            venueInfo.city,
+
+          artists:
+            artists,
+
+          details:
+            show.extra || ""
+
+        });
+
+      }
+
+    }
+
+
+    if(
+      !parsedEvents.length
+    ){
+
+      throw new Error(
+        "No listings found for Aug 17–23"
+      );
+
+    }
+
+
+    events =
+      parsedEvents;
+
+
+    initializeDashboard();
+
+
+    status.className =
+      "status ok";
+
+    status.textContent =
+      `${events.length} shows loaded for Aug 17–23, 2026`;
+
+
+  }
+  catch(error){
+
+    console.error(
+      error
+    );
+
+
+    events = [];
+
+
+    status.className =
+      "status error";
+
+    status.textContent =
+      "Could not load this week's listings.";
+
+
+    root.innerHTML =
+      `
+      <div class="empty">
+
+        Show data could not be loaded.
+
+        <br><br>
+
+        Tap
+        <strong>
+          Refresh listings
+        </strong>
+        to try again.
+
+      </div>
+      `;
+
+  }
+
 }
-function setDate(d){$("date").value=d;render()}
+
+
+/*
+  BUILD FILTERS
+*/
+
+function initializeDashboard(){
+
+  city.innerHTML =
+    '<option value="">All cities</option>';
+
+  venue.innerHTML =
+    '<option value="">All venues</option>';
+
+  chips.innerHTML = "";
+
+
+  const cities =
+    [
+      ...new Set(
+        events
+        .map(
+          event =>
+            event.city
+        )
+        .filter(Boolean)
+      )
+    ]
+    .sort();
+
+
+  cities.forEach(
+    value => {
+
+      city.add(
+        new Option(
+          value,
+          value
+        )
+      );
+
+    }
+  );
+
+
+  const venues =
+    [
+      ...new Set(
+        events
+        .map(
+          event =>
+            event.venue
+        )
+        .filter(Boolean)
+      )
+    ]
+    .sort();
+
+
+  venues.forEach(
+    value => {
+
+      venue.add(
+        new Option(
+          value,
+          value
+        )
+      );
+
+    }
+  );
+
+
+  const dates =
+    [
+      ...new Map(
+        events.map(
+          event => [
+
+            event.date,
+
+            {
+              date:
+                event.date,
+
+              day:
+                event.day
+            }
+
+          ]
+        )
+      )
+      .values()
+    ]
+    .sort(
+      (
+        a,
+        b
+      ) =>
+        a.date.localeCompare(
+          b.date
+        )
+    );
+
+
+  const all =
+    document.createElement(
+      "button"
+    );
+
+
+  all.className =
+    "chip active";
+
+  all.textContent =
+    "All week";
+
+  all.dataset.date =
+    "";
+
+  all.onclick =
+    () =>
+      setDate("");
+
+  chips.appendChild(
+    all
+  );
+
+
+  dates.forEach(
+    item => {
+
+      const button =
+        document.createElement(
+          "button"
+        );
+
+
+      button.className =
+        "chip";
+
+
+      button.textContent =
+        item.day;
+
+
+      button.dataset.date =
+        item.date;
+
+
+      button.onclick =
+        () =>
+          setDate(
+            item.date
+          );
+
+
+      chips.appendChild(
+        button
+      );
+
+    }
+  );
+
+
+  if(
+    !restoreState()
+  ){
+
+    render();
+
+  }
+
+}
+
+
+/*
+  SAVE / RESTORE FILTER STATE
+*/
+
+function saveState(){
+
+  try{
+
+    const state = {
+
+      q:
+        q.value,
+
+      date:
+        date.value,
+
+      city:
+        city.value,
+
+      venue:
+        venue.value,
+
+      scrollY:
+        window.scrollY
+
+    };
+
+
+    sessionStorage.setItem(
+      STATE_KEY,
+      JSON.stringify(
+        state
+      )
+    );
+
+  }
+  catch(error){
+
+    console.warn(
+      "Could not save state",
+      error
+    );
+
+  }
+
+}
+
+
+function restoreState(){
+
+  try{
+
+    const raw =
+      sessionStorage.getItem(
+        STATE_KEY
+      );
+
+
+    if(
+      !raw
+    ){
+
+      return false;
+
+    }
+
+
+    const state =
+      JSON.parse(
+        raw
+      );
+
+
+    q.value =
+      state.q || "";
+
+
+    date.value =
+      state.date || "";
+
+
+    city.value =
+      state.city || "";
+
+
+    venue.value =
+      state.venue || "";
+
+
+    render();
+
+
+    requestAnimationFrame(
+      () => {
+
+        requestAnimationFrame(
+          () => {
+
+            window.scrollTo(
+              0,
+              Number(
+                state.scrollY
+              ) || 0
+            );
+
+          }
+        );
+
+      }
+    );
+
+
+    return true;
+
+  }
+  catch(error){
+
+    console.warn(
+      "Could not restore state",
+      error
+    );
+
+
+    return false;
+
+  }
+
+}
+
+
+/*
+  DATE FILTER
+*/
+
+function setDate(
+  value
+){
+
+  date.value =
+    value;
+
+
+  render();
+
+}
+
+
+/*
+  RENDER SHOWS
+*/
+
 function render(){
- const qs=$("q").value.toLowerCase(),dv=$("date").value,cv=$("city").value,vv=$("venue").value;
- const f=events.filter(e=>(!qs||JSON.stringify(e).toLowerCase().includes(qs))&&(!dv||e.date===dv)&&(!cv||e.city===cv)&&(!vv||e.venue===vv));
- $("showCount").textContent=f.length;$("venueCount").textContent=new Set(f.map(e=>e.venue)).size;$("cityCount").textContent=new Set(f.map(e=>e.city).filter(Boolean)).size;$("dateStat").textContent=dv||"All";
- $("root").innerHTML="";
- days.forEach(d=>{const list=f.filter(e=>e.day===d);if(!list.length)return;const sec=document.createElement("section");sec.className="day";sec.innerHTML=`<div class="dayhead"><h2>${esc(d)}</h2><span>${list.length} show${list.length===1?"":"s"}</span></div>`;
- list.forEach(e=>{const u=venueURL(e.venue),a=document.createElement("article");a.className="show"+(u?" linked":"");if(u)a.onclick=()=>location.href=u;a.innerHTML=`<div><div class="venue">${esc(e.venue)}</div><div class="city">${esc(e.city)}</div></div><div><div class="artists">${esc(e.artists)}</div><div class="details">${esc(e.details)}</div></div>`;sec.appendChild(a)});$("root").appendChild(sec)});
- if(!f.length)$("root").innerHTML='<div class="empty">No shows match those filters.</div>'
+
+  const search =
+    q.value
+    .trim()
+    .toLowerCase();
+
+
+  const selectedDate =
+    date.value;
+
+
+  const selectedCity =
+    city.value;
+
+
+  const selectedVenue =
+    venue.value;
+
+
+  const filtered =
+    events.filter(
+      event => {
+
+        const searchable =
+          [
+            event.day,
+            event.venue,
+            event.city,
+            event.artists,
+            event.details
+          ]
+          .join(" ")
+          .toLowerCase();
+
+
+        return (
+
+          (
+            !search ||
+            searchable.includes(
+              search
+            )
+          )
+
+          &&
+
+          (
+            !selectedDate ||
+            event.date ===
+            selectedDate
+          )
+
+          &&
+
+          (
+            !selectedCity ||
+            event.city ===
+            selectedCity
+          )
+
+          &&
+
+          (
+            !selectedVenue ||
+            event.venue ===
+            selectedVenue
+          )
+
+        );
+
+      }
+    );
+
+
+  document
+  .getElementById(
+    "showCount"
+  )
+  .textContent =
+    filtered.length;
+
+
+  document
+  .getElementById(
+    "venueCount"
+  )
+  .textContent =
+    new Set(
+      filtered
+      .map(
+        event =>
+          event.venue
+      )
+    )
+    .size;
+
+
+  document
+  .getElementById(
+    "cityCount"
+  )
+  .textContent =
+    new Set(
+      filtered
+      .map(
+        event =>
+          event.city
+      )
+      .filter(Boolean)
+    )
+    .size;
+
+
+  document
+  .getElementById(
+    "dateStat"
+  )
+  .textContent =
+    selectedDate
+
+      ?
+
+      new Date(
+        selectedDate +
+        "T12:00:00"
+      )
+      .toLocaleDateString(
+        undefined,
+        {
+          month:"short",
+          day:"numeric"
+        }
+      )
+
+      :
+
+      "All";
+
+
+  [
+    ...chips.children
+  ]
+  .forEach(
+    button => {
+
+      button.classList.toggle(
+        "active",
+        button.dataset.date ===
+        selectedDate
+      );
+
+    }
+  );
+
+
+  root.innerHTML = "";
+
+
+  const groups =
+    new Map();
+
+
+  filtered
+  .sort(
+    (
+      a,
+      b
+    ) =>
+      a.date.localeCompare(
+        b.date
+      )
+  )
+  .forEach(
+    event => {
+
+      if(
+        !groups.has(
+          event.date
+        )
+      ){
+
+        groups.set(
+          event.date,
+          []
+        );
+
+      }
+
+
+      groups
+      .get(
+        event.date
+      )
+      .push(
+        event
+      );
+
+    }
+  );
+
+
+  for(
+    const [
+      groupDate,
+      list
+    ]
+    of
+    groups
+  ){
+
+    const section =
+      document.createElement(
+        "section"
+      );
+
+
+    section.className =
+      "day";
+
+
+    section.innerHTML =
+      `
+      <div class="dayhead">
+
+        <h2>
+          ${escapeHtml(
+            list[0].day
+          )}
+        </h2>
+
+        <span class="muted">
+
+          ${list.length}
+
+          show${
+            list.length === 1
+              ?
+              ""
+              :
+              "s"
+          }
+
+        </span>
+
+      </div>
+      `;
+
+
+    list.forEach(
+      event => {
+
+        const url =
+          getVenueUrl(
+            event.venue
+          );
+
+
+        const article =
+          document.createElement(
+            "article"
+          );
+
+
+        article.className =
+          "show" +
+          (
+            url
+            ?
+            " clickable"
+            :
+            ""
+          );
+
+
+        article.innerHTML =
+          `
+          <div>
+
+            <div class="venue">
+              ${escapeHtml(
+                event.venue
+              )}
+            </div>
+
+            <div class="city">
+              ${escapeHtml(
+                event.city
+              )}
+            </div>
+
+          </div>
+
+
+          <div>
+
+            <div class="artists">
+              ${escapeHtml(
+                event.artists
+              )}
+            </div>
+
+            <div class="details">
+              ${escapeHtml(
+                event.details
+              )}
+            </div>
+
+          </div>
+
+
+          <div
+            class="openCue ${
+              url
+              ?
+              ""
+              :
+              "noLink"
+            }"
+          >
+
+            ${
+              url
+              ?
+              "Official venue ↗"
+              :
+              "No verified link"
+            }
+
+          </div>
+          `;
+
+
+        if(
+          url
+        ){
+
+          article.tabIndex =
+            0;
+
+
+          article.setAttribute(
+            "role",
+            "link"
+          );
+
+
+          article.onclick =
+            () => {
+
+              saveState();
+
+              window.location.href =
+                url;
+
+            };
+
+
+          article.onkeydown =
+            eventKey => {
+
+              if(
+                eventKey.key ===
+                "Enter"
+                ||
+                eventKey.key ===
+                " "
+              ){
+
+                eventKey
+                .preventDefault();
+
+
+                saveState();
+
+
+                window.location.href =
+                  url;
+
+              }
+
+            };
+
+        }
+
+
+        section.appendChild(
+          article
+        );
+
+      }
+    );
+
+
+    root.appendChild(
+      section
+    );
+
+  }
+
+
+  if(
+    !filtered.length
+  ){
+
+    root.innerHTML =
+      `
+      <div class="empty">
+        No shows match those filters.
+      </div>
+      `;
+
+  }
+
 }
-["q","date"].forEach(x=>$(x).addEventListener("input",render));["city","venue"].forEach(x=>$(x).addEventListener("change",render));
-$("clear").onclick=()=>{$("q").value="";$("date").value="";$("city").value="";$("venue").value="";render()};load();
-</script></body></html>
+
+
+/*
+  CONTROLS
+*/
+
+q.addEventListener(
+  "input",
+  render
+);
+
+
+date.addEventListener(
+  "change",
+  render
+);
+
+
+city.addEventListener(
+  "change",
+  render
+);
+
+
+venue.addEventListener(
+  "change",
+  render
+);
+
+
+document
+.getElementById(
+  "clear"
+)
+.onclick =
+  () => {
+
+    q.value =
+      "";
+
+    date.value =
+      "";
+
+    city.value =
+      "";
+
+    venue.value =
+      "";
+
+
+    sessionStorage.removeItem(
+      STATE_KEY
+    );
+
+
+    render();
+
+  };
+
+
+document
+.getElementById(
+  "refresh"
+)
+.onclick =
+  loadEvents;
+
+
+/*
+  START
+*/
+
+loadEvents();
+
+</script>
+
+</body>
+</html>
