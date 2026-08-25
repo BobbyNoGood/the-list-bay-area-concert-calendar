@@ -1,0 +1,10 @@
+Upload these files to the root of BobbyNoGood/the-list-bay-area-concert-calendar, preserving folders:
+
+index.html
+events.json
+scripts/update_calendar.py
+.github/workflows/update-calendar.yml
+
+Then open GitHub > Actions > Update Foopee concert calendar > Run workflow once.
+
+After that, GitHub fetches Foopee itself every Monday at 9:00 AM Pacific and commits events.json. The website reads only events.json from the same repository, so the browser no longer depends on Foopee/CORS/proxy services.
