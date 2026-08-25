@@ -1,8 +1,65 @@
 {
   "meta": {
     "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
-    "updated_at": "Waiting for first automatic run",
-    "week_label": "Run the updater once to load current listings"
+    "updated_at": "2026-08-25 02:53 PM PT",
+    "week_label": "Sep 7–13, 2026"
   },
-  "events": []
+  "events": [
+    {
+      "date": "2026-09-07",
+      "day": "Mon Sep 7",
+      "venue": "Bottom of the Hill",
+      "city": "San Francisco",
+      "artists": "Mad Caddies, Diesel Boy (performing Cock Rock), Stay Out",
+      "details": "a/a $27/$30 7:30pm/8pm @"
+    },
+    {
+      "date": "2026-09-08",
+      "day": "Tue Sep 8",
+      "venue": "Davies Symphony Hall, 201 Van Ness Ave.",
+      "city": "San Francisco",
+      "artists": "Samara Joy with the SF Symphony",
+      "details": "a/a 7:30pm"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "924 Gilman Street",
+      "city": "Berkeley",
+      "artists": "Yearn, Junebug, Joseon, Rosegate",
+      "details": "a/a $18/$22 7pm/7:30pm"
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thu Sep 10",
+      "venue": "Bottom of the Hill",
+      "city": "San Francisco",
+      "artists": "Fartbarf, Diesel Dudes, Edgar",
+      "details": "a/a $15/$20 8pm/8:30pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "4th Corner Speakeasy, 431 Georgia Street",
+      "city": "Vallejo",
+      "artists": "Westerly",
+      "details": "21+"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Bottom of the Hill",
+      "city": "San Francisco",
+      "artists": "Bratmobile, A La Tata",
+      "details": "a/a $35 8pm/9pm @"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "924 Gilman Street",
+      "city": "Berkeley",
+      "artists": "Just Nick, CJ Lawrence, Brian Ward, Imparcial",
+      "details": "a/a $12/$15 6pm/6:30pm (acoustic sunday)"
+    }
+  ]
 }
