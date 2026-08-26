@@ -4,72 +4,355 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Bay Area Concert Calendar</title>
+
 <style>
-:root{--bg:#0b0d10;--panel:#15191f;--panel2:#1d232b;--line:#303844;--text:#f5f7fa;--muted:#9aa3ae;--lime:#d7ff3f;--pink:#ff4f87;--red:#ff718d}
+:root{
+  --bg:#0b0d10;
+  --panel:#15191f;
+  --panel2:#1d232b;
+  --line:#303844;
+  --text:#f5f7fa;
+  --muted:#9aa3ae;
+  --lime:#d7ff3f;
+  --pink:#ff4f87;
+  --red:#ff718d;
+}
+
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}
-.wrap{max-width:1500px;margin:auto;padding:22px}
-header{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;flex-wrap:wrap}
-h1{margin:0;font-size:30px}.muted{color:var(--muted)}
-button,input,select{font:inherit}
-button{padding:11px 14px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);cursor:pointer;font-weight:800}
-button.primary{background:var(--lime);color:#111;border-color:var(--lime)}
-.status{padding:12px 14px;margin:14px 0;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
-.status.ok{color:var(--lime)}.status.error{color:var(--red)}
-.weekbar{display:flex;gap:8px;overflow-x:auto;padding:4px 0 12px;scrollbar-width:thin}
-.weekbtn{white-space:nowrap;border-radius:999px}.weekbtn.active{background:var(--pink);border-color:var(--pink);color:#fff}
-.controls{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr auto;gap:10px;margin:10px 0 18px}
-input,select{padding:11px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);width:100%}
-.daychips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
-.chip{padding:9px 11px;border-radius:999px}.chip.active{background:var(--pink);border-color:var(--pink)}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0 18px}
-.stat{padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--panel)}
-.stat small{color:var(--muted)}.stat strong{display:block;font-size:22px;margin-top:5px}
-.day{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--panel);margin:14px 0}
-.dayhead{display:flex;justify-content:space-between;padding:13px 16px;background:var(--panel2)}
-.dayhead h2{font-size:17px;margin:0}
-.show{display:grid;grid-template-columns:minmax(200px,1fr) 2.4fr auto;gap:15px;padding:14px 16px;border-top:1px solid var(--line);align-items:center}
-.show.clickable{cursor:pointer}.show.clickable:hover{background:#20262e}
-.venue{font-weight:850}.city,.details{color:var(--muted);font-size:13px;margin-top:4px}
-.artists{line-height:1.45}.openCue{color:var(--lime);font-size:12px;font-weight:900;white-space:nowrap}
-.empty{padding:50px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}
-@media(max-width:900px){.controls{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.show{grid-template-columns:1fr}.openCue{white-space:normal}}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;
+}
+
+.wrap{
+  max-width:1500px;
+  margin:auto;
+  padding:22px;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:flex-end;
+  flex-wrap:wrap;
+}
+
+h1{
+  margin:0;
+  font-size:30px;
+}
+
+.muted{
+  color:var(--muted);
+}
+
+button,input,select{
+  font:inherit;
+}
+
+button{
+  padding:11px 14px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  background:var(--panel);
+  color:var(--text);
+  cursor:pointer;
+  font-weight:800;
+}
+
+button.primary{
+  background:var(--lime);
+  color:#111;
+  border-color:var(--lime);
+}
+
+.status{
+  padding:12px 14px;
+  margin:14px 0;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:var(--panel);
+}
+
+.status.ok{
+  color:var(--lime);
+}
+
+.status.error{
+  color:var(--red);
+}
+
+.weekbar{
+  display:flex;
+  gap:8px;
+  overflow-x:auto;
+  padding:4px 0 12px;
+  scrollbar-width:thin;
+}
+
+.weekbtn{
+  white-space:nowrap;
+  border-radius:999px;
+}
+
+.weekbtn.active{
+  background:var(--pink);
+  border-color:var(--pink);
+  color:#fff;
+}
+
+.controls{
+  display:grid;
+  grid-template-columns:1.7fr 1fr 1fr 1fr auto;
+  gap:10px;
+  margin:10px 0 18px;
+}
+
+.field{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+.field label{
+  color:var(--muted);
+  font-size:13px;
+  font-weight:700;
+}
+
+input,select{
+  padding:11px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  background:var(--panel);
+  color:var(--text);
+  width:100%;
+}
+
+.daychips{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-bottom:16px;
+}
+
+.chip{
+  padding:9px 11px;
+  border-radius:999px;
+}
+
+.chip.active{
+  background:var(--pink);
+  border-color:var(--pink);
+}
+
+.stats{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:10px;
+  margin:14px 0 18px;
+}
+
+.stat{
+  padding:14px;
+  border:1px solid var(--line);
+  border-radius:14px;
+  background:var(--panel);
+}
+
+.stat small{
+  color:var(--muted);
+}
+
+.stat strong{
+  display:block;
+  font-size:22px;
+  margin-top:5px;
+}
+
+.day{
+  border:1px solid var(--line);
+  border-radius:16px;
+  overflow:hidden;
+  background:var(--panel);
+  margin:14px 0;
+}
+
+.dayhead{
+  display:flex;
+  justify-content:space-between;
+  padding:13px 16px;
+  background:var(--panel2);
+}
+
+.dayhead h2{
+  font-size:17px;
+  margin:0;
+}
+
+.show{
+  display:grid;
+  grid-template-columns:minmax(200px,1fr) 2.4fr auto;
+  gap:15px;
+  padding:14px 16px;
+  border-top:1px solid var(--line);
+  align-items:center;
+}
+
+.show.clickable{
+  cursor:pointer;
+}
+
+.show.clickable:hover{
+  background:#20262e;
+}
+
+.venue{
+  font-weight:850;
+}
+
+.city,
+.details{
+  color:var(--muted);
+  font-size:13px;
+  margin-top:4px;
+}
+
+.artists{
+  line-height:1.45;
+}
+
+.openCue{
+  color:var(--lime);
+  font-size:12px;
+  font-weight:900;
+  white-space:nowrap;
+}
+
+.empty{
+  padding:50px;
+  text-align:center;
+  color:var(--muted);
+  border:1px dashed var(--line);
+  border-radius:14px;
+}
+
+@media(max-width:900px){
+  .controls{
+    grid-template-columns:1fr;
+  }
+
+  .stats{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .show{
+    grid-template-columns:1fr;
+  }
+
+  .openCue{
+    white-space:normal;
+  }
+}
 </style>
 </head>
+
 <body>
+
 <div class="wrap">
+
 <header>
   <div>
     <h1>Bay Area Concert Calendar</h1>
     <div class="muted" id="rangeLabel">Loading future listings…</div>
   </div>
+
   <button id="refresh">Refresh</button>
 </header>
 
-<div id="status" class="status">Loading saved listings…</div>
+<div id="status" class="status">
+  Loading saved listings…
+</div>
+
 <div class="weekbar" id="weeks"></div>
 
 <div class="controls">
-  <input id="q" placeholder="Search artist, venue, city, price or time">
-  <input id="date" type="date">
-  <select id="city"><option value="">All cities</option></select>
-  <select id="venue"><option value="">All venues</option></select>
-  <button id="clear" class="primary">Clear filters</button>
+
+  <div class="field">
+    <label for="q">Search</label>
+    <input
+      id="q"
+      placeholder="Search artist, venue, city, price or time"
+    >
+  </div>
+
+  <div class="field">
+    <label for="date">Dates</label>
+    <input
+      id="date"
+      type="date"
+    >
+  </div>
+
+  <div class="field">
+    <label for="city">Cities</label>
+    <select id="city">
+      <option value="">All cities</option>
+    </select>
+  </div>
+
+  <div class="field">
+    <label for="venue">Venues</label>
+    <select id="venue">
+      <option value="">All venues</option>
+    </select>
+  </div>
+
+  <div class="field">
+    <label>&nbsp;</label>
+    <button id="clear" class="primary">
+      Clear filters
+    </button>
+  </div>
+
 </div>
 
 <div class="daychips" id="chips"></div>
 
 <div class="stats">
-  <div class="stat"><small>Matching shows</small><strong id="showCount">0</strong></div>
-  <div class="stat"><small>Venues</small><strong id="venueCount">0</strong></div>
-  <div class="stat"><small>Cities</small><strong id="cityCount">0</strong></div>
-  <div class="stat"><small>Week</small><strong id="weekStat">—</strong></div>
+
+  <div class="stat">
+    <small>Matching shows</small>
+    <strong id="showCount">0</strong>
+  </div>
+
+  <div class="stat">
+    <small>Venues</small>
+    <strong id="venueCount">0</strong>
+  </div>
+
+  <div class="stat">
+    <small>Cities</small>
+    <strong id="cityCount">0</strong>
+  </div>
+
+  <div class="stat">
+    <small>Week</small>
+    <strong id="weekStat">—</strong>
+  </div>
+
 </div>
 
 <div id="root"></div>
+
 </div>
 
 <script>
+
 const VENUE_URLS={
 "924 Gilman Street":"https://www.924gilman.org/",
 "August Hall":"https://www.augusthallsf.com/",
@@ -102,334 +385,964 @@ const VENUE_URLS={
 "Warfield":"https://www.thewarfieldtheatre.com/"
 };
 
+
 const CITY_ALIASES={
-"S.F.":"San Francisco","S.f.":"San Francisco","SF":"San Francisco",
-"Oakland":"Oakland","Berkeley":"Berkeley","Albany":"Albany","Alameda":"Alameda",
-"San Jose":"San Jose","Santa Cruz":"Santa Cruz","Felton":"Felton","Saratoga":"Saratoga",
-"Petaluma":"Petaluma","Santa Rosa":"Santa Rosa","Novato":"Novato","Sebastopol":"Sebastopol",
-"Napa":"Napa","Richmond":"Richmond","Mill Valley":"Mill Valley","San Anselmo":"San Anselmo",
-"Point Reyes Station":"Point Reyes Station","Half Moon Bay":"Half Moon Bay",
-"Pleasant Hill":"Pleasant Hill","Los Gatos":"Los Gatos","Orinda":"Orinda",
-"Mountain View":"Mountain View","Mountain Veiw":"Mountain View","Walnut Creek":"Walnut Creek",
-"Rio Nido":"Rio Nido","UC Berkeley Campus":"Berkeley"
+"S.F.":"San Francisco",
+"S.f.":"San Francisco",
+"SF":"San Francisco",
+"Oakland":"Oakland",
+"Berkeley":"Berkeley",
+"Albany":"Albany",
+"Alameda":"Alameda",
+"San Jose":"San Jose",
+"Santa Cruz":"Santa Cruz",
+"Felton":"Felton",
+"Saratoga":"Saratoga",
+"Petaluma":"Petaluma",
+"Santa Rosa":"Santa Rosa",
+"Novato":"Novato",
+"Sebastopol":"Sebastopol",
+"Napa":"Napa",
+"Richmond":"Richmond",
+"Mill Valley":"Mill Valley",
+"San Anselmo":"San Anselmo",
+"Point Reyes Station":"Point Reyes Station",
+"Half Moon Bay":"Half Moon Bay",
+"Pleasant Hill":"Pleasant Hill",
+"Los Gatos":"Los Gatos",
+"Orinda":"Orinda",
+"Mountain View":"Mountain View",
+"Mountain Veiw":"Mountain View",
+"Walnut Creek":"Walnut Creek",
+"Rio Nido":"Rio Nido",
+"UC Berkeley Campus":"Berkeley"
 };
 
-let events=[],meta={},selectedWeek="";
+
+let events=[];
+let meta={};
+let selectedWeek="";
+
+
 const $=id=>document.getElementById(id);
-const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+
+
+const esc=s=>
+String(s??"").replace(
+  /[&<>"']/g,
+  m=>({
+    "&":"&amp;",
+    "<":"&lt;",
+    ">":"&gt;",
+    '"':"&quot;",
+    "'":"&#39;"
+  }[m])
+);
+
 
 function deriveCityAndVenue(e){
+
   let venue=(e.venue||"").trim();
   let city=(e.city||"").trim();
 
-  if(city)return {...e,venue,city};
+  if(city){
+    return {
+      ...e,
+      venue,
+      city
+    };
+  }
 
-  const parts=venue.split(",").map(x=>x.trim()).filter(Boolean);
+  const parts=
+    venue
+    .split(",")
+    .map(x=>x.trim())
+    .filter(Boolean);
 
   if(parts.length>=2){
-    const tail=parts[parts.length-1];
+
+    const tail=
+      parts[
+        parts.length-1
+      ];
 
     if(CITY_ALIASES[tail]){
-      city=CITY_ALIASES[tail];
-      venue=parts.slice(0,-1).join(", ");
-      return {...e,venue,city};
+
+      city=
+        CITY_ALIASES[tail];
+
+      venue=
+        parts
+        .slice(0,-1)
+        .join(", ");
+
+      return {
+        ...e,
+        venue,
+        city
+      };
     }
 
-    if(!/\d/.test(tail) && tail.length<=30){
+    if(
+      !/\d/.test(tail)
+      &&
+      tail.length<=30
+    ){
+
       city=tail;
-      venue=parts.slice(0,-1).join(", ");
-      return {...e,venue,city};
+
+      venue=
+        parts
+        .slice(0,-1)
+        .join(", ");
+
+      return {
+        ...e,
+        venue,
+        city
+      };
     }
   }
 
-  return {...e,venue,city};
+  return {
+    ...e,
+    venue,
+    city
+  };
 }
+
 
 function venueURL(name){
- const n=(name||"").toLowerCase();
- for(const[k,u]of Object.entries(VENUE_URLS))
-   if(n.includes(k.toLowerCase()))return u;
- return "";
+
+  const n=
+    (name||"")
+    .toLowerCase();
+
+  for(
+    const [key,url]
+    of Object.entries(
+      VENUE_URLS
+    )
+  ){
+
+    if(
+      n.includes(
+        key.toLowerCase()
+      )
+    ){
+      return url;
+    }
+  }
+
+  return "";
 }
+
 
 function monday(d){
- const x=new Date(d+"T12:00:00");
- const day=(x.getDay()+6)%7;
- x.setDate(x.getDate()-day);
- return x.toISOString().slice(0,10);
+
+  const x=
+    new Date(
+      d+"T12:00:00"
+    );
+
+  const day=
+    (x.getDay()+6)%7;
+
+  x.setDate(
+    x.getDate()-day
+  );
+
+  return x
+    .toISOString()
+    .slice(0,10);
 }
+
 
 async function load(){
- $("status").className="status";
- $("status").textContent="Loading saved listings…";
 
- try{
-   const r=await fetch("events.json?ts="+Date.now(),{cache:"no-store"});
+  $("status").className=
+    "status";
 
-   if(!r.ok)throw Error("HTTP "+r.status);
+  $("status").textContent=
+    "Loading saved listings…";
 
-   const data=await r.json();
+  try{
 
-   events=(data.events||[]).map(deriveCityAndVenue);
-   meta=data.meta||{};
+    const response=
+      await fetch(
+        "events.json?ts="
+        +Date.now(),
+        {
+          cache:"no-store"
+        }
+      );
 
-   if(!events.length)throw Error("No listings in events.json");
+    if(!response.ok){
+      throw Error(
+        "HTTP "
+        +response.status
+      );
+    }
 
-   $("status").className="status ok";
-   $("status").textContent=
-     `${events.length} shows loaded${meta.week_count?` across ${meta.week_count} weeks`:""} · updated ${meta.updated_at||""}`;
+    const data=
+      await response.json();
 
-   init();
+    events=
+      (data.events||[])
+      .map(
+        deriveCityAndVenue
+      );
 
- }catch(e){
-   $("status").className="status error";
-   $("status").textContent="Saved show data could not be loaded.";
-   $("root").innerHTML=
-     '<div class="empty">The automatic updater did not produce usable events.json.</div>';
- }
+    meta=
+      data.meta||{};
+
+    if(!events.length){
+      throw Error(
+        "No listings in events.json"
+      );
+    }
+
+    $("status").className=
+      "status ok";
+
+    $("status").textContent=
+      `${events.length} shows loaded`
+      +
+      (
+        meta.week_count
+        ?
+        ` across ${meta.week_count} weeks`
+        :
+        ""
+      )
+      +
+      ` · updated ${meta.updated_at||""}`;
+
+    init();
+
+  }catch(error){
+
+    $("status").className=
+      "status error";
+
+    $("status").textContent=
+      "Saved show data could not be loaded.";
+
+    $("root").innerHTML=
+      '<div class="empty">'
+      +
+      'The automatic updater did not produce usable events.json.'
+      +
+      '</div>';
+  }
 }
+
 
 function init(){
- const weeks=meta.weeks||[];
 
- const today=new Date();
- const todayIso=
-   new Date(today.getFullYear(),today.getMonth(),today.getDate())
-   .toISOString().slice(0,10);
+  const weeks=
+    meta.weeks||[];
 
- const currentMonday=monday(todayIso);
+  const today=
+    new Date();
 
- if(weeks.length){
-   if(weeks.some(w=>w.start===currentMonday))
-     selectedWeek=currentMonday;
-   else
-     selectedWeek=(weeks.find(w=>w.end>=todayIso)||weeks[0]||{}).start||"";
- }else{
-   selectedWeek="";
- }
+  const todayIso=
+    new Date(
+      today.getFullYear(),
+      today.getMonth(),
+      today.getDate()
+    )
+    .toISOString()
+    .slice(0,10);
 
- $("weeks").innerHTML="";
+  const currentMonday=
+    monday(
+      todayIso
+    );
 
- if(weeks.length){
-   const all=document.createElement("button");
-   all.className="weekbtn";
-   all.textContent="All future weeks";
-   all.onclick=()=>setWeek("");
-   $("weeks").appendChild(all);
 
-   weeks.forEach(w=>{
-     const b=document.createElement("button");
-     b.className="weekbtn";
-     b.dataset.week=w.start;
-     b.textContent=`${w.label} (${w.count})`;
-     b.onclick=()=>setWeek(w.start);
-     $("weeks").appendChild(b);
-   });
- }
+  if(weeks.length){
 
- $("city").innerHTML='<option value="">All cities</option>';
- $("venue").innerHTML='<option value="">All venues</option>';
+    if(
+      weeks.some(
+        week=>
+          week.start
+          ===
+          currentMonday
+      )
+    ){
 
- [...new Set(events.map(e=>e.city).filter(Boolean))]
-   .sort((a,b)=>a.localeCompare(b))
-   .forEach(x=>$("city").add(new Option(x,x)));
+      selectedWeek=
+        currentMonday;
 
- [...new Set(events.map(e=>e.venue).filter(Boolean))]
-   .sort((a,b)=>a.localeCompare(b))
-   .forEach(x=>$("venue").add(new Option(x,x)));
+    }else{
 
- const dates=events.map(e=>e.date).filter(Boolean).sort();
+      selectedWeek=
+        (
+          weeks.find(
+            week=>
+              week.end
+              >=
+              todayIso
+          )
+          ||
+          weeks[0]
+          ||
+          {}
+        ).start
+        ||
+        "";
+    }
 
- if(dates.length){
-   $("date").min=dates[0];
-   $("date").max=dates[dates.length-1];
- }
+  }else{
 
- if(weeks.length){
-   setWeek(selectedWeek);
- }else{
-   $("rangeLabel").textContent=meta.week_label||"Available listings";
-   $("weekStat").textContent="All";
-   buildDayChips();
-   render();
- }
+    selectedWeek="";
+  }
+
+
+  $("weeks").innerHTML="";
+
+
+  if(weeks.length){
+
+    const all=
+      document.createElement(
+        "button"
+      );
+
+    all.className=
+      "weekbtn";
+
+    all.textContent=
+      "All future weeks";
+
+    all.onclick=
+      ()=>setWeek("");
+
+    $("weeks")
+      .appendChild(all);
+
+
+    weeks.forEach(
+      week=>{
+
+        const button=
+          document.createElement(
+            "button"
+          );
+
+        button.className=
+          "weekbtn";
+
+        button.dataset.week=
+          week.start;
+
+        button.textContent=
+          `${week.label} (${week.count})`;
+
+        button.onclick=
+          ()=>setWeek(
+            week.start
+          );
+
+        $("weeks")
+          .appendChild(button);
+      }
+    );
+  }
+
+
+  $("city").innerHTML=
+    '<option value="">All cities</option>';
+
+  $("venue").innerHTML=
+    '<option value="">All venues</option>';
+
+
+  [
+    ...new Set(
+      events
+      .map(e=>e.city)
+      .filter(Boolean)
+    )
+  ]
+  .sort(
+    (a,b)=>
+      a.localeCompare(b)
+  )
+  .forEach(
+    city=>
+      $("city").add(
+        new Option(
+          city,
+          city
+        )
+      )
+  );
+
+
+  [
+    ...new Set(
+      events
+      .map(e=>e.venue)
+      .filter(Boolean)
+    )
+  ]
+  .sort(
+    (a,b)=>
+      a.localeCompare(b)
+  )
+  .forEach(
+    venue=>
+      $("venue").add(
+        new Option(
+          venue,
+          venue
+        )
+      )
+  );
+
+
+  const dates=
+    events
+    .map(e=>e.date)
+    .filter(Boolean)
+    .sort();
+
+
+  if(dates.length){
+
+    $("date").min=
+      dates[0];
+
+    $("date").max=
+      dates[
+        dates.length-1
+      ];
+  }
+
+
+  if(weeks.length){
+
+    setWeek(
+      selectedWeek
+    );
+
+  }else{
+
+    $("rangeLabel").textContent=
+      meta.week_label
+      ||
+      "Available listings";
+
+    $("weekStat").textContent=
+      "All";
+
+    buildDayChips();
+
+    render();
+  }
 }
 
-function setWeek(w){
- selectedWeek=w;
- $("date").value="";
 
- [...$("weeks").children]
-   .forEach(b=>b.classList.toggle(
-     "active",
-     (b.dataset.week||"")===w
-   ));
+function setWeek(weekStart){
 
- const wk=(meta.weeks||[]).find(x=>x.start===w);
+  selectedWeek=
+    weekStart;
 
- $("rangeLabel").textContent=
-   wk ? wk.label : "All available future weeks";
+  $("date").value="";
 
- $("weekStat").textContent=
-   wk ? wk.label.replace(/, \d{4}$/,"") : "All";
 
- buildDayChips();
- render();
+  [
+    ...$("weeks").children
+  ]
+  .forEach(
+    button=>
+      button.classList.toggle(
+        "active",
+        (
+          button.dataset.week
+          ||
+          ""
+        )
+        ===
+        weekStart
+      )
+  );
+
+
+  const week=
+    (
+      meta.weeks
+      ||
+      []
+    )
+    .find(
+      item=>
+        item.start
+        ===
+        weekStart
+    );
+
+
+  $("rangeLabel").textContent=
+    week
+    ?
+    week.label
+    :
+    "All available future weeks";
+
+
+  $("weekStat").textContent=
+    week
+    ?
+    week.label.replace(
+      /, \d{4}$/,
+      ""
+    )
+    :
+    "All";
+
+
+  buildDayChips();
+
+  render();
 }
+
 
 function weekEvents(){
- if(!selectedWeek)return events;
 
- const wk=(meta.weeks||[]).find(x=>x.start===selectedWeek);
+  if(!selectedWeek){
+    return events;
+  }
 
- if(!wk)return events;
+  const week=
+    (
+      meta.weeks
+      ||
+      []
+    )
+    .find(
+      item=>
+        item.start
+        ===
+        selectedWeek
+    );
 
- return events.filter(e=>
-   e.date>=wk.start &&
-   e.date<=wk.end
- );
+  if(!week){
+    return events;
+  }
+
+  return events.filter(
+    event=>
+      event.date
+      >=
+      week.start
+      &&
+      event.date
+      <=
+      week.end
+  );
 }
+
 
 function buildDayChips(){
- $("chips").innerHTML="";
 
- const base=weekEvents();
+  $("chips").innerHTML="";
 
- const days=[
-   ...new Map(
-     base.map(e=>[e.date,e.day])
-   ).entries()
- ].sort();
+  const base=
+    weekEvents();
 
- const all=document.createElement("button");
- all.className="chip active";
- all.textContent="All days";
- all.dataset.date="";
- all.onclick=()=>setDate("");
- $("chips").appendChild(all);
 
- days.forEach(([d,label])=>{
-   const b=document.createElement("button");
-   b.className="chip";
-   b.textContent=label;
-   b.dataset.date=d;
-   b.onclick=()=>setDate(d);
-   $("chips").appendChild(b);
- });
+  const days=[
+    ...new Map(
+      base.map(
+        event=>[
+          event.date,
+          event.day
+        ]
+      )
+    ).entries()
+  ]
+  .sort();
+
+
+  const all=
+    document.createElement(
+      "button"
+    );
+
+  all.className=
+    "chip active";
+
+  all.textContent=
+    "All days";
+
+  all.dataset.date="";
+
+  all.onclick=
+    ()=>setDate("");
+
+  $("chips")
+    .appendChild(all);
+
+
+  days.forEach(
+    ([date,label])=>{
+
+      const button=
+        document.createElement(
+          "button"
+        );
+
+      button.className=
+        "chip";
+
+      button.textContent=
+        label;
+
+      button.dataset.date=
+        date;
+
+      button.onclick=
+        ()=>setDate(
+          date
+        );
+
+      $("chips")
+        .appendChild(
+          button
+        );
+    }
+  );
 }
 
-function setDate(d){
- $("date").value=d;
- render();
+
+function setDate(date){
+
+  $("date").value=
+    date;
+
+  render();
 }
+
 
 function render(){
- const qs=$("q").value.toLowerCase();
- const dv=$("date").value;
- const cv=$("city").value;
- const vv=$("venue").value;
 
- const f=weekEvents().filter(e=>
-   (!qs||JSON.stringify(e).toLowerCase().includes(qs)) &&
-   (!dv||e.date===dv) &&
-   (!cv||e.city===cv) &&
-   (!vv||e.venue===vv)
- );
+  const query=
+    $("q")
+    .value
+    .toLowerCase();
 
- $("showCount").textContent=f.length;
+  const date=
+    $("date").value;
 
- $("venueCount").textContent=
-   new Set(f.map(e=>e.venue)).size;
+  const city=
+    $("city").value;
 
- $("cityCount").textContent=
-   new Set(f.map(e=>e.city).filter(Boolean)).size;
+  const venue=
+    $("venue").value;
 
- [...$("chips").children]
-   .forEach(b=>b.classList.toggle(
-     "active",
-     b.dataset.date===dv
-   ));
 
- $("root").innerHTML="";
+  const filtered=
+    weekEvents()
+    .filter(
+      event=>
 
- const groups=new Map();
+        (
+          !query
+          ||
+          JSON.stringify(event)
+          .toLowerCase()
+          .includes(query)
+        )
 
- f.sort((a,b)=>
-   a.date.localeCompare(b.date) ||
-   a.venue.localeCompare(b.venue)
- ).forEach(e=>{
-   if(!groups.has(e.date))
-     groups.set(e.date,[]);
+        &&
 
-   groups.get(e.date).push(e);
- });
+        (
+          !date
+          ||
+          event.date
+          ===
+          date
+        )
 
- for(const[,list]of groups){
-   const sec=document.createElement("section");
-   sec.className="day";
+        &&
 
-   sec.innerHTML=
-     `<div class="dayhead">
-        <h2>${esc(list[0].day)}</h2>
-        <span>${list.length} show${list.length===1?"":"s"}</span>
+        (
+          !city
+          ||
+          event.city
+          ===
+          city
+        )
+
+        &&
+
+        (
+          !venue
+          ||
+          event.venue
+          ===
+          venue
+        )
+    );
+
+
+  $("showCount").textContent=
+    filtered.length;
+
+
+  $("venueCount").textContent=
+    new Set(
+      filtered.map(
+        event=>event.venue
+      )
+    ).size;
+
+
+  $("cityCount").textContent=
+    new Set(
+      filtered
+      .map(
+        event=>event.city
+      )
+      .filter(Boolean)
+    ).size;
+
+
+  [
+    ...$("chips").children
+  ]
+  .forEach(
+    button=>
+      button.classList.toggle(
+        "active",
+        button.dataset.date
+        ===
+        date
+      )
+  );
+
+
+  $("root").innerHTML="";
+
+
+  const groups=
+    new Map();
+
+
+  filtered
+  .sort(
+    (a,b)=>
+
+      a.date.localeCompare(
+        b.date
+      )
+
+      ||
+
+      a.venue.localeCompare(
+        b.venue
+      )
+  )
+  .forEach(
+    event=>{
+
+      if(
+        !groups.has(
+          event.date
+        )
+      ){
+
+        groups.set(
+          event.date,
+          []
+        );
+      }
+
+      groups
+      .get(
+        event.date
+      )
+      .push(
+        event
+      );
+    }
+  );
+
+
+  for(
+    const [,list]
+    of groups
+  ){
+
+    const section=
+      document.createElement(
+        "section"
+      );
+
+    section.className=
+      "day";
+
+
+    section.innerHTML=
+      `<div class="dayhead">
+        <h2>
+          ${esc(list[0].day)}
+        </h2>
+
+        <span>
+          ${list.length}
+          show${list.length===1?"":"s"}
+        </span>
       </div>`;
 
-   list.forEach(e=>{
-     const u=venueURL(e.venue);
 
-     const a=document.createElement("article");
+    list.forEach(
+      event=>{
 
-     a.className=
-       "show"+(u?" clickable":"");
+        const url=
+          venueURL(
+            event.venue
+          );
 
-     if(u)
-       a.onclick=()=>location.href=u;
+        const article=
+          document.createElement(
+            "article"
+          );
 
-     a.innerHTML=
-       `<div>
-          <div class="venue">${esc(e.venue)}</div>
-          <div class="city">${esc(e.city)}</div>
-        </div>
 
-        <div>
-          <div class="artists">${esc(e.artists)}</div>
-          <div class="details">${esc(e.details)}</div>
-        </div>
+        article.className=
+          "show"
+          +
+          (
+            url
+            ?
+            " clickable"
+            :
+            ""
+          );
 
-        <div class="openCue">
-          ${u?"Official venue ↗":""}
-        </div>`;
 
-     sec.appendChild(a);
-   });
+        if(url){
 
-   $("root").appendChild(sec);
- }
+          article.onclick=
+            ()=>
+              location.href=url;
+        }
 
- if(!f.length)
-   $("root").innerHTML=
-     '<div class="empty">No shows match those filters.</div>';
+
+        article.innerHTML=
+          `<div>
+
+            <div class="venue">
+              ${esc(event.venue)}
+            </div>
+
+            <div class="city">
+              ${esc(event.city)}
+            </div>
+
+          </div>
+
+          <div>
+
+            <div class="artists">
+              ${esc(event.artists)}
+            </div>
+
+            <div class="details">
+              ${esc(event.details)}
+            </div>
+
+          </div>
+
+          <div class="openCue">
+
+            ${
+              url
+              ?
+              "Official venue ↗"
+              :
+              ""
+            }
+
+          </div>`;
+
+
+        section.appendChild(
+          article
+        );
+      }
+    );
+
+
+    $("root").appendChild(
+      section
+    );
+  }
+
+
+  if(!filtered.length){
+
+    $("root").innerHTML=
+      '<div class="empty">'
+      +
+      'No shows match those filters.'
+      +
+      '</div>';
+  }
 }
 
-["q","date"].forEach(x=>
-  $(x).addEventListener("input",render)
+
+[
+  "q",
+  "date"
+]
+.forEach(
+  id=>
+    $(id)
+    .addEventListener(
+      "input",
+      render
+    )
 );
 
-["city","venue"].forEach(x=>
-  $(x).addEventListener("change",render)
+
+[
+  "city",
+  "venue"
+]
+.forEach(
+  id=>
+    $(id)
+    .addEventListener(
+      "change",
+      render
+    )
 );
 
-$("clear").onclick=()=>{
- $("q").value="";
- $("date").value="";
- $("city").value="";
- $("venue").value="";
- render();
+
+$("clear").onclick=
+()=>{
+
+  $("q").value="";
+  $("date").value="";
+  $("city").value="";
+  $("venue").value="";
+
+  render();
 };
 
-$("refresh").onclick=load;
+
+$("refresh").onclick=
+  load;
+
 
 load();
+
 </script>
+
 </body>
 </html>
