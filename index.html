@@ -46,13 +46,9 @@ h1{
   font-size:30px;
 }
 
-.muted{
-  color:var(--muted);
-}
+.muted{color:var(--muted)}
 
-button,input,select{
-  font:inherit;
-}
+button,input,select{font:inherit}
 
 button{
   padding:11px 14px;
@@ -78,13 +74,8 @@ button.primary{
   background:var(--panel);
 }
 
-.status.ok{
-  color:var(--lime);
-}
-
-.status.error{
-  color:var(--red);
-}
+.status.ok{color:var(--lime)}
+.status.error{color:var(--red)}
 
 .weekbar{
   display:flex;
@@ -115,22 +106,21 @@ button.primary{
 .field{
   display:flex;
   flex-direction:column;
-  gap:6px;
-}
-
-.field label{
-  color:var(--muted);
-  font-size:13px;
-  font-weight:700;
 }
 
 input,select{
   padding:11px;
+  min-height:48px;
   border:1px solid var(--line);
   border-radius:10px;
   background:var(--panel);
   color:var(--text);
   width:100%;
+}
+
+input::placeholder{
+  color:var(--text);
+  opacity:1;
 }
 
 .daychips{
@@ -164,9 +154,7 @@ input,select{
   background:var(--panel);
 }
 
-.stat small{
-  color:var(--muted);
-}
+.stat small{color:var(--muted)}
 
 .stat strong{
   display:block;
@@ -203,28 +191,18 @@ input,select{
   align-items:center;
 }
 
-.show.clickable{
-  cursor:pointer;
-}
+.show.clickable{cursor:pointer}
+.show.clickable:hover{background:#20262e}
 
-.show.clickable:hover{
-  background:#20262e;
-}
+.venue{font-weight:850}
 
-.venue{
-  font-weight:850;
-}
-
-.city,
-.details{
+.city,.details{
   color:var(--muted);
   font-size:13px;
   margin-top:4px;
 }
 
-.artists{
-  line-height:1.45;
-}
+.artists{line-height:1.45}
 
 .openCue{
   color:var(--lime);
@@ -242,21 +220,10 @@ input,select{
 }
 
 @media(max-width:900px){
-  .controls{
-    grid-template-columns:1fr;
-  }
-
-  .stats{
-    grid-template-columns:1fr 1fr;
-  }
-
-  .show{
-    grid-template-columns:1fr;
-  }
-
-  .openCue{
-    white-space:normal;
-  }
+  .controls{grid-template-columns:1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .show{grid-template-columns:1fr}
+  .openCue{white-space:normal}
 }
 </style>
 </head>
@@ -270,20 +237,16 @@ input,select{
     <h1>Bay Area Concert Calendar</h1>
     <div class="muted" id="rangeLabel">Loading future listings…</div>
   </div>
-
   <button id="refresh">Refresh</button>
 </header>
 
-<div id="status" class="status">
-  Loading saved listings…
-</div>
+<div id="status" class="status">Loading saved listings…</div>
 
 <div class="weekbar" id="weeks"></div>
 
 <div class="controls">
 
   <div class="field">
-    <label for="q">Search</label>
     <input
       id="q"
       placeholder="Search artist, venue, city, price or time"
@@ -291,32 +254,28 @@ input,select{
   </div>
 
   <div class="field">
-    <label for="date">Dates</label>
     <input
       id="date"
-      type="date"
+      type="text"
+      placeholder="Dates"
+      readonly
     >
   </div>
 
   <div class="field">
-    <label for="city">Cities</label>
     <select id="city">
-      <option value="">All cities</option>
+      <option value="">Cities</option>
     </select>
   </div>
 
   <div class="field">
-    <label for="venue">Venues</label>
     <select id="venue">
-      <option value="">All venues</option>
+      <option value="">Venues</option>
     </select>
   </div>
 
   <div class="field">
-    <label>&nbsp;</label>
-    <button id="clear" class="primary">
-      Clear filters
-    </button>
+    <button id="clear" class="primary">Clear filters</button>
   </div>
 
 </div>
@@ -385,7 +344,6 @@ const VENUE_URLS={
 "Warfield":"https://www.thewarfieldtheatre.com/"
 };
 
-
 const CITY_ALIASES={
 "S.F.":"San Francisco",
 "S.f.":"San Francisco",
@@ -418,14 +376,12 @@ const CITY_ALIASES={
 "UC Berkeley Campus":"Berkeley"
 };
 
-
 let events=[];
 let meta={};
 let selectedWeek="";
-
+let selectedDate="";
 
 const $=id=>document.getElementById(id);
-
 
 const esc=s=>
 String(s??"").replace(
@@ -439,18 +395,13 @@ String(s??"").replace(
   }[m])
 );
 
-
 function deriveCityAndVenue(e){
 
   let venue=(e.venue||"").trim();
   let city=(e.city||"").trim();
 
   if(city){
-    return {
-      ...e,
-      venue,
-      city
-    };
+    return {...e,venue,city};
   }
 
   const parts=
@@ -461,75 +412,30 @@ function deriveCityAndVenue(e){
 
   if(parts.length>=2){
 
-    const tail=
-      parts[
-        parts.length-1
-      ];
+    const tail=parts[parts.length-1];
 
     if(CITY_ALIASES[tail]){
-
-      city=
-        CITY_ALIASES[tail];
-
-      venue=
-        parts
-        .slice(0,-1)
-        .join(", ");
-
-      return {
-        ...e,
-        venue,
-        city
-      };
+      city=CITY_ALIASES[tail];
+      venue=parts.slice(0,-1).join(", ");
+      return {...e,venue,city};
     }
 
-    if(
-      !/\d/.test(tail)
-      &&
-      tail.length<=30
-    ){
-
+    if(!/\d/.test(tail) && tail.length<=30){
       city=tail;
-
-      venue=
-        parts
-        .slice(0,-1)
-        .join(", ");
-
-      return {
-        ...e,
-        venue,
-        city
-      };
+      venue=parts.slice(0,-1).join(", ");
+      return {...e,venue,city};
     }
   }
 
-  return {
-    ...e,
-    venue,
-    city
-  };
+  return {...e,venue,city};
 }
-
 
 function venueURL(name){
 
-  const n=
-    (name||"")
-    .toLowerCase();
+  const n=(name||"").toLowerCase();
 
-  for(
-    const [key,url]
-    of Object.entries(
-      VENUE_URLS
-    )
-  ){
-
-    if(
-      n.includes(
-        key.toLowerCase()
-      )
-    ){
+  for(const [key,url] of Object.entries(VENUE_URLS)){
+    if(n.includes(key.toLowerCase())){
       return url;
     }
   }
@@ -537,114 +443,66 @@ function venueURL(name){
   return "";
 }
 
-
 function monday(d){
 
-  const x=
-    new Date(
-      d+"T12:00:00"
-    );
+  const x=new Date(d+"T12:00:00");
+  const day=(x.getDay()+6)%7;
 
-  const day=
-    (x.getDay()+6)%7;
+  x.setDate(x.getDate()-day);
 
-  x.setDate(
-    x.getDate()-day
-  );
-
-  return x
-    .toISOString()
-    .slice(0,10);
+  return x.toISOString().slice(0,10);
 }
-
 
 async function load(){
 
-  $("status").className=
-    "status";
-
-  $("status").textContent=
-    "Loading saved listings…";
+  $("status").className="status";
+  $("status").textContent="Loading saved listings…";
 
   try{
 
     const response=
       await fetch(
-        "events.json?ts="
-        +Date.now(),
-        {
-          cache:"no-store"
-        }
+        "events.json?ts="+Date.now(),
+        {cache:"no-store"}
       );
 
     if(!response.ok){
-      throw Error(
-        "HTTP "
-        +response.status
-      );
+      throw Error("HTTP "+response.status);
     }
 
-    const data=
-      await response.json();
+    const data=await response.json();
 
-    events=
-      (data.events||[])
-      .map(
-        deriveCityAndVenue
-      );
-
-    meta=
-      data.meta||{};
+    events=(data.events||[]).map(deriveCityAndVenue);
+    meta=data.meta||{};
 
     if(!events.length){
-      throw Error(
-        "No listings in events.json"
-      );
+      throw Error("No listings in events.json");
     }
 
-    $("status").className=
-      "status ok";
+    $("status").className="status ok";
 
     $("status").textContent=
       `${events.length} shows loaded`
-      +
-      (
-        meta.week_count
-        ?
-        ` across ${meta.week_count} weeks`
-        :
-        ""
-      )
-      +
-      ` · updated ${meta.updated_at||""}`;
+      +(meta.week_count ? ` across ${meta.week_count} weeks` : "")
+      +` · updated ${meta.updated_at||""}`;
 
     init();
 
   }catch(error){
 
-    $("status").className=
-      "status error";
-
-    $("status").textContent=
-      "Saved show data could not be loaded.";
+    $("status").className="status error";
+    $("status").textContent="Saved show data could not be loaded.";
 
     $("root").innerHTML=
-      '<div class="empty">'
-      +
-      'The automatic updater did not produce usable events.json.'
-      +
-      '</div>';
+      '<div class="empty">The automatic updater did not produce usable events.json.</div>';
   }
 }
 
-
 function init(){
 
-  const weeks=
-    meta.weeks||[];
+  const weeks=meta.weeks||[];
 
-  const today=
-    new Date();
+  const today=new Date();
 
   const todayIso=
     new Date(
@@ -655,260 +513,116 @@ function init(){
     .toISOString()
     .slice(0,10);
 
-  const currentMonday=
-    monday(
-      todayIso
-    );
-
+  const currentMonday=monday(todayIso);
 
   if(weeks.length){
 
-    if(
-      weeks.some(
-        week=>
-          week.start
-          ===
-          currentMonday
-      )
-    ){
-
-      selectedWeek=
-        currentMonday;
-
+    if(weeks.some(week=>week.start===currentMonday)){
+      selectedWeek=currentMonday;
     }else{
-
       selectedWeek=
         (
-          weeks.find(
-            week=>
-              week.end
-              >=
-              todayIso
-          )
-          ||
-          weeks[0]
-          ||
-          {}
-        ).start
-        ||
-        "";
+          weeks.find(week=>week.end>=todayIso)
+          ||weeks[0]
+          ||{}
+        ).start||"";
     }
 
   }else{
-
     selectedWeek="";
   }
 
-
   $("weeks").innerHTML="";
 
-
   if(weeks.length){
 
-    const all=
-      document.createElement(
-        "button"
-      );
+    const all=document.createElement("button");
 
-    all.className=
-      "weekbtn";
+    all.className="weekbtn";
+    all.textContent="All future weeks";
+    all.onclick=()=>setWeek("");
 
-    all.textContent=
-      "All future weeks";
+    $("weeks").appendChild(all);
 
-    all.onclick=
-      ()=>setWeek("");
+    weeks.forEach(week=>{
 
-    $("weeks")
-      .appendChild(all);
+      const button=document.createElement("button");
 
+      button.className="weekbtn";
+      button.dataset.week=week.start;
+      button.textContent=`${week.label} (${week.count})`;
+      button.onclick=()=>setWeek(week.start);
 
-    weeks.forEach(
-      week=>{
-
-        const button=
-          document.createElement(
-            "button"
-          );
-
-        button.className=
-          "weekbtn";
-
-        button.dataset.week=
-          week.start;
-
-        button.textContent=
-          `${week.label} (${week.count})`;
-
-        button.onclick=
-          ()=>setWeek(
-            week.start
-          );
-
-        $("weeks")
-          .appendChild(button);
-      }
-    );
+      $("weeks").appendChild(button);
+    });
   }
 
-
-  $("city").innerHTML=
-    '<option value="">All cities</option>';
-
-  $("venue").innerHTML=
-    '<option value="">All venues</option>';
-
+  $("city").innerHTML='<option value="">Cities</option>';
+  $("venue").innerHTML='<option value="">Venues</option>';
 
   [
     ...new Set(
-      events
-      .map(e=>e.city)
-      .filter(Boolean)
+      events.map(e=>e.city).filter(Boolean)
     )
   ]
-  .sort(
-    (a,b)=>
-      a.localeCompare(b)
-  )
-  .forEach(
-    city=>
-      $("city").add(
-        new Option(
-          city,
-          city
-        )
-      )
+  .sort((a,b)=>a.localeCompare(b))
+  .forEach(city=>
+    $("city").add(new Option(city,city))
   );
-
 
   [
     ...new Set(
-      events
-      .map(e=>e.venue)
-      .filter(Boolean)
+      events.map(e=>e.venue).filter(Boolean)
     )
   ]
-  .sort(
-    (a,b)=>
-      a.localeCompare(b)
-  )
-  .forEach(
-    venue=>
-      $("venue").add(
-        new Option(
-          venue,
-          venue
-        )
-      )
+  .sort((a,b)=>a.localeCompare(b))
+  .forEach(venue=>
+    $("venue").add(new Option(venue,venue))
   );
 
-
-  const dates=
-    events
-    .map(e=>e.date)
-    .filter(Boolean)
-    .sort();
-
-
-  if(dates.length){
-
-    $("date").min=
-      dates[0];
-
-    $("date").max=
-      dates[
-        dates.length-1
-      ];
-  }
-
-
   if(weeks.length){
-
-    setWeek(
-      selectedWeek
-    );
-
+    setWeek(selectedWeek);
   }else{
-
     $("rangeLabel").textContent=
-      meta.week_label
-      ||
-      "Available listings";
+      meta.week_label||"Available listings";
 
-    $("weekStat").textContent=
-      "All";
+    $("weekStat").textContent="All";
 
     buildDayChips();
-
     render();
   }
 }
 
-
 function setWeek(weekStart){
 
-  selectedWeek=
-    weekStart;
-
+  selectedWeek=weekStart;
+  selectedDate="";
   $("date").value="";
 
-
-  [
-    ...$("weeks").children
-  ]
-  .forEach(
-    button=>
-      button.classList.toggle(
-        "active",
-        (
-          button.dataset.week
-          ||
-          ""
-        )
-        ===
-        weekStart
-      )
+  [...$("weeks").children].forEach(button=>
+    button.classList.toggle(
+      "active",
+      (button.dataset.week||"")===weekStart
+    )
   );
 
-
   const week=
-    (
-      meta.weeks
-      ||
-      []
-    )
-    .find(
-      item=>
-        item.start
-        ===
-        weekStart
-    );
-
+    (meta.weeks||[])
+    .find(item=>item.start===weekStart);
 
   $("rangeLabel").textContent=
     week
-    ?
-    week.label
-    :
-    "All available future weeks";
-
+      ?week.label
+      :"All available future weeks";
 
   $("weekStat").textContent=
     week
-    ?
-    week.label.replace(
-      /, \d{4}$/,
-      ""
-    )
-    :
-    "All";
-
+      ?week.label.replace(/, \d{4}$/,"")
+      :"All";
 
   buildDayChips();
-
   render();
 }
-
 
 function weekEvents(){
 
@@ -917,428 +631,262 @@ function weekEvents(){
   }
 
   const week=
-    (
-      meta.weeks
-      ||
-      []
-    )
-    .find(
-      item=>
-        item.start
-        ===
-        selectedWeek
-    );
+    (meta.weeks||[])
+    .find(item=>item.start===selectedWeek);
 
   if(!week){
     return events;
   }
 
-  return events.filter(
-    event=>
-      event.date
-      >=
-      week.start
-      &&
-      event.date
-      <=
-      week.end
+  return events.filter(event=>
+    event.date>=week.start &&
+    event.date<=week.end
   );
 }
-
 
 function buildDayChips(){
 
   $("chips").innerHTML="";
 
-  const base=
-    weekEvents();
-
+  const base=weekEvents();
 
   const days=[
     ...new Map(
-      base.map(
-        event=>[
-          event.date,
-          event.day
-        ]
-      )
+      base.map(event=>[
+        event.date,
+        event.day
+      ])
     ).entries()
-  ]
-  .sort();
+  ].sort();
 
+  const all=document.createElement("button");
 
-  const all=
-    document.createElement(
-      "button"
-    );
-
-  all.className=
-    "chip active";
-
-  all.textContent=
-    "All days";
-
+  all.className="chip active";
+  all.textContent="All days";
   all.dataset.date="";
+  all.onclick=()=>setDate("");
 
-  all.onclick=
-    ()=>setDate("");
+  $("chips").appendChild(all);
 
-  $("chips")
-    .appendChild(all);
+  days.forEach(([date,label])=>{
 
+    const button=document.createElement("button");
 
-  days.forEach(
-    ([date,label])=>{
+    button.className="chip";
+    button.textContent=label;
+    button.dataset.date=date;
+    button.onclick=()=>setDate(date);
 
-      const button=
-        document.createElement(
-          "button"
-        );
-
-      button.className=
-        "chip";
-
-      button.textContent=
-        label;
-
-      button.dataset.date=
-        date;
-
-      button.onclick=
-        ()=>setDate(
-          date
-        );
-
-      $("chips")
-        .appendChild(
-          button
-        );
-    }
-  );
+    $("chips").appendChild(button);
+  });
 }
-
 
 function setDate(date){
 
-  $("date").value=
-    date;
+  selectedDate=date;
+
+  if(date){
+    const event=events.find(e=>e.date===date);
+    $("date").value=event ? event.day : date;
+  }else{
+    $("date").value="";
+  }
 
   render();
 }
 
+/* Clicking the Dates rectangle cycles through:
+   all dates -> first date -> next date, etc.
+   The normal day buttons below remain available too. */
+
+$("date").onclick=()=>{
+
+  const dates=[
+    ...new Set(
+      weekEvents()
+      .map(e=>e.date)
+      .filter(Boolean)
+    )
+  ].sort();
+
+  if(!dates.length)return;
+
+  if(!selectedDate){
+    setDate(dates[0]);
+    return;
+  }
+
+  const index=dates.indexOf(selectedDate);
+
+  if(index===dates.length-1){
+    setDate("");
+  }else{
+    setDate(dates[index+1]);
+  }
+};
 
 function render(){
 
-  const query=
-    $("q")
-    .value
-    .toLowerCase();
-
-  const date=
-    $("date").value;
-
-  const city=
-    $("city").value;
-
-  const venue=
-    $("venue").value;
-
+  const query=$("q").value.toLowerCase();
+  const city=$("city").value;
+  const venue=$("venue").value;
 
   const filtered=
     weekEvents()
-    .filter(
-      event=>
+    .filter(event=>
 
-        (
-          !query
-          ||
-          JSON.stringify(event)
-          .toLowerCase()
-          .includes(query)
-        )
+      (
+        !query ||
+        JSON.stringify(event)
+        .toLowerCase()
+        .includes(query)
+      )
 
-        &&
+      &&
 
-        (
-          !date
-          ||
-          event.date
-          ===
-          date
-        )
+      (
+        !selectedDate ||
+        event.date===selectedDate
+      )
 
-        &&
+      &&
 
-        (
-          !city
-          ||
-          event.city
-          ===
-          city
-        )
+      (
+        !city ||
+        event.city===city
+      )
 
-        &&
+      &&
 
-        (
-          !venue
-          ||
-          event.venue
-          ===
-          venue
-        )
+      (
+        !venue ||
+        event.venue===venue
+      )
     );
 
-
-  $("showCount").textContent=
-    filtered.length;
-
+  $("showCount").textContent=filtered.length;
 
   $("venueCount").textContent=
     new Set(
-      filtered.map(
-        event=>event.venue
-      )
+      filtered.map(event=>event.venue)
     ).size;
-
 
   $("cityCount").textContent=
     new Set(
       filtered
-      .map(
-        event=>event.city
-      )
+      .map(event=>event.city)
       .filter(Boolean)
     ).size;
 
-
-  [
-    ...$("chips").children
-  ]
-  .forEach(
-    button=>
-      button.classList.toggle(
-        "active",
-        button.dataset.date
-        ===
-        date
-      )
+  [...$("chips").children].forEach(button=>
+    button.classList.toggle(
+      "active",
+      button.dataset.date===selectedDate
+    )
   );
-
 
   $("root").innerHTML="";
 
-
-  const groups=
-    new Map();
-
+  const groups=new Map();
 
   filtered
-  .sort(
-    (a,b)=>
-
-      a.date.localeCompare(
-        b.date
-      )
-
-      ||
-
-      a.venue.localeCompare(
-        b.venue
-      )
+  .sort((a,b)=>
+    a.date.localeCompare(b.date)
+    ||
+    a.venue.localeCompare(b.venue)
   )
-  .forEach(
-    event=>{
+  .forEach(event=>{
 
-      if(
-        !groups.has(
-          event.date
-        )
-      ){
-
-        groups.set(
-          event.date,
-          []
-        );
-      }
-
-      groups
-      .get(
-        event.date
-      )
-      .push(
-        event
-      );
+    if(!groups.has(event.date)){
+      groups.set(event.date,[]);
     }
-  );
 
+    groups.get(event.date).push(event);
+  });
 
-  for(
-    const [,list]
-    of groups
-  ){
+  for(const [,list] of groups){
 
-    const section=
-      document.createElement(
-        "section"
-      );
+    const section=document.createElement("section");
 
-    section.className=
-      "day";
-
+    section.className="day";
 
     section.innerHTML=
       `<div class="dayhead">
-        <h2>
-          ${esc(list[0].day)}
-        </h2>
-
+        <h2>${esc(list[0].day)}</h2>
         <span>
           ${list.length}
           show${list.length===1?"":"s"}
         </span>
       </div>`;
 
+    list.forEach(event=>{
 
-    list.forEach(
-      event=>{
+      const url=venueURL(event.venue);
 
-        const url=
-          venueURL(
-            event.venue
-          );
+      const article=document.createElement("article");
 
-        const article=
-          document.createElement(
-            "article"
-          );
+      article.className=
+        "show"+(url?" clickable":"");
 
-
-        article.className=
-          "show"
-          +
-          (
-            url
-            ?
-            " clickable"
-            :
-            ""
-          );
-
-
-        if(url){
-
-          article.onclick=
-            ()=>
-              location.href=url;
-        }
-
-
-        article.innerHTML=
-          `<div>
-
-            <div class="venue">
-              ${esc(event.venue)}
-            </div>
-
-            <div class="city">
-              ${esc(event.city)}
-            </div>
-
-          </div>
-
-          <div>
-
-            <div class="artists">
-              ${esc(event.artists)}
-            </div>
-
-            <div class="details">
-              ${esc(event.details)}
-            </div>
-
-          </div>
-
-          <div class="openCue">
-
-            ${
-              url
-              ?
-              "Official venue ↗"
-              :
-              ""
-            }
-
-          </div>`;
-
-
-        section.appendChild(
-          article
-        );
+      if(url){
+        article.onclick=()=>location.href=url;
       }
-    );
 
+      article.innerHTML=
+        `<div>
+          <div class="venue">
+            ${esc(event.venue)}
+          </div>
 
-    $("root").appendChild(
-      section
-    );
+          <div class="city">
+            ${esc(event.city)}
+          </div>
+        </div>
+
+        <div>
+          <div class="artists">
+            ${esc(event.artists)}
+          </div>
+
+          <div class="details">
+            ${esc(event.details)}
+          </div>
+        </div>
+
+        <div class="openCue">
+          ${url?"Official venue ↗":""}
+        </div>`;
+
+      section.appendChild(article);
+    });
+
+    $("root").appendChild(section);
   }
 
-
   if(!filtered.length){
-
     $("root").innerHTML=
-      '<div class="empty">'
-      +
-      'No shows match those filters.'
-      +
-      '</div>';
+      '<div class="empty">No shows match those filters.</div>';
   }
 }
 
+$("q").addEventListener("input",render);
 
-[
-  "q",
-  "date"
-]
-.forEach(
-  id=>
-    $(id)
-    .addEventListener(
-      "input",
-      render
-    )
+["city","venue"].forEach(id=>
+  $(id).addEventListener("change",render)
 );
 
-
-[
-  "city",
-  "venue"
-]
-.forEach(
-  id=>
-    $(id)
-    .addEventListener(
-      "change",
-      render
-    )
-);
-
-
-$("clear").onclick=
-()=>{
+$("clear").onclick=()=>{
 
   $("q").value="";
-  $("date").value="";
   $("city").value="";
   $("venue").value="";
+  selectedDate="";
+  $("date").value="";
 
   render();
 };
 
-
-$("refresh").onclick=
-  load;
-
+$("refresh").onclick=load;
 
 load();
 
