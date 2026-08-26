@@ -21,7 +21,7 @@ SEEDS = [
 
 OUT = Path("events.json")
 
-UA = "Mozilla/5.0 (compatible; BayAreaConcertCalendar/4.0)"
+UA = "Mozilla/5.0 (compatible; BayAreaConcertCalendar/5.0)"
 
 DATE_RE = re.compile(
     r"\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+"
@@ -34,11 +34,26 @@ DATE_PAGE_RE = re.compile(
     re.I
 )
 
-FOOTER_WEEK_NAV_RE = re.compile(
-    r"\[\s*[A-Z][a-z]{2}\s+\d{1,2}\s*-\s*"
-    r"[A-Z][a-z]{2}\s+\d{1,2}"
-    r"(?:\s*\|\s*[A-Z][a-z]{2}\s+\d{1,2}\s*-\s*"
-    r"[A-Z][a-z]{2}\s+\d{1,2})+",
+#
+# THIS is the important footer fix.
+#
+# Foopee puts navigation like:
+#
+# [ Aug 24 - Aug 30 ] [ Aug 31 - Sep 6 ] ...
+#
+# inside the final concert listing on each page.
+# As soon as one of those week ranges appears,
+# everything after it is page navigation/footer junk.
+#
+
+FOOTER_WEEK_RE = re.compile(
+    r"\s*\[\s*"
+    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)"
+    r"\s+\d{1,2}"
+    r"\s*-\s*"
+    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)"
+    r"\s+\d{1,2}"
+    r"\s*\]",
     re.I
 )
 
@@ -80,7 +95,9 @@ CITY_ALIASES = {
 
 
 class Node:
+
     def __init__(self, parent=None):
+
         self.parent = parent
         self.text = []
         self.anchors = []
@@ -117,10 +134,12 @@ class PageParser(HTMLParser):
         tag = tag.lower()
 
         if tag == "script":
+
             self.in_script = True
             return
 
         if tag == "style":
+
             self.in_style = True
             return
 
@@ -183,9 +202,11 @@ class PageParser(HTMLParser):
             or
             self.in_style
         ):
+
             return
 
         if not self.stack:
+
             return
 
         self.stack[-1].text.append(
@@ -218,8 +239,10 @@ class PageParser(HTMLParser):
 
         if (
             tag == "a"
-            and self.stack
-            and self.anchor is not None
+            and
+            self.stack
+            and
+            self.anchor is not None
         ):
 
             self.anchor["text"] = clean(
@@ -236,7 +259,8 @@ class PageParser(HTMLParser):
 
         elif (
             tag == "li"
-            and self.stack
+            and
+            self.stack
         ):
 
             self.stack.pop()
@@ -447,16 +471,26 @@ def sanitize_details(
     )
 
     #
-    # Foopee's HTML occasionally leaves
-    # its bottom navigation inside the
-    # final <li> on a date page.
+    # PRIMARY FIX:
     #
-    # Once the weekly navigation starts,
-    # everything after it is page chrome,
-    # not concert information.
+    # Cut off the first Foopee weekly
+    # navigation range and EVERYTHING
+    # following it.
+    #
+    # Example:
+    #
+    # a/a $20 7pm
+    # [ Aug 24 - Aug 30 ]
+    # [ Aug 31 - Sep 6 ]
+    # [ Top of The List ]
+    # javascript garbage...
+    #
+    # becomes simply:
+    #
+    # a/a $20 7pm
     #
 
-    match = FOOTER_WEEK_NAV_RE.search(
+    match = FOOTER_WEEK_RE.search(
         text
     )
 
@@ -464,15 +498,17 @@ def sanitize_details(
 
         text = text[
             :match.start()
-        ].strip()
+        ]
 
 
     #
-    # Extra hard stops for Foopee footer
-    # content and legacy analytics code.
+    # Backup hard stops in case Foopee
+    # changes the footer format.
     #
 
-    footer_markers = [
+    garbage_markers = [
+        "[ Top of The List",
+        "[Top of The List",
         "Top of The List",
         "Top of the List",
         "Graham Spencer",
@@ -483,49 +519,53 @@ def sanitize_details(
         "pageTracker",
         "document.write",
         "UA-2878610-1",
+        "javascript",
     ]
-
-    earliest = None
 
     lower_text = (
         text.lower()
     )
 
-    for marker in footer_markers:
+    earliest = None
+
+    for marker in garbage_markers:
 
         position = lower_text.find(
             marker.lower()
         )
 
-        if position != -1:
+        if position == -1:
 
-            if (
-                earliest is None
-                or
-                position < earliest
-            ):
+            continue
 
-                earliest = position
+        if (
+            earliest is None
+            or
+            position < earliest
+        ):
+
+            earliest = position
 
     if earliest is not None:
 
         text = text[
             :earliest
-        ].strip()
+        ]
 
 
     #
-    # Remove leftover punctuation caused
-    # by cutting off the footer.
+    # Clean leftover separators.
     #
 
     text = re.sub(
-        r"[\s|;\-\[]+$",
+        r"[\s\[\]|;\-]+$",
         "",
         text
-    ).strip()
+    )
 
-    return text
+    return clean(
+        text
+    )
 
 
 def event_from_node(
@@ -831,8 +871,7 @@ def main():
 
 
     #
-    # Probe plenty of future Foopee
-    # weekly pages.
+    # Probe future Foopee weekly pages.
     #
 
     for number in range(
@@ -882,11 +921,6 @@ def main():
             now
         )
 
-
-        #
-        # Discover more date pages from
-        # Foopee's own navigation.
-        #
 
         for href in links:
 
@@ -979,10 +1013,13 @@ def main():
         page_results.append(
             {
                 "url": url,
+
                 "events": len(
                     filtered
                 ),
+
                 "first_date": dates[0],
+
                 "last_date": dates[-1],
             }
         )
@@ -994,8 +1031,7 @@ def main():
 
 
     #
-    # Remove duplicates caused by
-    # overlapping Foopee pages.
+    # Remove duplicates.
     #
 
     unique = []
@@ -1040,8 +1076,7 @@ def main():
 
 
     #
-    # Never overwrite good calendar data
-    # with an obviously broken scrape.
+    # Safety check.
     #
 
     if len(all_events) < 30:
@@ -1070,7 +1105,9 @@ def main():
         if key not in weeks:
 
             weeks[key] = {
+
                 "start": key,
+
                 "end": (
                     start
                     +
@@ -1078,9 +1115,11 @@ def main():
                         days=6
                     )
                 ).isoformat(),
+
                 "label": week_label(
                     start
                 ),
+
                 "count": 0,
             }
 
@@ -1099,6 +1138,7 @@ def main():
 
     source_pages = sorted(
         page_results,
+
         key=lambda page: (
             page["first_date"],
             page_sort_key(
@@ -1109,31 +1149,42 @@ def main():
 
 
     payload = {
+
         "meta": {
+
             "updated_at": now.strftime(
                 "%Y-%m-%d %I:%M %p PT"
             ),
+
             "event_count": len(
                 all_events
             ),
+
             "week_count": len(
                 weeks_list
             ),
+
             "weeks": weeks_list,
+
             "source_pages": source_pages,
         },
+
         "events": all_events,
     }
 
 
     OUT.write_text(
+
         json.dumps(
             payload,
             ensure_ascii=False,
             indent=2
         )
+
         +
+
         "\n",
+
         encoding="utf-8"
     )
 
@@ -1146,6 +1197,72 @@ def main():
         f"from "
         f"{len(source_pages)} "
         f"Foopee pages"
+    )
+
+
+    #
+    # EXTRA TEST:
+    #
+    # If any footer garbage somehow remains,
+    # report it prominently in the workflow.
+    #
+
+    garbage = []
+
+    for event in all_events:
+
+        combined = (
+            event.get(
+                "details",
+                ""
+            )
+        ).lower()
+
+        if (
+            "top of the list"
+            in combined
+
+            or
+
+            "google-analytics"
+            in combined
+
+            or
+
+            "gajshost"
+            in combined
+
+            or
+
+            "pagetracker"
+            in combined
+
+            or
+
+            "document.write"
+            in combined
+        ):
+
+            garbage.append(
+                event
+            )
+
+
+    if garbage:
+
+        raise SystemExit(
+            f"ERROR: footer garbage "
+            f"still exists in "
+            f"{len(garbage)} events. "
+            f"events.json was generated "
+            f"but this run is being "
+            f"marked failed so the "
+            f"problem cannot go unnoticed."
+        )
+
+
+    print(
+        "Footer garbage check: CLEAN"
     )
 
 
