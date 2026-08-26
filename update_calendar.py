@@ -1,132 +1,343 @@
 #!/usr/bin/env python3
+
 import json
 import re
 import urllib.request
-from datetime import datetime
+
+from datetime import datetime, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import urljoin, urlparse
 from zoneinfo import ZoneInfo
 
-SOURCE = "http://www.foopee.com/punk/the-list/by-date.2.html"
+
+BASE = "http://www.foopee.com/punk/the-list/"
+
+SEEDS = [
+    urljoin(BASE, "by-date.html"),
+    urljoin(BASE, "by-date.1.html"),
+    urljoin(BASE, "by-date.2.html"),
+]
+
 OUT = Path("events.json")
-UA = "Mozilla/5.0 (compatible; BayAreaConcertCalendar/2.0)"
-DATE_RE = re.compile(r"\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+([A-Z][a-z]{2})\s+(\d{1,2})\b")
+
+UA = "Mozilla/5.0 (compatible; BayAreaConcertCalendar/3.0)"
+
+DATE_RE = re.compile(
+    r"\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+"
+    r"([A-Z][a-z]{2})\s+"
+    r"(\d{1,2})\b"
+)
+
+DATE_PAGE_RE = re.compile(
+    r"(?:^|/)by-date(?:\.(\d+))?\.html$",
+    re.I
+)
+
+
+CITY_ALIASES = {
+    "S.F.": "San Francisco",
+    "S.f.": "San Francisco",
+    "SF": "San Francisco",
+    "San Francisco": "San Francisco",
+
+    "Oakland": "Oakland",
+    "Berkeley": "Berkeley",
+    "Albany": "Albany",
+    "Alameda": "Alameda",
+    "San Jose": "San Jose",
+    "Santa Cruz": "Santa Cruz",
+    "Felton": "Felton",
+    "Saratoga": "Saratoga",
+    "Petaluma": "Petaluma",
+    "Santa Rosa": "Santa Rosa",
+    "Novato": "Novato",
+    "Sebastopol": "Sebastopol",
+    "Napa": "Napa",
+    "Richmond": "Richmond",
+    "Mill Valley": "Mill Valley",
+    "San Anselmo": "San Anselmo",
+    "Point Reyes Station": "Point Reyes Station",
+    "Half Moon Bay": "Half Moon Bay",
+    "Pleasant Hill": "Pleasant Hill",
+    "Los Gatos": "Los Gatos",
+    "Orinda": "Orinda",
+    "Mountain View": "Mountain View",
+    "Mountain Veiw": "Mountain View",
+    "Walnut Creek": "Walnut Creek",
+    "Rio Nido": "Rio Nido",
+    "UC Berkeley Campus": "Berkeley",
+}
+
 
 class Node:
-    def __init__(self):
+    def __init__(self, parent=None):
+        self.parent = parent
         self.text = []
         self.anchors = []
         self.children = []
 
-class TreeParser(HTMLParser):
+
+class PageParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
+
         self.stack = []
         self.roots = []
         self.anchor = None
+        self.links = []
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         tag = tag.lower()
+
         if tag == "li":
-            node = Node()
-            if self.stack:
-                self.stack[-1].children.append(node)
+            parent = self.stack[-1] if self.stack else None
+
+            node = Node(parent)
+
+            if parent:
+                parent.children.append(node)
             else:
                 self.roots.append(node)
+
             self.stack.append(node)
-        elif tag == "a" and self.stack:
-            self.anchor = {"href": attrs.get("href", ""), "text": []}
+
+        if tag == "a":
+            href = attrs.get("href", "")
+
+            if href:
+                self.links.append(href)
+
+            if self.stack:
+                self.anchor = {
+                    "href": href,
+                    "text": []
+                }
 
     def handle_data(self, data):
         if not self.stack:
             return
+
         self.stack[-1].text.append(data)
+
         if self.anchor is not None:
             self.anchor["text"].append(data)
 
     def handle_endtag(self, tag):
         tag = tag.lower()
+
         if tag == "a" and self.stack and self.anchor is not None:
-            self.anchor["text"] = clean("".join(self.anchor["text"]))
-            self.stack[-1].anchors.append(self.anchor)
+            self.anchor["text"] = clean(
+                "".join(self.anchor["text"])
+            )
+
+            self.stack[-1].anchors.append(
+                self.anchor
+            )
+
             self.anchor = None
+
         elif tag == "li" and self.stack:
             self.stack.pop()
 
+
 def clean(value):
-    return " ".join((value or "").split())
+    return " ".join(
+        (value or "").split()
+    )
 
-def fetch():
-    req = urllib.request.Request(SOURCE, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=45) as response:
-        return response.read().decode("latin-1", "replace")
 
-def parse_date(label, year):
+def fetch(url):
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": UA
+        }
+    )
+
+    with urllib.request.urlopen(
+        req,
+        timeout=45
+    ) as response:
+
+        return response.read().decode(
+            "latin-1",
+            "replace"
+        )
+
+
+def resolve_date(label, now):
     match = DATE_RE.search(label)
+
     if not match:
         return None, None
-    day_label = match.group(0)
-    iso = datetime.strptime(
-        f"{year} {match.group(2)} {match.group(3)}", "%Y %b %d"
-    ).strftime("%Y-%m-%d")
-    return iso, day_label
 
-def normalize_city(city):
-    city = clean(city).strip(" ,:-")
-    aliases = {
-        "S.F.": "San Francisco",
-        "S.f.": "San Francisco",
-        "SF": "San Francisco",
-        "S F": "San Francisco",
-    }
-    return aliases.get(city, city)
+    month = datetime.strptime(
+        match.group(2),
+        "%b"
+    ).month
 
-def extract_city(raw, venue, first_band):
-    remainder = raw
-    venue_pos = remainder.find(venue)
-    if venue_pos >= 0:
-        remainder = remainder[venue_pos + len(venue):]
-    if first_band:
-        band_pos = remainder.find(first_band)
-        between = remainder[:band_pos] if band_pos >= 0 else remainder
-    else:
-        between = remainder
-    between = clean(between).strip()
-    if between.startswith(","):
-        between = between[1:].strip()
-    bad = re.search(r"\$|\b(?:a/a|21\+|18\+|all ages|free|pm|am)\b", between, re.I)
-    if bad:
-        between = between[:bad.start()].strip(" ,:-")
-    if len(between) > 50:
-        between = ""
-    return normalize_city(between)
+    day = int(
+        match.group(3)
+    )
 
-def event_from_node(node, date, day):
-    club = next((a for a in node.anchors if "by-club" in a["href"] and a["text"]), None)
+    candidates = []
+
+    for year in (
+        now.year - 1,
+        now.year,
+        now.year + 1
+    ):
+
+        try:
+            candidates.append(
+                datetime(
+                    year,
+                    month,
+                    day,
+                    tzinfo=now.tzinfo
+                )
+            )
+
+        except ValueError:
+            pass
+
+    viable = [
+        d
+        for d in candidates
+        if now - timedelta(days=14)
+        <= d
+        <= now + timedelta(days=245)
+    ]
+
+    possible = viable or candidates
+
+    dt = min(
+        possible,
+        key=lambda d: abs(
+            (d - now).days
+        )
+    )
+
+    return (
+        dt.strftime("%Y-%m-%d"),
+        match.group(0)
+    )
+
+
+def split_venue_city(club_text):
+    text = clean(
+        club_text
+    )
+
+    parts = [
+        part.strip()
+        for part in text.split(",")
+    ]
+
+    if len(parts) >= 2:
+        tail = parts[-1]
+
+        if tail in CITY_ALIASES:
+            venue = ", ".join(
+                parts[:-1]
+            ).strip()
+
+            city = CITY_ALIASES[
+                tail
+            ]
+
+            return venue, city
+
+    if len(parts) >= 2:
+        tail = parts[-1]
+
+        looks_like_city = (
+            1 <= len(tail) <= 28
+            and not re.search(
+                r"\d",
+                tail
+            )
+            and not re.search(
+                r"\b("
+                r"Street|St\.|"
+                r"Road|Rd\.|"
+                r"Ave\.|Avenue|"
+                r"Blvd\.|Boulevard|"
+                r"Drive|Dr\."
+                r")\b",
+                tail,
+                re.I
+            )
+        )
+
+        if looks_like_city:
+            venue = ", ".join(
+                parts[:-1]
+            ).strip()
+
+            return venue, tail
+
+    return text, ""
+
+
+def event_from_node(
+    node,
+    date,
+    day,
+    source_url
+):
+
+    club = next(
+        (
+            anchor
+            for anchor in node.anchors
+            if "by-club" in anchor["href"]
+            and anchor["text"]
+        ),
+        None
+    )
+
     if not club:
         return None
 
-    bands = [a["text"] for a in node.anchors if "by-band" in a["href"] and a["text"]]
-    venue = clean(club["text"])
-    raw = clean(" ".join(node.text))
-    first_band = bands[0] if bands else ""
-    city = extract_city(raw, venue, first_band)
+    bands = [
+        anchor["text"]
+        for anchor in node.anchors
+        if "by-band" in anchor["href"]
+        and anchor["text"]
+    ]
+
+    venue, city = split_venue_city(
+        club["text"]
+    )
+
+    raw = clean(
+        " ".join(node.text)
+    )
 
     details = raw
-    if venue:
-        details = details.replace(venue, "", 1)
-    if city:
-        city_variants = [city]
-        if city == "San Francisco":
-            city_variants += ["S.F.", "S.f.", "SF"]
-        for variant in city_variants:
-            if variant in details:
-                details = details.replace(variant, "", 1)
-                break
+
+    if club["text"]:
+        details = details.replace(
+            club["text"],
+            "",
+            1
+        )
+
     for band in bands:
-        details = details.replace(band, "", 1)
-    details = re.sub(r"^[\s,:;\-]+", "", clean(details)).strip()
+        details = details.replace(
+            band,
+            "",
+            1
+        )
+
+    details = re.sub(
+        r"^[\s,:;\-]+",
+        "",
+        clean(details)
+    ).strip()
 
     return {
         "date": date,
@@ -135,85 +346,436 @@ def event_from_node(node, date, day):
         "city": city,
         "artists": ", ".join(bands),
         "details": details,
+        "source": source_url,
     }
 
-def main():
-    raw = fetch()
-    parser = TreeParser()
-    parser.feed(raw)
 
-    now = datetime.now(ZoneInfo("America/Los_Angeles"))
-    year = now.year
+def parse_page(
+    raw,
+    source_url,
+    now
+):
+
+    parser = PageParser()
+
+    parser.feed(
+        raw
+    )
+
     events = []
 
-    def walk(nodes, inherited_date=None, inherited_day=None):
+    def walk(
+        nodes,
+        inherited_date=None,
+        inherited_day=None
+    ):
+
         current_date = inherited_date
         current_day = inherited_day
 
         for node in nodes:
-            own_text = clean(" ".join(node.text))
-            found_date, found_day = parse_date(own_text, year)
+
+            own_text = clean(
+                " ".join(node.text)
+            )
+
+            found_date, found_day = resolve_date(
+                own_text,
+                now
+            )
+
             if found_date:
                 current_date = found_date
                 current_day = found_day
 
             if current_date:
-                event = event_from_node(node, current_date, current_day)
+
+                event = event_from_node(
+                    node,
+                    current_date,
+                    current_day,
+                    source_url
+                )
+
                 if event:
-                    events.append(event)
+                    events.append(
+                        event
+                    )
 
             if node.children:
-                walk(node.children, current_date, current_day)
 
-    walk(parser.roots)
+                walk(
+                    node.children,
+                    current_date,
+                    current_day
+                )
 
+    walk(
+        parser.roots
+    )
+
+    return (
+        events,
+        parser.links
+    )
+
+
+def week_start(date_string):
+    date = datetime.strptime(
+        date_string,
+        "%Y-%m-%d"
+    ).date()
+
+    return date - timedelta(
+        days=date.weekday()
+    )
+
+
+def week_label(start):
+    end = start + timedelta(
+        days=6
+    )
+
+    if start.year != end.year:
+
+        return (
+            f"{start.strftime('%b')} "
+            f"{start.day}, {start.year}"
+            f"–"
+            f"{end.strftime('%b')} "
+            f"{end.day}, {end.year}"
+        )
+
+    if start.month == end.month:
+
+        return (
+            f"{start.strftime('%b')} "
+            f"{start.day}–{end.day}, "
+            f"{start.year}"
+        )
+
+    return (
+        f"{start.strftime('%b')} "
+        f"{start.day}"
+        f"–"
+        f"{end.strftime('%b')} "
+        f"{end.day}, "
+        f"{start.year}"
+    )
+
+
+def page_sort_key(url):
+    name = urlparse(
+        url
+    ).path.rsplit(
+        "/",
+        1
+    )[-1]
+
+    match = DATE_PAGE_RE.search(
+        name
+    )
+
+    if not match:
+        return 999
+
+    return int(
+        match.group(1) or 0
+    )
+
+
+def main():
+    now = datetime.now(
+        ZoneInfo(
+            "America/Los_Angeles"
+        )
+    )
+
+    today = now.date()
+
+    queue = list(
+        SEEDS
+    )
+
+    seen_urls = set()
+
+    page_results = []
+
+    all_events = []
+
+    #
+    # Probe numbered Foopee week pages.
+    #
+    # This supplements link discovery so
+    # future weeks still work even if the
+    # navigation HTML changes.
+    #
+    for number in range(
+        1,
+        17
+    ):
+
+        queue.append(
+            urljoin(
+                BASE,
+                f"by-date.{number}.html"
+            )
+        )
+
+    while queue:
+
+        url = queue.pop(0)
+
+        if url in seen_urls:
+            continue
+
+        seen_urls.add(
+            url
+        )
+
+        try:
+
+            raw = fetch(
+                url
+            )
+
+        except Exception as exc:
+
+            print(
+                f"Skip {url}: {exc}"
+            )
+
+            continue
+
+        events, links = parse_page(
+            raw,
+            url,
+            now
+        )
+
+        #
+        # Discover more date pages from
+        # Foopee's own navigation.
+        #
+        for href in links:
+
+            absolute = urljoin(
+                url,
+                href
+            )
+
+            parsed = urlparse(
+                absolute
+            )
+
+            if (
+                parsed.netloc
+                and parsed.netloc
+                != urlparse(BASE).netloc
+            ):
+                continue
+
+            if (
+                DATE_PAGE_RE.search(
+                    parsed.path
+                )
+                and absolute
+                not in seen_urls
+            ):
+
+                queue.append(
+                    absolute
+                )
+
+        if not events:
+            continue
+
+        #
+        # Keep listings from yesterday
+        # through roughly six months ahead.
+        #
+        filtered = [
+            event
+            for event in events
+            if (
+                today - timedelta(days=1)
+                <= datetime.strptime(
+                    event["date"],
+                    "%Y-%m-%d"
+                ).date()
+                <= today + timedelta(days=180)
+            )
+        ]
+
+        if not filtered:
+            continue
+
+        dates = sorted(
+            {
+                event["date"]
+                for event in filtered
+            }
+        )
+
+        page_results.append(
+            {
+                "url": url,
+                "events": len(filtered),
+                "first_date": dates[0],
+                "last_date": dates[-1],
+            }
+        )
+
+        all_events.extend(
+            filtered
+        )
+
+    #
+    # Remove duplicates caused by
+    # overlapping Foopee week pages.
+    #
     unique = []
+
     seen = set()
-    for event in events:
+
+    for event in sorted(
+        all_events,
+        key=lambda e: (
+            e["date"],
+            e["venue"],
+            e["artists"],
+            e["details"]
+        )
+    ):
+
         key = (
             event["date"],
-            event["venue"],
-            event["city"],
-            event["artists"],
-            event["details"],
+            event["venue"].lower(),
+            event["city"].lower(),
+            event["artists"].lower(),
+            event["details"].lower(),
         )
-        if key not in seen:
-            seen.add(key)
-            unique.append(event)
-    events = unique
 
-    if len(events) < 30:
+        if key in seen:
+            continue
+
+        seen.add(
+            key
+        )
+
+        unique.append(
+            event
+        )
+
+    all_events = unique
+
+    #
+    # Safety check:
+    # never replace a good calendar
+    # with an obviously broken scrape.
+    #
+    if len(all_events) < 30:
+
         raise SystemExit(
-            f"Parser found only {len(events)} events; refusing to overwrite events.json."
+            f"Only {len(all_events)} "
+            f"total future events found; "
+            f"refusing to overwrite "
+            f"events.json."
         )
 
-    dates = sorted({e["date"] for e in events})
-    first = datetime.strptime(dates[0], "%Y-%m-%d")
-    last = datetime.strptime(dates[-1], "%Y-%m-%d")
+    #
+    # Build week metadata.
+    #
+    weeks = {}
 
-    if first.month == last.month:
-        week_label = f"{first.strftime('%b')} {first.day}–{last.day}, {last.year}"
-    else:
-        week_label = (
-            f"{first.strftime('%b')} {first.day}–"
-            f"{last.strftime('%b')} {last.day}, {last.year}"
+    for event in all_events:
+
+        start = week_start(
+            event["date"]
         )
+
+        key = start.isoformat()
+
+        if key not in weeks:
+
+            weeks[key] = {
+                "start": key,
+                "end": (
+                    start
+                    + timedelta(days=6)
+                ).isoformat(),
+                "label": week_label(
+                    start
+                ),
+                "count": 0,
+            }
+
+        weeks[key]["count"] += 1
+
+    weeks_list = [
+        weeks[key]
+        for key in sorted(
+            weeks
+        )
+    ]
+
+    source_pages = sorted(
+        page_results,
+        key=lambda page: (
+            page["first_date"],
+            page_sort_key(
+                page["url"]
+            )
+        )
+    )
 
     payload = {
         "meta": {
-            "source": SOURCE,
-            "updated_at": now.strftime("%Y-%m-%d %I:%M %p PT"),
-            "week_label": week_label,
-            "event_count": len(events),
+            "updated_at": now.strftime(
+                "%Y-%m-%d %I:%M %p PT"
+            ),
+            "event_count": len(
+                all_events
+            ),
+            "week_count": len(
+                weeks_list
+            ),
+            "weeks": weeks_list,
+            "source_pages": source_pages,
         },
-        "events": events,
+        "events": all_events,
     }
 
     OUT.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        json.dumps(
+            payload,
+            ensure_ascii=False,
+            indent=2
+        ) + "\n",
         encoding="utf-8"
     )
-    print(f"Wrote {len(events)} events from {SOURCE}")
+
+    print(
+        f"Wrote "
+        f"{len(all_events)} events "
+        f"across "
+        f"{len(weeks_list)} weeks "
+        f"from "
+        f"{len(source_pages)} "
+        f"Foopee pages"
+    )
+
+    for page in source_pages:
+
+        print(
+            f"  "
+            f"{page['first_date']}"
+            f".."
+            f"{page['last_date']}  "
+            f"{page['events']:>3} shows  "
+            f"{page['url']}"
+        )
+
 
 if __name__ == "__main__":
     main()
