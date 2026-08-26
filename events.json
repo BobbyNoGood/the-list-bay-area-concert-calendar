@@ -1,65 +1,794 @@
 {
   "meta": {
     "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
-    "updated_at": "2026-08-25 02:53 PM PT",
-    "week_label": "Sep 7–13, 2026"
+    "updated_at": "2026-08-25 05:00 PM PT",
+    "week_label": "Sep 7–13, 2026",
+    "event_count": 98
   },
   "events": [
     {
       "date": "2026-09-07",
       "day": "Mon Sep 7",
-      "venue": "Bottom of the Hill",
-      "city": "San Francisco",
+      "venue": "Bottom of the Hill, S.F.",
+      "city": "",
       "artists": "Mad Caddies, Diesel Boy (performing Cock Rock), Stay Out",
       "details": "a/a $27/$30 7:30pm/8pm @"
     },
     {
+      "date": "2026-09-07",
+      "day": "Mon Sep 7",
+      "venue": "Castro, S.F.",
+      "city": "",
+      "artists": "Charlatans UK, Frankie Rose",
+      "details": "a/a $60.10 7pm/8pm #"
+    },
+    {
+      "date": "2026-09-07",
+      "day": "Mon Sep 7",
+      "venue": "Derby Skatepark, 508 Woodland Way, Santa Cruz",
+      "city": "",
+      "artists": "Bloodstains, Curb Creeps, No Potential",
+      "details": "a/a free 6:30pm @"
+    },
+    {
       "date": "2026-09-08",
       "day": "Tue Sep 8",
-      "venue": "Davies Symphony Hall, 201 Van Ness Ave.",
-      "city": "San Francisco",
+      "venue": "Davies Symphony Hall, 201 Van Ness Ave., S.F.",
+      "city": "",
       "artists": "Samara Joy with the SF Symphony",
       "details": "a/a 7:30pm"
     },
     {
+      "date": "2026-09-08",
+      "day": "Tue Sep 8",
+      "venue": "Independent, S.F.",
+      "city": "",
+      "artists": "Pawpaw Rod",
+      "details": "a/a $31.55 ($113 vip) 7:30pm/8pm"
+    },
+    {
+      "date": "2026-09-08",
+      "day": "Tue Sep 8",
+      "venue": "Regency Ballroom, S.F.",
+      "city": "",
+      "artists": "Slayyyter, Pearly Drops",
+      "details": "a/a $39 ($66 balcony) 7pm/8pm # (sold out)"
+    },
+    {
+      "date": "2026-09-08",
+      "day": "Tue Sep 8",
+      "venue": "Rickshaw Stop, S.F.",
+      "city": "",
+      "artists": "Bug Club",
+      "details": "a/a $20/$25 7pm/8pm"
+    },
+    {
+      "date": "2026-09-08",
+      "day": "Tue Sep 8",
+      "venue": "Warfield, S.F.",
+      "city": "",
+      "artists": "Bikini Kill, Alice Bag",
+      "details": "a/a 7pm/8pm # @"
+    },
+    {
       "date": "2026-09-09",
       "day": "Wed Sep 9",
-      "venue": "924 Gilman Street",
-      "city": "Berkeley",
+      "venue": "924 Gilman Street, Berkeley",
+      "city": "",
       "artists": "Yearn, Junebug, Joseon, Rosegate",
       "details": "a/a $18/$22 7pm/7:30pm"
     },
     {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "Bottom of the Hill, S.F.",
+      "city": "",
+      "artists": "Kofy Brown Band, Skip The Needle, Black Gold Sun",
+      "details": "21+ $15 8pm/8:30pm"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "Catalyst Atrium, Santa Cruz",
+      "city": "",
+      "artists": "Pawpaw Rod",
+      "details": "16+ $34.12 7pm/8pm"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "DNA Lounge, S.F.",
+      "city": "",
+      "artists": "16 Volt, Acumen Nation, Everything Goes Cold",
+      "details": "a/a $22/$31 7pm"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "Fox Theater, Oakland",
+      "city": "",
+      "artists": "Slayyyter, Pearly Drops",
+      "details": "a/a 7pm/8pm # (sold out)"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "Great American Music Hall, S.F.",
+      "city": "",
+      "artists": "Eihwar",
+      "details": "a/a $35/$40/$45 7pm/8pm"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "Greek Theater, UC Berkeley Campus",
+      "city": "",
+      "artists": "Liz Phair, Sleater-Kinney, Soccer Mommy (solo)",
+      "details": "a/a $78.15 6:30pm #"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "Independent, S.F.",
+      "city": "",
+      "artists": "Kevin Atwater, Ruby Plume",
+      "details": "a/a $31.55 7:30pm/8pm"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "Ivy Room, Albany",
+      "city": "",
+      "artists": "Scott Amendola's Floating Parade",
+      "details": "21+ $20 7pm/8pm"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "Mabuhay Gardens, S.F.",
+      "city": "",
+      "artists": "Bong Father (9:40pm), Sonus, Half Rotten Goddess, Elegant Trash, Cretins, Life Span",
+      "details": "21+ $15 ($25 vip) 6pm/6:30pm"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "Rickshaw Stop, S.F.",
+      "city": "",
+      "artists": "Kels",
+      "details": "a/a $26/$30 7pm/8pm"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "Ritz, San Jose",
+      "city": "",
+      "artists": "Hail The Sun, A Lot Like Birds, Blight Town, Murals",
+      "details": "a/a $39.32 6pm"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "Warfield, S.F.",
+      "city": "",
+      "artists": "Blood Orange",
+      "details": "6+ 7pm/8pm #"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed Sep 9",
+      "venue": "Warriors Stadium, S.F.",
+      "city": "",
+      "artists": "Weezer, Shins, Silversun Pickups",
+      "details": "a/a $84+ 7pm #"
+    },
+    {
       "date": "2026-09-10",
       "day": "Thu Sep 10",
-      "venue": "Bottom of the Hill",
-      "city": "San Francisco",
+      "venue": "Bottom of the Hill, S.F.",
+      "city": "",
       "artists": "Fartbarf, Diesel Dudes, Edgar",
       "details": "a/a $15/$20 8pm/8:30pm"
     },
     {
+      "date": "2026-09-10",
+      "day": "Thu Sep 10",
+      "venue": "Castro Theater, S.F.",
+      "city": "",
+      "artists": "Naomi Sharon",
+      "details": "a/a 7pm/8pm #"
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thu Sep 10",
+      "venue": "Chapel, S.F.",
+      "city": "",
+      "artists": "Pink Breath Of Heaven, Topographies, Christina's Trip",
+      "details": "a/a $22/$26 7pm/8pm"
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thu Sep 10",
+      "venue": "DNA Lounge, S.F.",
+      "city": "",
+      "artists": "Pig, Cyanotic",
+      "details": "a/a $26/$36 7pm"
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thu Sep 10",
+      "venue": "Eagle, S.F.",
+      "city": "",
+      "artists": "Hellcatraz, Agon Aunt, Calaveras, Sharps Removed",
+      "details": "21+ $10 8:30pm"
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thu Sep 10",
+      "venue": "Great American Music Hall, S.F.",
+      "city": "",
+      "artists": "Your Arms Are My Coccon, Imagine We Had Antlers, Awakebutstillinbed",
+      "details": "a/a $15/$17 6:30pm/7:30pm"
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thu Sep 10",
+      "venue": "Ivy Room, Albany",
+      "city": "",
+      "artists": "Classic Hat, Hvnter Colt, Scam Likely, Get Close",
+      "details": "21+ $12/$15 6:30pm/7pm"
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thu Sep 10",
+      "venue": "Peacock Lounge, S.F.",
+      "city": "",
+      "artists": "We Micromanage Infinity, dj Female Convict Scorpion, Shatter Pattern, Ron Heglin & Lorin Benedict",
+      "details": "a/a $5-$15 8pm til 11pm"
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thu Sep 10",
+      "venue": "Rickshaw Stop, S.F.",
+      "city": "",
+      "artists": "Chanpan, Shebad",
+      "details": "a/a $22/$25 8pm/9pm"
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thu Sep 10",
+      "venue": "Thee Stork Club, Oakland",
+      "city": "",
+      "artists": "Grez (album release), Naytronix, FeeFawFum",
+      "details": "21+ $12/$15 8pm"
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thu Sep 10",
+      "venue": "Warfield, S.F.",
+      "city": "",
+      "artists": "Blood Orange",
+      "details": "6+ 7pm/8pm #"
+    },
+    {
       "date": "2026-09-11",
       "day": "Fri Sep 11",
-      "venue": "4th Corner Speakeasy, 431 Georgia Street",
-      "city": "Vallejo",
+      "venue": "4th Corner Speakeasy, 431 Georgia Street, Vallejo",
+      "city": "",
       "artists": "Westerly",
       "details": "21+"
     },
     {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "August Hall, S.F.",
+      "city": "",
+      "artists": "Asal",
+      "details": "5+ $39.80 8pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Bimbo's 365 Club, S.F.",
+      "city": "",
+      "artists": "Super Diamond, Starman SF",
+      "details": "21+ $36 7pm/8pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Bottom of the Hill, S.F.",
+      "city": "",
+      "artists": "Bratmobile, Okmonics",
+      "details": "a/a $35 8pm/9pm @"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Brick and Mortar, S.F.",
+      "city": "",
+      "artists": "Cuva Bimo (album release), Lighting Section, Soft Circuit",
+      "details": "a/a $20 (under 21 plus $5) 8pm/8:30pm ^"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Chapel, S.F.",
+      "city": "",
+      "artists": "Acid Tongue, Los Dug Dug's",
+      "details": "5+ $28/$32 8pm/9pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Creek Park, 634 Sir Francis Drake Blvd., San Anselmo",
+      "city": "",
+      "artists": "Moonalice",
+      "details": "a/a free 6pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Crybaby, Oakland",
+      "city": "",
+      "artists": "Lil Kayla",
+      "details": "a/a $28.52 6pm til 10pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "DNA Lounge, S.F.",
+      "city": "",
+      "artists": "Apollyon, Selena Catwoman, dj 5umk1d, Fantoms",
+      "details": "18+ $10/$20 9:30pm til 2am"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Fox Theater, Oakland",
+      "city": "",
+      "artists": "Michael Blaustein (comedian)",
+      "details": "a/a $49+ 6pm/7pm #"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Great American Music Hall, S.F.",
+      "city": "",
+      "artists": "Necrot, Iron Lung, Deathgrave",
+      "details": "a/a $25/$30 7pm/8pm @"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Greek Theater, UC Berkeley Campus",
+      "city": "",
+      "artists": "Foster The People, Goth Babe",
+      "details": "a/a 6:30pm/8pm #"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Guild Theater, Memlo Park",
+      "city": "",
+      "artists": "Marcus Rezak's Shread Is Dead",
+      "details": "a/a (under 18 with adult) $46+ 7pm/8pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Hopmonk Tavern, Novato",
+      "city": "",
+      "artists": "Tainted Love, Mustache Harbor",
+      "details": "a/a 6pm (outdoors)"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Independent, S.F.",
+      "city": "",
+      "artists": "Arlo, Fromclay",
+      "details": "18+ $34.5 8:30pm/9pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Ivy Room, Albany",
+      "city": "",
+      "artists": "Snares, Strange Ones, Slow Coast",
+      "details": "21+ $20 7:30pm/8pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Mountain Winery, Saratoga",
+      "city": "",
+      "artists": "Jesse McCartney",
+      "details": "a/a 5:30pm/7:30pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Regency Ballroom, S.F.",
+      "city": "",
+      "artists": "Altin Gun, Alex Maas",
+      "details": "a/a 7pm/8pm #"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Ritz, San Jose",
+      "city": "",
+      "artists": "Powerman 5000, Makes My Blood Dance",
+      "details": "a/a $31.34 7pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Stay Gold Deli, Oakland",
+      "city": "",
+      "artists": "Press On, Xtranos, Must Be Nice, East Brothers Band",
+      "details": "a/a $10 6pm/7pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Swedish American Hall, S.F.",
+      "city": "",
+      "artists": "Anaiis",
+      "details": "21+ $33.45 8pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Thee Stork Club, Oakland",
+      "city": "",
+      "artists": "Combo Tezeta, Discomovil Salazar",
+      "details": "21+ $18/$20 8pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Town Hall Plaza, 525 San Anselmo Avenue, San Anselmo",
+      "city": "",
+      "artists": "Talley Up",
+      "details": "a/a free 6pm"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri Sep 11",
+      "venue": "Warfield, S.F.",
+      "city": "",
+      "artists": "Blood Orange",
+      "details": "6+ 7pm/8pm #"
+    },
+    {
       "date": "2026-09-12",
       "day": "Sat Sep 12",
-      "venue": "Bottom of the Hill",
-      "city": "San Francisco",
+      "venue": "Bottom of the Hill, S.F.",
+      "city": "",
       "artists": "Bratmobile, A La Tata",
       "details": "a/a $35 8pm/9pm @"
     },
     {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Cafe Du Nord, S.F.",
+      "city": "",
+      "artists": "Dent May, Healing Potpourri",
+      "details": "21+ $28.30 8pm/9pm"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Castro, S.F.",
+      "city": "",
+      "artists": "Orville Peck",
+      "details": "a/a 8pm # (sold out)"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Creek Park, 634 Sir Francis Drake Blvd., San Anselmo",
+      "city": "",
+      "artists": "El Cajon/Le Minivans",
+      "details": "a/a free 6pm"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "DNA Lounge, S.F.",
+      "city": "",
+      "artists": "Knack",
+      "details": "a/a $39/$56 7pm"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Fillmore, S.F.",
+      "city": "",
+      "artists": "Public Image Ltd.",
+      "details": "a/a 7pm/8pm #"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Fox Theater, Oakland",
+      "city": "",
+      "artists": "Thievery Corporation",
+      "details": "a/a $73.25 7pm/8pm #"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Hopmon, Sebastopol",
+      "city": "",
+      "artists": "Magic Sword, Skylimit",
+      "details": "21+ $36.27 7pm/8pm"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Hopmonk Tavern, Novato",
+      "city": "",
+      "artists": "Tainted Love, Mustache Harbor",
+      "details": "a/a 6pm (outdoors)"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Jade Cathey Resturant, 1339 North 1st Street, San Jose",
+      "city": "",
+      "artists": "Indigo Elephant, Special Thanks, Emergency Broadcast System, Willam Johnston",
+      "details": "a/a $15 7pm"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Memorial Park, 24176 Mission Blvd., Hayward",
+      "city": "",
+      "artists": "Blind Illusion, Frolic, Cultural Warfare, Negative Sixxx, Short Fuse, Creepo, Successor",
+      "details": "a/a free 1pm @ (Metal Fest - Salvation Army Canned Food Drive)"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Meritage Resort, Napa",
+      "city": "",
+      "artists": "Kenny Wayne Shepherd Band",
+      "details": "8+ 6:30pm/8pm"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Mountain Theater, East Ridgecrest Blvd., Mount Tamalpais",
+      "city": "",
+      "artists": "Father John Mist, Guster, Jerry Harrison, La Luz, Angeline And The Snack Machine",
+      "details": "a/a $149.50 (12 and under $74.75/2 and under free) 10:30am/11:30am #"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "O'Reilly's, 1840 Haight Street, S.F.",
+      "city": "",
+      "artists": "Prior To Last Season, Alias (1st show), Saving Disaster, Follies",
+      "details": "21+ $10/$15"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Point San Pablo Harbor, Richmond",
+      "city": "",
+      "artists": "Allmond Brothers (tribute), Bolero, Spirit Hustler",
+      "details": "a/a $39.19 5pm/6pm"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Regency Ballroom, S.F.",
+      "city": "",
+      "artists": "Moms Feelin' Themselves",
+      "details": "21+ 7pm # (mom dance party)"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Siesta Valley Bowl, Orinda",
+      "city": "",
+      "artists": "Beats Antique, Roni Kaspi",
+      "details": "a/a $89.70-55.70 6:30pm/8pm #"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Stay Gold Deli, Oakland",
+      "city": "",
+      "artists": "Phantoms Forever, Pinefall, Calico Moon, Fly W8",
+      "details": "a/a $15 6pm/7pm"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Town Hall Plaza, 525 San Anselmo Avenue, San Anselmo",
+      "city": "",
+      "artists": "F.A.T. Betty",
+      "details": "a/a free 6pm"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "UC Thteater, Berkeley",
+      "city": "",
+      "artists": "Kuma Sagar",
+      "details": "a/a 8pm/9pm #"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Up the Creek Records, Walnut Creek",
+      "city": "",
+      "artists": "Hummingbirds, Kalonn Thomas & Sip Club, Lurang",
+      "details": "a/a $15 6pm til 9pm"
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat Sep 12",
+      "venue": "Warfield, S.F.",
+      "city": "",
+      "artists": "San Holo",
+      "details": "18+ 7pm/8pm #"
+    },
+    {
       "date": "2026-09-13",
       "day": "Sun Sep 13",
-      "venue": "924 Gilman Street",
-      "city": "Berkeley",
+      "venue": "924 Gilman Street, Berkeley",
+      "city": "",
       "artists": "Just Nick, CJ Lawrence, Brian Ward, Imparcial",
       "details": "a/a $12/$15 6pm/6:30pm (acoustic sunday)"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Above DNA Lounge, S.F.",
+      "city": "",
+      "artists": "Jonhhy Manchild, Friend Of A Friend, Karma And The Killjoys",
+      "details": "a/a $15/$21 7pm/7:30pm @"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Bimbo's 365 Club, S.F.",
+      "city": "",
+      "artists": "Haute & Freddy",
+      "details": "a/a 7pm/8pm (sold out)"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Bottom of the Hill, S.F.",
+      "city": "",
+      "artists": "Hex Pest, Queen & I, Pleasure Routine",
+      "details": "a/a $15 7pm/7:30pm"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Cafe Du Nord, S.F.",
+      "city": "",
+      "artists": "Sub Urban",
+      "details": "a/a 8pm"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Castro, S.F.",
+      "city": "",
+      "artists": "Orville Peck",
+      "details": "a/a 8pm #"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Chapel, S.F.",
+      "city": "",
+      "artists": "Carla Dal Forno, Cindy",
+      "details": "a/a $29.69 7pm/8pm"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "DNA Lounge, S.F.",
+      "city": "",
+      "artists": "Zeromind, Random Devils, Brodre",
+      "details": "a/a $15/$22 7pm/7:30pm @"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "DNA Lounge, S.F.",
+      "city": "",
+      "artists": "Zeromind, Randome Devils, Brodre",
+      "details": "a/a $15/$22 7pm"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "DNA Lounge, S.F.",
+      "city": "",
+      "artists": "Johnny Manchild, Friend Of A Friend, Karma And The Killjoys",
+      "details": "a/a $15/$21 7pm"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Fillmore, S.F.",
+      "city": "",
+      "artists": "Manchester Orchestra, Brother Bird",
+      "details": "a/a 8pm #"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Fox Theater, Oakland",
+      "city": "",
+      "artists": "Masego",
+      "details": "a/a $66.75 6:30pm/7:30pm"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Great American Music Hall, S.f.",
+      "city": "",
+      "artists": "Bear McCreary",
+      "details": "a/a $40/$45/$50 7pm/8pm"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Ivy Room, Albany",
+      "city": "",
+      "artists": "Slap Dragon",
+      "details": "21+ $23.48 7:30pm/8pm"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Masonic, S.F.",
+      "city": "",
+      "artists": "Polyphia, Ladrones, RJ Pasin",
+      "details": "a/a $53+ 6:30pm/7:30pm #"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Moe's Alley, Santa Cruz",
+      "city": "",
+      "artists": "Magic Sword, Skylimit",
+      "details": "21+ 7pm/8pm"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Mountain Winery, Saratoga",
+      "city": "",
+      "artists": "Smokey Robinson",
+      "details": "a/a 5:30pm/7:30pm"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Open Gallery, 38 S. 2nd Street, San Jose",
+      "city": "",
+      "artists": "Division Of Mind, Mongrel, Leave No Doubt",
+      "details": "a/a $20 6pm @"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun Sep 13",
+      "venue": "Sweetwater Music Hall, Mill Valley",
+      "city": "",
+      "artists": "Black Uhuru",
+      "details": "a/a 7pm/8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}"
     }
   ]
 }
