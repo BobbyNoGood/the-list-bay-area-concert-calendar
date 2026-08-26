@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated_at": "2026-08-25 05:55 PM PT",
-    "event_count": 1257,
-    "week_count": 19,
+    "updated_at": "2026-08-25 09:02 PM PT",
+    "event_count": 1267,
+    "week_count": 20,
     "weeks": [
       {
         "start": "2026-08-24",
@@ -104,7 +104,7 @@
         "start": "2026-12-14",
         "end": "2026-12-20",
         "label": "Dec 14–20, 2026",
-        "count": 12
+        "count": 21
       },
       {
         "start": "2026-12-21",
@@ -116,6 +116,12 @@
         "start": "2026-12-28",
         "end": "2027-01-03",
         "label": "Dec 28, 2026–Jan 3, 2027",
+        "count": 1
+      },
+      {
+        "start": "2027-01-04",
+        "end": "2027-01-10",
+        "label": "Jan 4–10, 2027",
         "count": 1
       }
     ],
@@ -223,6 +229,66 @@
         "last_date": "2026-12-20"
       },
       {
+        "url": "http://www.foopee.com/punk/the-list/by-date.20.html",
+        "events": 6,
+        "first_date": "2026-12-15",
+        "last_date": "2026-12-20"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.21.html",
+        "events": 5,
+        "first_date": "2026-12-15",
+        "last_date": "2026-12-19"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.22.html",
+        "events": 3,
+        "first_date": "2026-12-15",
+        "last_date": "2026-12-19"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.23.html",
+        "events": 3,
+        "first_date": "2026-12-15",
+        "last_date": "2026-12-19"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.24.html",
+        "events": 3,
+        "first_date": "2026-12-15",
+        "last_date": "2026-12-19"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.25.html",
+        "events": 3,
+        "first_date": "2026-12-15",
+        "last_date": "2026-12-19"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
+        "events": 2,
+        "first_date": "2026-12-15",
+        "last_date": "2026-12-16"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.27.html",
+        "events": 2,
+        "first_date": "2026-12-15",
+        "last_date": "2026-12-16"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.28.html",
+        "events": 2,
+        "first_date": "2026-12-15",
+        "last_date": "2026-12-16"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.29.html",
+        "events": 2,
+        "first_date": "2026-12-15",
+        "last_date": "2026-12-16"
+      },
+      {
         "url": "http://www.foopee.com/punk/the-list/by-date.17.html",
         "events": 2,
         "first_date": "2026-12-26",
@@ -233,6 +299,18 @@
         "events": 1,
         "first_date": "2026-12-31",
         "last_date": "2026-12-31"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.19.html",
+        "events": 1,
+        "first_date": "2026-12-31",
+        "last_date": "2026-12-31"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.32.html",
+        "events": 1,
+        "first_date": "2027-01-04",
+        "last_date": "2027-01-04"
       }
     ]
   },
@@ -1305,7 +1383,7 @@
       "venue": "Ritz",
       "city": "San Jose",
       "artists": "punk rock flea market",
-      "details": "?/? [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "?/? [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html"
     },
     {
@@ -2097,7 +2175,7 @@
       "venue": "Thrillhouse Records",
       "city": "San Francisco",
       "artists": "Circuit, Salo, Odor Eater, Drugs",
-      "details": "a/a $10 3pm/4pm @ [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "a/a $10 3pm/4pm @ [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html"
     },
     {
@@ -2979,7 +3057,7 @@
       "venue": "Sweetwater Music Hall",
       "city": "Mill Valley",
       "artists": "Black Uhuru",
-      "details": "a/a 7pm/8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "a/a 7pm/8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html"
     },
     {
@@ -3906,7 +3984,7 @@
       "venue": "Washington Park, 740 Central Avenue",
       "city": "Alameda",
       "artists": "Chris Cain (5pm), Terrie Odabi, Aki Kumar Blues Jam with Friends",
-      "details": "a/a free noon til 6pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "a/a free noon til 6pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html"
     },
     {
@@ -4860,7 +4938,7 @@
       "venue": "Warfield",
       "city": "San Francisco",
       "artists": "Lucki, Sk8star",
-      "details": "6+ 7pm/8pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "6+ 7pm/8pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.4.html"
     },
     {
@@ -5940,7 +6018,7 @@
       "venue": "UC Theater",
       "city": "Berkeley",
       "artists": "Green, Johnny Suite",
-      "details": "a/a $32.50 7pm/8pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "a/a $32.50 7pm/8pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.5.html"
     },
     {
@@ -6885,7 +6963,7 @@
       "venue": "Warriors Stadiom",
       "city": "San Francisco",
       "artists": "Chayanne",
-      "details": "a/a $72+ 6pm/7pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "a/a $72+ 6pm/7pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.6.html"
     },
     {
@@ -7713,7 +7791,7 @@
       "venue": "Warfield",
       "city": "San Francisco",
       "artists": "Sunset Rollercoaster",
-      "details": "6+ 8pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "6+ 8pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.7.html"
     },
     {
@@ -8514,7 +8592,7 @@
       "venue": "Thee Stork Club",
       "city": "Oakland",
       "artists": "Trough, Semuta, FeeFawFum",
-      "details": "21+ $12/$15 8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "21+ $12/$15 8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.8.html"
     },
     {
@@ -9171,7 +9249,7 @@
       "venue": "UC Theater",
       "city": "Berkeley",
       "artists": "Pigeons Playing Ping Pong, Dizgo",
-      "details": "a/a $35 ($135 vip) 6pm/7pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "a/a $35 ($135 vip) 6pm/7pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.9.html"
     },
     {
@@ -9666,7 +9744,7 @@
       "venue": "Uptown Theater",
       "city": "Napa",
       "artists": "Daughtry, Ryan Perdz",
-      "details": "12+ (under 16 with adult) $49+ 6pm/7pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "12+ (under 16 with adult) $49+ 6pm/7pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.10.html"
     },
     {
@@ -10287,7 +10365,7 @@
       "venue": "Warfield",
       "city": "San Francisco",
       "artists": "Vince Staples",
-      "details": "6+ 7pm/8pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "6+ 7pm/8pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.11.html"
     },
     {
@@ -10755,7 +10833,7 @@
       "venue": "Rickshaw Stop",
       "city": "San Francisco",
       "artists": "Qendresa",
-      "details": "a/a $25/$28 7pm/8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "a/a $25/$28 7pm/8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.12.html"
     },
     {
@@ -10908,7 +10986,7 @@
       "venue": "Henry J. Kaiser Center",
       "city": "Oakland",
       "artists": "Scott Bradlee's Postmodern Jukebox",
-      "details": "a/a $74.75-$64.45 7pm/8pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "a/a $74.75-$64.45 7pm/8pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.13.html"
     },
     {
@@ -11160,7 +11238,7 @@
       "venue": "Moe's Alley",
       "city": "Santa Cruz",
       "artists": "Buck Meek, Kisser",
-      "details": "21+ $27/$32 7pm/8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "21+ $27/$32 7pm/8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.14.html"
     },
     {
@@ -11412,7 +11490,7 @@
       "venue": "Great American Music Hall",
       "city": "San Francisco",
       "artists": "Matt Hansen",
-      "details": "21+ $25/$27/$30 ($85+ vip) 7pm/8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "21+ $25/$27/$30 ($85+ vip) 7pm/8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.15.html"
     },
     {
@@ -11441,6 +11519,33 @@
       "artists": "Pokey LaFarge, Cicada Rhythm",
       "details": "21+ $46.36 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.16.html"
+    },
+    {
+      "date": "2026-12-16",
+      "day": "Wed Dec 16",
+      "venue": "Bimbo's 365 Club",
+      "city": "San Francisco",
+      "artists": "Pokey LaFarge, Cicada Rhythm",
+      "details": "21+ $46.36 7pm/8pm [ Jun 22 - Jun 28 | Jun 29 - Jul 5 | Jul 6 - Jul 12 | Jul 13 - Jul 19 | Jul 20 - Jul 26 | Jul 27 - Aug 2 | Aug 3 - Aug 9 | Aug 10 - Aug 16 | Aug 17 - Aug 23 | Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html"
+    },
+    {
+      "date": "2026-12-16",
+      "day": "Wed Dec 16",
+      "venue": "Bimbo's 365 Club",
+      "city": "San Francisco",
+      "artists": "Pokey LaFarge, Cicada Rhythm",
+      "details": "21+ $46.36 7pm/8pm [ Jun 8 - Jun 14 | Jun 15 - Jun 21 | Jun 22 - Jun 28 | Jun 29 - Jul 5 | Jul 6 - Jul 12 | Jul 13 - Jul 19 | Jul 20 - Jul 26 | Jul 27 - Aug 2 | Aug 3 - Aug 9 | Aug 10 - Aug 16 | Aug 17 - Aug 23 | Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20",
+      "source": "http://www.foopee.com/punk/the-list/by-date.27.html"
+    },
+    {
+      "date": "2026-12-16",
+      "day": "Wed Dec 16",
+      "venue": "Bimbo's 365 Club",
+      "city": "San Francisco",
+      "artists": "Pokey LaFarge, Cicada Rhythm",
+      "details": "21+ $46.36 7pm/8pm [ May 25 - May 31 | Jun 1 - Jun 7 | Jun 8 - Jun 14 | Jun 15 - Jun 21 | Jun 22 - Jun 28 | Jun 29 - Jul 5 | Jul 6 - Jul 12 | Jul 13 - Jul 19 | Jul 20 - Jul 26 | Jul 27 - Aug 2 | Aug 3 - Aug 9 | Aug 10 - Aug 16 | Aug 17 - Aug 23 | Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Jan 4 - Jan 10",
+      "source": "http://www.foopee.com/punk/the-list/by-date.29.html"
     },
     {
       "date": "2026-12-18",
@@ -11490,6 +11595,51 @@
     {
       "date": "2026-12-19",
       "day": "Sat Dec 19",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "artists": "Ali Siddiq",
+      "details": "a/a $63+ 7pm/8pm # (seated) [ Jul 13 - Jul 19 | Jul 20 - Jul 26 | Jul 27 - Aug 2 | Aug 3 - Aug 9 | Aug 10 - Aug 16 | Aug 17 - Aug 23 | Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | AUG 4 - AUG 4",
+      "source": "http://www.foopee.com/punk/the-list/by-date.22.html"
+    },
+    {
+      "date": "2026-12-19",
+      "day": "Sat Dec 19",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "artists": "Ali Siddiq",
+      "details": "a/a $63+ 7pm/8pm # (seated) [ Jul 27 - Aug 2 | Aug 3 - Aug 9 | Aug 10 - Aug 16 | Aug 17 - Aug 23 | Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | AUG 4 - AUG 4",
+      "source": "http://www.foopee.com/punk/the-list/by-date.21.html"
+    },
+    {
+      "date": "2026-12-19",
+      "day": "Sat Dec 19",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "artists": "Ali Siddiq",
+      "details": "a/a 8pm # (seated) [ Jul 13 - Jul 19 | Jul 20 - Jul 26 | Jul 27 - Aug 2 | Aug 3 - Aug 9 | Aug 10 - Aug 16 | Aug 17 - Aug 23 | Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | AUG 4 - AUG 4",
+      "source": "http://www.foopee.com/punk/the-list/by-date.23.html"
+    },
+    {
+      "date": "2026-12-19",
+      "day": "Sat Dec 19",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "artists": "Ali Siddiq",
+      "details": "a/a 8pm # (seated) [ Jul 6 - Jul 12 | Jul 13 - Jul 19 | Jul 20 - Jul 26 | Jul 27 - Aug 2 | Aug 3 - Aug 9 | Aug 10 - Aug 16 | Aug 17 - Aug 23 | Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | AUG 4 - AUG 4",
+      "source": "http://www.foopee.com/punk/the-list/by-date.24.html"
+    },
+    {
+      "date": "2026-12-19",
+      "day": "Sat Dec 19",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "artists": "Ali Siddiq",
+      "details": "a/a 8pm # (seated) [ Jun 22 - Jun 28 | Jun 29 - Jul 5 | Jul 6 - Jul 12 | Jul 13 - Jul 19 | Jul 20 - Jul 26 | Jul 27 - Aug 2 | Aug 3 - Aug 9 | Aug 10 - Aug 16 | Aug 17 - Aug 23 | Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20",
+      "source": "http://www.foopee.com/punk/the-list/by-date.25.html"
+    },
+    {
+      "date": "2026-12-19",
+      "day": "Sat Dec 19",
       "venue": "Hopmonk",
       "city": "Novato",
       "artists": "Crying Uncle Bluegrass Band",
@@ -11517,10 +11667,19 @@
     {
       "date": "2026-12-20",
       "day": "Sun Dec 20",
+      "venue": "Ritz",
+      "city": "San Jose",
+      "artists": "Set Your Goals, I Am The Avalance, Doomsday, Bad World, Giveaway",
+      "details": "a/a $35.98 6pm @ [ Aug 3 - Aug 9 | Aug 10 - Aug 16 | Aug 17 - Aug 23 | Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Aug 2 - AUG 4",
+      "source": "http://www.foopee.com/punk/the-list/by-date.20.html"
+    },
+    {
+      "date": "2026-12-20",
+      "day": "Sun Dec 20",
       "venue": "Uptown Theater",
       "city": "Napa",
       "artists": "A John Prine Christmas, Jenner Fox Band",
-      "details": "12+ (under 16 with adult) 7pm/8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "12+ (under 16 with adult) 7pm/8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.16.html"
     },
     {
@@ -11538,7 +11697,7 @@
       "venue": "Great American Music Hall",
       "city": "San Francisco",
       "artists": "Jerry's Middle Finger",
-      "details": "a/a $34/$37 7pm/8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "a/a $34/$37 7pm/8pm [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.17.html"
     },
     {
@@ -11547,8 +11706,17 @@
       "venue": "UC Theater",
       "city": "Berkeley",
       "artists": "Steel Plulse",
-      "details": "a/a $92.06+ 8pm/9pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3 ] [ Top of The List | Graham Spencer ] var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-2878610-1\"); pageTracker._trackPageview(); } catch(err) {}",
+      "details": "a/a $92.06+ 8pm/9pm # [ Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Dec 21 - Dec 27 | Dec 28 - Jan 3",
       "source": "http://www.foopee.com/punk/the-list/by-date.18.html"
+    },
+    {
+      "date": "2027-01-04",
+      "day": "Mon Jan 4",
+      "venue": "Blue Laggon",
+      "city": "Santa Cruz",
+      "artists": "Apricot Court, Pet Mosquito, Clit Flicker",
+      "details": "21+ $10 9pm [ May 25 - May 31 | Jun 1 - Jun 7 | Jun 8 - Jun 14 | Jun 15 - Jun 21 | Jun 22 - Jun 28 | Jun 29 - Jul 5 | Jul 6 - Jul 12 | Jul 13 - Jul 19 | Jul 20 - Jul 26 | Jul 27 - Aug 2 | Aug 3 - Aug 9 | Aug 10 - Aug 16 | Aug 17 - Aug 23 | Aug 24 - Aug 30 | Aug 31 - Sep 6 | Sep 7 - Sep 13 | Sep 14 - Sep 20 | Sep 21 - Sep 27 | Sep 28 - Oct 4 | Oct 5 - Oct 11 | Oct 12 - Oct 18 | Oct 19 - Oct 25 | Oct 26 - Nov 1 | Nov 2 - Nov 8 | Nov 9 - Nov 15 | Nov 16 - Nov 22 | Nov 23 - Nov 29 | Nov 30 - Dec 6 | Dec 7 - Dec 13 | Dec 14 - Dec 20 | Jan 4 - Jan 10",
+      "source": "http://www.foopee.com/punk/the-list/by-date.32.html"
     }
   ]
 }
