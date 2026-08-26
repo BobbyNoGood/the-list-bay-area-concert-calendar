@@ -2,7 +2,12 @@ name: Update Foopee concert calendar
 
 on:
   workflow_dispatch:
+
   schedule:
+    # GitHub cron uses UTC.
+    # These two runs cover 9 AM Pacific during PST and PDT.
+    # The Pacific-time check below makes sure only the actual
+    # 9 AM run performs the update.
     - cron: "0 16 * * 1"
     - cron: "0 17 * * 1"
 
@@ -26,6 +31,7 @@ jobs:
         run: |
           HOUR=$(TZ=America/Los_Angeles date +%H)
           DAY=$(TZ=America/Los_Angeles date +%u)
+
           if [ "$HOUR" = "09" ] && [ "$DAY" = "1" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
@@ -47,8 +53,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add events.json
+
           if ! git diff --cached --quiet; then
             git commit -m "Update Foopee concert calendar"
             git push
+          else
+            echo "No event changes to commit."
           fi
