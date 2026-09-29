@@ -2,14 +2,8 @@ name: Update Foopee concert calendar
 
 on:
   workflow_dispatch:
-
   schedule:
-    # GitHub cron uses UTC.
-    # These two runs cover 9 AM Pacific during PST and PDT.
-    # The Pacific-time check below makes sure only the actual
-    # 9 AM run performs the update.
-    - cron: "0 16 * * 1"
-    - cron: "0 17 * * 1"
+    - cron: "17 15 * * *"
 
 permissions:
   contents: write
@@ -26,30 +20,15 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Check Pacific time
-        id: pacific
-        run: |
-          HOUR=$(TZ=America/Los_Angeles date +%H)
-          DAY=$(TZ=America/Los_Angeles date +%u)
-
-          if [ "$HOUR" = "09" ] && [ "$DAY" = "1" ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "run=false" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Set up Python
-        if: steps.pacific.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Update calendar
-        if: steps.pacific.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
         run: python update_calendar.py
 
       - name: Commit updated events
-        if: steps.pacific.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
