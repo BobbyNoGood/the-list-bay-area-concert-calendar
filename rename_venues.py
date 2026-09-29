@@ -56,6 +56,23 @@ def make_link(e, sites):
     return "https://www.google.com/search?q=" + quote_plus(q)
 
 
+def patch_index():
+    """Make the show cards use each show's own link (done once, safe to repeat)."""
+    try:
+        h = open("index.html", encoding="utf-8").read()
+    except OSError:
+        return "index.html not found"
+    if "event.link||" in h:
+        return "already patched"
+    new, n = re.subn(r"venueURL\(\s*event\.venue\s*\)",
+                     "(event.link||venueURL(event.venue))", h)
+    if n != 1:
+        return "NOT patched (expected 1 spot, found %d)" % n
+    new = new.replace('"Official venue \u2197"', '"Find this show \u2197"')
+    open("index.html", "w", encoding="utf-8").write(new)
+    return "patched"
+
+
 def main():
     data = json.load(open("events.json", encoding="utf-8"))
     sites = venue_sites()
@@ -78,6 +95,7 @@ def main():
                 f.write("NOT FOUND (no shows right now): %s\n" % k)
     except OSError:
         pass
+    print("index.html:", patch_index())
     print("rename_venues: renamed %d shows, links on %d shows" % (
         sum(used.values()), len(data["events"])))
 
