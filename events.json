@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2026-09-29 03:37 PM PT",
-    "event_count": 1058,
+    "updated_at": "2026-09-29 04:04 PM PT",
+    "event_count": 1057,
     "week_count": 16,
     "weeks": [
       {
@@ -438,10 +438,10 @@
     {
       "date": "2026-09-29",
       "day": "Tue Sep 29",
-      "venue": "Warfield,",
-      "city": "",
+      "venue": "Warfield",
+      "city": "San Francisco",
       "artists": "CANCELLED: Badbadnotgood, Digable Planets, dj Wonway Posibul, Rozzi",
-      "details": "S.F.",
+      "details": "",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html"
     },
     {
@@ -591,11 +591,12 @@
     {
       "date": "2026-09-30",
       "day": "Wed Sep 30",
-      "venue": "Music Hall, 1030 Main St",
+      "venue": "Music Hall",
       "city": "Napa",
       "artists": "Bella White",
       "details": "6+ (under 16 with adult) $36+ 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "address": "1030 Main St"
     },
     {
       "date": "2026-09-30",
@@ -834,7 +835,7 @@
     {
       "date": "2026-10-01",
       "day": "Thu Oct 1",
-      "venue": "Shoreline Theater",
+      "venue": "Shoreline Amphitheater",
       "city": "Mountain View",
       "artists": "Suicideboys, Shoreline Mafia, Shakewell, Drain, Black Kray, Slim Gucci",
       "details": "a/a $67.20+ 5pm/6:30pm #",
@@ -924,10 +925,10 @@
     {
       "date": "2026-10-02",
       "day": "Fri Oct 2",
-      "venue": "Castro,",
-      "city": "",
+      "venue": "Castro",
+      "city": "San Francisco",
       "artists": "Michelle Branch",
-      "details": "a/a S.F. 7pm/8pm # (sold out)",
+      "details": "a/a 7pm/8pm # (sold out)",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html"
     },
     {
@@ -978,11 +979,12 @@
     {
       "date": "2026-10-02",
       "day": "Fri Oct 2",
-      "venue": "Feinstein's at the Nikko, 222 Mason Street",
+      "venue": "Feinstein's at the Nikko",
       "city": "San Francisco",
       "artists": "John Hill",
       "details": "18+ $33.72+ 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "address": "222 Mason Street"
     },
     {
       "date": "2026-10-02",
@@ -1068,11 +1070,12 @@
     {
       "date": "2026-10-02",
       "day": "Fri Oct 2",
-      "venue": "Lake Cunningham Skate Park, 2305 South White Road",
+      "venue": "Lake Cunningham Skate Park",
       "city": "San Jose",
       "artists": "Knights Of Molino",
       "details": "a/a",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "address": "2305 South White Road"
     },
     {
       "date": "2026-10-02",
@@ -1329,11 +1332,12 @@
     {
       "date": "2026-10-03",
       "day": "Sat Oct 3",
-      "venue": "Irelands 32, 3920 Geary Blvd. at 3rd Ave.",
+      "venue": "Irelands 32",
       "city": "San Francisco",
       "artists": "Calico Moon, Greyhound Playboys, Janky Band, Low Bate",
       "details": "21+ free 6pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "address": "3920 Geary Blvd. at 3rd Ave."
     },
     {
       "date": "2026-10-03",
@@ -1410,11 +1414,12 @@
     {
       "date": "2026-10-03",
       "day": "Sat Oct 3",
-      "venue": "Rain Dog Records, 1010 Petaluma Blvd. N",
+      "venue": "Rain Dog Records",
       "city": "Petaluma",
       "artists": "Freak Accident, Crash Outfit, Erik Core",
       "details": "a/a $10 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "address": "1010 Petaluma Blvd. N"
     },
     {
       "date": "2026-10-03",
@@ -1482,11 +1487,12 @@
     {
       "date": "2026-10-03",
       "day": "Sat Oct 3",
-      "venue": "Tamper Room, 43737 Boscell Road",
+      "venue": "Tamper Room",
       "city": "Fremont",
       "artists": "Food Coma, Petty Tactic, Aimai Mirai",
       "details": "a/a $20/$25/$30 7:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "address": "43737 Boscell Road"
     },
     {
       "date": "2026-10-03",
@@ -1536,11 +1542,12 @@
     {
       "date": "2026-10-03",
       "day": "Sat Oct 3",
-      "venue": "Waterhawk Lake Club, 5000 Roberts Lake Rd.",
+      "venue": "Waterhawk Lake Club",
       "city": "Rohnert Park",
       "artists": "Adrian West Band",
       "details": "?/? free 4pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "address": "5000 Roberts Lake Rd."
     },
     {
       "date": "2026-10-04",
@@ -1626,7 +1633,7 @@
     {
       "date": "2026-10-04",
       "day": "Sun Oct 4",
-      "venue": "Hardly Strictly Bluegrass, Golden Gate Park",
+      "venue": "Hardly Strictly Bluegrass at Golden Gate Park",
       "city": "San Francisco",
       "artists": "Flatlanders And Friends, Cristina Vane, Darrell Scott String Band w/ Rob Ickes, Dean Johnson, Dry Branch F. Ron Thomason & Friends, El Khat, Emmylou Harris, Grace Cummings, Hiss Golden Messenger, Jesse Welles, Joel Ben Izzy, Kam Franklin, Langford, Hogan & Timms, Marco and the Polos with Hills to Hollers, Miko Marks, Punch Brothers, ?Qiensave?, Rahim AlHaj, Record Company, Steve Poltz, Theo Lawrence, Third Mind, Tift Merritt, Willy Tea Taylor, Yasmin Williams & William Tyler",
       "details": "a/a free",
@@ -1689,11 +1696,12 @@
     {
       "date": "2026-10-04",
       "day": "Sun Oct 4",
-      "venue": "Palace of Fine Arts, 3301 Lyon Street",
+      "venue": "Palace of Fine Arts",
       "city": "San Francisco",
       "artists": "Yasmin Levy",
       "details": "a/a $105-$64.48 7pm/8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "address": "3301 Lyon Street"
     },
     {
       "date": "2026-10-04",
@@ -1788,11 +1796,12 @@
     {
       "date": "2026-10-05",
       "day": "Mon Oct 5",
-      "venue": "FML Studio, 2400 Filbert Street",
+      "venue": "FML Studio",
       "city": "Oakland",
       "artists": "Ingrata, Ursula, Kind, Rob The Dead, Streetsweeper",
       "details": "a/a $15 6:30pm/7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.1.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "address": "2400 Filbert Street"
     },
     {
       "date": "2026-10-05",
@@ -2229,7 +2238,7 @@
     {
       "date": "2026-10-08",
       "day": "Thu Oct 8",
-      "venue": "Hopmonk",
+      "venue": "Hopmonk Tavern",
       "city": "Novato",
       "artists": "Toad The Wet Sprocket, Willy Porter",
       "details": "a/a 6pm",
@@ -2265,7 +2274,7 @@
     {
       "date": "2026-10-08",
       "day": "Thu Oct 8",
-      "venue": "San Jose Civic Center",
+      "venue": "San Jose Civic",
       "city": "San Jose",
       "artists": "Living Tombstone",
       "details": "5+ 7pm/8pm #",
@@ -2310,11 +2319,12 @@
     {
       "date": "2026-10-09",
       "day": "Fri Oct 9",
-      "venue": "Barrel Proof Lounge, 501 Mendocino Avenue",
+      "venue": "Barrel Proof Lounge",
       "city": "Santa Rosa",
       "artists": "Fatale, Menstral Tramps, Damage Party, Hell Bound Pound, Titus Androgynous (drag show), dj Armagidon, mc Big Tractor, vendors",
       "details": "a/a $50-$10 (Benefit Sonoma County Acts of Kindness)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.1.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "address": "501 Mendocino Avenue"
     },
     {
       "date": "2026-10-09",
@@ -2392,7 +2402,7 @@
       "date": "2026-10-09",
       "day": "Fri Oct 9",
       "venue": "Frost Amphitheater",
-      "city": "Stanford Campus",
+      "city": "Stanford",
       "artists": "Slightly Stoopid, Elovaters, Hip Abduction, Denm",
       "details": "a/a $102.09 4pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html"
@@ -2580,11 +2590,12 @@
     {
       "date": "2026-10-10",
       "day": "Sat Oct 10",
-      "venue": "Bay Area Makers Farm, 2700 Barbers Point Rd,",
+      "venue": "Bay Area Makers Farm",
       "city": "",
       "artists": "Unwoman, Hare And Arrow, Brassica a/a $20 8pm",
       "details": "Alameda",
-      "source": "http://www.foopee.com/punk/the-list/by-date.1.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "address": "2700 Barbers Point Rd"
     },
     {
       "date": "2026-10-10",
@@ -2625,11 +2636,12 @@
     {
       "date": "2026-10-10",
       "day": "Sat Oct 10",
-      "venue": "Civic, 135 San Carlos St.",
+      "venue": "San Jose Civic",
       "city": "San Jose",
       "artists": "Movements, Balance And Composure, Midrift, Niis",
       "details": "a/a $55.06 6:30pm/7:30pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.1.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "address": "135 San Carlos St."
     },
     {
       "date": "2026-10-10",
@@ -2653,7 +2665,7 @@
       "date": "2026-10-10",
       "day": "Sat Oct 10",
       "venue": "Frost Amphitheater",
-      "city": "Stanford Campus",
+      "city": "Stanford",
       "artists": "Taking Back Sunday, Thrice, Saves The Day",
       "details": "a/a 6pm/7pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html"
@@ -2661,7 +2673,7 @@
     {
       "date": "2026-10-10",
       "day": "Sat Oct 10",
-      "venue": "Hopmonk",
+      "venue": "Hopmonk Tavern",
       "city": "Sebastopol",
       "artists": "Gill Brothers Band, Joshua James Jackson, Graham Farrow Knibb",
       "details": "21+ $20.17 7pm/8pm",
@@ -2742,11 +2754,12 @@
     {
       "date": "2026-10-10",
       "day": "Sat Oct 10",
-      "venue": "New Farm, 10 Cargo Way",
+      "venue": "New Farm",
       "city": "San Francisco",
       "artists": "Voice Of The Soul, Humma Kavula, Successor, God's Outlaw",
       "details": "a/a $10 6pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.1.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "address": "10 Cargo Way"
     },
     {
       "date": "2026-10-10",
@@ -2769,11 +2782,12 @@
     {
       "date": "2026-10-10",
       "day": "Sat Oct 10",
-      "venue": "Point San Pablo Harbor, 1900 Stenmark Drive",
+      "venue": "Point San Pablo Harbor",
       "city": "Richmond",
       "artists": "Tune-Yards, Foxtails Brigade, Gabby La La",
       "details": "a/a $44.52 6pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.1.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "address": "1900 Stenmark Drive"
     },
     {
       "date": "2026-10-10",
@@ -2796,11 +2810,12 @@
     {
       "date": "2026-10-10",
       "day": "Sat Oct 10",
-      "venue": "SF Building Resources, 701 Amador Street",
+      "venue": "SF Building Resources",
       "city": "San Francisco",
       "artists": "Bite, Hammerbombs, Middle-Aged Queers",
       "details": "a/a free noon til 3pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.1.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "address": "701 Amador Street"
     },
     {
       "date": "2026-10-10",
@@ -2850,11 +2865,12 @@
     {
       "date": "2026-10-10",
       "day": "Sat Oct 10",
-      "venue": "Webster Park, 1435 Webster Steet",
-      "city": "Alamdeda",
+      "venue": "Webster Park",
+      "city": "Alameda",
       "artists": "Year 001, Glow Scut, Spider Garage, Ursula & The Low Tide, Silberloom, Last Minet",
       "details": "a/a free 3:30pm (lotfest)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.1.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "address": "1435 Webster Steet"
     },
     {
       "date": "2026-10-11",
@@ -2994,7 +3010,7 @@
     {
       "date": "2026-10-11",
       "day": "Sun Oct 11",
-      "venue": "Warriors Stadiom",
+      "venue": "Warriors Stadium",
       "city": "San Francisco",
       "artists": "Chayanne",
       "details": "a/a $72+ 6pm/7pm #",
@@ -3129,11 +3145,12 @@
     {
       "date": "2026-10-13",
       "day": "Tue Oct 13",
-      "venue": "Junction, 3901 Montgomery Drive",
+      "venue": "Junction",
       "city": "Santa Rosa",
       "artists": "Floozies, Kaipora",
       "details": "?/? $32 6pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.2.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "address": "3901 Montgomery Drive"
     },
     {
       "date": "2026-10-13",
@@ -3282,11 +3299,12 @@
     {
       "date": "2026-10-15",
       "day": "Thu Oct 15",
-      "venue": "Alliance Francaise, 1345 Bush Street",
+      "venue": "Alliance Francaise",
       "city": "San Francisco",
       "artists": "Isabelle Durin And Michael Ertzscheid",
       "details": "a/a $20 6pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.2.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "address": "1345 Bush Street"
     },
     {
       "date": "2026-10-15",
@@ -3336,11 +3354,12 @@
     {
       "date": "2026-10-15",
       "day": "Thu Oct 15",
-      "venue": "Felton Music Hall, 6275 Hwy 9",
+      "venue": "Felton Music Hall",
       "city": "Felton",
       "artists": "Bumpin Uglies, Pacific Roots, Artikal Sound ?System",
       "details": "21+ $34.12 9pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.2.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "address": "6275 Hwy 9"
     },
     {
       "date": "2026-10-15",
@@ -3363,7 +3382,7 @@
     {
       "date": "2026-10-15",
       "day": "Thu Oct 15",
-      "venue": "Hopmonk",
+      "venue": "Hopmonk Tavern",
       "city": "Sebastopol",
       "artists": "Sister Sadie",
       "details": "21+ $24.87 7pm/8pm",
@@ -3508,7 +3527,7 @@
       "date": "2026-10-16",
       "day": "Fri Oct 16",
       "venue": "Cow Palace",
-      "city": "Daily City",
+      "city": "Daly City",
       "artists": "Dom Dolla",
       "details": "18+ 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html"
@@ -3714,11 +3733,12 @@
     {
       "date": "2026-10-17",
       "day": "Sat Oct 17",
-      "venue": "Apple Jacks Bar, 8790 La Honda Road",
+      "venue": "Apple Jacks Bar",
       "city": "La Honda",
       "artists": "Bernal Equinox, Richard Tripps, Indianna Hale And The Dust Collector, Pranks, Crop Top, John Turkey's Nightmares, George Jr. And The 9/11s, Cowboy Beauty Queen",
       "details": "a/a free 12pm-8pm (Strange And Terrible Music Fest)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.2.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "address": "8790 La Honda Road"
     },
     {
       "date": "2026-10-17",
@@ -3966,11 +3986,12 @@
     {
       "date": "2026-10-17",
       "day": "Sat Oct 17",
-      "venue": "Webster Park, 1435 Webster Steet",
-      "city": "Alamdeda",
+      "venue": "Webster Park",
+      "city": "Alameda",
       "artists": "Shreds, Starstrut, Wonderland Rejects, Girls Like Knives, Three Reefs Deep, Punked Out Pretty, Nineteens, Stratospheres, Joyce Lee & The Misfits",
       "details": "a/a free 2pm til 8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.2.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "address": "1435 Webster Steet"
     },
     {
       "date": "2026-10-17",
@@ -3985,7 +4006,7 @@
       "date": "2026-10-18",
       "day": "Sun Oct 18",
       "venue": "924 Gilman Street",
-      "city": "San Francisco",
+      "city": "Berkeley",
       "artists": "WizardFest",
       "details": "a/a noon",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html"
@@ -4057,7 +4078,7 @@
       "date": "2026-10-18",
       "day": "Sun Oct 18",
       "venue": "Frost Amphitheater",
-      "city": "Stanford University",
+      "city": "Stanford",
       "artists": "Muna, Hemlocke Springs",
       "details": "a/a 6pm/7pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html"
@@ -4083,7 +4104,7 @@
     {
       "date": "2026-10-18",
       "day": "Sun Oct 18",
-      "venue": "Hopmonk",
+      "venue": "Hopmonk Tavern",
       "city": "Novato",
       "artists": "Sam Chase Trio",
       "details": "a/a $26.94 2pm/3pm",
@@ -4092,7 +4113,7 @@
     {
       "date": "2026-10-18",
       "day": "Sun Oct 18",
-      "venue": "Hotel Utah Saloon",
+      "venue": "Hotel Utah",
       "city": "San Francisco",
       "artists": "Scam Likely, Wrathlos, Side Tangent, Pole Smoker",
       "details": "21+ $12/$15 3pm",
@@ -4137,11 +4158,12 @@
     {
       "date": "2026-10-18",
       "day": "Sun Oct 18",
-      "venue": "Knot Club, 1900 Stenmark Drive",
+      "venue": "Knot Club",
       "city": "Richmond",
       "artists": "Rainbow Girls",
       "details": "21+ $50 6pm/7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.2.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "address": "1900 Stenmark Drive"
     },
     {
       "date": "2026-10-18",
@@ -4246,7 +4268,7 @@
       "date": "2026-10-19",
       "day": "Mon Oct 19",
       "venue": "Guild Theater",
-      "city": "Memlo Park",
+      "city": "Menlo Park",
       "artists": "Dinosaur Jr, Stef Chura",
       "details": "a/a (under 18 with adult) $46+ 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html"
@@ -4254,7 +4276,7 @@
     {
       "date": "2026-10-19",
       "day": "Mon Oct 19",
-      "venue": "Hopmonk",
+      "venue": "Hopmonk Tavern",
       "city": "Sebastopol",
       "artists": "Olive Klug",
       "details": "a/a $26.94 7pm/8pm (seated)",
@@ -4479,7 +4501,7 @@
     {
       "date": "2026-10-21",
       "day": "Wed Oct 21",
-      "venue": "Neck Of The Woods",
+      "venue": "Neck of the Woods",
       "city": "San Francisco",
       "artists": "Big Ass Truck, Chamber, Mugshot, Load The Nine, Dawg Fight",
       "details": "a/a $17/$20 7pm",
@@ -4570,7 +4592,7 @@
       "date": "2026-10-22",
       "day": "Thu Oct 22",
       "venue": "Guild Theater",
-      "city": "Memlo Park",
+      "city": "Menlo Park",
       "artists": "Steely Dead",
       "details": "a/a (under 18 with adult) $46+ 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html"
@@ -4578,7 +4600,7 @@
     {
       "date": "2026-10-22",
       "day": "Thu Oct 22",
-      "venue": "Hopmonk",
+      "venue": "Hopmonk Tavern",
       "city": "Sebastopol",
       "artists": "Analog Dog",
       "details": "21+ $26.94 7pm/8pm",
@@ -4921,7 +4943,7 @@
       "date": "2026-10-24",
       "day": "Sat Oct 24",
       "venue": "Cow Palace",
-      "city": "Daily City",
+      "city": "Daly City",
       "artists": "Sofi Tuckker, Drama, Kito",
       "details": "18+ $68 ($484/$202 vip) 8pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html"
@@ -4957,7 +4979,7 @@
       "date": "2026-10-24",
       "day": "Sat Oct 24",
       "venue": "Faction Brewing",
-      "city": "Alamea",
+      "city": "Alameda",
       "artists": "Slacktone, Soraia, Balzac (tribute), Greasy Gills, Seismics, Ultra Sounds, rock'n roll flea market",
       "details": "a/a $5 10am til 6pm (Rock n Roll Flea Market)",
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html"
@@ -4983,11 +5005,12 @@
     {
       "date": "2026-10-24",
       "day": "Sat Oct 24",
-      "venue": "Gilman Brewing, 912 Gilman Street",
+      "venue": "Gilman Brewing",
       "city": "Berkeley",
       "artists": "dj Daniel Sant, Kevin Seconds, Russ Rankin",
       "details": "?/? 5pm til 9pm (Benefit for CAlifornia Bully Dog Rescue)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.3.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
+      "address": "912 Gilman Street"
     },
     {
       "date": "2026-10-24",
@@ -5064,11 +5087,12 @@
     {
       "date": "2026-10-24",
       "day": "Sat Oct 24",
-      "venue": "Noble Cinema Studios, 1509 Solano Avenue",
+      "venue": "Noble Cinema Studios",
       "city": "Vallejo",
       "artists": "Shark In The Water, Knights Of Molino",
       "details": "a/a noon",
-      "source": "http://www.foopee.com/punk/the-list/by-date.3.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
+      "address": "1509 Solano Avenue"
     },
     {
       "date": "2026-10-24",
@@ -5568,7 +5592,7 @@
     {
       "date": "2026-10-29",
       "day": "Thu Oct 29",
-      "venue": "Castro Theater",
+      "venue": "Castro",
       "city": "San Francisco",
       "artists": "Dadi Freyr, Briet",
       "details": "a/a 7pm/8pm #",
@@ -5874,11 +5898,12 @@
     {
       "date": "2026-10-30",
       "day": "Fri Oct 30",
-      "venue": "WonderStump, 301 Petaluma Blvd. N",
+      "venue": "WonderStump",
       "city": "Petaluma",
       "artists": "Pardon The Interruption",
       "details": "a/a $$22.50/25 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.4.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.4.html",
+      "address": "301 Petaluma Blvd. N"
     },
     {
       "date": "2026-10-31",
@@ -5929,7 +5954,7 @@
       "date": "2026-10-31",
       "day": "Sat Oct 31",
       "venue": "Cow Palace",
-      "city": "Daily City",
+      "city": "Daly City",
       "artists": "Knocked Loose, Denzel Curry, Superheaven, Boundaries",
       "details": "a/a $78+ 7pm # @",
       "source": "http://www.foopee.com/punk/the-list/by-date.4.html"
@@ -5956,7 +5981,7 @@
       "date": "2026-10-31",
       "day": "Sat Oct 31",
       "venue": "Guild Theater",
-      "city": "Memlo Park",
+      "city": "Menlo Park",
       "artists": "Stu Allen, Mars Hotel",
       "details": "a/a (under 18 with adult) $61+ 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.4.html"
@@ -6153,7 +6178,7 @@
     {
       "date": "2026-11-03",
       "day": "Tue Nov 3",
-      "venue": "Castro Theater",
+      "venue": "Castro",
       "city": "San Francisco",
       "artists": "Rebecca Black",
       "details": "a/a 7pm/8pm # (sold out)",
@@ -6243,7 +6268,7 @@
     {
       "date": "2026-11-04",
       "day": "Wed Nov 4",
-      "venue": "Hopmonk",
+      "venue": "Hopmonk Tavern",
       "city": "Sebastopol",
       "artists": "Sister Hazel",
       "details": "21+ 7pm/8pm",
@@ -6396,11 +6421,12 @@
     {
       "date": "2026-11-06",
       "day": "Fri Nov 6",
-      "venue": "19 Broadway, 17 Broadway Blvd.",
+      "venue": "19 Broadway",
       "city": "Fairfax",
       "artists": "Alvie & The Breakfast Pigs, Skip The Needle",
       "details": "21+ 8pm/9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.5.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.5.html",
+      "address": "17 Broadway Blvd."
     },
     {
       "date": "2026-11-06",
@@ -6432,7 +6458,7 @@
     {
       "date": "2026-11-06",
       "day": "Fri Nov 6",
-      "venue": "Castro Theater",
+      "venue": "Castro",
       "city": "San Francisco",
       "artists": "Syml (solo), Olivia Vedder",
       "details": "a/a $41+ 7pm/8pm #",
@@ -6702,7 +6728,7 @@
     {
       "date": "2026-11-07",
       "day": "Sat Nov 7",
-      "venue": "Shoreline Amptheater",
+      "venue": "Shoreline Amphitheater",
       "city": "Mountain View",
       "artists": "Dan + Shay, Tyler Hubbard, Josh Ross",
       "details": "a/a $133.50-$24.75 5:30pm/7pm",
@@ -6756,11 +6782,12 @@
     {
       "date": "2026-11-08",
       "day": "Sun Nov 8",
-      "venue": "Biscuits and Blues, 401 Mason Street",
+      "venue": "Biscuits and Blues",
       "city": "San Francisco",
       "artists": "Westerly",
       "details": "a/a 6:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.5.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.5.html",
+      "address": "401 Mason Street"
     },
     {
       "date": "2026-11-08",
@@ -6792,7 +6819,7 @@
     {
       "date": "2026-11-08",
       "day": "Sun Nov 8",
-      "venue": "Hopmonk",
+      "venue": "Hopmonk Tavern",
       "city": "Sebastopol",
       "artists": "Donavon Frankenreiter, Band Of Heathens",
       "details": "?/?",
@@ -6864,7 +6891,7 @@
     {
       "date": "2026-11-09",
       "day": "Mon Nov 9",
-      "venue": "Castro Theater",
+      "venue": "Castro",
       "city": "San Francisco",
       "artists": "Sienna Spiro, Summer Joy",
       "details": "a/a 7pm/8pm # (sold out)",
@@ -7324,7 +7351,7 @@
       "date": "2026-11-13",
       "day": "Fri Nov 13",
       "venue": "Cow Palace",
-      "city": "Daily City",
+      "city": "Daly City",
       "artists": "Sammy Virji, Sam Gellaitry, Saint Ludo",
       "details": "a/a 18+ 7pm/8pm # (ga floor wristbands first come first served)",
       "source": "http://www.foopee.com/punk/the-list/by-date.6.html"
@@ -7350,11 +7377,12 @@
     {
       "date": "2026-11-13",
       "day": "Fri Nov 13",
-      "venue": "Gilman Brewing Co., 912 Gilman Street",
+      "venue": "Gilman Brewing",
       "city": "Berkeley",
       "artists": "Charger (record release), Ancient Rage, Phantasmal Abyss",
       "details": "a/a $20/$25 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.6.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.6.html",
+      "address": "912 Gilman Street"
     },
     {
       "date": "2026-11-13",
@@ -7476,7 +7504,7 @@
     {
       "date": "2026-11-14",
       "day": "Sat Nov 14",
-      "venue": "924 Gilman",
+      "venue": "924 Gilman Street",
       "city": "Berkeley",
       "artists": "Clarion, Novulent",
       "details": "a/a $25/$30 6:30pm/7:30pm",
@@ -7548,7 +7576,7 @@
     {
       "date": "2026-11-14",
       "day": "Sat Nov 14",
-      "venue": "Civic Center",
+      "venue": "San Jose Civic",
       "city": "San Jose",
       "artists": "Rodrigo y Gabriela",
       "details": "a/a 7pm/8:15pm #",
@@ -7665,7 +7693,7 @@
     {
       "date": "2026-11-15",
       "day": "Sun Nov 15",
-      "venue": "Castro Theater",
+      "venue": "Castro",
       "city": "San Francisco",
       "artists": "Rodrigo y Gabriela",
       "details": "a/a $64.75 6pm/7pm #",
@@ -7953,7 +7981,7 @@
     {
       "date": "2026-11-18",
       "day": "Wed Nov 18",
-      "venue": "San Jose Civic Center",
+      "venue": "San Jose Civic",
       "city": "San Jose",
       "artists": "Alice Cooper",
       "details": "5+ $130.80-$72.05 8pm (seated)",
@@ -7971,7 +7999,7 @@
     {
       "date": "2026-11-19",
       "day": "Thu Nov 19",
-      "venue": "924 Gilman St.",
+      "venue": "924 Gilman Street",
       "city": "Berkeley",
       "artists": "Cycotic Youth, Terminally Ill, Blackout, Arph, Hell Bound Pound, Blunt Force Karma",
       "details": "a/a $12/$15 6pm/6:15pm @",
@@ -8142,11 +8170,12 @@
     {
       "date": "2026-11-20",
       "day": "Fri Nov 20",
-      "venue": "Fox Theater, 2215 Broadwa",
+      "venue": "Fox Theater",
       "city": "Redwood City",
       "artists": "Asim Azhar",
       "details": "21+ $55+ 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.7.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.7.html",
+      "address": "2215 Broadwa"
     },
     {
       "date": "2026-11-20",
@@ -8169,7 +8198,7 @@
     {
       "date": "2026-11-20",
       "day": "Fri Nov 20",
-      "venue": "Hopmonk",
+      "venue": "Hopmonk Tavern",
       "city": "Sebastopol",
       "artists": "Big Richard, Sam Reider",
       "details": "21+ 7pm/8pm",
@@ -8403,7 +8432,7 @@
     {
       "date": "2026-11-22",
       "day": "Sun Nov 22",
-      "venue": "Hopmonk",
+      "venue": "Hopmonk Tavern",
       "city": "Novato",
       "artists": "Boot Juice",
       "details": "a/a 5pm/6pm",
@@ -8700,7 +8729,7 @@
     {
       "date": "2026-11-29",
       "day": "Sun Nov 29",
-      "venue": "Henry J. Kaiser Center",
+      "venue": "Henry J Kaiser Center",
       "city": "Oakland",
       "artists": "Scott Bradlee's Postmodern Jukebox",
       "details": "a/a $74.75-$64.45 7pm/8pm #",
@@ -9033,7 +9062,7 @@
     {
       "date": "2026-12-06",
       "day": "Sun Dec 6",
-      "venue": "Castro Theater",
+      "venue": "Castro",
       "city": "San Francisco",
       "artists": "Film \"Repro Man\", Q&A with Alex Cox, Zander Schloss, Circle Jerks Keith Morris",
       "details": "a/a 6pm/7pm @",
@@ -9051,7 +9080,7 @@
     {
       "date": "2026-12-06",
       "day": "Sun Dec 6",
-      "venue": "Hopmonk",
+      "venue": "Hopmonk Tavern",
       "city": "Sebastopol",
       "artists": "Dragon Smoke, Tracorum",
       "details": "a/a 2:30pm/4pm",
@@ -9087,7 +9116,7 @@
     {
       "date": "2026-12-06",
       "day": "Sun Dec 6",
-      "venue": "San Jose Civic Center",
+      "venue": "San Jose Civic",
       "city": "San Jose",
       "artists": "Alicia Villarreal",
       "details": "5+ 8pm #",
@@ -9375,11 +9404,12 @@
     {
       "date": "2026-12-12",
       "day": "Sat Dec 12",
-      "venue": "Hub, 2650 Broadway",
+      "venue": "Hub",
       "city": "Redwood City",
       "artists": "B.F.H., Mokosos, Hell Bound Pound, Tehmodhjin",
       "details": "21+ $15 7pm/8pm @",
-      "source": "http://www.foopee.com/punk/the-list/by-date.10.html"
+      "source": "http://www.foopee.com/punk/the-list/by-date.10.html",
+      "address": "2650 Broadway"
     },
     {
       "date": "2026-12-12",
@@ -9627,15 +9657,6 @@
     {
       "date": "2026-12-19",
       "day": "Sat Dec 19",
-      "venue": "Fox Theater",
-      "city": "Oakland",
-      "artists": "Ali Siddiq",
-      "details": "a/a 8pm # (seated)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.24.html"
-    },
-    {
-      "date": "2026-12-19",
-      "day": "Sat Dec 19",
       "venue": "Great American Music Hall",
       "city": "San Francisco",
       "artists": "Mother Hips",
@@ -9645,7 +9666,7 @@
     {
       "date": "2026-12-19",
       "day": "Sat Dec 19",
-      "venue": "Hopmonk",
+      "venue": "Hopmonk Tavern",
       "city": "Novato",
       "artists": "Crying Uncle Bluegrass Band",
       "details": "a/a $3.57 ($43 seated) 6pm/7pm",
@@ -9798,7 +9819,7 @@
     {
       "date": "2027-01-04",
       "day": "Mon Jan 4",
-      "venue": "Blue Laggon",
+      "venue": "Blue Lagoon",
       "city": "Santa Cruz",
       "artists": "Apricot Court, Pet Mosquito, Clit Flicker",
       "details": "21+ $10 9pm",
