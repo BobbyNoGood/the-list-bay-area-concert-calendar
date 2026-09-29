@@ -2333,9 +2333,7 @@ function render(){
 
 
         const url=
-          venueURL(
-            event.venue
-          );
+          (event.link||venueURL(event.venue));
 
 
         const article=
@@ -2404,7 +2402,7 @@ function render(){
             ${
               url
               ?
-              "Official venue ↗"
+              "Find this show ↗"
               :
               ""
             }

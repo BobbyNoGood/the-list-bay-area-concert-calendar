@@ -1,4 +1,4 @@
-VENUE CLEANUP REPORT (data from 2026-09-29 04:04 PM PT)
+VENUE CLEANUP REPORT (data from 2026-09-29 04:32 PM PT)
 Shows: 1058 -> 1057   Venues: 140 -> 122
 
 == MERGED VENUES (16) ==
@@ -70,3 +70,18 @@ SAME NAME, DIFFERENT CITY: 'Fox Theater' (Oakland, 35 shows) vs 'Fox Theater' (R
 
 == VENUES WITH NO CITY ==
 Bay Area Makers Farm
+
+== RENAMES APPLIED (rename_venues.py) ==
+Arena|Oakland  ->  Oakland Arena (11 shows)
+Civic Auditorium|San Francisco  ->  SF Civic Auditorium (10 shows)
+Fox Theater|Oakland  ->  Fox Theater Oakland (34 shows)
+Fox Theater|Redwood City  ->  Fox Theater Redwood City (1 shows)
+Frost Amphitheater|Stanford  ->  Frost Amphitheater Stanford (3 shows)
+Independent|San Francisco  ->  SF Independent (47 shows)
+Masonic|San Francisco  ->  The Masonic (22 shows)
+Mountain Winery|Saratoga  ->  Saratoga Mountain Winery (13 shows)
+Music Hall|Napa  ->  Napa Music Hall (2 shows)
+Planetarium|Richmond  ->  Richmond Planetarium (3 shows)
+Quarry Amphitheater|Santa Cruz  ->  Quarry Amphitheater at UCSC (1 shows)
+San Jose Civic|San Jose  ->  San Jose Civic Center (5 shows)
+Warriors Stadium|San Francisco  ->  Chase Center (7 shows)
