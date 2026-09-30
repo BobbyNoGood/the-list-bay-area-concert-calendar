@@ -19,11 +19,57 @@ RENAMES = {
     "Independent|San Francisco": "SF Independent",
     "Masonic|San Francisco": "The Masonic",
     "Mountain Winery|Saratoga": "Saratoga Mountain Winery",
+    "Pavilion|Concord": "Concord Pavilion",
     "Music Hall|Napa": "Napa Music Hall",
     "Planetarium|Richmond": "Richmond Planetarium",
     "Quarry Amphitheater|Santa Cruz": "Quarry Amphitheater at UCSC",
     "San Jose Civic|San Jose": "San Jose Civic Center",
     "Warriors Stadium|San Francisco": "Chase Center",
+}
+
+# Official venue websites (the venue's own site, never a Ticketmaster page).
+EXTRA_SITES = {
+    "Fillmore": "thefillmore.com",
+    "Shoreline Amphitheater": "shorelineamphitheatre.com",
+    "Concord Pavilion": "concordpavilion.com",
+    "Castro": "castrotheatre.com",
+    "UC Theater": "uctheatre.net",
+    "The Masonic": "masonicsf.com",
+    "Knockout": "theknockoutsf.com",
+    "Uptown Theater": "uptowntheatrenapa.com",
+    "Hopmonk Tavern": "hopmonk.com",
+    "Catalyst": "catalystclub.com",
+    "Oakland Arena": "oaklandarena.com",
+    "SF Civic Auditorium": "billgrahamcivic.com",
+    "Stay Gold Deli": "staygolddeli.com",
+    "Neck of the Woods": "neckofthewoodssf.com",
+    "Cornerstone": "cornerstoneberkeley.com",
+    "Meritage Resort": "meritageresort.com",
+    "Moe's Alley": "moesalley.com",
+    "Rio Theatre": "riotheatre.com",
+    "Crepe Place": "crepeplace.com",
+    "Hotel Utah": "hotelutah.com",
+    "Cow Palace": "cowpalace.com",
+    "Palace of Fine Arts": "palaceoffinearts.com",
+    "Guild Theater": "guildtheatre.com",
+    "Eagle": "sf-eagle.com",
+    "Great Northern": "thegreatnorthernsf.com",
+    "Felton Music Hall": "feltonmusichall.com",
+    "Freight": "thefreight.org",
+    "Arlene Francis Center": "arlenefranciscenter.org",
+    "Paramount Theatre": "paramounttheatre.com",
+    "Black Cat": "blackcatsf.com",
+    "Feinstein's at the Nikko": "feinsteinssf.com",
+    "Gray Area": "grayarea.org",
+    "Kuumbwa Jazz Center": "kuumbwajazz.org",
+    "Mystic Theater": "mystictheatre.com",
+    "Biscuits and Blues": "biscuitsandblues.com",
+    "Gundlach Bundschu Winery": "gunbun.com",
+    "Faction Brewing": "factionbrewing.com",
+    "Lanesplitters Pizza": "lanesplitters.com",
+    "Hardly Strictly Bluegrass at Golden Gate Park": "hardlystrictly.com",
+    "Fox Theater Redwood City": "foxrwc.com",
+    "Fox Theater Oakland": "thefoxoakland.com",
 }
 
 
@@ -46,6 +92,9 @@ def make_link(e, sites):
     artists = re.sub(r"^\s*(CANCELLED|SOLD OUT)\s*:\s*", "", e.get("artists") or "", flags=re.I)
     headliner = artists.split(",")[0].split("(")[0].strip()
     venue, city = e.get("venue", ""), e.get("city", "")
+    if venue in EXTRA_SITES:
+        q = "!ducky %s %s site:%s" % (headliner, venue, EXTRA_SITES[venue])
+        return "https://duckduckgo.com/?q=" + quote_plus(q)
     for key, url in sites.items():
         if key.lower() in venue.lower():
             host = urlparse(url).netloc.replace("www.", "")
