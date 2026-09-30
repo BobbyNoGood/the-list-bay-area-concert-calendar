@@ -2114,7 +2114,7 @@ function render(){
 
           ||
 
-          JSON.stringify(event)
+          JSON.stringify({...event,link:0,id:0})
 
           .toLowerCase()
 
@@ -2244,21 +2244,7 @@ function render(){
 
   filtered
 
-  .sort(
-
-    (a,b)=>
-
-      a.date.localeCompare(
-        b.date
-      )
-
-      ||
-
-      a.venue.localeCompare(
-        b.venue
-      )
-
-  )
+  .sort(window.attendSort||((a,b)=>a.date.localeCompare(b.date)||a.venue.localeCompare(b.venue)))
 
   .forEach(
     event=>{
@@ -2266,24 +2252,18 @@ function render(){
 
       if(
 
-        !groups.has(
-          event.date
-        )
+        !groups.has(window.attendKey?window.attendKey(event):event.date)
 
       ){
 
-        groups.set(
-          event.date,
+        groups.set(window.attendKey?window.attendKey(event):event.date,
           []
         );
 
       }
 
 
-      groups
-      .get(
-        event.date
-      )
+      groups.get(window.attendKey?window.attendKey(event):event.date)
 
       .push(
         event
@@ -2316,7 +2296,7 @@ function render(){
       `<div class="dayhead">
 
         <h2>
-          ${esc(list[0].day)}
+          ${esc(window.attendHead?window.attendHead():list[0].day)}
         </h2>
 
         <span>
@@ -2379,7 +2359,7 @@ function render(){
 
             <div class="city">
               ${esc(event.city)}
-            </div>
+            </div>${window.attendBtn?window.attendBtn(event):''}
 
           </div>
 
@@ -2509,6 +2489,7 @@ load();
 </script>
 
 
+<script src="attend.js"></script>
 </body>
 
 </html>
