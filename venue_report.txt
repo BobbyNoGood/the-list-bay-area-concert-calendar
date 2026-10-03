@@ -1,11 +1,11 @@
-VENUE CLEANUP REPORT (data from 2026-10-02 12:56 PM PT)
-Shows: 1120 -> 1120   Venues: 143 -> 126
+VENUE CLEANUP REPORT (data from 2026-10-03 11:40 AM PT)
+Shows: 1173 -> 1173   Venues: 145 -> 128
 
 == MERGED VENUES (14) ==
 Shown as: KEPT NAME | city   <=   name that was folded into it
 924 Gilman Street | Berkeley   <=   924 Gilman (Berkeley, 1 shows)
       why: same name, only a generic word added (street)
-924 Gilman Street | Berkeley   <=   924 Gilman St (Berkeley, 1 shows)
+924 Gilman Street | Berkeley   <=   924 Gilman St (Berkeley, 2 shows)
       why: same name after fixing case/punctuation/St.-Street
 Castro | San Francisco   <=   Castro (no city, 1 shows)
       why: same name after fixing case/punctuation/St.-Street
@@ -19,7 +19,7 @@ Henry J Kaiser Center | Oakland   <=   Henry J. Kaiser Center (Oakland, 1 shows)
       why: same name after fixing case/punctuation/St.-Street
 Hopmonk | Novato   <=   Hopmonk Tavern (Novato, 13 shows)
       why: same name, only a generic word added (tavern)
-Hopmonk | Sebastopol   <=   Hopmonk Tavern (Sebastopol, 8 shows)
+Hopmonk | Sebastopol   <=   Hopmonk Tavern (Sebastopol, 7 shows)
       why: same name, only a generic word added (tavern)
 Hotel Utah | San Francisco   <=   Hotel Utah Saloon (San Francisco, 1 shows)
       why: same name, only a generic word added (saloon)
@@ -45,7 +45,6 @@ Stanford University -> Stanford
 == MANUAL ALIASES USED ==
 Civic Center|San Jose -> San Jose Civic
 Civic|San Jose -> San Jose Civic
-Shoreline Theater -> Shoreline Amphitheater
 
 == DUPLICATE SHOWS REMOVED (0) ==
 (none)
@@ -54,12 +53,12 @@ Shoreline Theater -> Shoreline Amphitheater
 If two of these are really the same place, add a line to MANUAL_ALIASES in venue_tools.py.
 CHECK: '924 Gilman Street and Gilman Brewery' (Berkeley, 1 shows) vs '924 Gilman and Gilman Brewing' (Berkeley, 1 shows) - names look similar (86% alike)
 CHECK: '924 Gilman Street and Gilman Brewery' (Berkeley, 1 shows) vs 'Gilman Brewing' (Berkeley, 2 shows) - one name is inside the other
-CHECK: '924 Gilman Street' (Berkeley, 19 shows) vs '924 Gilman Street and Gilman Brewery' (Berkeley, 1 shows) - one name is inside the other
-CHECK: '924 Gilman Street' (Berkeley, 19 shows) vs '924 Gilman and Gilman Brewing' (Berkeley, 1 shows) - one name is inside the other
-CHECK: '924 Gilman Street' (Berkeley, 19 shows) vs 'Gilman Brewing' (Berkeley, 2 shows) - one name is inside the other
+CHECK: '924 Gilman Street' (Berkeley, 21 shows) vs '924 Gilman Street and Gilman Brewery' (Berkeley, 1 shows) - one name is inside the other
+CHECK: '924 Gilman Street' (Berkeley, 21 shows) vs '924 Gilman and Gilman Brewing' (Berkeley, 1 shows) - one name is inside the other
+CHECK: '924 Gilman Street' (Berkeley, 21 shows) vs 'Gilman Brewing' (Berkeley, 2 shows) - one name is inside the other
 CHECK: '924 Gilman and Gilman Brewing' (Berkeley, 1 shows) vs 'Gilman Brewing' (Berkeley, 2 shows) - one name is inside the other
 CHECK: 'Above DNA Lounge' (San Francisco, 1 shows) vs 'DNA Lounge' (San Francisco, 5 shows) - one name is inside the other
-CHECK: 'Chapel' (San Francisco, 42 shows) vs 'Chapel Outdoor State' (San Francisco, 1 shows) - one name is inside the other
+CHECK: 'Chapel' (San Francisco, 44 shows) vs 'Chapel Outdoor State' (San Francisco, 1 shows) - one name is inside the other
 SAME NAME, DIFFERENT CITY: 'Fox Theater' (Oakland, 41 shows) vs 'Fox Theater' (Redwood City, 1 shows)
 
 == CITIES NOT ON THE KNOWN LIST (check spelling) ==
@@ -74,9 +73,9 @@ Civic Auditorium|San Francisco  ->  SF Civic Auditorium (10 shows)
 Fox Theater|Oakland  ->  Fox Theater Oakland (41 shows)
 Fox Theater|Redwood City  ->  Fox Theater Redwood City (1 shows)
 Frost Amphitheater|Stanford  ->  Frost Amphitheater Stanford (3 shows)
-Independent|San Francisco  ->  SF Independent (55 shows)
-Masonic|San Francisco  ->  The Masonic (22 shows)
-Mountain Winery|Saratoga  ->  Saratoga Mountain Winery (12 shows)
+Independent|San Francisco  ->  SF Independent (56 shows)
+Masonic|San Francisco  ->  The Masonic (21 shows)
+Mountain Winery|Saratoga  ->  Saratoga Mountain Winery (11 shows)
 Music Hall|Napa  ->  Napa Music Hall (1 shows)
 Pavilion|Concord  ->  Concord Pavilion (1 shows)
 Planetarium|Richmond  ->  Richmond Planetarium (3 shows)
