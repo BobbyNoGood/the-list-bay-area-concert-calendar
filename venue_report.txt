@@ -1,19 +1,15 @@
-VENUE CLEANUP REPORT (data from 2026-10-03 11:40 AM PT)
-Shows: 1173 -> 1173   Venues: 145 -> 128
+VENUE CLEANUP REPORT (data from 2026-10-04 11:37 AM PT)
+Shows: 1103 -> 1103   Venues: 132 -> 116
 
-== MERGED VENUES (14) ==
+== MERGED VENUES (12) ==
 Shown as: KEPT NAME | city   <=   name that was folded into it
 924 Gilman Street | Berkeley   <=   924 Gilman (Berkeley, 1 shows)
       why: same name, only a generic word added (street)
 924 Gilman Street | Berkeley   <=   924 Gilman St (Berkeley, 2 shows)
       why: same name after fixing case/punctuation/St.-Street
-Castro | San Francisco   <=   Castro (no city, 1 shows)
-      why: same name after fixing case/punctuation/St.-Street
 Castro | San Francisco   <=   Castro Theater (San Francisco, 6 shows)
       why: same name, only a generic word added (theater)
 Gilman Brewing | Berkeley   <=   Gilman Brewing Co (Berkeley, 1 shows)
-      why: same name after fixing case/punctuation/St.-Street
-Hardly Strictly Bluegrass at Golden Gate Park | San Francisco   <=   Hardly Strictly Bluegrass (San Francisco, 1 shows)
       why: same name after fixing case/punctuation/St.-Street
 Henry J Kaiser Center | Oakland   <=   Henry J. Kaiser Center (Oakland, 1 shows)
       why: same name after fixing case/punctuation/St.-Street
@@ -32,12 +28,13 @@ Shoreline Amphitheater | Mountain View   <=   Shoreline Amptheater (Mountain Vie
 Warriors Stadium | San Francisco   <=   Warriors Stadiom (San Francisco, 1 shows)
       why: spelling typo (94% alike)
 
-== CITY FIXES (15) ==
+== CITY FIXES (16) ==
 924 Gilman Street [2026-10-18]: San Francisco -> Berkeley (locked)
 Alamdeda -> Alameda (typo)
 Alamea -> Alameda (typo)
 Daily City -> Daly City (typo)
 Memlo Park -> Menlo Park (typo)
+San Josea -> San Jose (typo)
 Sebastorpl -> Sebastopol (typo)
 Stanford Campus -> Stanford
 Stanford University -> Stanford
@@ -53,29 +50,29 @@ Civic|San Jose -> San Jose Civic
 If two of these are really the same place, add a line to MANUAL_ALIASES in venue_tools.py.
 CHECK: '924 Gilman Street and Gilman Brewery' (Berkeley, 1 shows) vs '924 Gilman and Gilman Brewing' (Berkeley, 1 shows) - names look similar (86% alike)
 CHECK: '924 Gilman Street and Gilman Brewery' (Berkeley, 1 shows) vs 'Gilman Brewing' (Berkeley, 2 shows) - one name is inside the other
-CHECK: '924 Gilman Street' (Berkeley, 21 shows) vs '924 Gilman Street and Gilman Brewery' (Berkeley, 1 shows) - one name is inside the other
-CHECK: '924 Gilman Street' (Berkeley, 21 shows) vs '924 Gilman and Gilman Brewing' (Berkeley, 1 shows) - one name is inside the other
-CHECK: '924 Gilman Street' (Berkeley, 21 shows) vs 'Gilman Brewing' (Berkeley, 2 shows) - one name is inside the other
+CHECK: '924 Gilman Street' (Berkeley, 18 shows) vs '924 Gilman Street and Gilman Brewery' (Berkeley, 1 shows) - one name is inside the other
+CHECK: '924 Gilman Street' (Berkeley, 18 shows) vs '924 Gilman and Gilman Brewing' (Berkeley, 1 shows) - one name is inside the other
+CHECK: '924 Gilman Street' (Berkeley, 18 shows) vs 'Gilman Brewing' (Berkeley, 2 shows) - one name is inside the other
 CHECK: '924 Gilman and Gilman Brewing' (Berkeley, 1 shows) vs 'Gilman Brewing' (Berkeley, 2 shows) - one name is inside the other
-CHECK: 'Above DNA Lounge' (San Francisco, 1 shows) vs 'DNA Lounge' (San Francisco, 5 shows) - one name is inside the other
-CHECK: 'Chapel' (San Francisco, 44 shows) vs 'Chapel Outdoor State' (San Francisco, 1 shows) - one name is inside the other
-SAME NAME, DIFFERENT CITY: 'Fox Theater' (Oakland, 41 shows) vs 'Fox Theater' (Redwood City, 1 shows)
+CHECK: 'Above DNA Lounge' (San Francisco, 1 shows) vs 'DNA Lounge' (San Francisco, 4 shows) - one name is inside the other
+CHECK: 'Chapel' (San Francisco, 43 shows) vs 'Chapel Outdoor State' (San Francisco, 1 shows) - one name is inside the other
+SAME NAME, DIFFERENT CITY: 'Fox Theater' (Oakland, 39 shows) vs 'Fox Theater' (Redwood City, 1 shows)
 
 == CITIES NOT ON THE KNOWN LIST (check spelling) ==
-Bethel Island
+(none)
 
 == VENUES WITH NO CITY ==
 Bay Area Makers Farm, Lucca Bar
 
 == RENAMES APPLIED (rename_venues.py) ==
-Arena|Oakland  ->  Oakland Arena (11 shows)
-Civic Auditorium|San Francisco  ->  SF Civic Auditorium (10 shows)
-Fox Theater|Oakland  ->  Fox Theater Oakland (41 shows)
+Arena|Oakland  ->  Oakland Arena (9 shows)
+Civic Auditorium|San Francisco  ->  SF Civic Auditorium (9 shows)
+Fox Theater|Oakland  ->  Fox Theater Oakland (39 shows)
 Fox Theater|Redwood City  ->  Fox Theater Redwood City (1 shows)
 Frost Amphitheater|Stanford  ->  Frost Amphitheater Stanford (3 shows)
 Independent|San Francisco  ->  SF Independent (56 shows)
-Masonic|San Francisco  ->  The Masonic (21 shows)
-Mountain Winery|Saratoga  ->  Saratoga Mountain Winery (11 shows)
+Masonic|San Francisco  ->  The Masonic (19 shows)
+Mountain Winery|Saratoga  ->  Saratoga Mountain Winery (10 shows)
 Music Hall|Napa  ->  Napa Music Hall (1 shows)
 Pavilion|Concord  ->  Concord Pavilion (1 shows)
 Planetarium|Richmond  ->  Richmond Planetarium (3 shows)
