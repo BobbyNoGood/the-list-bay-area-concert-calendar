@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2026-10-04 11:37 AM PT",
-    "event_count": 1103,
+    "updated_at": "2026-10-05 02:59 PM PT",
+    "event_count": 1105,
     "week_count": 27,
     "weeks": [
       {
@@ -164,7 +164,7 @@
         "start": "2027-03-29",
         "end": "2027-04-04",
         "label": "Mar 29–Apr 4, 2027",
-        "count": 2
+        "count": 4
       }
     ],
     "source_pages": [
@@ -326,9 +326,9 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
-        "events": 2,
+        "events": 4,
         "first_date": "2027-04-01",
-        "last_date": "2027-04-02"
+        "last_date": "2027-04-03"
       }
     ]
   },
@@ -12305,6 +12305,17 @@
       "id": "5e8e3728e172"
     },
     {
+      "date": "2027-03-12",
+      "day": "Fri Mar 12",
+      "venue": "Warfield",
+      "city": "San Francisco",
+      "artists": "Foil Arms And Hog",
+      "details": "6+ 6:30pm/7:30pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.23.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Foil+Arms+And+Hog+Warfield+site%3Athewarfieldtheatre.com",
+      "id": "106bcf6f7dca"
+    },
+    {
       "date": "2027-03-13",
       "day": "Sat Mar 13",
       "venue": "Fox Theater Oakland",
@@ -12336,17 +12347,6 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.23.html",
       "link": "https://www.google.com/search?q=Griffin+House+Hopmonk+Novato+Sat+Mar+13+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "cdfb9962add5"
-    },
-    {
-      "date": "2027-03-13",
-      "day": "Sat Mar 13",
-      "venue": "Warfield",
-      "city": "San Francisco",
-      "artists": "Foil Arms And Hog",
-      "details": "6+ 6:30pm/7:30pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.23.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Foil+Arms+And+Hog+Warfield+site%3Athewarfieldtheatre.com",
-      "id": "2707706a7c6c"
     },
     {
       "date": "2027-03-14",
@@ -12490,6 +12490,28 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Grateful+Shred+Fillmore+site%3Athefillmore.com",
       "id": "75563ef72916"
+    },
+    {
+      "date": "2027-04-03",
+      "day": "Sat Apr 3",
+      "venue": "Fillmore",
+      "city": "San Francisco",
+      "artists": "Grateful Shred",
+      "details": "a/a $49+ 7pm/8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Grateful+Shred+Fillmore+site%3Athefillmore.com",
+      "id": "0f8ea6838815"
+    },
+    {
+      "date": "2027-04-03",
+      "day": "Sat Apr 3",
+      "venue": "Fox Theater Oakland",
+      "city": "Oakland",
+      "artists": "Nothing But Thieves",
+      "details": "a/a $59.60 7pm/8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Nothing+But+Thieves+Fox+Theater+Oakland+site%3Athefoxoakland.com",
+      "id": "45291df79185"
     }
   ]
 }
