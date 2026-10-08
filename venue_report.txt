@@ -1,5 +1,5 @@
-VENUE CLEANUP REPORT (data from 2026-10-07 01:35 PM PT)
-Shows: 1102 -> 1102   Venues: 136 -> 120
+VENUE CLEANUP REPORT (data from 2026-10-08 01:41 PM PT)
+Shows: 1108 -> 1108   Venues: 137 -> 121
 
 == MERGED VENUES (12) ==
 Shown as: KEPT NAME | city   <=   name that was folded into it
@@ -55,9 +55,9 @@ CHECK: '924 Gilman Street' (Berkeley, 20 shows) vs '924 Gilman and Gilman Brewin
 CHECK: '924 Gilman Street' (Berkeley, 20 shows) vs 'Gilman Brewing' (Berkeley, 2 shows) - one name is inside the other
 CHECK: '924 Gilman and Gilman Brewing' (Berkeley, 1 shows) vs 'Gilman Brewing' (Berkeley, 2 shows) - one name is inside the other
 CHECK: 'Above DNA Lounge' (San Francisco, 1 shows) vs 'DNA Lounge' (San Francisco, 4 shows) - one name is inside the other
-CHECK: 'Chapel' (San Francisco, 40 shows) vs 'Chapel Outdoor State' (San Francisco, 1 shows) - one name is inside the other
+CHECK: 'Chapel' (San Francisco, 45 shows) vs 'Chapel Outdoor State' (San Francisco, 1 shows) - one name is inside the other
 CHECK: 'Felton Music Hall' (Felton, 2 shows) vs 'Music Hall' (Felton, 2 shows) - one name is inside the other
-SAME NAME, DIFFERENT CITY: 'Fox Theater' (Oakland, 40 shows) vs 'Fox Theater' (Redwood City, 1 shows)
+SAME NAME, DIFFERENT CITY: 'Fox Theater' (Oakland, 39 shows) vs 'Fox Theater' (Redwood City, 1 shows)
 SAME NAME, DIFFERENT CITY: 'Music Hall' (Napa, 1 shows) vs 'Music Hall' (Felton, 2 shows)
 
 == CITIES NOT ON THE KNOWN LIST (check spelling) ==
@@ -68,8 +68,8 @@ Bay Area Makers Farm, Fourth Bore, Lucca Bar
 
 == RENAMES APPLIED (rename_venues.py) ==
 Arena|Oakland  ->  Oakland Arena (8 shows)
-Civic Auditorium|San Francisco  ->  SF Civic Auditorium (9 shows)
-Fox Theater|Oakland  ->  Fox Theater Oakland (40 shows)
+Civic Auditorium|San Francisco  ->  SF Civic Auditorium (8 shows)
+Fox Theater|Oakland  ->  Fox Theater Oakland (39 shows)
 Fox Theater|Redwood City  ->  Fox Theater Redwood City (1 shows)
 Frost Amphitheater|Stanford  ->  Frost Amphitheater Stanford (3 shows)
 Independent|San Francisco  ->  SF Independent (55 shows)
@@ -80,4 +80,4 @@ Pavilion|Concord  ->  Concord Pavilion (1 shows)
 Planetarium|Richmond  ->  Richmond Planetarium (3 shows)
 Quarry Amphitheater|Santa Cruz  ->  Quarry Amphitheater at UCSC (1 shows)
 San Jose Civic|San Jose  ->  San Jose Civic Center (5 shows)
-Warriors Stadium|San Francisco  ->  Chase Center (8 shows)
+Warriors Stadium|San Francisco  ->  Chase Center (7 shows)
