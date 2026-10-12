@@ -1,5 +1,5 @@
-VENUE CLEANUP REPORT (data from 2026-10-11 12:32 PM PT)
-Shows: 1064 -> 1064   Venues: 137 -> 121
+VENUE CLEANUP REPORT (data from 2026-10-12 03:29 PM PT)
+Shows: 1067 -> 1067   Venues: 138 -> 122
 
 == MERGED VENUES (13) ==
 Shown as: KEPT NAME | city   <=   name that was folded into it
@@ -56,7 +56,7 @@ CHECK: 'Catalyst' (Santa Cruz, 14 shows) vs 'Catalyst Atrium' (Santa Cruz, 1 sho
 CHECK: 'Chapel' (San Francisco, 44 shows) vs 'Chapel Outdoor State' (San Francisco, 1 shows) - one name is inside the other
 CHECK: 'Felton Music Hall' (Felton, 2 shows) vs 'Music Hall' (Felton, 2 shows) - one name is inside the other
 SAME NAME, DIFFERENT CITY: 'Fox Theater' (Oakland, 37 shows) vs 'Fox Theater' (Redwood City, 1 shows)
-SAME NAME, DIFFERENT CITY: 'Ivy Room' (Albany, 39 shows) vs 'Ivy Room' (Albanu, 1 shows)
+SAME NAME, DIFFERENT CITY: 'Ivy Room' (Albany, 40 shows) vs 'Ivy Room' (Albanu, 1 shows)
 SAME NAME, DIFFERENT CITY: 'Lanesplitters Pizza' (Emeryville, 2 shows) vs 'Lanesplitter Pizza' (Oakland, 1 shows)
 SAME NAME, DIFFERENT CITY: 'Music Hall' (Napa, 1 shows) vs 'Music Hall' (Felton, 2 shows)
 

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2026-10-11 12:32 PM PT",
-    "event_count": 1064,
+    "updated_at": "2026-10-12 03:29 PM PT",
+    "event_count": 1067,
     "week_count": 27,
     "weeks": [
       {
@@ -20,7 +20,7 @@
         "start": "2026-10-19",
         "end": "2026-10-25",
         "label": "Oct 19–25, 2026",
-        "count": 145
+        "count": 146
       },
       {
         "start": "2026-10-26",
@@ -92,7 +92,7 @@
         "start": "2027-01-11",
         "end": "2027-01-17",
         "label": "Jan 11–17, 2027",
-        "count": 14
+        "count": 15
       },
       {
         "start": "2027-01-18",
@@ -164,7 +164,7 @@
         "start": "2027-04-05",
         "end": "2027-04-11",
         "label": "Apr 5–11, 2027",
-        "count": 4
+        "count": 5
       }
     ],
     "source_pages": [
@@ -182,7 +182,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.2.html",
-        "events": 145,
+        "events": 146,
         "first_date": "2026-10-19",
         "last_date": "2026-10-25"
       },
@@ -254,8 +254,8 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.14.html",
-        "events": 14,
-        "first_date": "2027-01-14",
+        "events": 15,
+        "first_date": "2027-01-13",
         "last_date": "2027-01-17"
       },
       {
@@ -326,9 +326,9 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
-        "events": 4,
+        "events": 5,
         "first_date": "2027-04-06",
-        "last_date": "2027-04-09"
+        "last_date": "2027-04-10"
       }
     ]
   },
@@ -4031,6 +4031,18 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Everclear+Saratoga+Mountain+Winery+site%3Amountainwinery.com",
       "id": "2c61819a4e89"
+    },
+    {
+      "date": "2026-10-25",
+      "day": "Sun Oct 25",
+      "venue": "Osher Marin Jewish Center",
+      "city": "San Rafael",
+      "artists": "Adrian West Band",
+      "details": "a/a $25 3pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "address": "200 N San Pedro Rd",
+      "link": "https://www.google.com/search?q=Adrian+West+Band+Osher+Marin+Jewish+Center+San+Rafael+Sun+Oct+25+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "5084dd289cbd"
     },
     {
       "date": "2026-10-25",
@@ -7741,8 +7753,8 @@
       "day": "Tue Nov 17",
       "venue": "SF Independent",
       "city": "San Francisco",
-      "artists": "Silverada",
-      "details": "a/a $31.55 7:30pm/8pm",
+      "artists": "Silverada, Emily Nenni",
+      "details": "a/a $34 7:30pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.6.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Silverada+SF+Independent+site%3Atheindependentsf.com",
       "id": "b1858daeb73d"
@@ -8238,7 +8250,7 @@
       "venue": "Ivy Room",
       "city": "Albany",
       "artists": "M.D.C., Shattered Faith, Grizzled, Fast Friends",
-      "details": "21+ $20.39 8pm/8:30pm @",
+      "details": "21+ $17 8pm/8:30pm @",
       "source": "http://www.foopee.com/punk/the-list/by-date.6.html",
       "link": "https://duckduckgo.com/?q=%21ducky+M.D.C.+Ivy+Room+site%3Aivyroom.com",
       "id": "5b128ddb1cb4"
@@ -10767,6 +10779,17 @@
       "id": "f7f4415f8cdc"
     },
     {
+      "date": "2027-01-13",
+      "day": "Wed Jan 13",
+      "venue": "Ivy Room",
+      "city": "Albany",
+      "artists": "Briefs, Drowns, Loud Graves",
+      "details": "21+ $20 7pm @",
+      "source": "http://www.foopee.com/punk/the-list/by-date.14.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Briefs+Ivy+Room+site%3Aivyroom.com",
+      "id": "1457eef79d66"
+    },
+    {
       "date": "2027-01-14",
       "day": "Thu Jan 14",
       "venue": "Great American Music Hall",
@@ -12063,6 +12086,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Chris+Fleming+Castro+site%3Acastrotheatre.com",
       "id": "7cd3381aa063"
+    },
+    {
+      "date": "2027-04-10",
+      "day": "Sat Apr 10",
+      "venue": "Siesta Valley Bowl",
+      "city": "Orinda",
+      "artists": "Talib Kweli",
+      "details": "a/a $60.85-$40.45 6pm/7:30pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://www.google.com/search?q=Talib+Kweli+Siesta+Valley+Bowl+Orinda+Sat+Apr+10+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "ba8a75ccd51a"
     }
   ]
 }
