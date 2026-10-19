@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated_at": "2026-10-18 11:04 AM PT",
-    "event_count": 970,
-    "week_count": 26,
+    "updated_at": "2026-10-19 01:34 PM PT",
+    "event_count": 971,
+    "week_count": 27,
     "weeks": [
       {
         "start": "2026-10-12",
@@ -159,6 +159,12 @@
         "end": "2027-04-11",
         "label": "Apr 5–11, 2027",
         "count": 6
+      },
+      {
+        "start": "2027-04-12",
+        "end": "2027-04-18",
+        "label": "Apr 12–18, 2027",
+        "count": 1
       }
     ],
     "source_pages": [
@@ -317,6 +323,12 @@
         "events": 6,
         "first_date": "2027-04-06",
         "last_date": "2027-04-11"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
+        "events": 1,
+        "first_date": "2027-04-17",
+        "last_date": "2027-04-17"
       }
     ]
   },
@@ -11016,6 +11028,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.25.html",
       "link": "https://www.google.com/search?q=Glen+Phillips+Hopmonk+Novato+Sun+Apr+11+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "3694b2548152"
+    },
+    {
+      "date": "2027-04-17",
+      "day": "Sat Apr 17",
+      "venue": "Hopmonk",
+      "city": "Sebastopol",
+      "artists": "Poor Man's Whiskey",
+      "details": "21+ $35.75 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://www.google.com/search?q=Poor+Man%27s+Whiskey+Hopmonk+Sebastopol+Sat+Apr+17+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "352db0c69674"
     }
   ]
 }
