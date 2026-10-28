@@ -1,5 +1,5 @@
-VENUE CLEANUP REPORT (data from 2026-10-27 01:03 PM PT)
-Shows: 908 -> 907   Venues: 124 -> 106
+VENUE CLEANUP REPORT (data from 2026-10-28 01:14 PM PT)
+Shows: 902 -> 901   Venues: 123 -> 105
 
 == MERGED VENUES (12) ==
 Shown as: KEPT NAME | city   <=   name that was folded into it
@@ -51,7 +51,7 @@ CHECK: '924 Gilman Street' (Berkeley, 28 shows) vs 'Gilman Brewing Co' (Berkeley
 CHECK: 'Catalyst' (Santa Cruz, 13 shows) vs 'Catalyst Atrium' (Santa Cruz, 1 shows) - one name is inside the other
 CHECK: 'Fox Theater' (Oakland, 25 shows) vs 'Fox Theater Oakland' (no city, 1 shows) - one name is inside the other
 CHECK: 'Fox Theater' (Redwood City, 1 shows) vs 'Fox Theater Oakland' (no city, 1 shows) - one name is inside the other
-CHECK: 'Great American Music Hall' (San Francisco, 52 shows) vs 'Music Hall' (Felton, 2 shows) - one name is inside the other
+CHECK: 'Great American Music Hall' (San Francisco, 51 shows) vs 'Music Hall' (Felton, 2 shows) - one name is inside the other
 CHECK: 'On Broadway at Mabuhay Gardens' (San Francisco, 5 shows) vs 'at On Broadway at Mabuhay Gardens' (San Francisco, 2 shows) - one name is inside the other
 SAME NAME, DIFFERENT CITY: 'Fox Theater' (Oakland, 25 shows) vs 'Fox Theater' (Redwood City, 1 shows)
 SAME NAME, DIFFERENT CITY: 'Ivy Room' (Albany, 38 shows) vs 'Ivy Room' (Albanu, 1 shows)

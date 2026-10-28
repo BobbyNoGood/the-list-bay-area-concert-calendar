@@ -1,14 +1,14 @@
 {
   "meta": {
-    "updated_at": "2026-10-27 01:03 PM PT",
-    "event_count": 907,
-    "week_count": 26,
+    "updated_at": "2026-10-28 01:14 PM PT",
+    "event_count": 901,
+    "week_count": 27,
     "weeks": [
       {
         "start": "2026-10-26",
         "end": "2026-11-01",
         "label": "Oct 26–Nov 1, 2026",
-        "count": 130
+        "count": 123
       },
       {
         "start": "2026-11-02",
@@ -159,13 +159,19 @@
         "end": "2027-04-25",
         "label": "Apr 19–25, 2027",
         "count": 5
+      },
+      {
+        "start": "2027-04-26",
+        "end": "2027-05-02",
+        "label": "Apr 26–May 2, 2027",
+        "count": 1
       }
     ],
     "source_pages": [
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.0.html",
-        "events": 130,
-        "first_date": "2026-10-26",
+        "events": 123,
+        "first_date": "2026-10-27",
         "last_date": "2026-11-01"
       },
       {
@@ -317,87 +323,16 @@
         "events": 5,
         "first_date": "2027-04-20",
         "last_date": "2027-04-25"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
+        "events": 1,
+        "first_date": "2027-04-26",
+        "last_date": "2027-04-26"
       }
     ]
   },
   "events": [
-    {
-      "date": "2026-10-26",
-      "day": "Mon Oct 26",
-      "venue": "Amoeba",
-      "city": "San Francisco",
-      "artists": "Anderson .Paak, Cordee",
-      "details": "a/a free 5:30pm (sold out)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Anderson+.Paak+Amoeba+San+Francisco+Mon+Oct+26+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "18122f390ddd"
-    },
-    {
-      "date": "2026-10-26",
-      "day": "Mon Oct 26",
-      "venue": "August Hall",
-      "city": "San Francisco",
-      "artists": "Lil Pete",
-      "details": "5+ $34.70 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Lil+Pete+August+Hall+site%3Aaugusthallsf.com",
-      "id": "12b1b6ac9eed"
-    },
-    {
-      "date": "2026-10-26",
-      "day": "Mon Oct 26",
-      "venue": "Castro",
-      "city": "San Francisco",
-      "artists": "Fred Armisen (comedy for musicans)",
-      "details": "a/a $65.25+ 7pm/8pm # (sold out - seated)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Fred+Armisen+Castro+site%3Acastrotheatre.com",
-      "id": "1608881639e4"
-    },
-    {
-      "date": "2026-10-26",
-      "day": "Mon Oct 26",
-      "venue": "Chapel",
-      "city": "San Francisco",
-      "artists": "War And Treaty, Blank Page, Jordan Babbs",
-      "details": "a/a $43.30 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+War+And+Treaty+Chapel+site%3Athechapelsf.com",
-      "id": "4295806fb58e"
-    },
-    {
-      "date": "2026-10-26",
-      "day": "Mon Oct 26",
-      "venue": "Freight",
-      "city": "Berkeley",
-      "artists": "Karl Evangelista, Grex",
-      "details": "a/a $5+ sliding scale 7:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Karl+Evangelista+Freight+site%3Athefreight.org",
-      "id": "d7df213f6529"
-    },
-    {
-      "date": "2026-10-26",
-      "day": "Mon Oct 26",
-      "venue": "Great American Music Hall",
-      "city": "San Francisco",
-      "artists": "Inner Wave, Heathers, Fazes, Christina's Trip",
-      "details": "a/a $27/$29 7pm/7:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Inner+Wave+Great+American+Music+Hall+site%3Agamh.com",
-      "id": "1bbf8911df9a"
-    },
-    {
-      "date": "2026-10-26",
-      "day": "Mon Oct 26",
-      "venue": "Rickshaw Stop",
-      "city": "San Francisco",
-      "artists": "Wine Lips, Buddy Wynkoop, Hazy Portraits, dj DistorsionGay",
-      "details": "a/a $20/$25 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Wine+Lips+Rickshaw+Stop+site%3Arickshawstop.com",
-      "id": "550147a33a8e"
-    },
     {
       "date": "2026-10-27",
       "day": "Tue Oct 27",
@@ -10321,6 +10256,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.25.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Angele+Castro+site%3Acastrotheatre.com",
       "id": "e1d849519807"
+    },
+    {
+      "date": "2027-04-26",
+      "day": "Mon Apr 26",
+      "venue": "Castro",
+      "city": "San Francisco",
+      "artists": "Deca Joins",
+      "details": "a/a 8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Deca+Joins+Castro+site%3Acastrotheatre.com",
+      "id": "82d7232adbeb"
     }
   ]
 }
