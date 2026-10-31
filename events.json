@@ -1,32 +1,32 @@
 {
   "meta": {
-    "updated_at": "2026-10-30 12:55 PM PT",
-    "event_count": 944,
+    "updated_at": "2026-10-31 12:15 PM PT",
+    "event_count": 938,
     "week_count": 27,
     "weeks": [
       {
         "start": "2026-10-26",
         "end": "2026-11-01",
         "label": "Oct 26–Nov 1, 2026",
-        "count": 86
+        "count": 50
       },
       {
         "start": "2026-11-02",
         "end": "2026-11-08",
         "label": "Nov 2–8, 2026",
-        "count": 133
+        "count": 137
       },
       {
         "start": "2026-11-09",
         "end": "2026-11-15",
         "label": "Nov 9–15, 2026",
-        "count": 135
+        "count": 140
       },
       {
         "start": "2026-11-16",
         "end": "2026-11-22",
         "label": "Nov 16–22, 2026",
-        "count": 120
+        "count": 126
       },
       {
         "start": "2026-11-23",
@@ -38,25 +38,25 @@
         "start": "2026-11-30",
         "end": "2026-12-06",
         "label": "Nov 30–Dec 6, 2026",
-        "count": 66
+        "count": 67
       },
       {
         "start": "2026-12-07",
         "end": "2026-12-13",
         "label": "Dec 7–13, 2026",
-        "count": 59
+        "count": 61
       },
       {
         "start": "2026-12-14",
         "end": "2026-12-20",
         "label": "Dec 14–20, 2026",
-        "count": 51
+        "count": 52
       },
       {
         "start": "2026-12-21",
         "end": "2026-12-27",
         "label": "Dec 21–27, 2026",
-        "count": 11
+        "count": 12
       },
       {
         "start": "2026-12-28",
@@ -74,7 +74,7 @@
         "start": "2027-01-11",
         "end": "2027-01-17",
         "label": "Jan 11–17, 2027",
-        "count": 25
+        "count": 26
       },
       {
         "start": "2027-01-18",
@@ -86,7 +86,7 @@
         "start": "2027-01-25",
         "end": "2027-01-31",
         "label": "Jan 25–31, 2027",
-        "count": 18
+        "count": 19
       },
       {
         "start": "2027-02-01",
@@ -104,25 +104,25 @@
         "start": "2027-02-15",
         "end": "2027-02-21",
         "label": "Feb 15–21, 2027",
-        "count": 11
+        "count": 12
       },
       {
         "start": "2027-02-22",
         "end": "2027-02-28",
         "label": "Feb 22–28, 2027",
-        "count": 16
+        "count": 17
       },
       {
         "start": "2027-03-01",
         "end": "2027-03-07",
         "label": "Mar 1–7, 2027",
-        "count": 14
+        "count": 15
       },
       {
         "start": "2027-03-08",
         "end": "2027-03-14",
         "label": "Mar 8–14, 2027",
-        "count": 16
+        "count": 17
       },
       {
         "start": "2027-03-15",
@@ -134,7 +134,7 @@
         "start": "2027-03-22",
         "end": "2027-03-28",
         "label": "Mar 22–28, 2027",
-        "count": 12
+        "count": 13
       },
       {
         "start": "2027-03-29",
@@ -152,43 +152,43 @@
         "start": "2027-04-12",
         "end": "2027-04-18",
         "label": "Apr 12–18, 2027",
-        "count": 3
+        "count": 4
       },
       {
         "start": "2027-04-19",
         "end": "2027-04-25",
         "label": "Apr 19–25, 2027",
-        "count": 6
+        "count": 7
       },
       {
         "start": "2027-04-26",
         "end": "2027-05-02",
         "label": "Apr 26–May 2, 2027",
-        "count": 5
+        "count": 6
       }
     ],
     "source_pages": [
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.0.html",
-        "events": 86,
-        "first_date": "2026-10-30",
+        "events": 50,
+        "first_date": "2026-10-31",
         "last_date": "2026-11-01"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.1.html",
-        "events": 133,
+        "events": 137,
         "first_date": "2026-11-02",
         "last_date": "2026-11-08"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.2.html",
-        "events": 135,
+        "events": 140,
         "first_date": "2026-11-09",
         "last_date": "2026-11-15"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.3.html",
-        "events": 120,
+        "events": 126,
         "first_date": "2026-11-16",
         "last_date": "2026-11-22"
       },
@@ -200,25 +200,25 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.5.html",
-        "events": 66,
+        "events": 67,
         "first_date": "2026-11-30",
         "last_date": "2026-12-06"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.6.html",
-        "events": 59,
+        "events": 61,
         "first_date": "2026-12-07",
         "last_date": "2026-12-13"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.7.html",
-        "events": 51,
+        "events": 52,
         "first_date": "2026-12-14",
         "last_date": "2026-12-20"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.8.html",
-        "events": 11,
+        "events": 12,
         "first_date": "2026-12-21",
         "last_date": "2026-12-27"
       },
@@ -236,7 +236,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.11.html",
-        "events": 25,
+        "events": 26,
         "first_date": "2027-01-12",
         "last_date": "2027-01-17"
       },
@@ -248,7 +248,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.13.html",
-        "events": 18,
+        "events": 19,
         "first_date": "2027-01-25",
         "last_date": "2027-01-31"
       },
@@ -266,25 +266,25 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.16.html",
-        "events": 11,
+        "events": 12,
         "first_date": "2027-02-17",
         "last_date": "2027-02-21"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.17.html",
-        "events": 16,
+        "events": 17,
         "first_date": "2027-02-23",
         "last_date": "2027-02-28"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.18.html",
-        "events": 14,
+        "events": 15,
         "first_date": "2027-03-01",
         "last_date": "2027-03-07"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.19.html",
-        "events": 16,
+        "events": 17,
         "first_date": "2027-03-09",
         "last_date": "2027-03-14"
       },
@@ -296,7 +296,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.21.html",
-        "events": 12,
+        "events": 13,
         "first_date": "2027-03-23",
         "last_date": "2027-03-28"
       },
@@ -314,453 +314,31 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.24.html",
-        "events": 3,
+        "events": 4,
         "first_date": "2027-04-14",
         "last_date": "2027-04-18"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.25.html",
-        "events": 6,
+        "events": 7,
         "first_date": "2027-04-20",
         "last_date": "2027-04-25"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
-        "events": 5,
+        "events": 6,
         "first_date": "2027-04-26",
-        "last_date": "2027-04-28"
+        "last_date": "2027-04-29"
       }
     ]
   },
   "events": [
     {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "924 Gilman Street",
-      "city": "Berkeley",
-      "artists": "Feburary, Love Letter, Stella, Soap Box Derby, Slinger",
-      "details": "a/a $23/$27 7pm/7:30pm (sold out)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Feburary+924+Gilman+Street+site%3A924gilman.org",
-      "id": "3ea68cb8dc58"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Arlene Francis Center",
-      "city": "Santa Rosa",
-      "artists": "Trecelence/Coffin Huters, A Hero To Fall, Pentacost, Bob Body, Ominess & Friends",
-      "details": "a/a $18/$20 7pm (tribute night)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Trecelence%2FCoffin+Huters+Arlene+Francis+Center+site%3Aarlenefranciscenter.org",
-      "id": "4e2931a508c1"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "August Hall",
-      "city": "San Francisco",
-      "artists": "Parra For Cuva",
-      "details": "21+ $34.70 8pm/9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Parra+For+Cuva+August+Hall+site%3Aaugusthallsf.com",
-      "id": "5666d0ca5929"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Bimbo's 365 Club",
-      "city": "San Francisco",
-      "artists": "Stella Lefty, Grace Enger",
-      "details": "a/a 7pm/8pm (sold out)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Stella+Lefty+Bimbo%27s+365+Club+site%3Abimbos365club.com",
-      "id": "e59622646d09"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Bottom of the Hill",
-      "city": "San Francisco",
-      "artists": "Temptation (tribute), Dead Souls (tribute), Flippy Floppy (tribute)",
-      "details": "21+ $20/$25 8pm/9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Temptation+Bottom+of+the+Hill+site%3Abottomofthehill.com",
-      "id": "1163aa13db9d"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Cafe Du Nord",
-      "city": "San Francisco",
-      "artists": "Lime Garden",
-      "details": "a/a 8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Lime+Garden+Cafe+Du+Nord+site%3Acafedunord.com",
-      "id": "b121a58ca8d1"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Castro",
-      "city": "San Francisco",
-      "artists": "Montell Fish",
-      "details": "a/a $52+ 8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Montell+Fish+Castro+site%3Acastrotheatre.com",
-      "id": "e6499247050d"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Chapel",
-      "city": "San Francisco",
-      "artists": "Dan \"Lebo\" Lebowitz, Holly Bowling, Wally Ingram, Elliott Peck, Steve Adams, Danny Luehring",
-      "details": "a/a $28/$32 7:30pm/8:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Dan+%22Lebo%22+Lebowitz+Chapel+site%3Athechapelsf.com",
-      "id": "f4fa3098315c"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Cornerstone",
-      "city": "Berkeley",
-      "artists": "Analog Dog",
-      "details": "a/a 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Analog+Dog+Cornerstone+site%3Acornerstoneberkeley.com",
-      "id": "72d4584150e1"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "DNA Lounge",
-      "city": "San Francisco",
-      "artists": "Holdfast., Time Crunch, Cheers For Nothing",
-      "details": "a/a $14/$20 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Holdfast.+DNA+Lounge+site%3Adnalounge.com",
-      "id": "0b2ee5041683"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Fillmore",
-      "city": "San Francisco",
-      "artists": "Galactic, Bella Rayne Band",
-      "details": "a/a 7pm/8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Galactic+Fillmore+site%3Athefillmore.com",
-      "id": "ae62ee4e6c9c"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Fox Theater Oakland",
-      "city": "Oakland",
-      "artists": "Shpongle, Mindex, Cosmic Trigger, Johnathan Singer & Glass Crane (visual)",
-      "details": "a/a $66.75 7pm/8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Shpongle+Fox+Theater+Oakland+site%3Athefoxoakland.com",
-      "id": "cb97c79c0f5e"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Gilman Brewing",
-      "city": "Berkeley",
-      "artists": "Mermaid Island, Darling I'm Dying, Pretty & Pissed, Define Desperate",
-      "details": "a/a $15.71 6pm/6:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "912 Gilman STreet",
-      "link": "https://www.google.com/search?q=Mermaid+Island+Gilman+Brewing+Berkeley+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "b4cae9c85f78"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Great American Music Hall",
-      "city": "San Francisco",
-      "artists": "Cold Cave (solo), SRSQ, Laura Krieg, Houses Of Heaven, False Figure, A.Cold.Era, dj Pink Stiletto, dj Hot Goth GF",
-      "details": "a/a $22/$29/$33/$39 6:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Cold+Cave+Great+American+Music+Hall+site%3Agamh.com",
-      "id": "1d05de65921d"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Hopmonk",
-      "city": "Sebastopol",
-      "artists": "Andrew Duhon",
-      "details": "21+ 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Andrew+Duhon+Hopmonk+Sebastopol+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "77e87d7fe187"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Hopmonk",
-      "city": "Novato",
-      "artists": "Last Revel, Nathaniel Riley",
-      "details": "21+ $26.94 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Last+Revel+Hopmonk+Novato+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "58ad833ba070"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Hotel Utah",
-      "city": "San Francisco",
-      "artists": "Ratigan, Rot Daddym, Doctor KA, Haskaluv",
-      "details": "21+ $12/$15 8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Ratigan+Hotel+Utah+site%3Ahotelutah.com",
-      "id": "ce995a0ed5cc"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "SF Independent",
-      "city": "San Francisco",
-      "artists": "High Step Society, Habitaat",
-      "details": "21+ $29.35 8:30pm/9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+High+Step+Society+SF+Independent+site%3Atheindependentsf.com",
-      "id": "eab4d41ce630"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Ivy Room",
-      "city": "Albany",
-      "artists": "Plunder, Cielo, Sheesh Mahal, Mugslug",
-      "details": "21+ $14.98 7:30pm/8:30pm @",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Plunder+Ivy+Room+site%3Aivyroom.com",
-      "id": "83a9d6091049"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "The Masonic",
-      "city": "San Francisco",
-      "artists": "Chicks",
-      "details": "a/a 8:30pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Chicks+The+Masonic+site%3Amasonicsf.com",
-      "id": "0d88b0ae5041"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Moe's Alley",
-      "city": "Santa Cruz",
-      "artists": "Mother Hips, Skyway Man",
-      "details": "21+ $44.16 8pm/9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Mother+Hips+Moe%27s+Alley+site%3Amoesalley.com",
-      "id": "8f400543deba"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Natural Batting Cage",
-      "city": "San Francisco",
-      "artists": "Luche Libre, Turntstyle, Iceblink Fuck, dj Juanito, dj Huck",
-      "details": "a/a $10-$15 ($5 admission in costume) 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Luche+Libre+Natural+Batting+Cage+San+Francisco+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "45230f09b150"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Neck Of The Woods",
-      "city": "San Francisco",
-      "artists": "Lazer Beam, Bloodsugar, Modern Monsters, Bombshell",
-      "details": "a/a $12/$15 7:30pm/8pm (downstairs)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Lazer+Beam+Neck+Of+The+Woods+San+Francisco+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "88b7bcf30ebf"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Neck Of The Woods",
-      "city": "San Francisco",
-      "artists": "60 Juno, Misandrist, Still Ruins, Algoslave",
-      "details": "a/a $20/$25 7:30pm (upstairs)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=60+Juno+Neck+Of+The+Woods+San+Francisco+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "b094c26bdc8c"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Richmond Planetarium",
-      "city": "Richmond",
-      "artists": "Onsite Laundry, Dog Eyes, Zellabys, Your Mom",
-      "details": "a/a $10 7pm (all covers night)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Onsite+Laundry+Richmond+Planetarium+Richmond+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "2ac087241df4"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Quarter Note",
-      "city": "Sunnyvale",
-      "artists": "Merry Go Station, Guy Jeans, VElvet Turtles",
-      "details": "21+ $15 7:30pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "1214 Apollo Way",
-      "link": "https://www.google.com/search?q=Merry+Go+Station+Quarter+Note+Sunnyvale+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "acdd9c8930d3"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Regency Ballroom",
-      "city": "San Francisco",
-      "artists": "Cholos Vs. Vampires",
-      "details": "21+ 9pm/10pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Cholos+Vs.+Vampires+Regency+Ballroom+site%3Atheregencyballroom.com",
-      "id": "c948cc356877"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Revolution Cafe",
-      "city": "Oakland",
-      "artists": "Creepy Crawlies, Sharps Removed, Right To Remain, Hellcatraz",
-      "details": "a/a $5-$10 sliding scale 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Creepy+Crawlies+Revolution+Cafe+Oakland+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "e95b6c2a2f9e"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Ritz",
-      "city": "San Jose",
-      "artists": "Emno Night",
-      "details": "21+ $20/$30 8pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Emno+Night+Ritz+site%3Atheritzsanjose.com",
-      "id": "eaec6fc36d69"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Siesta Valley Bowl",
-      "city": "Orinda",
-      "artists": "Surprise Chef, Tommy Cuerrero",
-      "details": "a/a $60.85-$50.55 8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Surprise+Chef+Siesta+Valley+Bowl+Orinda+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "5413a2eadd0f"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Stay Gold Deli",
-      "city": "Oakland",
-      "artists": "Dutti, Sara Said So, Ex Deys Machina",
-      "details": "a/a $10 7pm (tribute nite)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Dutti+Stay+Gold+Deli+site%3Astaygolddeli.com",
-      "id": "49797e169243"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Thee Stork Club",
-      "city": "Oakland",
-      "artists": "Halloween tribute band Extravaganza",
-      "details": "21+ $13/$15 8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Halloween+tribute+band+Extravaganza+Thee+Stork+Club+site%3Atheestorkclub.com",
-      "id": "fbb6e98d614e"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Toot's Tavern",
-      "city": "Crockett",
-      "artists": "Phantom A.D., Szandora Lavey, Phantom (tribute), dj Hi-Tone",
-      "details": "21+ $16.66/$20 7pm/8pm (costume contest)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Phantom+A.D.+Toot%27s+Tavern+Crockett+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "d502e0542628"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Up the Creek Records",
-      "city": "Walnut Creek",
-      "artists": "Cartilage, Burning Down, Iinarcs",
-      "details": "a/a $15 6pm til 9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Cartilage+Up+the+Creek+Records+Walnut+Creek+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "9e30d340a823"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Uptown Theater",
-      "city": "Napa",
-      "artists": "Psychedelic Furs, We Are Scientists",
-      "details": "12+ (under 16 with adult) 7pm/8pm (was jun 13)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Psychedelic+Furs+Uptown+Theater+site%3Auptowntheatrenapa.com",
-      "id": "d9cf37876a89"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Vets Hall",
-      "city": "Santa Cruz",
-      "artists": "Arsonists Get All The Girls, Millionaires, Miroshima",
-      "details": "a/a $25 6:30pm @ $",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Arsonists+Get+All+The+Girls+Vets+Hall+Santa+Cruz+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "e16b84ca04db"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "Wardlaw Skatepark",
-      "city": "Vallejo",
-      "artists": "Straggler, Global Disgust, Die Mad!!, Grifter, Smashed Teeth",
-      "details": "a/a free 5pm @",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "1805 Ascot Parkway",
-      "link": "https://www.google.com/search?q=Straggler+Wardlaw+Skatepark+Vallejo+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "4085a44da578"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "Fri Oct 30",
-      "venue": "WonderStump",
-      "city": "Petaluma",
-      "artists": "Pardon The Interruption",
-      "details": "a/a $$22.50/25 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "301 Petaluma Blvd. N",
-      "link": "https://www.google.com/search?q=Pardon+The+Interruption+WonderStump+Petaluma+Fri+Oct+30+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "5e403dee156b"
-    },
-    {
       "date": "2026-10-31",
       "day": "Sat Oct 31",
       "venue": "924 Gilman Street",
       "city": "Berkeley",
-      "artists": "Spy, Fentanyl, Spite House, No Guard, Violent Imagery, Rose Chamber",
+      "artists": "Spy, Fentanyl, No Guard, Violent Imagery, Rose Chamber",
       "details": "a/a $18/$20 6pm/7pm @",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Spy+924+Gilman+Street+site%3A924gilman.org",
@@ -791,6 +369,17 @@
     {
       "date": "2026-10-31",
       "day": "Sat Oct 31",
+      "venue": "Brick and Mortar",
+      "city": "San Francisco",
+      "artists": "Improvement Movement, Adron",
+      "details": "a/a $28.08 (under 21 plus $5) 8pm/9pm ^",
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Improvement+Movement+Brick+and+Mortar+site%3Abrickandmortarmusic.com",
+      "id": "e93d0dc2dddf"
+    },
+    {
+      "date": "2026-10-31",
+      "day": "Sat Oct 31",
       "venue": "Castro",
       "city": "San Francisco",
       "artists": "dj Mandy",
@@ -804,8 +393,8 @@
       "day": "Sat Oct 31",
       "venue": "Chapel",
       "city": "San Francisco",
-      "artists": "Bone Diggers, Reed Mathis, Dan Lebowitz, Holly Bowling, Scott Rager",
-      "details": "a/a $25/$28 8pm/9pm",
+      "artists": "Bone Diggers, Reed Mathis, Dan \"Lebo\" Lebowitz, Holly Bowling, Scott Rager, Mad Alchemy Liquid Light Show",
+      "details": "a/a $25/$28 8pm/9pm (outdoor stage)",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Bone+Diggers+Chapel+site%3Athechapelsf.com",
       "id": "7b8df27c7df6"
@@ -1050,7 +639,7 @@
       "venue": "UC Theater",
       "city": "Berkeley",
       "artists": "film Rocky Horror Picture Show with Live Cast",
-      "details": "a/a $16.50+ 7pm/8pm #",
+      "details": "a/a $16.50+ 7pm/8pm # (sold out)",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
       "link": "https://duckduckgo.com/?q=%21ducky+film+Rocky+Horror+Picture+Show+with+Live+Cast+UC+Theater+site%3Auctheatre.net",
       "id": "9b1b6eef46f2"
@@ -1213,6 +802,17 @@
     {
       "date": "2026-11-01",
       "day": "Sun Nov 1",
+      "venue": "Moe's Alley",
+      "city": "Santa Cruz",
+      "artists": "Andrew Duhon Trio",
+      "details": "21+ $35.46 2pm/3pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Andrew+Duhon+Trio+Moe%27s+Alley+site%3Amoesalley.com",
+      "id": "370c412af34e"
+    },
+    {
+      "date": "2026-11-01",
+      "day": "Sun Nov 1",
       "venue": "Neck Of The Woods",
       "city": "San Francisco",
       "artists": "Undying, Kink Shamer, Deliria, Broken Glass Sanctuary, 13 Thrones",
@@ -1239,7 +839,7 @@
       "venue": "Regency Ballroom",
       "city": "San Francisco",
       "artists": "Musical Box",
-      "details": "a/a #",
+      "details": "a/a 6pm/7pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Musical+Box+Regency+Ballroom+site%3Atheregencyballroom.com",
       "id": "ca8d6392dff5"
@@ -1346,6 +946,17 @@
     {
       "date": "2026-11-03",
       "day": "Tue Nov 3",
+      "venue": "Cafe Du Nord",
+      "city": "San Francisco",
+      "artists": "Sobs, Lace",
+      "details": "a/a $28.30 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Sobs+Cafe+Du+Nord+site%3Acafedunord.com",
+      "id": "5dd382317f96"
+    },
+    {
+      "date": "2026-11-03",
+      "day": "Tue Nov 3",
       "venue": "Castro",
       "city": "San Francisco",
       "artists": "Rebecca Black",
@@ -1393,7 +1004,7 @@
       "venue": "Ritz",
       "city": "San Jose",
       "artists": "Prince Daddy And The Hyena, Combat, Walter Etc., Friendship Games",
-      "details": "a/a $31.34 7pm",
+      "details": "a/a $25/$30 7pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Prince+Daddy+And+The+Hyena+Ritz+site%3Atheritzsanjose.com",
       "id": "69cca9f7c6da"
@@ -1801,11 +1412,11 @@
       "day": "Fri Nov 6",
       "venue": "Chapel",
       "city": "San Francisco",
-      "artists": "Legend Zdppelin (tribute)",
+      "artists": "Legend Zeppelin (tribute)",
       "details": "a/a $25/$30 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Legend+Zdppelin+Chapel+site%3Athechapelsf.com",
-      "id": "609e7da460b3"
+      "link": "https://duckduckgo.com/?q=%21ducky+Legend+Zeppelin+Chapel+site%3Athechapelsf.com",
+      "id": "38672f99cd43"
     },
     {
       "date": "2026-11-06",
@@ -1931,6 +1542,17 @@
     {
       "date": "2026-11-06",
       "day": "Fri Nov 6",
+      "venue": "Mabuhay Gardens",
+      "city": "San Francisco",
+      "artists": "Daddy Issues",
+      "details": "21+ $15/$20 8pm/9pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "link": "https://www.google.com/search?q=Daddy+Issues+Mabuhay+Gardens+San+Francisco+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "d3cbe01715f9"
+    },
+    {
+      "date": "2026-11-06",
+      "day": "Fri Nov 6",
       "venue": "Makeout Room",
       "city": "San Francisco",
       "artists": "Steve Barton, Victor Krummenacher",
@@ -1938,6 +1560,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
       "link": "https://www.google.com/search?q=Steve+Barton+Makeout+Room+San+Francisco+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "a653c78e29d4"
+    },
+    {
+      "date": "2026-11-06",
+      "day": "Fri Nov 6",
+      "venue": "Napa Music Hall",
+      "city": "Napa",
+      "artists": "Weekend Youth, Top Secret Robot Alliance, Zak Fennie & Friends, Club",
+      "details": "21+ $22.20 7pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "link": "https://www.google.com/search?q=Weekend+Youth+Napa+Music+Hall+Napa+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "54f27fa2cce3"
     },
     {
       "date": "2026-11-06",
@@ -2339,6 +1972,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Chelsea+Handler+The+Masonic+site%3Amasonicsf.com",
       "id": "eadb90a4c178"
+    },
+    {
+      "date": "2026-11-07",
+      "day": "Sat Nov 7",
+      "venue": "Napa Music Hall",
+      "city": "Napa",
+      "artists": "Valerie (tribute), Ballroom",
+      "details": "6+ (under 16 with adult) $42.30+ 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "link": "https://www.google.com/search?q=Valerie+Napa+Music+Hall+Napa+Sat+Nov+7+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "108187780468"
     },
     {
       "date": "2026-11-07",
@@ -2931,7 +2575,7 @@
       "day": "Tue Nov 10",
       "venue": "Regency Ballroom",
       "city": "San Francisco",
-      "artists": "Yuki Chiba",
+      "artists": "Yuki Chiba, Dram",
       "details": "a/a 7pm/8pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Yuki+Chiba+Regency+Ballroom+site%3Atheregencyballroom.com",
@@ -3094,6 +2738,17 @@
     {
       "date": "2026-11-11",
       "day": "Wed Nov 11",
+      "venue": "Napa Music Hall",
+      "city": "Napa",
+      "artists": "Roger Clyne & PH Naffah",
+      "details": "6+ (under 16 with adult) $42.30 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "link": "https://www.google.com/search?q=Roger+Clyne+%26+PH+Naffah+Napa+Music+Hall+Napa+Wed+Nov+11+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "148211b05b00"
+    },
+    {
+      "date": "2026-11-11",
+      "day": "Wed Nov 11",
       "venue": "Neck Of The Woods",
       "city": "San Francisco",
       "artists": "Boltcutter, Misery Whip, Forced To Suffer, Iron Front",
@@ -3151,7 +2806,7 @@
       "day": "Thu Nov 12",
       "venue": "Arlene Francis Center",
       "city": "Santa Rosa",
-      "artists": "Gazing Into Space, Antecine, Lumanoid, Sophizta",
+      "artists": "Gazing Into Space, Antecine, Lumanoid, Scans",
       "details": "a/a donation 7pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Gazing+Into+Space+Arlene+Francis+Center+site%3Aarlenefranciscenter.org",
@@ -3206,7 +2861,7 @@
       "day": "Thu Nov 12",
       "venue": "Chapel",
       "city": "San Francisco",
-      "artists": "Marc Broussard",
+      "artists": "Marc Broussard, Cristina Vane",
       "details": "a/a $32/$35 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Marc+Broussard+Chapel+site%3Athechapelsf.com",
@@ -3524,6 +3179,28 @@
     {
       "date": "2026-11-13",
       "day": "Fri Nov 13",
+      "venue": "Catalyst Atrium",
+      "city": "Santa Cruz",
+      "artists": "Bite Me",
+      "details": "16+ 7pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "link": "https://www.google.com/search?q=Bite+Me+Catalyst+Atrium+Santa+Cruz+Fri+Nov+13+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "5c4d209526b8"
+    },
+    {
+      "date": "2026-11-13",
+      "day": "Fri Nov 13",
+      "venue": "Club",
+      "city": "Napa",
+      "artists": "Chad & JT (comedy)",
+      "details": "21+ $34.55 $5:30pm/7pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "link": "https://www.google.com/search?q=Chad+%26+JT+Club+Napa+Fri+Nov+13+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "8e03da4b9c51"
+    },
+    {
+      "date": "2026-11-13",
+      "day": "Fri Nov 13",
       "venue": "Cow Palace",
       "city": "Daly City",
       "artists": "Sammy Virji, Sam Gellaitry, Saint Ludo",
@@ -3579,13 +3256,13 @@
     {
       "date": "2026-11-13",
       "day": "Fri Nov 13",
-      "venue": "Gilman Brewing",
+      "venue": "Gilman Brewing Co",
       "city": "Berkeley",
       "artists": "Charger (record release), Ancient Rage, Phantasmal Abyss, Commoner",
       "details": "a/a $20/$25 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
       "address": "912 Gilman Street",
-      "link": "https://www.google.com/search?q=Charger+Gilman+Brewing+Berkeley+Fri+Nov+13+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "link": "https://www.google.com/search?q=Charger+Gilman+Brewing+Co+Berkeley+Fri+Nov+13+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "72000697aac1"
     },
     {
@@ -3692,7 +3369,7 @@
       "day": "Fri Nov 13",
       "venue": "Regency Ballroom",
       "city": "San Francisco",
-      "artists": "L7, Nobro",
+      "artists": "L7, Nobro, Buzzed Lightbeer",
       "details": "a/a 7pm/8pm # $",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
       "link": "https://duckduckgo.com/?q=%21ducky+L7+Regency+Ballroom+site%3Atheregencyballroom.com",
@@ -3847,7 +3524,7 @@
       "venue": "Catalyst",
       "city": "Santa Cruz",
       "artists": "Isaiah Rashad",
-      "details": "a/a $52.38 7pm/8pm #",
+      "details": "a/a $52.38 7pm/8pm # (sold out)",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Isaiah+Rashad+Catalyst+site%3Acatalystclub.com",
       "id": "a90cdafcd96e"
@@ -3955,6 +3632,17 @@
     {
       "date": "2026-11-14",
       "day": "Sat Nov 14",
+      "venue": "Luther Burbank Center",
+      "city": "Santa Rosa",
+      "artists": "Jerry Seinfield",
+      "details": "a/a $143+ 5pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "link": "https://www.google.com/search?q=Jerry+Seinfield+Luther+Burbank+Center+Santa+Rosa+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "0f5a18bf9c19"
+    },
+    {
+      "date": "2026-11-14",
+      "day": "Sat Nov 14",
       "venue": "Makeout Room",
       "city": "San Francisco",
       "artists": "Neverland Ranch Davidians, Seagulls, Johnny",
@@ -3973,6 +3661,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Underoath+The+Masonic+site%3Amasonicsf.com",
       "id": "460bc56a6809"
+    },
+    {
+      "date": "2026-11-14",
+      "day": "Sat Nov 14",
+      "venue": "Napa Music Hall",
+      "city": "Napa",
+      "artists": "California Honeydrops",
+      "details": "6+ (under 16 with adult) $65.50 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "link": "https://www.google.com/search?q=California+Honeydrops+Napa+Music+Hall+Napa+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "71a6fc6307b6"
     },
     {
       "date": "2026-11-14",
@@ -4001,7 +3700,7 @@
       "day": "Sat Nov 14",
       "venue": "Regency Ballroom",
       "city": "San Francisco",
-      "artists": "Headache",
+      "artists": "Headache, Baba Stiltz, Amr",
       "details": "a/a #",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Headache+Regency+Ballroom+site%3Atheregencyballroom.com",
@@ -4758,6 +4457,17 @@
     {
       "date": "2026-11-19",
       "day": "Thu Nov 19",
+      "venue": "Regency Ballroom",
+      "city": "San Francisco",
+      "artists": "NinaJirachi, Mgna Crrta",
+      "details": "18+ 7pm/8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+NinaJirachi+Regency+Ballroom+site%3Atheregencyballroom.com",
+      "id": "f00c06c90dc0"
+    },
+    {
+      "date": "2026-11-19",
+      "day": "Thu Nov 19",
       "venue": "Rickshaw Stop",
       "city": "San Francisco",
       "artists": "Cannelle",
@@ -5023,6 +4733,17 @@
     {
       "date": "2026-11-20",
       "day": "Fri Nov 20",
+      "venue": "Napa Music Hall",
+      "city": "Napa",
+      "artists": "English Beat",
+      "details": "6+ (under 16 with adult) $48.50 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
+      "link": "https://www.google.com/search?q=English+Beat+Napa+Music+Hall+Napa+Fri+Nov+20+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "89a21b0c78d1"
+    },
+    {
+      "date": "2026-11-20",
+      "day": "Fri Nov 20",
       "venue": "Phoenix Theater",
       "city": "Petaluma",
       "artists": "Phoenix Pro Westling",
@@ -5036,7 +4757,7 @@
       "day": "Fri Nov 20",
       "venue": "Regency Ballroom",
       "city": "San Francisco",
-      "artists": "Layton Giordani",
+      "artists": "Layton Giordani, Greggio",
       "details": "18+ 7pm/8pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Layton+Giordani+Regency+Ballroom+site%3Atheregencyballroom.com",
@@ -5085,6 +4806,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Powerhouse+Thee+Stork+Club+site%3Atheestorkclub.com",
       "id": "1bb52e40c19c"
+    },
+    {
+      "date": "2026-11-20",
+      "day": "Fri Nov 20",
+      "venue": "Uptown Theater",
+      "city": "Napa",
+      "artists": "Super Diamond (tribute)",
+      "details": "12+ (under 16 with adult) $54.20 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Super+Diamond+Uptown+Theater+site%3Auptowntheatrenapa.com",
+      "id": "2ce57bb24047"
     },
     {
       "date": "2026-11-20",
@@ -5167,6 +4899,17 @@
     {
       "date": "2026-11-21",
       "day": "Sat Nov 21",
+      "venue": "Catalyst Atrium",
+      "city": "Santa Cruz",
+      "artists": "Wavy Train",
+      "details": "16+ 7:30pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
+      "link": "https://www.google.com/search?q=Wavy+Train+Catalyst+Atrium+Santa+Cruz+Sat+Nov+21+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "89d28f08c4fe"
+    },
+    {
+      "date": "2026-11-21",
+      "day": "Sat Nov 21",
       "venue": "Chapel",
       "city": "San Francisco",
       "artists": "Poi Dog Pondering, Archer Monk",
@@ -5236,7 +4979,7 @@
       "venue": "Great American Music Hall",
       "city": "San Francisco",
       "artists": "Andrew McMahon, Ivory Layne",
-      "details": "a/a $85-$55 6pm/7pm",
+      "details": "a/a $85-$55 6pm/7pm (sold out)",
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Andrew+McMahon+Great+American+Music+Hall+site%3Agamh.com",
       "id": "ccd645e21298"
@@ -5318,6 +5061,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
       "link": "https://www.google.com/search?q=Jungle+Swank+Makeout+Room+San+Francisco+Sat+Nov+21+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "aba4cd3eb145"
+    },
+    {
+      "date": "2026-11-21",
+      "day": "Sat Nov 21",
+      "venue": "Napa Music Hall",
+      "city": "Napa",
+      "artists": "Who's Bad (tribute)",
+      "details": "6+ (under 16 with adult) $41.25 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
+      "link": "https://www.google.com/search?q=Who%27s+Bad+Napa+Music+Hall+Napa+Sat+Nov+21+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "bb0a353c7176"
     },
     {
       "date": "2026-11-21",
@@ -5418,6 +5172,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
       "link": "https://www.google.com/search?q=Rosewater+at+On+Broadway+at+Mabuhay+Gardens+San+Francisco+Sat+Nov+21+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "a1e68d0f4dd2"
+    },
+    {
+      "date": "2026-11-22",
+      "day": "Sun Nov 22",
+      "venue": "924 Gilman Street",
+      "city": "Berkeley",
+      "artists": "Power Rob, Eclectotron, Bi Score",
+      "details": "a/a $15/$20 6pm/7:45pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Power+Rob+924+Gilman+Street+site%3A924gilman.org",
+      "id": "434b72b885f1"
     },
     {
       "date": "2026-11-22",
@@ -5534,7 +5299,7 @@
       "day": "Sun Nov 22",
       "venue": "Regency Ballroom",
       "city": "San Francisco",
-      "artists": "Brutalismus 3000, Eurohead, Ali RQ, DeBasement, Erika, SFcosboy",
+      "artists": "Brutalismus 3000, Eurohead, Ali RQ, DeBasement, Erika + SFcosboy",
       "details": "16+ 6pm/7pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Brutalismus+3000+Regency+Ballroom+site%3Atheregencyballroom.com",
@@ -6227,11 +5992,11 @@
       "day": "Thu Dec 3",
       "venue": "924 Gilman Street",
       "city": "Berkeley",
-      "artists": "Village Prophets, Big Head, Happy Nowrxa, Jaded Justice, Step",
+      "artists": "Strep, Jaded Justice, Happy Nowr, Big Head, Village Prophets",
       "details": "a/a $12/$15 6:30pm/7pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.5.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Village+Prophets+924+Gilman+Street+site%3A924gilman.org",
-      "id": "0e01f7d9680f"
+      "link": "https://duckduckgo.com/?q=%21ducky+Strep+924+Gilman+Street+site%3A924gilman.org",
+      "id": "0cb01ee50e98"
     },
     {
       "date": "2026-12-03",
@@ -6349,7 +6114,7 @@
       "venue": "924 Gilman Street",
       "city": "Berkeley",
       "artists": "First Day Back",
-      "details": "a/a $20/$25 6:30pm/7:30pm",
+      "details": "a/a $20/$25 6:30pm/7:30pm (sold out)",
       "source": "http://www.foopee.com/punk/the-list/by-date.5.html",
       "link": "https://duckduckgo.com/?q=%21ducky+First+Day+Back+924+Gilman+Street+site%3A924gilman.org",
       "id": "0cd7459e968f"
@@ -6448,10 +6213,21 @@
       "venue": "924 Gilman Street",
       "city": "Berkeley",
       "artists": "First Day Back",
-      "details": "a/a $20/$25 6:30pm/7:30pm",
+      "details": "a/a $20/$25 6:30pm/7:30pm (sold out)",
       "source": "http://www.foopee.com/punk/the-list/by-date.5.html",
       "link": "https://duckduckgo.com/?q=%21ducky+First+Day+Back+924+Gilman+Street+site%3A924gilman.org",
       "id": "a50e545ba797"
+    },
+    {
+      "date": "2026-12-05",
+      "day": "Sat Dec 5",
+      "venue": "924 Gilman Street",
+      "city": "Berkeley",
+      "artists": "Punk Yoga",
+      "details": "a/a $5/$10 noon",
+      "source": "http://www.foopee.com/punk/the-list/by-date.5.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Punk+Yoga+924+Gilman+Street+site%3A924gilman.org",
+      "id": "ab342ff2c16c"
     },
     {
       "date": "2026-12-05",
@@ -6995,6 +6771,17 @@
     {
       "date": "2026-12-09",
       "day": "Wed Dec 9",
+      "venue": "Napa Music Hall",
+      "city": "Napa",
+      "artists": "Save Ferris",
+      "details": "6+ (under 16 with adult) $36.65+ 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.6.html",
+      "link": "https://www.google.com/search?q=Save+Ferris+Napa+Music+Hall+Napa+Wed+Dec+9+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "ae70abd34770"
+    },
+    {
+      "date": "2026-12-09",
+      "day": "Wed Dec 9",
       "venue": "Palace of Fine Arts",
       "city": "San Francisco",
       "artists": "Oneus",
@@ -7266,6 +7053,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.6.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Trippie+Redd+Warfield+site%3Athewarfieldtheatre.com",
       "id": "7e62aa2d6a05"
+    },
+    {
+      "date": "2026-12-11",
+      "day": "Fri Dec 11",
+      "venue": "Winters Tavern",
+      "city": "Pacifica",
+      "artists": "Strange Ones, Thee Serf Sonics, Kevin Moan & The Howling, Kaiju Or Cake",
+      "details": "21+ free 8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.6.html",
+      "link": "https://www.google.com/search?q=Strange+Ones+Winters+Tavern+Pacifica+Fri+Dec+11+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "fa0b95fe2220"
     },
     {
       "date": "2026-12-12",
@@ -7689,6 +7487,17 @@
     {
       "date": "2026-12-18",
       "day": "Fri Dec 18",
+      "venue": "Catalyst Atrium",
+      "city": "Santa Cruz",
+      "artists": "Starcrawler",
+      "details": "16+ $28.72 7:30pm/8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.7.html",
+      "link": "https://www.google.com/search?q=Starcrawler+Catalyst+Atrium+Santa+Cruz+Fri+Dec+18+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "0f4406c9d0c6"
+    },
+    {
+      "date": "2026-12-18",
+      "day": "Fri Dec 18",
       "venue": "Fillmore",
       "city": "San Francisco",
       "artists": "Death Angel, Haunt, Hunt",
@@ -7769,7 +7578,7 @@
       "venue": "924 Gilman Street",
       "city": "Berkeley",
       "artists": "Male Tears, Yama Uba, Violet Thrones, False Flowers, Rose Chamber",
-      "details": "a/a $18/$22 7pm/7:30pm",
+      "details": "a/a $18/$22 7pm/7:30pm (Goth Prom)",
       "source": "http://www.foopee.com/punk/the-list/by-date.7.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Male+Tears+924+Gilman+Street+site%3A924gilman.org",
       "id": "0a76bce268d7"
@@ -7889,7 +7698,7 @@
       "day": "Sat Dec 19",
       "venue": "Regency Ballroom",
       "city": "San Francisco",
-      "artists": "Takuya Nakamura",
+      "artists": "Takuya Nakamura, RP Boo",
       "details": "18+ 7pm/8pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.7.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Takuya+Nakamura+Regency+Ballroom+site%3Atheregencyballroom.com",
@@ -8027,6 +7836,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.8.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Swingin%27+Utters+Bottom+of+the+Hill+site%3Abottomofthehill.com",
       "id": "0e0b5cf623da"
+    },
+    {
+      "date": "2026-12-23",
+      "day": "Wed Dec 23",
+      "venue": "SF Independent",
+      "city": "San Francisco",
+      "artists": "Ray And Paul",
+      "details": "a/a $34.01 7:30pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.8.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Ray+And+Paul+SF+Independent+site%3Atheindependentsf.com",
+      "id": "a9ccfac87a99"
     },
     {
       "date": "2026-12-24",
@@ -8485,7 +8305,7 @@
       "venue": "Fox Theater Oakland",
       "city": "Oakland",
       "artists": "Cake, Tune-Yards, DakhaBrakha",
-      "details": "a/a $94+ 7pm #",
+      "details": "a/a $94.15 7pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.11.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Cake+Fox+Theater+Oakland+site%3Athefoxoakland.com",
       "id": "40a20ce2157d"
@@ -8507,7 +8327,7 @@
       "venue": "Fox Theater Oakland",
       "city": "Oakland",
       "artists": "Cake, Tune-Yards, DakhaBrakha",
-      "details": "a/a $94+ 7pm #",
+      "details": "a/a $94.15 7pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.11.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Cake+Fox+Theater+Oakland+site%3Athefoxoakland.com",
       "id": "531b7a1528a6"
@@ -8517,7 +8337,7 @@
       "day": "Wed Jan 13",
       "venue": "Ivy Room",
       "city": "Albany",
-      "artists": "Briefs, Suzi Moon, Loud Graves",
+      "artists": "Briefs, Dromns, Loud Graves",
       "details": "21+ $23.48 7pm/7:30pm @",
       "source": "http://www.foopee.com/punk/the-list/by-date.11.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Briefs+Ivy+Room+site%3Aivyroom.com",
@@ -8544,6 +8364,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.11.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Sisterm+Nancy+Moe%27s+Alley+site%3Amoesalley.com",
       "id": "98f7c32e07af"
+    },
+    {
+      "date": "2027-01-14",
+      "day": "Thu Jan 14",
+      "venue": "Ritz",
+      "city": "San Jose",
+      "artists": "Briefs, Drowns",
+      "details": "a/a $20 7pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.11.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Briefs+Ritz+site%3Atheritzsanjose.com",
+      "id": "cb41de4be800"
     },
     {
       "date": "2027-01-14",
@@ -8793,8 +8624,8 @@
       "day": "Thu Jan 21",
       "venue": "924 Gilman Street",
       "city": "Berkeley",
-      "artists": "Local News Legend, Mothers Day Rogers",
-      "details": "a/a",
+      "artists": "Local News Legend, Mothers Day Rogers, Just Nick",
+      "details": "a/a $15 6:30pm/7pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.12.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Local+News+Legend+924+Gilman+Street+site%3A924gilman.org",
       "id": "abc43159c2a6"
@@ -8976,6 +8807,17 @@
       "id": "4f26872ca6f2"
     },
     {
+      "date": "2027-01-26",
+      "day": "Tue Jan 26",
+      "venue": "Cafe Du Nord",
+      "city": "San Francisco",
+      "artists": "Youth Fountain, Relate",
+      "details": "a/a $28.30 7pm/8pm @",
+      "source": "http://www.foopee.com/punk/the-list/by-date.13.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Youth+Fountain+Cafe+Du+Nord+site%3Acafedunord.com",
+      "id": "0cb566a3e0f7"
+    },
+    {
       "date": "2027-01-27",
       "day": "Wed Jan 27",
       "venue": "Catalyst",
@@ -9035,11 +8877,11 @@
       "day": "Thu Jan 28",
       "venue": "Rickshaw Stop",
       "city": "San Francisco",
-      "artists": "Fifteen",
+      "artists": "Fifteen (Jeff, John, Chris)",
       "details": "a/a $ (Michaela Cancer Benefit))",
       "source": "http://www.foopee.com/punk/the-list/by-date.13.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Fifteen+Rickshaw+Stop+site%3Arickshawstop.com",
-      "id": "7b5aa55f2c81"
+      "id": "50769394162e"
     },
     {
       "date": "2027-01-29",
@@ -9145,7 +8987,7 @@
       "day": "Mon Feb 1",
       "venue": "Bimbo's 365 Club",
       "city": "San Francisco",
-      "artists": "Vansire",
+      "artists": "Vansire, Eliza McLamb",
       "details": "a/a $41.21 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.14.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Vansire+Bimbo%27s+365+Club+site%3Abimbos365club.com",
@@ -9190,7 +9032,7 @@
       "venue": "924 Gilman Street",
       "city": "Berkeley",
       "artists": "Riley!, Super Sometimes, Shoreline",
-      "details": "a/a 6pm/7pm",
+      "details": "a/a $18/$22 6pm/7pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.14.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Riley%21+924+Gilman+Street+site%3A924gilman.org",
       "id": "1dbb6199fa09"
@@ -9277,11 +9119,11 @@
       "day": "Sat Feb 6",
       "venue": "SF Civic Auditorium",
       "city": "San Francisco",
-      "artists": "Grahame Less, Warren Haynes, Neal Francis, John Molo, Cyril Neville, Preservation Hall Jazz Band",
+      "artists": "Grahame Lesh, Warren Haynes, Neal Francis, John Molo, Cyril Neville, Preservation Hall Jazz Band",
       "details": "a/a 7:30pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.14.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Grahame+Less+SF+Civic+Auditorium+site%3Abillgrahamcivic.com",
-      "id": "f300b3454e43"
+      "link": "https://duckduckgo.com/?q=%21ducky+Grahame+Lesh+SF+Civic+Auditorium+site%3Abillgrahamcivic.com",
+      "id": "79740be23277"
     },
     {
       "date": "2027-02-06",
@@ -9344,7 +9186,7 @@
       "venue": "924 Gilman Street",
       "city": "Berkeley",
       "artists": "Sister Wife Sex Strike, Doom Scroll, Ash Bricky",
-      "details": "a/a 6pm/6:30pm",
+      "details": "a/a $12 6pm/6:30pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.15.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Sister+Wife+Sex+Strike+924+Gilman+Street+site%3A924gilman.org",
       "id": "227a913352da"
@@ -9594,6 +9436,17 @@
     {
       "date": "2027-02-20",
       "day": "Sat Feb 20",
+      "venue": "August Hall",
+      "city": "San Francisco",
+      "artists": "Elefante",
+      "details": "5+ $91.75 8pm/9pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.16.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Elefante+August+Hall+site%3Aaugusthallsf.com",
+      "id": "1678984a2ccd"
+    },
+    {
+      "date": "2027-02-20",
+      "day": "Sat Feb 20",
       "venue": "Castro",
       "city": "San Francisco",
       "artists": "La Roux",
@@ -9748,6 +9601,17 @@
     {
       "date": "2027-02-27",
       "day": "Sat Feb 27",
+      "venue": "924 Gilman Street",
+      "city": "Berkeley",
+      "artists": "Big D And The Kids Table, Hell Beach",
+      "details": "a/a $20/$25 7pm/8pm @",
+      "source": "http://www.foopee.com/punk/the-list/by-date.17.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Big+D+And+The+Kids+Table+924+Gilman+Street+site%3A924gilman.org",
+      "id": "7295c88274b9"
+    },
+    {
+      "date": "2027-02-27",
+      "day": "Sat Feb 27",
       "venue": "Castro",
       "city": "San Francisco",
       "artists": "Caroline Rose",
@@ -9856,6 +9720,17 @@
       "id": "5a7d319f9359"
     },
     {
+      "date": "2027-03-02",
+      "day": "Tue Mar 2",
+      "venue": "Catalyst Atrium",
+      "city": "Santa Cruz",
+      "artists": "Codefendants, Jakob Nowell And The Castle",
+      "details": "16+ $28.72 7pm/8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.18.html",
+      "link": "https://www.google.com/search?q=Codefendants+Catalyst+Atrium+Santa+Cruz+Tue+Mar+2+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "049a3f20c879"
+    },
+    {
       "date": "2027-03-03",
       "day": "Wed Mar 3",
       "venue": "Castro",
@@ -9894,7 +9769,7 @@
       "venue": "Fillmore",
       "city": "San Francisco",
       "artists": "They Might Be Giants",
-      "details": "16+ 7pm/8pm #",
+      "details": "16+ $62 7pm/8pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.18.html",
       "link": "https://duckduckgo.com/?q=%21ducky+They+Might+Be+Giants+Fillmore+site%3Athefillmore.com",
       "id": "b99fdfd4dd55"
@@ -9927,7 +9802,7 @@
       "venue": "Fillmore",
       "city": "San Francisco",
       "artists": "They Might Be Giants",
-      "details": "16+ 7pm/8pm #",
+      "details": "16+ $62 7pm/8pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.18.html",
       "link": "https://duckduckgo.com/?q=%21ducky+They+Might+Be+Giants+Fillmore+site%3Athefillmore.com",
       "id": "402b0ea34d8c"
@@ -9971,7 +9846,7 @@
       "venue": "Fillmore",
       "city": "San Francisco",
       "artists": "They Might Be Giants",
-      "details": "16+ 7pm/8pm #",
+      "details": "16+ $62 7pm/8pm #",
       "source": "http://www.foopee.com/punk/the-list/by-date.18.html",
       "link": "https://duckduckgo.com/?q=%21ducky+They+Might+Be+Giants+Fillmore+site%3Athefillmore.com",
       "id": "55d9f4f720a0"
@@ -10030,6 +9905,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.19.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Chvrches+Fox+Theater+Oakland+site%3Athefoxoakland.com",
       "id": "4d7955a7810b"
+    },
+    {
+      "date": "2027-03-11",
+      "day": "Thu Mar 11",
+      "venue": "August Hall",
+      "city": "San Francisco",
+      "artists": "Penelope Road, Takes",
+      "details": "5+ $34.70 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.19.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Penelope+Road+August+Hall+site%3Aaugusthallsf.com",
+      "id": "eafb93075417"
     },
     {
       "date": "2027-03-12",
@@ -10294,6 +10180,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.21.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Vacations+Warfield+site%3Athewarfieldtheatre.com",
       "id": "28327cca4cdf"
+    },
+    {
+      "date": "2027-03-24",
+      "day": "Wed Mar 24",
+      "venue": "Ritz",
+      "city": "San Jose",
+      "artists": "Actors, Hallows, Discussion",
+      "details": "a/a $25 7pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.21.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Actors+Ritz+site%3Atheritzsanjose.com",
+      "id": "f131d7bb0803"
     },
     {
       "date": "2027-03-24",
@@ -10607,6 +10504,17 @@
       "id": "49199477fb57"
     },
     {
+      "date": "2027-04-16",
+      "day": "Fri Apr 16",
+      "venue": "August Hall",
+      "city": "San Francisco",
+      "artists": "Destroy Boys, Illuminati Hotties, Rat Utopia Experiment",
+      "details": "5+ $40.85 6:30pm/7pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.24.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Destroy+Boys+August+Hall+site%3Aaugusthallsf.com",
+      "id": "8c6d045591f2"
+    },
+    {
       "date": "2027-04-17",
       "day": "Sat Apr 17",
       "venue": "Hopmonk",
@@ -10627,6 +10535,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.24.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Sim+August+Hall+site%3Aaugusthallsf.com",
       "id": "f2102b5ef520"
+    },
+    {
+      "date": "2027-04-20",
+      "day": "Tue Apr 20",
+      "venue": "Regency Ballroom",
+      "city": "San Francisco",
+      "artists": "Brakence",
+      "details": "a/a 7pm/8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.25.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Brakence+Regency+Ballroom+site%3Atheregencyballroom.com",
+      "id": "d7093cf67585"
     },
     {
       "date": "2027-04-20",
@@ -10666,11 +10585,11 @@
       "day": "Sat Apr 24",
       "venue": "Fox Theater Oakland",
       "city": "Oakland",
-      "artists": "Mdshuggah, Testament, Blood Incantation",
-      "details": "a/a $78+ 7pm #",
+      "artists": "Meshuggah, Testament, Blood Incantation",
+      "details": "a/a $88.45 ($78+ seated) 7pm # @",
       "source": "http://www.foopee.com/punk/the-list/by-date.25.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Mdshuggah+Fox+Theater+Oakland+site%3Athefoxoakland.com",
-      "id": "72a367712e1d"
+      "link": "https://duckduckgo.com/?q=%21ducky+Meshuggah+Fox+Theater+Oakland+site%3Athefoxoakland.com",
+      "id": "b63d2716b0e2"
     },
     {
       "date": "2027-04-24",
@@ -10748,6 +10667,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Interrupters+Regency+Ballroom+site%3Atheregencyballroom.com",
       "id": "cf8a03f7407b"
+    },
+    {
+      "date": "2027-04-29",
+      "day": "Thu Apr 29",
+      "venue": "Rickshaw Stop",
+      "city": "San Francisco",
+      "artists": "Paloma Morphy",
+      "details": "a/a $22/$25 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Paloma+Morphy+Rickshaw+Stop+site%3Arickshawstop.com",
+      "id": "0837be70b5fb"
     }
   ]
 }
