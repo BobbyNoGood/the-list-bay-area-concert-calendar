@@ -1,5 +1,5 @@
-VENUE CLEANUP REPORT (data from 2026-10-31 12:15 PM PT)
-Shows: 939 -> 938   Venues: 135 -> 115
+VENUE CLEANUP REPORT (data from 2026-11-01 11:38 AM PT)
+Shows: 920 -> 919   Venues: 129 -> 109
 
 == MERGED VENUES (16) ==
 Shown as: KEPT NAME | city   <=   name that was folded into it
@@ -21,7 +21,7 @@ Great American Music Hall | San Francisco   <=   Great American Music Hall (no c
       why: same name after fixing case/punctuation/St.-Street
 Hopmonk | Novato   <=   Hopmonk Tavern (Novato, 5 shows)
       why: same name, only a generic word added (tavern)
-Hopmonk | Sebastopol   <=   Hopmonk Tavern (Sebastopol, 4 shows)
+Hopmonk | Sebastopol   <=   Hopmonk Tavern (Sebastopol, 3 shows)
       why: same name, only a generic word added (tavern)
 Hotel Utah | San Francisco   <=   Hotel Utan (San Francisco, 1 shows)
       why: spelling typo (90% alike)
@@ -36,11 +36,10 @@ San Jose Civic | San Jose   <=   San Jose Civic Center (San Jose, 2 shows)
 Shoreline Amphitheater | Mountain View   <=   Shoreline Amptheater (Mountain View, 1 shows)
       why: same name after fixing case/punctuation/St.-Street
 
-== CITY FIXES (12) ==
+== CITY FIXES (10) ==
 Alamea -> Alameda (typo)
 Albanyu -> Albany (typo)
 Daily City -> Daly City (typo)
-Memlo Park -> Menlo Park (typo)
 Oakkland -> Oakland (typo)
 Oaklaand -> Oakland (typo)
 San Josea -> San Jose (typo)
@@ -52,19 +51,18 @@ Civic Center|San Jose -> San Jose Civic
 == DUPLICATE SHOWS REMOVED (1) ==
 2026-12-12 9 Lives Warehouse: 'A Dolls Demise, Mugslug, Tocca, Madrona, Mech' | 'A Dolls Demise, Mugslug, Jaded Justice, Tocca'  (kept longer listing)
 
-== PLEASE CHECK - NOT MERGED (11) ==
+== PLEASE CHECK - NOT MERGED (10) ==
 If two of these are really the same place, add a line to MANUAL_ALIASES in venue_tools.py.
-CHECK: '924 Gilman Street' (Berkeley, 29 shows) vs 'Gilman Brewing Co' (Berkeley, 1 shows) - one name is inside the other
+CHECK: '924 Gilman Street' (Berkeley, 28 shows) vs 'Gilman Brewing Co' (Berkeley, 1 shows) - one name is inside the other
 CHECK: 'Catalyst' (Santa Cruz, 13 shows) vs 'Catalyst Atrium' (Santa Cruz, 5 shows) - one name is inside the other
 CHECK: 'Civic Auditorium' (San Jose, 1 shows) vs 'San Jose Civic' (San Jose, 3 shows) - one name is inside the other
-CHECK: 'Fox Theater' (Oakland, 28 shows) vs 'Fox Theater Oakland' (no city, 1 shows) - one name is inside the other
+CHECK: 'Fox Theater' (Oakland, 27 shows) vs 'Fox Theater Oakland' (no city, 1 shows) - one name is inside the other
 CHECK: 'Fox Theater' (Redwood City, 1 shows) vs 'Fox Theater Oakland' (no city, 1 shows) - one name is inside the other
 CHECK: 'Great American Music Hall' (San Francisco, 48 shows) vs 'Music Hall' (Felton, 2 shows) - one name is inside the other
 CHECK: 'On Broadway at Mabuhay Gardens' (San Francisco, 5 shows) vs 'at On Broadway at Mabuhay Gardens' (San Francisco, 2 shows) - one name is inside the other
 SAME NAME, DIFFERENT CITY: 'Civic Auditorium' (San Francisco, 10 shows) vs 'Civic Auditorium' (San Jose, 1 shows)
-SAME NAME, DIFFERENT CITY: 'Fox Theater' (Oakland, 28 shows) vs 'Fox Theater' (Redwood City, 1 shows)
-SAME NAME, DIFFERENT CITY: 'Ivy Room' (Albany, 35 shows) vs 'Ivy Room' (Albanu, 1 shows)
-SAME NAME, DIFFERENT CITY: 'a House' (San Francisco, 1 shows) vs 'a House' (Suisun City, 1 shows)
+SAME NAME, DIFFERENT CITY: 'Fox Theater' (Oakland, 27 shows) vs 'Fox Theater' (Redwood City, 1 shows)
+SAME NAME, DIFFERENT CITY: 'Ivy Room' (Albanu, 1 shows) vs 'Ivy Room' (Albany, 34 shows)
 
 == CITIES NOT ON THE KNOWN LIST (check spelling) ==
 Albanu, Bolinas, Nicasio, Suisun City
@@ -75,7 +73,7 @@ Fox Theater Oakland
 == RENAMES APPLIED (rename_venues.py) ==
 Arena|Oakland  ->  Oakland Arena (7 shows)
 Civic Auditorium|San Francisco  ->  SF Civic Auditorium (10 shows)
-Fox Theater|Oakland  ->  Fox Theater Oakland (28 shows)
+Fox Theater|Oakland  ->  Fox Theater Oakland (27 shows)
 Fox Theater|Redwood City  ->  Fox Theater Redwood City (1 shows)
 Independent|San Francisco  ->  SF Independent (47 shows)
 Masonic|San Francisco  ->  The Masonic (7 shows)
