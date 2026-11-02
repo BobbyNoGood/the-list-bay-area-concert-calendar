@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2026-11-01 11:38 AM PT",
-    "event_count": 919,
+    "updated_at": "2026-11-02 03:06 PM PT",
+    "event_count": 922,
     "week_count": 27,
     "weeks": [
       {
@@ -20,7 +20,7 @@
         "start": "2026-11-09",
         "end": "2026-11-15",
         "label": "Nov 9–15, 2026",
-        "count": 142
+        "count": 143
       },
       {
         "start": "2026-11-16",
@@ -80,7 +80,7 @@
         "start": "2027-01-18",
         "end": "2027-01-24",
         "label": "Jan 18–24, 2027",
-        "count": 17
+        "count": 18
       },
       {
         "start": "2027-01-25",
@@ -164,7 +164,7 @@
         "start": "2027-04-26",
         "end": "2027-05-02",
         "label": "Apr 26–May 2, 2027",
-        "count": 6
+        "count": 7
       }
     ],
     "source_pages": [
@@ -182,7 +182,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.2.html",
-        "events": 142,
+        "events": 143,
         "first_date": "2026-11-09",
         "last_date": "2026-11-15"
       },
@@ -242,7 +242,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.12.html",
-        "events": 17,
+        "events": 18,
         "first_date": "2027-01-18",
         "last_date": "2027-01-24"
       },
@@ -326,9 +326,9 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
-        "events": 6,
+        "events": 7,
         "first_date": "2027-04-26",
-        "last_date": "2027-04-29"
+        "last_date": "2027-05-01"
       }
     ]
   },
@@ -3294,6 +3294,18 @@
       "address": "2400 Filbert Street",
       "link": "https://www.google.com/search?q=Leer+FML+Studios+Oakland+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "0b857e097eaf"
+    },
+    {
+      "date": "2026-11-14",
+      "day": "Sat Nov 14",
+      "venue": "Fourth Bore",
+      "city": "",
+      "artists": "Adrian West Band",
+      "details": "#134, Orinda ?/? free 6:30pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "address": "2 Orinda Theater Square",
+      "link": "https://www.google.com/search?q=Adrian+West+Band+Fourth+Bore++Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "8d167b2a1543"
     },
     {
       "date": "2026-11-14",
@@ -8530,6 +8542,17 @@
     {
       "date": "2027-01-23",
       "day": "Sat Jan 23",
+      "venue": "Cornerstone",
+      "city": "Berkeley",
+      "artists": "Koo Koo",
+      "details": "a/a $30.87 noon/1pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.12.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Koo+Koo+Cornerstone+site%3Acornerstoneberkeley.com",
+      "id": "78d4eb2f0293"
+    },
+    {
+      "date": "2027-01-23",
+      "day": "Sat Jan 23",
       "venue": "Hopmonk",
       "city": "Sebastopol",
       "artists": "Late For The Train",
@@ -10465,6 +10488,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Paloma+Morphy+Rickshaw+Stop+site%3Arickshawstop.com",
       "id": "0837be70b5fb"
+    },
+    {
+      "date": "2027-05-01",
+      "day": "Sat May 1",
+      "venue": "SF Civic Auditorium",
+      "city": "San Francisco",
+      "artists": "Lola Young",
+      "details": "?/? #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Lola+Young+SF+Civic+Auditorium+site%3Abillgrahamcivic.com",
+      "id": "e1bf64481421"
     }
   ]
 }
