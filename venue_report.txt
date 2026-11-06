@@ -1,7 +1,7 @@
-VENUE CLEANUP REPORT (data from 2026-11-05 01:27 PM PT)
-Shows: 949 -> 947   Venues: 133 -> 110
+VENUE CLEANUP REPORT (data from 2026-11-06 12:52 PM PT)
+Shows: 962 -> 960   Venues: 138 -> 114
 
-== MERGED VENUES (19) ==
+== MERGED VENUES (20) ==
 Shown as: KEPT NAME | city   <=   name that was folded into it
 9 Lives | Oakland   <=   9 Lives Warehouse (Oakland, 1 shows)
       why: one name is inside the other; PROVEN by calendar: 1 show(s) listed under both names
@@ -31,6 +31,8 @@ Hotel Utah | San Francisco   <=   Hotel Utan (San Francisco, 1 shows)
       why: spelling typo (90% alike)
 Independent | San Francisco   <=   Indpendent (San Francisco, 1 shows)
       why: spelling typo (95% alike)
+Ivy Room | Albany   <=   Ivy Roomm (Albany, 1 shows)
+      why: spelling typo (94% alike)
 Mabuhay Gardens | San Francisco   <=   Mabuhauy Gardens (San Francisco, 1 shows)
       why: spelling typo (97% alike)
 Neck Of The Woods | San Francisco   <=   Neck Of the Woods (San Francisco, 1 shows)
@@ -57,37 +59,39 @@ Civic Center|San Jose -> San Jose Civic
 2026-12-03 Fillmore: 'Pattie Gonia' | 'Pattie Gonia'  (kept longer listing)
 2026-12-12 9 Lives: 'A Dolls Demise, Mugslug, Tocca, Madrona, Mech' | 'A Dolls Demise, Mugslug, Jaded Justice, Tocca'  (kept longer listing)
 
-== PLEASE CHECK - NOT MERGED (12) ==
+== PLEASE CHECK - NOT MERGED (14) ==
 If two of these are really the same place, add a line to MANUAL_ALIASES in venue_tools.py.
 CHECK: '924 Gilman Street' (Berkeley, 29 shows) vs 'Gilman Brewery' (Berkeley, 1 shows) - one name is inside the other
 CHECK: '924 Gilman Street' (Berkeley, 29 shows) vs 'Gilman Brewery' (Berkeley, 2 shows) - one name is inside the other
 CHECK: 'Catalyst' (Santa Cruz, 13 shows) vs 'Catalyst Atrium' (Santa Cruz, 5 shows) - one name is inside the other
 CHECK: 'Civic Auditorium' (San Jose, 1 shows) vs 'San Jose Civic' (San Jose, 5 shows) - one name is inside the other
-CHECK: 'Fox Theater' (Oakland, 29 shows) vs 'Fox Theater Oakland' (no city, 1 shows) - one name is inside the other
+CHECK: 'Fox Theater' (Oakland, 30 shows) vs 'Fox Theater Oakland' (no city, 1 shows) - one name is inside the other
 CHECK: 'Fox Theater' (Redwood City, 1 shows) vs 'Fox Theater Oakland' (no city, 1 shows) - one name is inside the other
 CHECK: 'Gilman Brewery' (Berkeley, 1 shows) vs 'Gilman Brewery' (Berkeley, 2 shows) - same name but different type word (brewing vs brewery)
 CHECK: 'Gilman Brewery' (Berkeley, 2 shows) vs 'Gilman Brewery' (Berkeley, 1 shows) - same name but different type word (brewery vs brewing)
-CHECK: 'Great American Music Hall' (San Francisco, 45 shows) vs 'Music Hall' (Felton, 2 shows) - one name is inside the other
+CHECK: 'Great American Music Hall' (San Francisco, 44 shows) vs 'Music Hall' (Felton, 2 shows) - one name is inside the other
 CHECK: 'On Broadway at Mabuhay Gardens' (San Francisco, 5 shows) vs 'at On Broadway at Mabuhay Gardens' (San Francisco, 2 shows) - one name is inside the other
-SAME NAME, DIFFERENT CITY: 'Civic Auditorium' (San Francisco, 12 shows) vs 'Civic Auditorium' (San Jose, 1 shows)
-SAME NAME, DIFFERENT CITY: 'Fox Theater' (Oakland, 29 shows) vs 'Fox Theater' (Redwood City, 1 shows)
+SAME NAME, DIFFERENT CITY: 'Civic Auditorium' (San Francisco, 11 shows) vs 'Civic Auditorium' (San Jose, 1 shows)
+SAME NAME, DIFFERENT CITY: 'Fox Theater' (Oakland, 30 shows) vs 'Fox Theater' (Redwood City, 1 shows)
+SAME NAME, DIFFERENT CITY: 'Ivy Room' (Albanu, 1 shows) vs 'Ivy Roomm' (Albany, 1 shows)
+SAME NAME, DIFFERENT CITY: 'Ivy Room' (Albany, 42 shows) vs 'Ivy Room' (Albanu, 1 shows)
 
 == CITIES NOT ON THE KNOWN LIST (check spelling) ==
-Bolinas, Suisun City, West Oakland
+Albanu, Bolinas, Suisun City, West Oakland
 
 == VENUES WITH NO CITY ==
 Fourth Bore, Fox Theater Oakland
 
 == RENAMES APPLIED (rename_venues.py) ==
 Arena|Oakland  ->  Oakland Arena (7 shows)
-Civic Auditorium|San Francisco  ->  SF Civic Auditorium (12 shows)
-Fox Theater|Oakland  ->  Fox Theater Oakland (29 shows)
+Civic Auditorium|San Francisco  ->  SF Civic Auditorium (11 shows)
+Fox Theater|Oakland  ->  Fox Theater Oakland (30 shows)
 Fox Theater|Redwood City  ->  Fox Theater Redwood City (1 shows)
-Independent|San Francisco  ->  SF Independent (47 shows)
-Masonic|San Francisco  ->  The Masonic (6 shows)
+Independent|San Francisco  ->  SF Independent (46 shows)
+Masonic|San Francisco  ->  The Masonic (5 shows)
 Planetarium|Richmond  ->  Richmond Planetarium (4 shows)
 San Jose Civic|San Jose  ->  San Jose Civic Center (5 shows)
-Warriors Stadium|San Francisco  ->  Chase Center (4 shows)
+Warriors Stadium|San Francisco  ->  Chase Center (5 shows)
 NOT FOUND (no shows right now): Frost Amphitheater|Stanford
 NOT FOUND (no shows right now): Mountain Winery|Saratoga
 NOT FOUND (no shows right now): Music Hall|Napa
