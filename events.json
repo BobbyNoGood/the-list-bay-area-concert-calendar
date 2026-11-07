@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2026-11-06 12:52 PM PT",
-    "event_count": 960,
+    "updated_at": "2026-11-07 11:24 AM PT",
+    "event_count": 973,
     "week_count": 27,
     "weeks": [
       {
@@ -20,7 +20,7 @@
         "start": "2026-11-16",
         "end": "2026-11-22",
         "label": "Nov 16–22, 2026",
-        "count": 142
+        "count": 143
       },
       {
         "start": "2026-11-23",
@@ -38,7 +38,7 @@
         "start": "2026-12-07",
         "end": "2026-12-13",
         "label": "Dec 7–13, 2026",
-        "count": 67
+        "count": 69
       },
       {
         "start": "2026-12-14",
@@ -56,7 +56,7 @@
         "start": "2026-12-28",
         "end": "2027-01-03",
         "label": "Dec 28, 2026–Jan 3, 2027",
-        "count": 23
+        "count": 24
       },
       {
         "start": "2027-01-04",
@@ -86,7 +86,7 @@
         "start": "2027-02-01",
         "end": "2027-02-07",
         "label": "Feb 1–7, 2027",
-        "count": 21
+        "count": 22
       },
       {
         "start": "2027-02-08",
@@ -98,7 +98,7 @@
         "start": "2027-02-15",
         "end": "2027-02-21",
         "label": "Feb 15–21, 2027",
-        "count": 13
+        "count": 14
       },
       {
         "start": "2027-02-22",
@@ -110,7 +110,7 @@
         "start": "2027-03-01",
         "end": "2027-03-07",
         "label": "Mar 1–7, 2027",
-        "count": 17
+        "count": 18
       },
       {
         "start": "2027-03-08",
@@ -122,13 +122,13 @@
         "start": "2027-03-15",
         "end": "2027-03-21",
         "label": "Mar 15–21, 2027",
-        "count": 13
+        "count": 14
       },
       {
         "start": "2027-03-22",
         "end": "2027-03-28",
         "label": "Mar 22–28, 2027",
-        "count": 13
+        "count": 14
       },
       {
         "start": "2027-03-29",
@@ -146,13 +146,13 @@
         "start": "2027-04-12",
         "end": "2027-04-18",
         "label": "Apr 12–18, 2027",
-        "count": 4
+        "count": 5
       },
       {
         "start": "2027-04-19",
         "end": "2027-04-25",
         "label": "Apr 19–25, 2027",
-        "count": 7
+        "count": 8
       },
       {
         "start": "2027-04-26",
@@ -164,7 +164,7 @@
         "start": "2027-05-03",
         "end": "2027-05-09",
         "label": "May 3–9, 2027",
-        "count": 4
+        "count": 6
       }
     ],
     "source_pages": [
@@ -182,7 +182,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.2.html",
-        "events": 142,
+        "events": 143,
         "first_date": "2026-11-16",
         "last_date": "2026-11-22"
       },
@@ -200,7 +200,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.5.html",
-        "events": 67,
+        "events": 69,
         "first_date": "2026-12-07",
         "last_date": "2026-12-13"
       },
@@ -218,7 +218,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.8.html",
-        "events": 23,
+        "events": 24,
         "first_date": "2026-12-28",
         "last_date": "2027-01-03"
       },
@@ -248,7 +248,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.13.html",
-        "events": 21,
+        "events": 22,
         "first_date": "2027-02-01",
         "last_date": "2027-02-07"
       },
@@ -260,7 +260,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.15.html",
-        "events": 13,
+        "events": 14,
         "first_date": "2027-02-17",
         "last_date": "2027-02-21"
       },
@@ -272,7 +272,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.17.html",
-        "events": 17,
+        "events": 18,
         "first_date": "2027-03-01",
         "last_date": "2027-03-07"
       },
@@ -284,13 +284,13 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.19.html",
-        "events": 13,
+        "events": 14,
         "first_date": "2027-03-16",
         "last_date": "2027-03-21"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.20.html",
-        "events": 13,
+        "events": 14,
         "first_date": "2027-03-23",
         "last_date": "2027-03-28"
       },
@@ -308,13 +308,13 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.23.html",
-        "events": 4,
+        "events": 5,
         "first_date": "2027-04-14",
         "last_date": "2027-04-18"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.24.html",
-        "events": 7,
+        "events": 8,
         "first_date": "2027-04-20",
         "last_date": "2027-04-25"
       },
@@ -326,9 +326,9 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
-        "events": 4,
+        "events": 6,
         "first_date": "2027-05-04",
-        "last_date": "2027-05-05"
+        "last_date": "2027-05-06"
       }
     ]
   },
@@ -716,7 +716,7 @@
       "day": "Fri Nov 6",
       "venue": "Sweetwater Music Hall",
       "city": "Mill Valley",
-      "artists": "Southern Culture On The Skids",
+      "artists": "Southern Culture On The Skids, Frankie And The Pool Boys",
       "details": "a/a 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Southern+Culture+On+The+Skids+Sweetwater+Music+Hall+site%3Asweetwatermusichall.com",
@@ -1361,22 +1361,22 @@
       "day": "Sun Nov 8",
       "venue": "Hotel Utah",
       "city": "San Francisco",
-      "artists": "Slightest Bits, Moon Sick, Daizy, Moosetrout",
-      "details": "21+ $!2/$15 7pm (late show)",
+      "artists": "Checked-Out, Everything Falls Into Place, If You Say So, Stray Dog Choir",
+      "details": "a/a $12/$15 3pm (early a/a show)",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Slightest+Bits+Hotel+Utah+site%3Ahotelutah.com",
-      "id": "c86dd7f57029"
+      "link": "https://duckduckgo.com/?q=%21ducky+Checked-Out+Hotel+Utah+site%3Ahotelutah.com",
+      "id": "20f206a3c090"
     },
     {
       "date": "2026-11-08",
       "day": "Sun Nov 8",
       "venue": "Hotel Utah",
       "city": "San Francisco",
-      "artists": "Checked-Out, Everything Falls Into Place, If You Say So, Stray Dog Choir",
-      "details": "a/a $12/$15 3pm (early a/a show)",
+      "artists": "Slightest Bits, Moon Sick, Daizy, Moosetrout",
+      "details": "21+ $!2/$15 7pm (late show)",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Checked-Out+Hotel+Utah+site%3Ahotelutah.com",
-      "id": "20f206a3c090"
+      "link": "https://duckduckgo.com/?q=%21ducky+Slightest+Bits+Hotel+Utah+site%3Ahotelutah.com",
+      "id": "c86dd7f57029"
     },
     {
       "date": "2026-11-08",
@@ -2121,7 +2121,7 @@
       "venue": "Great American Music Hall",
       "city": "San Francisco",
       "artists": "Russian Circles, Primitive Man",
-      "details": "a/a $30/$35 7pm/8pm",
+      "details": "a/a $30/$35 7pm/8pm (sold out)",
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Russian+Circles+Great+American+Music+Hall+site%3Agamh.com",
       "id": "b44789474391"
@@ -4590,6 +4590,17 @@
     {
       "date": "2026-11-21",
       "day": "Sat Nov 21",
+      "venue": "Stay Gold Deli",
+      "city": "Oakland",
+      "artists": "Jaded=Neither!, Sean Keenan & Ben Westfall, Hits, Skim",
+      "details": "a/a $5 7pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Jaded%3DNeither%21+Stay+Gold+Deli+site%3Astaygolddeli.com",
+      "id": "06eeb82ba41e"
+    },
+    {
+      "date": "2026-11-21",
+      "day": "Sat Nov 21",
       "venue": "Thee Stork Club",
       "city": "Oakland",
       "artists": "Make Do And Mend, Hushmoney, Ways Away, M.U.T.T.",
@@ -5936,7 +5947,7 @@
       "venue": "First Church of the Buzzard",
       "city": "Oakland",
       "artists": "Habak, Catharsis, Mutilated Tongue, Mordeo, Choke, Canaille",
-      "details": "a/a $20 7pm",
+      "details": "a/a $20 6pm/7pm @",
       "source": "http://www.foopee.com/punk/the-list/by-date.4.html",
       "link": "https://www.google.com/search?q=Habak+First+Church+of+the+Buzzard+Oakland+Sat+Dec+5+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "29087553cb3c"
@@ -6758,6 +6769,17 @@
     {
       "date": "2026-12-12",
       "day": "Sat Dec 12",
+      "venue": "924 Gilman Street",
+      "city": "Berkeley",
+      "artists": "Art Guild Draw-A-Thon",
+      "details": "a/a $30 10am til 3pm (figure drawing)",
+      "source": "http://www.foopee.com/punk/the-list/by-date.5.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Art+Guild+Draw-A-Thon+924+Gilman+Street+site%3A924gilman.org",
+      "id": "92f26f7e0894"
+    },
+    {
+      "date": "2026-12-12",
+      "day": "Sat Dec 12",
       "venue": "Bottom of the Hill",
       "city": "San Francisco",
       "artists": "Hot Lunch, Drunk Horse, Hightower",
@@ -6876,6 +6898,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.5.html",
       "link": "https://duckduckgo.com/?q=%21ducky+DragonForce+UC+Theater+site%3Auctheatre.net",
       "id": "664ed09bbd13"
+    },
+    {
+      "date": "2026-12-12",
+      "day": "Sat Dec 12",
+      "venue": "Up the Creek Records",
+      "city": "Walnut Creek",
+      "artists": "Moving Van, Bad Camper, Bruised Banana",
+      "details": "a/a $15 6pm til 9pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.5.html",
+      "link": "https://www.google.com/search?q=Moving+Van+Up+the+Creek+Records+Walnut+Creek+Sat+Dec+12+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "80f31a0c21c7"
     },
     {
       "date": "2026-12-13",
@@ -7990,6 +8023,17 @@
       "id": "67b63f59a7ad"
     },
     {
+      "date": "2027-01-02",
+      "day": "Sat Jan 2",
+      "venue": "Pier 48",
+      "city": "San Francisco",
+      "artists": "Four Tet, Hagop Tchaparian",
+      "details": "21+ 8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.8.html",
+      "link": "https://www.google.com/search?q=Four+Tet+Pier+48+San+Francisco+Sat+Jan+2+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "21db2d0c1a7b"
+    },
+    {
       "date": "2027-01-03",
       "day": "Sun Jan 3",
       "venue": "Fox Theater Oakland",
@@ -8843,7 +8887,7 @@
       "venue": "Rickshaw Stop",
       "city": "San Francisco",
       "artists": "Fifteen (Jeff, John, Chris), All Girl Summer Fun Band, Grassface",
-      "details": "a/a $20/$25 7pm/7:45pm $ (Michaela Cancer Benefit)",
+      "details": "a/a $20/$25 7pm/7:45pm (sold out) (Michaela Cancer Benefit)",
       "source": "http://www.foopee.com/punk/the-list/by-date.12.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Fifteen+Rickshaw+Stop+site%3Arickshawstop.com",
       "id": "50769394162e"
@@ -9144,6 +9188,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.13.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Grahame+Lesh+SF+Civic+Auditorium+site%3Abillgrahamcivic.com",
       "id": "79740be23277"
+    },
+    {
+      "date": "2027-02-06",
+      "day": "Sat Feb 6",
+      "venue": "Cow Palace",
+      "city": "Daly City",
+      "artists": "Mau P",
+      "details": "21+ 7pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.13.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Mau+P+Cow+Palace+site%3Acowpalace.com",
+      "id": "6bc6c0426f3e"
     },
     {
       "date": "2027-02-06",
@@ -9529,6 +9584,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.15.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Starman+SF+Rickshaw+Stop+site%3Arickshawstop.com",
       "id": "381a340b7077"
+    },
+    {
+      "date": "2027-02-21",
+      "day": "Sun Feb 21",
+      "venue": "Great American Music Hall",
+      "city": "San Francisco",
+      "artists": "Into It Over It, From Indian Lakes",
+      "details": "a/a $27/$32 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.15.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Into+It+Over+It+Great+American+Music+Hall+site%3Agamh.com",
+      "id": "971e45e3dec8"
     },
     {
       "date": "2027-02-21",
@@ -9949,6 +10015,17 @@
       "id": "55d9f4f720a0"
     },
     {
+      "date": "2027-03-07",
+      "day": "Sun Mar 7",
+      "venue": "Regency Ballroom",
+      "city": "San Francisco",
+      "artists": "Currents, Vana, STick To Your Guns, Dreamwake",
+      "details": "a/a 6pm/7pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.17.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Currents+Regency+Ballroom+site%3Atheregencyballroom.com",
+      "id": "c451f03bc8ae"
+    },
+    {
       "date": "2027-03-09",
       "day": "Tue Mar 9",
       "venue": "August Hall",
@@ -10138,6 +10215,17 @@
     {
       "date": "2027-03-16",
       "day": "Tue Mar 16",
+      "venue": "Great American Music Hall",
+      "city": "San Francisco",
+      "artists": "Noah Gunderseen, Nathan Evans Fox",
+      "details": "a/a $27/$32 ($102 vip) 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.19.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Noah+Gunderseen+Great+American+Music+Hall+site%3Agamh.com",
+      "id": "7f2846d46eef"
+    },
+    {
+      "date": "2027-03-16",
+      "day": "Tue Mar 16",
       "venue": "Rickshaw Stop",
       "city": "San Francisco",
       "artists": "Bess Atwell",
@@ -10288,6 +10376,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.20.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Vacations+Warfield+site%3Athewarfieldtheatre.com",
       "id": "28327cca4cdf"
+    },
+    {
+      "date": "2027-03-24",
+      "day": "Wed Mar 24",
+      "venue": "Great American Music Hall",
+      "city": "San Francisco",
+      "artists": "Charlotte Adigery & Bolis Pupul",
+      "details": "a/a $30/$35/$40 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.20.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Charlotte+Adigery+%26+Bolis+Pupul+Great+American+Music+Hall+site%3Agamh.com",
+      "id": "d1919cd03129"
     },
     {
       "date": "2027-03-24",
@@ -10667,6 +10766,17 @@
       "id": "49199477fb57"
     },
     {
+      "date": "2027-04-15",
+      "day": "Thu Apr 15",
+      "venue": "Great American Music Hall",
+      "city": "San Francisco",
+      "artists": "Thao",
+      "details": "a/a $30/$35 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.23.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Thao+Great+American+Music+Hall+site%3Agamh.com",
+      "id": "4f6934e6d6dc"
+    },
+    {
       "date": "2027-04-16",
       "day": "Fri Apr 16",
       "venue": "August Hall",
@@ -10698,6 +10808,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.23.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Sim+August+Hall+site%3Aaugusthallsf.com",
       "id": "f2102b5ef520"
+    },
+    {
+      "date": "2027-04-20",
+      "day": "Tue Apr 20",
+      "venue": "Great American Music Hall",
+      "city": "San Francisco",
+      "artists": "Elder, Blackwater Holylight",
+      "details": "a/a $29.50/$33 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.24.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Elder+Great+American+Music+Hall+site%3Agamh.com",
+      "id": "77c53f658cc0"
     },
     {
       "date": "2027-04-20",
@@ -10919,6 +11040,28 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Def+Lepard+Chase+Center+site%3Achasecenter.com",
       "id": "dbfcb08fd1f8"
+    },
+    {
+      "date": "2027-05-06",
+      "day": "Thu May 6",
+      "venue": "Fillmore",
+      "city": "San Francisco",
+      "artists": "French 79",
+      "details": "a/a $43.50 7pm/8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+French+79+Fillmore+site%3Athefillmore.com",
+      "id": "874d51b62664"
+    },
+    {
+      "date": "2027-05-06",
+      "day": "Thu May 6",
+      "venue": "Great American Music Hall",
+      "city": "San Francisco",
+      "artists": "Chameleons, Rosegarden Funeral Party",
+      "details": "a/a $39.50/$45 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Chameleons+Great+American+Music+Hall+site%3Agamh.com",
+      "id": "6f0227c6b5bf"
     }
   ]
 }
