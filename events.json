@@ -1,14 +1,14 @@
 {
   "meta": {
-    "updated_at": "2026-11-07 11:24 AM PT",
-    "event_count": 973,
+    "updated_at": "2026-11-08 11:39 AM PT",
+    "event_count": 935,
     "week_count": 27,
     "weeks": [
       {
         "start": "2026-11-02",
         "end": "2026-11-08",
         "label": "Nov 2–8, 2026",
-        "count": 108
+        "count": 69
       },
       {
         "start": "2026-11-09",
@@ -164,14 +164,14 @@
         "start": "2027-05-03",
         "end": "2027-05-09",
         "label": "May 3–9, 2027",
-        "count": 6
+        "count": 7
       }
     ],
     "source_pages": [
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.0.html",
-        "events": 108,
-        "first_date": "2026-11-06",
+        "events": 69,
+        "first_date": "2026-11-07",
         "last_date": "2026-11-08"
       },
       {
@@ -326,447 +326,13 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
-        "events": 6,
+        "events": 7,
         "first_date": "2027-05-04",
-        "last_date": "2027-05-06"
+        "last_date": "2027-05-07"
       }
     ]
   },
   "events": [
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "19 Broadway",
-      "city": "Fairfax",
-      "artists": "Alvie & The Breakfast Pigs, Skip The Needle",
-      "details": "21+ 8pm/9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "17 Broadway Blvd.",
-      "link": "https://www.google.com/search?q=Alvie+%26+The+Breakfast+Pigs+19+Broadway+Fairfax+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "334e8ce00132"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "924 Gilman Street",
-      "city": "Berkeley",
-      "artists": "Pinhead Gunpowder, Constant Insult, 2 Lazy Boys, Universal Beat",
-      "details": "a/a $27.50 6pm/7pm @ (sold out)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Pinhead+Gunpowder+924+Gilman+Street+site%3A924gilman.org",
-      "id": "9f4088fb9652"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "August Hall",
-      "city": "San Francisco",
-      "artists": "Bahamas",
-      "details": "5+ $44.95 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Bahamas+August+Hall+site%3Aaugusthallsf.com",
-      "id": "0ae69a53ad9f"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Black Cat",
-      "city": "San Francisco",
-      "artists": "Courtney Knott",
-      "details": "21+ $40 7pm and 9:30pm shows",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Courtney+Knott+Black+Cat+site%3Ablackcatsf.com",
-      "id": "02bf9626cfc7"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Bottom of the Hill",
-      "city": "San Francisco",
-      "artists": "Loquat, Halou, Steilacoom",
-      "details": "a/a $15/$20 8pm/8:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Loquat+Bottom+of+the+Hill+site%3Abottomofthehill.com",
-      "id": "01d3adde0dfb"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Brick and Mortar",
-      "city": "San Francisco",
-      "artists": "Clay Street Unit",
-      "details": "a/a (under 21 plus $5) ^",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Clay+Street+Unit+Brick+and+Mortar+site%3Abrickandmortarmusic.com",
-      "id": "b2aee77bddb4"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Cafe Du Nord",
-      "city": "San Francisco",
-      "artists": "Ian Sweet, Luella",
-      "details": "21+ $28.30 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Ian+Sweet+Cafe+Du+Nord+site%3Acafedunord.com",
-      "id": "2ffc69fa5d88"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Carnalitos Customs",
-      "city": "Vallejo",
-      "artists": "Hellas, Something Wicked, Hell Bound Pound",
-      "details": "a/a $15 6:30pm/7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "905 Tennessee Street",
-      "link": "https://www.google.com/search?q=Hellas+Carnalitos+Customs+Vallejo+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "162a63c12960"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Castro",
-      "city": "San Francisco",
-      "artists": "Syml (solo), Olivia Vedder",
-      "details": "a/a $41+ 7pm/8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Syml+Castro+site%3Acastrotheatre.com",
-      "id": "7ab8f2bed3d0"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Chapel",
-      "city": "San Francisco",
-      "artists": "Legend Zeppelin (tribute)",
-      "details": "a/a $25/$30 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Legend+Zeppelin+Chapel+site%3Athechapelsf.com",
-      "id": "38672f99cd43"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Cornerstone",
-      "city": "Berkeley",
-      "artists": "Y&T",
-      "details": "a/a 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Y%26T+Cornerstone+site%3Acornerstoneberkeley.com",
-      "id": "5025ce81fcb7"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "DNA Lounge",
-      "city": "San Francisco",
-      "artists": "Snot, Bleeding Through, Breaking In A Sequence, Saltwound",
-      "details": "a/a $30/$43 6pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Snot+DNA+Lounge+site%3Adnalounge.com",
-      "id": "0fc89d8a1b8f"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Fillmore",
-      "city": "San Francisco",
-      "artists": "Thee Sinseers, Charities",
-      "details": "a/a 8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Thee+Sinseers+Fillmore+site%3Athefillmore.com",
-      "id": "10f5517475c2"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Fox Theater Oakland",
-      "city": "Oakland",
-      "artists": "Jessie Reyez",
-      "details": "a/a 8pm # (sold out)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Jessie+Reyez+Fox+Theater+Oakland+site%3Athefoxoakland.com",
-      "id": "da783c3136e4"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Freight",
-      "city": "Berkeley",
-      "artists": "Rockin' Jalapeno Band, Mark Guerrero, Jerry Salas, mc Chuy Varela",
-      "details": "a/a $44 8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Rockin%27+Jalapeno+Band+Freight+site%3Athefreight.org",
-      "id": "dfc78f23f8ac"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Gilman Brewery",
-      "city": "Berkeley",
-      "artists": "Stay Out",
-      "details": "a/a free 3pm @",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Stay+Out+Gilman+Brewery+Berkeley+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "2d59d839b212"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Great American Music Hall",
-      "city": "San Francisco",
-      "artists": "Dark N Stormy",
-      "details": "18+ $30/$34 ($100/90 vip) 7:30pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Dark+N+Stormy+Great+American+Music+Hall+site%3Agamh.com",
-      "id": "30c4e8b3597c"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Hopmonk",
-      "city": "Novato",
-      "artists": "Grant-Lee Phillips, Damon Wyckoff",
-      "details": "21+ $53.37-$36.01 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Grant-Lee+Phillips+Hopmonk+Novato+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "65f58a314a83"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Hotel Utah",
-      "city": "San Francisco",
-      "artists": "Chiromancer, Pool, Ex-Juncos",
-      "details": "21+ $12/$15 8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Chiromancer+Hotel+Utah+site%3Ahotelutah.com",
-      "id": "9de38effcd61"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "SF Independent",
-      "city": "San Francisco",
-      "artists": "King Buffalo, L.A. Witch",
-      "details": "21+ $31.55 8:30pm/9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+King+Buffalo+SF+Independent+site%3Atheindependentsf.com",
-      "id": "4fb52d852e6f"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Ivy Room",
-      "city": "Albany",
-      "artists": "Andre Nickatina",
-      "details": "21+ $65.45 8pm/9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Andre+Nickatina+Ivy+Room+site%3Aivyroom.com",
-      "id": "ef8894c7b886"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Jury Room",
-      "city": "Santa Cruz",
-      "artists": "Deathgrave, Paralysis Expletive, Sepsis",
-      "details": "21+ $10 9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Deathgrave+Jury+Room+Santa+Cruz+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "8813695f30e6"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Mabuhay Gardens",
-      "city": "San Francisco",
-      "artists": "Daddy Issues",
-      "details": "21+ $15/$20 8pm/9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Daddy+Issues+Mabuhay+Gardens+San+Francisco+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "d3cbe01715f9"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Makeout Room",
-      "city": "San Francisco",
-      "artists": "Steve Barton, Victor Krummenacher",
-      "details": "21+ $15/$20 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Steve+Barton+Makeout+Room+San+Francisco+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "a653c78e29d4"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Napa Music Hall",
-      "city": "Napa",
-      "artists": "Weekend Youth, Top Secret Robot Alliance, Zak Fennie & Friends, Club",
-      "details": "21+ $22.20 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Weekend+Youth+Napa+Music+Hall+Napa+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "54f27fa2cce3"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Neck Of The Woods",
-      "city": "San Francisco",
-      "artists": "Fin, Hellhunter, Varulf, Piss Baptism",
-      "details": "a/a $20 8pm/8:30pm @ (Upstairs)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Fin+Neck+Of+The+Woods+San+Francisco+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "7eaf044c75a6"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Neck Of The Woods",
-      "city": "San Francisco",
-      "artists": "Statement Of Pride, Stand Tall, Strikeforce, altar, Caged View, From One Hell",
-      "details": "a/a $15 6:30pm/7:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Statement+Of+Pride+Neck+Of+The+Woods+San+Francisco+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "521ea0076785"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "On Broadway at Mabuhay Gardens",
-      "city": "San Francisco",
-      "artists": "Knights Of Molino, Jane Wiedlin (record release), Hellflowers, Loud Graves, Peaboo And The Catz",
-      "details": "a/a $15/$20 6pm/7pm @",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Knights+Of+Molino+On+Broadway+at+Mabuhay+Gardens+San+Francisco+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "85fe89101e82"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Phoenix Theater",
-      "city": "Petaluma",
-      "artists": "Strange Ones, Randy, Dollwash, No Captains",
-      "details": "a/a $15.49 7:30pm/8pm @",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Strange+Ones+Phoenix+Theater+site%3Athephoenixtheater.com",
-      "id": "237ae257ef89"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Richmond Planetarium",
-      "city": "Richmond",
-      "artists": "Teen Suicide, Plasmic, FeeFawFum",
-      "details": "a/a $18/$20 6pm/6:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Teen+Suicide+Richmond+Planetarium+Richmond+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "0edbf6f03ab3"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Regency Ballroom",
-      "city": "San Francisco",
-      "artists": "Lucy Bedroque, Pinponpanpon",
-      "details": "a/a 7pm/8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Lucy+Bedroque+Regency+Ballroom+site%3Atheregencyballroom.com",
-      "id": "88f8eaf68b14"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Rickshaw Stop",
-      "city": "San Francisco",
-      "artists": "Genesis Owusu, After Louise, dj Aaron Axelsen",
-      "details": "a/a $28 8pm/9pm (sold out)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Genesis+Owusu+Rickshaw+Stop+site%3Arickshawstop.com",
-      "id": "da5a03fda861"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Roar Shack",
-      "city": "San Francisco",
-      "artists": "55 Castles, Mars Kumari, Anchoress",
-      "details": "?/? donation 7pm (Ratskin Records)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "24 7th Street",
-      "link": "https://www.google.com/search?q=55+Castles+Roar+Shack+San+Francisco+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "f24a9a831324"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Smiley's Saloon",
-      "city": "Bolinas",
-      "artists": "Medschool, Banshie",
-      "details": "21+ free 8:30pm til 11pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "41 Wharf Road",
-      "link": "https://www.google.com/search?q=Medschool+Smiley%27s+Saloon+Bolinas+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "b68d538c4249"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Sweetwater Music Hall",
-      "city": "Mill Valley",
-      "artists": "Southern Culture On The Skids, Frankie And The Pool Boys",
-      "details": "a/a 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Southern+Culture+On+The+Skids+Sweetwater+Music+Hall+site%3Asweetwatermusichall.com",
-      "id": "0e83519cea14"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Tequila Mockingbird",
-      "city": "San Francisco",
-      "artists": "Nine Dog Dick, Future Kill, Black Bibles, Step Up",
-      "details": "21+ free 9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "86 2nd Street",
-      "link": "https://www.google.com/search?q=Nine+Dog+Dick+Tequila+Mockingbird+San+Francisco+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "f70b43f5c83d"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "UC Theater",
-      "city": "Berkeley",
-      "artists": "Plini, Portraits, Night Verses",
-      "details": "a/a $27.50+ 6pm/7pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Plini+UC+Theater+site%3Auctheatre.net",
-      "id": "e1be95fe277b"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Up the Creek Records",
-      "city": "Walnut Creek",
-      "artists": "Taylor Gryft & The Hovvlers, Of Time, Couldn't Deal",
-      "details": "a/a $15 6pm til 9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Taylor+Gryft+%26+The+Hovvlers+Up+the+Creek+Records+Walnut+Creek+Fri+Nov+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "485643f3277c"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "Fri Nov 6",
-      "venue": "Warfield",
-      "city": "San Francisco",
-      "artists": "Buena Vista Orchestra",
-      "details": "6+ 7pm/8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://duckduckgo.com/?q=%21ducky+Buena+Vista+Orchestra+Warfield+site%3Athewarfieldtheatre.com",
-      "id": "cb9958d8e821"
-    },
     {
       "date": "2026-11-07",
       "day": "Sat Nov 7",
@@ -2482,13 +2048,13 @@
     {
       "date": "2026-11-13",
       "day": "Fri Nov 13",
-      "venue": "Gilman Brewery",
+      "venue": "Gilman Brewing Co",
       "city": "Berkeley",
       "artists": "Charger (record release), Ancient Rage, Phantasmal Abyss, Commoner",
       "details": "a/a $20/$25 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
       "address": "912 Gilman Street",
-      "link": "https://www.google.com/search?q=Charger+Gilman+Brewery+Berkeley+Fri+Nov+13+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "link": "https://www.google.com/search?q=Charger+Gilman+Brewing+Co+Berkeley+Fri+Nov+13+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "72000697aac1"
     },
     {
@@ -10988,13 +10554,13 @@
     {
       "date": "2027-05-02",
       "day": "Sun May 2",
-      "venue": "Gilman Brewery",
+      "venue": "Gilman Brewing Co",
       "city": "Berkeley",
       "artists": "Angry Outlaws, Branworms, Don't Care, Infamous Stiffs, Knights Of Molino, Lound Graves, Scunthrpe Yobs",
       "details": "a/a $5 noon",
       "source": "http://www.foopee.com/punk/the-list/by-date.25.html",
       "address": "912 Gilman Street",
-      "link": "https://www.google.com/search?q=Angry+Outlaws+Gilman+Brewery+Berkeley+Sun+May+2+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "link": "https://www.google.com/search?q=Angry+Outlaws+Gilman+Brewing+Co+Berkeley+Sun+May+2+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "fd6847a05d06"
     },
     {
@@ -11062,6 +10628,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
       "link": "https://duckduckgo.com/?q=%21ducky+Chameleons+Great+American+Music+Hall+site%3Agamh.com",
       "id": "6f0227c6b5bf"
+    },
+    {
+      "date": "2027-05-07",
+      "day": "Fri May 7",
+      "venue": "Great American Music Hall",
+      "city": "San Francisco",
+      "artists": "Chameleons, Rosegarden Funeral Party",
+      "details": "a/a $39.50/$45 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://duckduckgo.com/?q=%21ducky+Chameleons+Great+American+Music+Hall+site%3Agamh.com",
+      "id": "27a8ab6d3730"
     }
   ]
 }
