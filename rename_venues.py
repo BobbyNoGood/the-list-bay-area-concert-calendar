@@ -6,7 +6,7 @@ Keep the venue name inside the new name for venues that have a website link
 in index.html (e.g. "Fox Theater Oakland" still contains "Fox Theater")."""
 import json
 import re
-from urllib.parse import quote_plus, urlparse
+from urllib.parse import quote_plus
 
 BLOCKED = ("livenation.com", "ticketmaster.com")
 
@@ -87,39 +87,41 @@ def venue_sites():
 
 
 def make_link(e, sites):
-    """Best-effort link straight to this show. Known venue site: jump to the top
-    result on that site for the headliner. Otherwise: a web search for the show."""
+    """Where a show's link goes: the venue's own website (its home page).
+    If we do not know the venue's website, a web search for the show instead."""
     artists = re.sub(r"^\s*(CANCELLED|SOLD OUT)\s*:\s*", "", e.get("artists") or "", flags=re.I)
     headliner = artists.split(",")[0].split("(")[0].strip()
     venue, city = e.get("venue", ""), e.get("city", "")
     if venue in EXTRA_SITES:
-        q = "!ducky %s %s site:%s" % (headliner, venue, EXTRA_SITES[venue])
-        return "https://duckduckgo.com/?q=" + quote_plus(q)
+        return "https://" + EXTRA_SITES[venue] + "/"
     for key, url in sites.items():
         if key.lower() in venue.lower():
-            host = urlparse(url).netloc.replace("www.", "")
-            q = "!ducky %s %s site:%s" % (headliner, venue, host)
-            return "https://duckduckgo.com/?q=" + quote_plus(q)
+            return url
     q = "%s %s %s %s -site:ticketmaster.com -site:livenation.com" % (
         headliner, venue, city, e.get("day", ""))
     return "https://www.google.com/search?q=" + quote_plus(q)
 
 
 def patch_index():
-    """Make the show cards use each show's own link (done once, safe to repeat)."""
+    """Make the show cards use each show's own link and label (safe to repeat)."""
     try:
         h = open("index.html", encoding="utf-8").read()
     except OSError:
         return "index.html not found"
-    if "event.link||" in h:
-        return "already patched"
-    new, n = re.subn(r"venueURL\(\s*event\.venue\s*\)",
-                     "(event.link||venueURL(event.venue))", h)
-    if n != 1:
-        return "NOT patched (expected 1 spot, found %d)" % n
-    new = new.replace('"Official venue \u2197"', '"Find this show \u2197"')
-    open("index.html", "w", encoding="utf-8").write(new)
-    return "patched"
+    msg = "already patched"
+    if "event.link||" not in h:
+        h, n = re.subn(r"venueURL\(\s*event\.venue\s*\)",
+                       "(event.link||venueURL(event.venue))", h)
+        if n != 1:
+            return "NOT patched (expected 1 spot, found %d)" % n
+        msg = "patched"
+    lab = '(url.indexOf("google.com")>-1?"Search this show \u2197":"Venue website \u2197")'
+    for old in ('"Official venue \u2197"', '"Find this show \u2197"'):
+        if old in h:
+            h = h.replace(old, lab)
+            msg += " + label"
+    open("index.html", "w", encoding="utf-8").write(h)
+    return msg
 
 
 def main():
