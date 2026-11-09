@@ -2382,7 +2382,7 @@ function render(){
             ${
               url
               ?
-              "Find this show ↗"
+              (url.indexOf("google.com")>-1?"Search this show ↗":"Venue website ↗")
               :
               ""
             }
