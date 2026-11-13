@@ -1,20 +1,20 @@
 {
   "meta": {
-    "updated_at": "2026-11-12 01:49 PM PT",
-    "event_count": 887,
-    "week_count": 26,
+    "updated_at": "2026-11-13 01:25 PM PT",
+    "event_count": 871,
+    "week_count": 27,
     "weeks": [
       {
         "start": "2026-11-09",
         "end": "2026-11-15",
         "label": "Nov 9–15, 2026",
-        "count": 125
+        "count": 100
       },
       {
         "start": "2026-11-16",
         "end": "2026-11-22",
         "label": "Nov 16–22, 2026",
-        "count": 154
+        "count": 155
       },
       {
         "start": "2026-11-23",
@@ -26,7 +26,7 @@
         "start": "2026-11-30",
         "end": "2026-12-06",
         "label": "Nov 30–Dec 6, 2026",
-        "count": 75
+        "count": 76
       },
       {
         "start": "2026-12-07",
@@ -98,7 +98,7 @@
         "start": "2027-02-22",
         "end": "2027-02-28",
         "label": "Feb 22–28, 2027",
-        "count": 22
+        "count": 24
       },
       {
         "start": "2027-03-01",
@@ -110,13 +110,13 @@
         "start": "2027-03-08",
         "end": "2027-03-14",
         "label": "Mar 8–14, 2027",
-        "count": 19
+        "count": 20
       },
       {
         "start": "2027-03-15",
         "end": "2027-03-21",
         "label": "Mar 15–21, 2027",
-        "count": 14
+        "count": 15
       },
       {
         "start": "2027-03-22",
@@ -158,19 +158,25 @@
         "start": "2027-05-03",
         "end": "2027-05-09",
         "label": "May 3–9, 2027",
-        "count": 12
+        "count": 13
+      },
+      {
+        "start": "2027-05-10",
+        "end": "2027-05-16",
+        "label": "May 10–16, 2027",
+        "count": 2
       }
     ],
     "source_pages": [
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.0.html",
-        "events": 125,
-        "first_date": "2026-11-12",
+        "events": 100,
+        "first_date": "2026-11-13",
         "last_date": "2026-11-15"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.1.html",
-        "events": 154,
+        "events": 155,
         "first_date": "2026-11-16",
         "last_date": "2026-11-22"
       },
@@ -182,7 +188,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.3.html",
-        "events": 75,
+        "events": 76,
         "first_date": "2026-11-30",
         "last_date": "2026-12-06"
       },
@@ -254,7 +260,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.15.html",
-        "events": 22,
+        "events": 24,
         "first_date": "2027-02-23",
         "last_date": "2027-02-28"
       },
@@ -266,13 +272,13 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.17.html",
-        "events": 19,
+        "events": 20,
         "first_date": "2027-03-09",
         "last_date": "2027-03-14"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.18.html",
-        "events": 14,
+        "events": 15,
         "first_date": "2027-03-16",
         "last_date": "2027-03-21"
       },
@@ -314,332 +320,19 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.25.html",
-        "events": 12,
+        "events": 13,
         "first_date": "2027-05-04",
         "last_date": "2027-05-09"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
+        "events": 2,
+        "first_date": "2027-05-12",
+        "last_date": "2027-05-12"
       }
     ]
   },
   "events": [
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "924 Gilman Street",
-      "city": "Berkeley",
-      "artists": "Creepy Crawlies, Bonstones, Agony Aunts, Minor Sun mc Patty",
-      "details": "a/a $10 6:30pm/7pm @",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.924gilman.org/",
-      "id": "bb9ebbdd7fe9"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Arlene Francis Center",
-      "city": "Santa Rosa",
-      "artists": "Gazing Into Space, Antecine, Lumanoid, Scans",
-      "details": "a/a donation 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://arlenefranciscenter.org/",
-      "id": "85ee8ad44034"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "August Hall",
-      "city": "San Francisco",
-      "artists": "INCORRECT LISTING: They Are Gutting A Body Of Water",
-      "details": "",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.augusthallsf.com/",
-      "id": "9e01e3946400"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Bimbo's 365 Club",
-      "city": "San Francisco",
-      "artists": "Ezra Collective",
-      "details": "21+ $41.21 8pm/9pm (sold out)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://bimbos365club.com/",
-      "id": "330a50a35238"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Black Cat",
-      "city": "San Francisco",
-      "artists": "Marc Seales With Ernie Watts",
-      "details": "21+ $30 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://blackcatsf.com/",
-      "id": "535fb0f8a41d"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Bottom of the Hill",
-      "city": "San Francisco",
-      "artists": "Maus Haus, Battlehooch, Otoliths",
-      "details": "21+ $17/$20 7:30pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.bottomofthehill.com/",
-      "id": "07d13552665d"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Castro",
-      "city": "San Francisco",
-      "artists": "Olafur Arnalds",
-      "details": "a/a $64.75+ 7pm/8pm # (sold out)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://castrotheatre.com/",
-      "id": "b9f05b8ea96a"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Chapel",
-      "city": "San Francisco",
-      "artists": "Marc Broussard, Cristina Vane",
-      "details": "a/a $32/$35 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://thechapelsf.com/",
-      "id": "a9ee6e9b3df2"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Cornerstone",
-      "city": "Berkeley",
-      "artists": "Roger Clyne & PH Naffah",
-      "details": "a/a 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://cornerstoneberkeley.com/",
-      "id": "3cc7847d4ffa"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Eagle",
-      "city": "San Francisco",
-      "artists": "Fast Friends, Gen11, Irrevria",
-      "details": "21+ $10 8pm/9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://sf-eagle.com/",
-      "id": "ee6a44dd686b"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "El Rio",
-      "city": "San Francisco",
-      "artists": "Rip Florence, Michael Mouse, R.E. Seraphin",
-      "details": "21+ $10 8pm (Benefit Punks with Lunch)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Rip+Florence+El+Rio+San+Francisco+Thu+Nov+12+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "433a730040e7"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Fillmore",
-      "city": "San Francisco",
-      "artists": "Gene, Weston Loney",
-      "details": "a/a $48 7pm/8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://thefillmore.com/",
-      "id": "8bc980006744"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Fox Theater Oakland",
-      "city": "Oakland",
-      "artists": "Isaiah Rahad",
-      "details": "a/a 8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://thefoxoakland.com/",
-      "id": "12f1f5a0aac3"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Great American Music Hall",
-      "city": "San Francisco",
-      "artists": "Russian Circles, Primitive Man",
-      "details": "a/a $30/$35 7pm/8pm (sold out)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://gamh.com/",
-      "id": "b44789474391"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Hotel Utah",
-      "city": "San Francisco",
-      "artists": "Love Bombs, Mama Coon & The Yes Daddies, Ken Newman, Al Cabron",
-      "details": "21+ $!2/$15 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://hotelutah.com/",
-      "id": "6acda7c8e913"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "SF Independent",
-      "city": "San Francisco",
-      "artists": "Stephen Day",
-      "details": "a/a $31.55 ($84 vip) 7:30pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://theindependentsf.com/",
-      "id": "60674ef63ef6"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Ivy Room",
-      "city": "Albany",
-      "artists": "Petunia & The Vipers, Noelle & The Deserters",
-      "details": "21+ $15 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://ivyroom.com/",
-      "id": "74fa6140196b"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Makeout Room",
-      "city": "San Francisco",
-      "artists": "Glen Meadmore, Rowdy Boys, Chaki",
-      "details": "21+ $15/$20 6:30pm/7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Glen+Meadmore+Makeout+Room+San+Francisco+Thu+Nov+12+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "4c5093b51474"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Natural Batting Cage",
-      "city": "San Francisco",
-      "artists": "Gumbys Junk, Taurus Judge, Guitar Softie",
-      "details": "a/a $10-$15 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Gumbys+Junk+Natural+Batting+Cage+San+Francisco+Thu+Nov+12+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "73430b4c0e85"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Neck Of The Woods",
-      "city": "San Francisco",
-      "artists": "Meadow, Hoarse, Skiptrace, Traceback",
-      "details": "a/a $12/$15 7:30pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Meadow+Neck+Of+The+Woods+San+Francisco+Thu+Nov+12+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "5aff6cd7a4ec"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Peacock Lounge",
-      "city": "San Francisco",
-      "artists": "Tom Djll, Tanukispidercat, Hat Brackets, Under The Skin",
-      "details": "a/a $5-$15 8pm til 11pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Tom+Djll+Peacock+Lounge+San+Francisco+Thu+Nov+12+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "e5e3ccf38389"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Richmond Planetarium",
-      "city": "Richmond",
-      "artists": "Ok Goodnight, Snooze, Eve, Soft Curse",
-      "details": "a/a $20/$25 6:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Ok+Goodnight+Richmond+Planetarium+Richmond+Thu+Nov+12+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "dabac6f0e93b"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Regency Ballroom",
-      "city": "San Francisco",
-      "artists": "Band Of Horses",
-      "details": "a/a 7pm/8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.theregencyballroom.com/",
-      "id": "e1948c564ee9"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Rickshaw Stop",
-      "city": "San Francisco",
-      "artists": "Jake Minch, Alix Page",
-      "details": "a/a $20/$25 ($70 vip) 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://rickshawstop.com/",
-      "id": "8b297c623a8c"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Spats",
-      "city": "Berkeley",
-      "artists": "Eggcorn, Holywater Mouthwash, Affectionately",
-      "details": "a/a $10 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Eggcorn+Spats+Berkeley+Thu+Nov+12+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "5618261ca9b1"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Stay Gold Deli",
-      "city": "Oakland",
-      "artists": "Global Disgust, Stovepipe, Tamarack!, Klaymore",
-      "details": "a/a $10 6pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://staygolddeli.com/",
-      "id": "98bffd86a65a"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Thee Stork Club",
-      "city": "Oakland",
-      "artists": "Johnny Maraca & The Marockers, Celebrity Telethon, Hey Now Now",
-      "details": "21+ $12/$15 8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://theestorkclub.com/",
-      "id": "0ff1bdfcff12"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "UC Theater",
-      "city": "Berkeley",
-      "artists": "Turnover, Nothing, Trauma Ray",
-      "details": "a/a $34.50+ 6:30pm/7:30pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://uctheatre.net/",
-      "id": "9b8b341aa11e"
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thu Nov 12",
-      "venue": "Uptown Theater",
-      "city": "Napa",
-      "artists": "Michael Feinstein",
-      "details": "12+ (under 16 with adult) 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://uptowntheatrenapa.com/",
-      "id": "0d2b5c22e864"
-    },
     {
       "date": "2026-11-13",
       "day": "Fri Nov 13",
@@ -667,7 +360,7 @@
       "day": "Fri Nov 13",
       "venue": "August Hall",
       "city": "San Francisco",
-      "artists": "Tank And The Bangas, Ariel J.",
+      "artists": "Tank And The Bangas, Ariel J., dj Zeus",
       "details": "5+ $39+ 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
       "link": "https://www.augusthallsf.com/",
@@ -801,11 +494,11 @@
       "day": "Fri Nov 13",
       "venue": "FML Studios",
       "city": "Oakland",
-      "artists": "Gumbys Junk, Pateka, Sleevies, Toy",
+      "artists": "Gumby's Junk, Pateka, Sleevies, Toy",
       "details": "a/a $10 7pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Gumbys+Junk+FML+Studios+Oakland+Fri+Nov+13+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "bee4cf69a9aa"
+      "link": "https://www.google.com/search?q=Gumby%27s+Junk+FML+Studios+Oakland+Fri+Nov+13+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "095c40db9235"
     },
     {
       "date": "2026-11-13",
@@ -954,6 +647,17 @@
     {
       "date": "2026-11-13",
       "day": "Fri Nov 13",
+      "venue": "Richmond Planetarium",
+      "city": "Richmond",
+      "artists": "Hllyh, Louiza, Mobbiusstripper, Sophizta",
+      "details": "a/a $13 6:30pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "link": "https://www.google.com/search?q=Hllyh+Richmond+Planetarium+Richmond+Fri+Nov+13+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "30a5a6aa38ef"
+    },
+    {
+      "date": "2026-11-13",
+      "day": "Fri Nov 13",
       "venue": "Regency Ballroom",
       "city": "San Francisco",
       "artists": "L7, Nobro, Buzzed Lightbeer",
@@ -1044,7 +748,7 @@
       "day": "Sat Nov 14",
       "venue": "3rd and Army Skatepark",
       "city": "San Francisco",
-      "artists": "False Flag, Suprise Privledge, Fatale, Product Of Society, Drugs, Civic Joy Fucks, Stimulant, Madrona",
+      "artists": "False Flag, Surpise Privledge, Fatale, Product Of Society, Drugs, Civic Joy Fucks, Stimulant, Madrona",
       "details": "a/a free 6pm @",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
       "link": "https://www.google.com/search?q=False+Flag+3rd+and+Army+Skatepark+San+Francisco+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
@@ -1353,6 +1057,17 @@
     {
       "date": "2026-11-14",
       "day": "Sat Nov 14",
+      "venue": "Natural Batting Cage",
+      "city": "San Francisco",
+      "artists": "Woodpecker Dynamite, Grover, Sean Atkins",
+      "details": "a/a",
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "link": "https://www.google.com/search?q=Woodpecker+Dynamite+Natural+Batting+Cage+San+Francisco+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "f9623789043f"
+    },
+    {
+      "date": "2026-11-14",
+      "day": "Sat Nov 14",
       "venue": "Neck Of The Woods",
       "city": "San Francisco",
       "artists": "Kraus, Animal Shin, Yearn, Joseon, Junebug, Luna Ivy, Rosegate, Starbellied Bug, Dalmatia",
@@ -1405,6 +1120,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
       "link": "https://theritzsanjose.com/",
       "id": "9a5cec4fa9e1"
+    },
+    {
+      "date": "2026-11-14",
+      "day": "Sat Nov 14",
+      "venue": "Stay Gold Deli",
+      "city": "Oakland",
+      "artists": "A.B.P. And The Spites, Who Asked For This?, Premonition, Twangdelic",
+      "details": "a/a free 6pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "link": "https://staygolddeli.com/",
+      "id": "852bce566088"
     },
     {
       "date": "2026-11-14",
@@ -1649,6 +1375,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
       "link": "https://www.google.com/search?q=Inharm+Neck+Of+The+Woods+San+Francisco+Sun+Nov+15+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "0659e9befb52"
+    },
+    {
+      "date": "2026-11-15",
+      "day": "Sun Nov 15",
+      "venue": "Richmond Planetarium",
+      "city": "Richmond",
+      "artists": "Afterbirth Cartoons, Sparkle Plenty, Punked Out Pretty",
+      "details": "a/a $12 7pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
+      "link": "https://www.google.com/search?q=Afterbirth+Cartoons+Richmond+Planetarium+Richmond+Sun+Nov+15+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "e0b05671833f"
     },
     {
       "date": "2026-11-15",
@@ -2370,7 +2107,7 @@
       "day": "Fri Nov 20",
       "venue": "August Hall",
       "city": "San Francisco",
-      "artists": "Eiv0r",
+      "artists": "Eiv0r, Midori Jaeger",
       "details": "5+ $39.80 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
       "link": "https://www.augusthallsf.com/",
@@ -2736,7 +2473,7 @@
       "venue": "Thee Stork Club",
       "city": "Oakland",
       "artists": "Powerhouse, Primitive Heads, Malinformants, Sunblind",
-      "details": "21+ $12/$15 8pm @",
+      "details": "21+ $12/$15 8pm/8:30pm @",
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
       "link": "https://theestorkclub.com/",
       "id": "1bb52e40c19c"
@@ -2790,7 +2527,7 @@
       "day": "Sat Nov 21",
       "venue": "August Hall",
       "city": "San Francisco",
-      "artists": "Agriculture, Uniform, Pure Hex",
+      "artists": "Agriculture, Dry Socket, Pure Hex",
       "details": "5+ $34.70 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
       "link": "https://www.augusthallsf.com/",
@@ -3118,6 +2855,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
       "link": "https://paramounttheatre.com/",
       "id": "1c1cf866c8ef"
+    },
+    {
+      "date": "2026-11-21",
+      "day": "Sat Nov 21",
+      "venue": "Richmond Planetarium",
+      "city": "Richmond",
+      "artists": "New Low, Passed, Aggravated Assault, Enthrall",
+      "details": "a/a $10 7pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "link": "https://www.google.com/search?q=New+Low+Richmond+Planetarium+Richmond+Sat+Nov+21+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "91fb4e550752"
     },
     {
       "date": "2026-11-21",
@@ -3499,11 +3247,11 @@
       "day": "Wed Nov 25",
       "venue": "August Hall",
       "city": "San Francisco",
-      "artists": "dj Raphi",
-      "details": "5+ $39.30 5pm/6pm",
+      "artists": "INCORRECT LISTING: dj Raphi",
+      "details": "",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
       "link": "https://www.augusthallsf.com/",
-      "id": "cc2af9571042"
+      "id": "8566206a2df6"
     },
     {
       "date": "2026-11-25",
@@ -4384,6 +4132,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
       "link": "https://ivyroom.com/",
       "id": "42b5db05d627"
+    },
+    {
+      "date": "2026-12-04",
+      "day": "Fri Dec 4",
+      "venue": "Richmond Planetarium",
+      "city": "Richmond",
+      "artists": "Chlorine, Stranger Than, Losing Streak",
+      "details": "a/a $12/$15 6:30pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
+      "link": "https://www.google.com/search?q=Chlorine+Richmond+Planetarium+Richmond+Fri+Dec+4+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "19648e019c99"
     },
     {
       "date": "2026-12-04",
@@ -5625,7 +5384,7 @@
       "venue": "Bimbo's 365 Club",
       "city": "San Francisco",
       "artists": "Phoebe Judge",
-      "details": "21+ $60-$40 7pm/8pm (seated)",
+      "details": "21+ $60-$40 7pm/8pm (sold out)",
       "source": "http://www.foopee.com/punk/the-list/by-date.5.html",
       "link": "https://bimbos365club.com/",
       "id": "c5397b48045d"
@@ -8396,6 +8155,28 @@
     {
       "date": "2027-02-23",
       "day": "Tue Feb 23",
+      "venue": "August Hall",
+      "city": "San Francisco",
+      "artists": "Joyce Wrice, Girlfriend, RJtheweirdo, Mixed Feelings",
+      "details": "5+ 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.15.html",
+      "link": "https://www.augusthallsf.com/",
+      "id": "4b1e58087705"
+    },
+    {
+      "date": "2027-02-23",
+      "day": "Tue Feb 23",
+      "venue": "Chapel",
+      "city": "San Francisco",
+      "artists": "Sylvie",
+      "details": "a/a $22/$27 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.15.html",
+      "link": "https://thechapelsf.com/",
+      "id": "8bf586d47d6c"
+    },
+    {
+      "date": "2027-02-23",
+      "day": "Tue Feb 23",
       "venue": "Fillmore",
       "city": "San Francisco",
       "artists": "Trampled By Turtles",
@@ -9034,6 +8815,17 @@
     {
       "date": "2027-03-13",
       "day": "Sat Mar 13",
+      "venue": "Uptown Theater",
+      "city": "Napa",
+      "artists": "Grace Potter & The Trespassers",
+      "details": "$12+ (under 16 with adult) 6:30pm/7:30pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.17.html",
+      "link": "https://uptowntheatrenapa.com/",
+      "id": "2831a4afe6ec"
+    },
+    {
+      "date": "2027-03-13",
+      "day": "Sat Mar 13",
       "venue": "Warfield",
       "city": "San Francisco",
       "artists": "Foil Arms And Hog",
@@ -9063,6 +8855,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.17.html",
       "link": "https://www.google.com/search?q=Chost+Engineers+Hopmonk+Novato+Sun+Mar+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "469f11ac5286"
+    },
+    {
+      "date": "2027-03-16",
+      "day": "Tue Mar 16",
+      "venue": "August Hall",
+      "city": "San Francisco",
+      "artists": "Noah Rinker",
+      "details": "5+ $34+ 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.18.html",
+      "link": "https://www.augusthallsf.com/",
+      "id": "d6f806f01b38"
     },
     {
       "date": "2027-03-16",
@@ -10037,6 +9840,17 @@
       "id": "6f0227c6b5bf"
     },
     {
+      "date": "2027-05-06",
+      "day": "Thu May 6",
+      "venue": "Uptown Theater",
+      "city": "Napa",
+      "artists": "Tony Hadley",
+      "details": "$12+ (under 16 with adult) 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.25.html",
+      "link": "https://uptowntheatrenapa.com/",
+      "id": "6156904211f6"
+    },
+    {
       "date": "2027-05-07",
       "day": "Fri May 7",
       "venue": "Castro",
@@ -10101,6 +9915,28 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.25.html",
       "link": "https://www.google.com/search?q=Diiv+Rio+Theater+Santa+Cruz+Sun+May+9+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "83e6b081952c"
+    },
+    {
+      "date": "2027-05-12",
+      "day": "Wed May 12",
+      "venue": "Castro",
+      "city": "San Francisco",
+      "artists": "Palaye Royale, Beauty School Dropout",
+      "details": "a/a $48+ 8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://castrotheatre.com/",
+      "id": "592ecb5027d8"
+    },
+    {
+      "date": "2027-05-12",
+      "day": "Wed May 12",
+      "venue": "SF Civic Auditorium",
+      "city": "San Francisco",
+      "artists": "Fontaines D.C., Westside Cowboy",
+      "details": "?/? #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://billgrahamcivic.com/",
+      "id": "a4b790af55e4"
     }
   ]
 }
