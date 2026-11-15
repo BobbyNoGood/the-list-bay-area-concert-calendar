@@ -1,14 +1,14 @@
 {
   "meta": {
-    "updated_at": "2026-11-14 11:55 AM PT",
-    "event_count": 881,
+    "updated_at": "2026-11-15 12:23 PM PT",
+    "event_count": 839,
     "week_count": 27,
     "weeks": [
       {
         "start": "2026-11-09",
         "end": "2026-11-15",
         "label": "Nov 9–15, 2026",
-        "count": 65
+        "count": 21
       },
       {
         "start": "2026-11-16",
@@ -164,14 +164,14 @@
         "start": "2027-05-10",
         "end": "2027-05-16",
         "label": "May 10–16, 2027",
-        "count": 4
+        "count": 6
       }
     ],
     "source_pages": [
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.0.html",
-        "events": 65,
-        "first_date": "2026-11-14",
+        "events": 21,
+        "first_date": "2026-11-15",
         "last_date": "2026-11-15"
       },
       {
@@ -326,503 +326,13 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
-        "events": 4,
+        "events": 6,
         "first_date": "2027-05-12",
-        "last_date": "2027-05-13"
+        "last_date": "2027-05-14"
       }
     ]
   },
   "events": [
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "3rd and Army Skatepark",
-      "city": "San Francisco",
-      "artists": "False Flag, Surpise Privledge, Fatale, Product Of Society, Drugs, Civic Joy Fucks, Stimulant, Madrona",
-      "details": "a/a free 6pm @",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=False+Flag+3rd+and+Army+Skatepark+San+Francisco+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "6842d0d258d5"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "924 Gilman Street",
-      "city": "Berkeley",
-      "artists": "Clarion, Novulent",
-      "details": "a/a $25/$30 6:30pm/7:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.924gilman.org/",
-      "id": "ff93b16f4042"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "924 Gilman Street",
-      "city": "Berkeley",
-      "artists": "Punk Yoga",
-      "details": "a/a $5-$10 noon til 1:15pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.924gilman.org/",
-      "id": "eb6d41037838"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Amoeba Music",
-      "city": "San Francisco",
-      "artists": "Mountain Goats",
-      "details": "a/a free 2pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Mountain+Goats+Amoeba+Music+San+Francisco+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "4f43a628aed9"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "August Hall",
-      "city": "San Francisco",
-      "artists": "Inna",
-      "details": "5+ $89.50 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.augusthallsf.com/",
-      "id": "5e5c0b16c9b9"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Black Cat",
-      "city": "San Francisco",
-      "artists": "Marc Seales With Ernie Watts",
-      "details": "21+ $30 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://blackcatsf.com/",
-      "id": "78be7d62e0fd"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Booksmith",
-      "city": "San Francisco",
-      "artists": "Jane Wiedlin (TMI: Memoirs of a Go-Go book signning)",
-      "details": "a/a $38 3:45pm/4pm til 6pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "1727 Haight Street",
-      "link": "https://www.google.com/search?q=Jane+Wiedlin+Booksmith+San+Francisco+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "f340252c1cb4"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Bottom of the Hill",
-      "city": "San Francisco",
-      "artists": "Avengers, Pansy Division, Damage Party",
-      "details": "21+ $25 8:30pm/9:30pm @ (sold out)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.bottomofthehill.com/",
-      "id": "fac3adc7ae40"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Bottom of the Hill",
-      "city": "San Francisco",
-      "artists": "McAllister Music Studio Students",
-      "details": "a/a donation 11:45am/noon",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.bottomofthehill.com/",
-      "id": "7029fb3229ce"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Bric-A-Brac",
-      "city": "San Francisco",
-      "artists": "Burbank Police Department, UlysesscFM, Algoslave, Dear Someone",
-      "details": "a/a $10 7pm/7:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Burbank+Police+Department+Bric-A-Brac+San+Francisco+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "0c11e2b783f1"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Castro",
-      "city": "San Francisco",
-      "artists": "Paul Cauthen, Wilder Blue",
-      "details": "a/a $48.60 7pm/8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://castrotheatre.com/",
-      "id": "e3ae23240943"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Catalyst",
-      "city": "Santa Cruz",
-      "artists": "Isaiah Rashad",
-      "details": "a/a $52.38 7pm/8pm # (sold out)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://catalystclub.com/",
-      "id": "a90cdafcd96e"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Chapel",
-      "city": "San Francisco",
-      "artists": "Cactus Blossoms, Margo Cilker",
-      "details": "5+ $25/$28 8pm/9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://thechapelsf.com/",
-      "id": "40141215028a"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "SF Civic Auditorium",
-      "city": "San Francisco",
-      "artists": "Worship, Sub Focus, Dimension, Culture Shock, 1991, Blossom",
-      "details": "18+ $88.95 7pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://billgrahamcivic.com/",
-      "id": "450a3282a226"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "San Jose Civic Center",
-      "city": "San Jose",
-      "artists": "Rodrigo y Gabriela",
-      "details": "a/a 7pm/8:15pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://sanjosetheaters.org/theaters/san-jose-civic/",
-      "id": "6156f48ba0ea"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "FML Studios",
-      "city": "Oakland",
-      "artists": "Leer, As My Ashes Blur The Sky, Avulsion, State Of Reliance, Grievence, Futile Demise",
-      "details": "a/a $15 6:30pm/7pm @",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "2400 Filbert Street",
-      "link": "https://www.google.com/search?q=Leer+FML+Studios+Oakland+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "0b857e097eaf"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Fillmore",
-      "city": "San Francisco",
-      "artists": "Allison Russell, Autumn Nicholas",
-      "details": "a/a 7:30pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://thefillmore.com/",
-      "id": "87e84cbbba7c"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Fourth Bore",
-      "city": "",
-      "artists": "Adrian West Band",
-      "details": "#134, Orinda ?/? free 6:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "2 Orinda Theater Square",
-      "link": "https://www.google.com/search?q=Adrian+West+Band+Fourth+Bore++Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "8d167b2a1543"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Fox Theater Oakland",
-      "city": "Oakland",
-      "artists": "Bonobo, Sofia Kourtesis",
-      "details": "a/a $73.25 7pm/8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://thefoxoakland.com/",
-      "id": "a36a2c8282e8"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "SF Independent",
-      "city": "San Francisco",
-      "artists": "Sean Hayes (album release), Katzroar, Etienne De Rocher",
-      "details": "21+ $25 8:30pm/9:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://theindependentsf.com/",
-      "id": "3c7f73630aa8"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Ivy Room",
-      "city": "Albany",
-      "artists": "Drag The River, Darius Koski, Lunch",
-      "details": "21+ $20 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://ivyroom.com/",
-      "id": "eeb7e3c24c2a"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Jury Room",
-      "city": "Santa Cruz",
-      "artists": "Sapos Muertos, C.R.A.P., Clit Flicker",
-      "details": "21+ 9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Sapos+Muertos+Jury+Room+Santa+Cruz+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "a9d835822fa3"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Kilowatt",
-      "city": "San Francisco",
-      "artists": "Mugger, Monk, Ingrata, Scam Likely",
-      "details": "21+ $24.72 6pm (Benefit Wildland Firefighters)",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://kilowattbar.com/",
-      "id": "2ec70bdabf1b"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Knockout",
-      "city": "San Francisco",
-      "artists": "Lighting Section, Kaiju Or Cake, Dear Motorist",
-      "details": "21+ $10 5pm/6pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://theknockoutsf.com/",
-      "id": "6b40375ea4cc"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Luther Burbank Center",
-      "city": "Santa Rosa",
-      "artists": "Jerry Seinfield",
-      "details": "a/a $143+ 5pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Jerry+Seinfield+Luther+Burbank+Center+Santa+Rosa+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "0f5a18bf9c19"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Makeout Room",
-      "city": "San Francisco",
-      "artists": "Neverland Ranch Davidians, Seagulls, Johnny",
-      "details": "21+ $15 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Neverland+Ranch+Davidians+Makeout+Room+San+Francisco+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "850ae53d0be5"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "The Masonic",
-      "city": "San Francisco",
-      "artists": "Underoath, August Burns Red, Atreyu, As Cities Burn",
-      "details": "a/a $62+ 5:30pm/6:30pm # @",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://masonicsf.com/",
-      "id": "460bc56a6809"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Napa Music Hall",
-      "city": "Napa",
-      "artists": "California Honeydrops",
-      "details": "6+ (under 16 with adult) $65.50 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=California+Honeydrops+Napa+Music+Hall+Napa+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "71a6fc6307b6"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Natural Batting Cage",
-      "city": "San Francisco",
-      "artists": "Woodpecker Dynamite, Grover, Sean Atkins",
-      "details": "a/a",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Woodpecker+Dynamite+Natural+Batting+Cage+San+Francisco+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "f9623789043f"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Neck Of The Woods",
-      "city": "San Francisco",
-      "artists": "Kraus, Animal Shin, Yearn, Joseon, Junebug, Luna Ivy, Rosegate, Starbellied Bug, Dalmatia",
-      "details": "a/a $30 6:30pm/7:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Kraus+Neck+Of+The+Woods+San+Francisco+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "f58148a82492"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Phoenix Theater",
-      "city": "Petaluma",
-      "artists": "Skitzo, Unprovoked, Weapons, Ancestors Wrath",
-      "details": "a/a $15/$20 6pm/6:30pm @",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.thephoenixtheater.com/",
-      "id": "5fed5be9b6ae"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Regency Ballroom",
-      "city": "San Francisco",
-      "artists": "Headache, Baba Stiltz, Amr",
-      "details": "a/a #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.theregencyballroom.com/",
-      "id": "57f9f0615114"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Rio Nido Roadhouse",
-      "city": "Rio Nido",
-      "artists": "Back Porchestra",
-      "details": "a/a 4pm til 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "14540 Canyon 2 Road",
-      "link": "https://www.google.com/search?q=Back+Porchestra+Rio+Nido+Roadhouse+Rio+Nido+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "99c43430b22d"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Ritz",
-      "city": "San Jose",
-      "artists": "Trsh, Adjust The Sales, Dear Maryanne, Dear Cincinnati",
-      "details": "a/a $22/$25 6pm @",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://theritzsanjose.com/",
-      "id": "9a5cec4fa9e1"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Stay Gold Deli",
-      "city": "Oakland",
-      "artists": "A.B.P. And The Spites, Who Asked For This?, Premonition, Twangdelic",
-      "details": "a/a free 6pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://staygolddeli.com/",
-      "id": "852bce566088"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Streetlight Records",
-      "city": "San Jose",
-      "artists": "Kjok",
-      "details": "a/a free 3pm til 5pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Kjok+Streetlight+Records+San+Jose+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "955f8f7ec928"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Temescal Arts Center",
-      "city": "Oakland",
-      "artists": "Ben Goldberg's Brainchild, Grex, Inner Ear Brigae, Francis Wong/Chris Trinidad",
-      "details": "a/a 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "511 48th St. at Telegraph",
-      "link": "https://www.google.com/search?q=Ben+Goldberg%27s+Brainchild+Temescal+Arts+Center+Oakland+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "a09b89d0ebee"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Tequila Mockingbird",
-      "city": "San Francisco",
-      "artists": "Crash Davidian, Npmn, Circle Of Ruin, dj Goblyn",
-      "details": "21+ free 9pm til 2am",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "86 2nd Street",
-      "link": "https://www.google.com/search?q=Crash+Davidian+Tequila+Mockingbird+San+Francisco+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "780591336ee6"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Thee Stork Club",
-      "city": "Oakland",
-      "artists": "KEXP Vinelands LIve, Spiritual Cramp, Ryli dj Kelley Stoltz, df Gabriel Lopez",
-      "details": "21+ $15/$20 5pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://theestorkclub.com/",
-      "id": "e4c9b68831a9"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Thrillhouse Records",
-      "city": "San Francisco",
-      "artists": "Catfight, A French Project, Sun Dale, Pink-40, Caddywish",
-      "details": "a/a $10 4pm/4:30pm til 8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Catfight+Thrillhouse+Records+San+Francisco+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "f4f7f996ee48"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "UC Theater",
-      "city": "Berkeley",
-      "artists": "Rexx Life Raj, P-Lo, Auxcord",
-      "details": "a/a $25 7pm/8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://uctheatre.net/",
-      "id": "a41547ad7ba2"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Up the Creek Records",
-      "city": "Walnut Creek",
-      "artists": "DVC Pop",
-      "details": "a/a $15 6pm til 9pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=DVC+Pop+Up+the+Creek+Records+Walnut+Creek+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "d393ee9628fe"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Up the Creek Records",
-      "city": "Walnut Creek",
-      "artists": "Sly Rivers",
-      "details": "a/a free 3:30pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Sly+Rivers+Up+the+Creek+Records+Walnut+Creek+Sat+Nov+14+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "fb4a6cc52a95"
-    },
-    {
-      "date": "2026-11-14",
-      "day": "Sat Nov 14",
-      "venue": "Warfield",
-      "city": "San Francisco",
-      "artists": "Rhye",
-      "details": "6+ 7pm/8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.thewarfieldtheatre.com/",
-      "id": "f306260392cc"
-    },
     {
       "date": "2026-11-15",
       "day": "Sun Nov 15",
@@ -10047,6 +9557,28 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
       "link": "https://thefoxoakland.com/",
       "id": "d0a5914f6f44"
+    },
+    {
+      "date": "2027-05-14",
+      "day": "Fri May 14",
+      "venue": "Chapel",
+      "city": "San Francisco",
+      "artists": "Dirty Projectors (solo)",
+      "details": "a/a $30/$35 8pm/9pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://thechapelsf.com/",
+      "id": "fb8eee94dd2b"
+    },
+    {
+      "date": "2027-05-14",
+      "day": "Fri May 14",
+      "venue": "Fox Theater Oakland",
+      "city": "Oakland",
+      "artists": "Tinashe",
+      "details": "a/a $56+ 8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://thefoxoakland.com/",
+      "id": "eba122b26563"
     }
   ]
 }
