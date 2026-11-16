@@ -1,10 +1,12 @@
-VENUE CLEANUP REPORT (data from 2026-11-15 12:23 PM PT)
-Shows: 842 -> 839   Venues: 121 -> 101
+VENUE CLEANUP REPORT (data from 2026-11-16 03:43 PM PT)
+Shows: 844 -> 841   Venues: 122 -> 101
 
-== MERGED VENUES (17) ==
+== MERGED VENUES (18) ==
 Shown as: KEPT NAME | city   <=   name that was folded into it
 9 Lives | Oakland   <=   9 Lives Warehouse (Oakland, 1 shows)
       why: one name is inside the other; PROVEN by calendar: 1 show(s) listed under both names
+924 Gilman Street | Berkeley   <=   924 Gilman (Berkeley, 1 shows)
+      why: same name, only a generic word added (street)
 924 Gilman Street | Berkeley   <=   924 Gilman STreet (Berkeley, 1 shows)
       why: same name after fixing case/punctuation/St.-Street
 924 Gilman Street | Berkeley   <=   924 Gilman St (Berkeley, 1 shows)

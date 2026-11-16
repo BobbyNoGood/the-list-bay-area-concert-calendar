@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2026-11-15 12:23 PM PT",
-    "event_count": 839,
+    "updated_at": "2026-11-16 03:43 PM PT",
+    "event_count": 841,
     "week_count": 27,
     "weeks": [
       {
@@ -164,7 +164,7 @@
         "start": "2027-05-10",
         "end": "2027-05-16",
         "label": "May 10–16, 2027",
-        "count": 6
+        "count": 8
       }
     ],
     "source_pages": [
@@ -326,9 +326,9 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
-        "events": 6,
+        "events": 8,
         "first_date": "2027-05-12",
-        "last_date": "2027-05-14"
+        "last_date": "2027-05-15"
       }
     ]
   },
@@ -2536,8 +2536,8 @@
       "day": "Fri Nov 27",
       "venue": "924 Gilman Street",
       "city": "Berkeley",
-      "artists": "Parabellum, Baby On A Rampage (ep release), Of The Nature, Gingsu, Bone Thistle",
-      "details": "a/a $15/$20 6pm/6:30pm",
+      "artists": "Parabellum, Baby On A Rampage (ep release), Fall Of The King, Gingsu, Bone Thistle",
+      "details": "a/a $15/$20 6pm/6:30pm @",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
       "link": "https://www.924gilman.org/",
       "id": "64a793992e74"
@@ -9579,6 +9579,28 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
       "link": "https://thefoxoakland.com/",
       "id": "eba122b26563"
+    },
+    {
+      "date": "2027-05-15",
+      "day": "Sat May 15",
+      "venue": "Chapel",
+      "city": "San Francisco",
+      "artists": "Liminanas, Native Sun",
+      "details": "a/a $30/$35 8pm/9pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://thechapelsf.com/",
+      "id": "4320f9a652ca"
+    },
+    {
+      "date": "2027-05-15",
+      "day": "Sat May 15",
+      "venue": "Regency Ballroom",
+      "city": "San Francisco",
+      "artists": "Wombats, Lathums",
+      "details": "a/a 7pm/8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://www.theregencyballroom.com/",
+      "id": "60eaed25be15"
     }
   ]
 }
