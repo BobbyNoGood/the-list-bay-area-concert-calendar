@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2026-11-19 02:39 PM PT",
-    "event_count": 837,
+    "updated_at": "2026-11-20 02:14 PM PT",
+    "event_count": 840,
     "week_count": 27,
     "weeks": [
       {
@@ -164,7 +164,7 @@
         "start": "2027-05-17",
         "end": "2027-05-23",
         "label": "May 17–23, 2027",
-        "count": 1
+        "count": 4
       }
     ],
     "source_pages": [
@@ -326,9 +326,9 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
-        "events": 1,
+        "events": 4,
         "first_date": "2027-05-18",
-        "last_date": "2027-05-18"
+        "last_date": "2027-05-19"
       }
     ]
   },
@@ -9565,6 +9565,39 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
       "link": "https://www.theregencyballroom.com/",
       "id": "a76e3062585b"
+    },
+    {
+      "date": "2027-05-19",
+      "day": "Wed May 19",
+      "venue": "49's Stadium",
+      "city": "Santa Clara",
+      "artists": "Noah Kahan, Gregory Alan Isakov, Alyssa Grace",
+      "details": "a/a 4pm/5:30pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://www.google.com/search?q=Noah+Kahan+49%27s+Stadium+Santa+Clara+Wed+May+19+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "605da6349249"
+    },
+    {
+      "date": "2027-05-19",
+      "day": "Wed May 19",
+      "venue": "Fillmore",
+      "city": "San Francisco",
+      "artists": "Midnight Generation",
+      "details": "a/a 8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://thefillmore.com/",
+      "id": "9bc19654daac"
+    },
+    {
+      "date": "2027-05-19",
+      "day": "Wed May 19",
+      "venue": "Fox Theater Oakland",
+      "city": "Oakland",
+      "artists": "Eric Andre (comedian)",
+      "details": "18+ 8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://thefoxoakland.com/",
+      "id": "f5936c065612"
     }
   ]
 }
