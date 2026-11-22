@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2026-11-21 12:53 PM PT",
-    "event_count": 890,
+    "updated_at": "2026-11-22 01:01 PM PT",
+    "event_count": 900,
     "week_count": 27,
     "weeks": [
       {
@@ -14,19 +14,19 @@
         "start": "2026-11-23",
         "end": "2026-11-29",
         "label": "Nov 23–29, 2026",
-        "count": 67
+        "count": 69
       },
       {
         "start": "2026-11-30",
         "end": "2026-12-06",
         "label": "Nov 30–Dec 6, 2026",
-        "count": 88
+        "count": 89
       },
       {
         "start": "2026-12-07",
         "end": "2026-12-13",
         "label": "Dec 7–13, 2026",
-        "count": 84
+        "count": 87
       },
       {
         "start": "2026-12-14",
@@ -128,7 +128,7 @@
         "start": "2027-04-05",
         "end": "2027-04-11",
         "label": "Apr 5–11, 2027",
-        "count": 18
+        "count": 19
       },
       {
         "start": "2027-04-12",
@@ -164,7 +164,7 @@
         "start": "2027-05-17",
         "end": "2027-05-23",
         "label": "May 17–23, 2027",
-        "count": 9
+        "count": 12
       }
     ],
     "source_pages": [
@@ -176,19 +176,19 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.1.html",
-        "events": 67,
+        "events": 69,
         "first_date": "2026-11-23",
         "last_date": "2026-11-29"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.2.html",
-        "events": 88,
+        "events": 89,
         "first_date": "2026-11-30",
         "last_date": "2026-12-06"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.3.html",
-        "events": 84,
+        "events": 87,
         "first_date": "2026-12-07",
         "last_date": "2026-12-13"
       },
@@ -290,7 +290,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.20.html",
-        "events": 18,
+        "events": 19,
         "first_date": "2027-04-05",
         "last_date": "2027-04-11"
       },
@@ -326,9 +326,9 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
-        "events": 9,
+        "events": 12,
         "first_date": "2027-05-17",
-        "last_date": "2027-05-20"
+        "last_date": "2027-05-21"
       }
     ]
   },
@@ -817,13 +817,12 @@
       "date": "2026-11-21",
       "day": "Sat Nov 21",
       "venue": "Towne Cycles",
-      "city": "West Oakland",
-      "artists": "Black Excellence Band, Jason Gaines",
-      "details": "a/a $10+ 5pm/6:30pm",
+      "city": "West",
+      "artists": "CANCELLED: The Black Excellence Band, Jason Gaines",
+      "details": "Oakland",
       "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "address": "3137 Adeline Street",
-      "link": "https://www.google.com/search?q=Black+Excellence+Band+Towne+Cycles+West+Oakland+Sat+Nov+21+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "b5e229ccb530"
+      "link": "https://www.google.com/search?q=The+Black+Excellence+Band+Towne+Cycles+West+Sat+Nov+21+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "5aed4a3f7b66"
     },
     {
       "date": "2026-11-21",
@@ -1436,6 +1435,17 @@
     {
       "date": "2026-11-27",
       "day": "Fri Nov 27",
+      "venue": "Hotel Utah",
+      "city": "San Francisco",
+      "artists": "Eee Vee Eee, Mama Deemons, Circle Of Ruin",
+      "details": "21+ $10/$15 8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "link": "https://hotelutah.com/",
+      "id": "56e482973986"
+    },
+    {
+      "date": "2026-11-27",
+      "day": "Fri Nov 27",
       "venue": "SF Independent",
       "city": "San Francisco",
       "artists": "O'Flynn",
@@ -1641,6 +1651,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
       "link": "https://www.google.com/search?q=Willy+Tea+Taylor+Hopmonk+Novato+Sat+Nov+28+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "93d140cdfccd"
+    },
+    {
+      "date": "2026-11-28",
+      "day": "Sat Nov 28",
+      "venue": "Hotel Utah",
+      "city": "San Francisco",
+      "artists": "Shot Of Grace, Injex, Metal Finger",
+      "details": "21+ $12/$15 8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "link": "https://hotelutah.com/",
+      "id": "2c2c0e8cb63d"
     },
     {
       "date": "2026-11-28",
@@ -2056,11 +2077,11 @@
       "day": "Wed Dec 2",
       "venue": "Knockout",
       "city": "San Francisco",
-      "artists": "Blut Force Karma, BPM's, Rinds, Lost Puppy Forever",
+      "artists": "Blunt Force Karma, BPM's, Rinds, Lost Puppy Forever",
       "details": "21+ $10 8pm @",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
       "link": "https://theknockoutsf.com/",
-      "id": "6a1f419d8748"
+      "id": "0d4246ccc450"
     },
     {
       "date": "2026-12-02",
@@ -2534,6 +2555,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
       "link": "https://www.google.com/search?q=Roy+Rogers+%26+The+Delta+Rhythm+Kings+Hopmonk+Sebastopol+Sat+Dec+5+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "42f9cc497761"
+    },
+    {
+      "date": "2026-12-05",
+      "day": "Sat Dec 5",
+      "venue": "Hotel Utah",
+      "city": "San Francisco",
+      "artists": "Rolling Blackout, Lost Ethos, Watching Us",
+      "details": "21+ $12/$15 8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "link": "https://hotelutah.com/",
+      "id": "7024a99290ed"
     },
     {
       "date": "2026-12-05",
@@ -3155,6 +3187,17 @@
     {
       "date": "2026-12-10",
       "day": "Thu Dec 10",
+      "venue": "Hotel Utah",
+      "city": "San Francisco",
+      "artists": "Sara Rodenberg, Essence Goldman, Rebecca Chapa",
+      "details": "21+ $12/$15 7pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
+      "link": "https://hotelutah.com/",
+      "id": "478d70bc02a5"
+    },
+    {
+      "date": "2026-12-10",
+      "day": "Thu Dec 10",
       "venue": "SF Independent",
       "city": "San Francisco",
       "artists": "Feeble Little Horse, Mop",
@@ -3305,6 +3348,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
       "link": "https://www.google.com/search?q=Orgone+Hopmonk+Novato+Fri+Dec+11+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "683b1bb9c44f"
+    },
+    {
+      "date": "2026-12-11",
+      "day": "Fri Dec 11",
+      "venue": "Hotel Utah",
+      "city": "San Francisco",
+      "artists": "Blue Wings, Tropishere, Transient Ghosts",
+      "details": "21+ $12/$15 8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
+      "link": "https://hotelutah.com/",
+      "id": "6e4467a26899"
     },
     {
       "date": "2026-12-11",
@@ -3515,6 +3569,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
       "link": "https://thefillmore.com/",
       "id": "124ab6ea18ff"
+    },
+    {
+      "date": "2026-12-12",
+      "day": "Sat Dec 12",
+      "venue": "Hotel Utah",
+      "city": "San Francisco",
+      "artists": "Cherisha",
+      "details": "21+ $12/$15 8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
+      "link": "https://hotelutah.com/",
+      "id": "27c0b0e53e13"
     },
     {
       "date": "2026-12-12",
@@ -5164,7 +5229,7 @@
       "day": "Sat Jan 9",
       "venue": "Revolution Cafe",
       "city": "West Oakland",
-      "artists": "Hellbound Pound, Guns For Sick Children, Nom de Guerre, Blunt Force Karmak",
+      "artists": "Hellbound Pound, Guns For Sick Children, Nom de Guerre, Blunt Force Karma",
       "details": "a/a $5-$10 7pm/8pm @ (Tori's Birthday)",
       "source": "http://www.foopee.com/punk/the-list/by-date.7.html",
       "link": "https://www.google.com/search?q=Hellbound+Pound+Revolution+Cafe+West+Oakland+Sat+Jan+9+-site%3Aticketmaster.com+-site%3Alivenation.com",
@@ -9082,6 +9147,17 @@
       "id": "fbb25671ad7e"
     },
     {
+      "date": "2027-04-05",
+      "day": "Mon Apr 5",
+      "venue": "SF Independent",
+      "city": "San Francisco",
+      "artists": "Iceage",
+      "details": "a/a $39.68 7:30pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.20.html",
+      "link": "https://theindependentsf.com/",
+      "id": "83d4c2a103fc"
+    },
+    {
       "date": "2027-04-06",
       "day": "Tue Apr 6",
       "venue": "Cornerstone",
@@ -10148,6 +10224,39 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
       "link": "https://thefoxoakland.com/",
       "id": "b58529f30bbe"
+    },
+    {
+      "date": "2027-05-21",
+      "day": "Fri May 21",
+      "venue": "Castro",
+      "city": "San Francisco",
+      "artists": "Whitney, Tyler Ballgame",
+      "details": "a/a $54+ 8pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://castrotheatre.com/",
+      "id": "293197bbad11"
+    },
+    {
+      "date": "2027-05-21",
+      "day": "Fri May 21",
+      "venue": "Great American Music Hall",
+      "city": "San Francisco",
+      "artists": "Yendry",
+      "details": "a/a $38/$42 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://gamh.com/",
+      "id": "1243c3552656"
+    },
+    {
+      "date": "2027-05-21",
+      "day": "Fri May 21",
+      "venue": "SF Independent",
+      "city": "San Francisco",
+      "artists": "Madra Salach",
+      "details": "a/a 8pm/9pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://theindependentsf.com/",
+      "id": "cf2d7434abb4"
     }
   ]
 }
