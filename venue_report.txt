@@ -1,15 +1,13 @@
-VENUE CLEANUP REPORT (data from 2026-11-25 03:36 PM PT)
-Shows: 848 -> 845   Venues: 121 -> 101
+VENUE CLEANUP REPORT (data from 2026-11-26 03:48 PM PT)
+Shows: 853 -> 850   Venues: 120 -> 102
 
-== MERGED VENUES (14) ==
+== MERGED VENUES (13) ==
 Shown as: KEPT NAME | city   <=   name that was folded into it
 49's Stadium | Santa Clara   <=   49'ers Stadium (Santa Clara, 1 shows)
       why: spelling typo (92% alike)
 924 Gilman Street | Berkeley   <=   924 Gilman (Berkeley, 1 shows)
       why: same name, only a generic word added (street)
 924 Gilman Street | Berkeley   <=   924 Gilman STreet (Berkeley, 1 shows)
-      why: same name after fixing case/punctuation/St.-Street
-August Hall | San Francisco   <=   August Hall (no city, 1 shows)
       why: same name after fixing case/punctuation/St.-Street
 Castro | San Francisco   <=   Castro Theater (San Francisco, 2 shows)
       why: same name, only a generic word added (theater)
@@ -25,21 +23,20 @@ Ivy Room | Albany   <=   Ivy Roomm (Albany, 1 shows)
       why: spelling typo (94% alike)
 Neck Of The Woods | San Francisco   <=   Neck of the Woods (San Francisco, 3 shows)
       why: same name after fixing case/punctuation/St.-Street
-O'Reillys Pub | San Francisco   <=   O'Reilly's (San Francisco, 1 shows)
+O'Reilly's | San Francisco   <=   O'Reillys Pub (San Francisco, 1 shows)
       why: same name, only a generic word added (pub)
 Rio Theater | Santa Cruz   <=   Rito Theater (Santa Cruz, 1 shows)
       why: spelling typo (96% alike)
 San Jose Civic | San Jose   <=   San Jose Civic Center (San Jose, 4 shows)
       why: same name, only a generic word added (center)
 
-== CITY FIXES (13) ==
+== CITY FIXES (12) ==
 924 Gilman Street [2027-01-17]: San Francisco -> Berkeley (locked)
 924 Gilman Street [2027-01-28]: San Francisco -> Berkeley (locked)
 924 Gilman Street [2027-02-14]: San Francisco -> Berkeley (locked)
 Alamea -> Alameda (typo)
 Albanyu -> Albany (typo)
 Oakkland -> Oakland (typo)
-Oaland -> Oakland (typo)
 San Josea -> San Jose (typo)
 Sata Cruz -> Santa Cruz (typo)
 Sebastorpl -> Sebastopol (typo)
@@ -64,7 +61,7 @@ CHECK: 'Up the Crek Radio' (Walnut Creek, 1 shows) vs 'the' (no city, 1 shows) -
 SAME NAME, DIFFERENT CITY: 'Civic Auditorium' (San Francisco, 13 shows) vs 'Civic Auditorium' (San Jose, 1 shows)
 SAME NAME, DIFFERENT CITY: 'Hopmonk' (Novato, 12 shows) vs 'Hopmonk Tavern' (Sebastopol, 2 shows)
 SAME NAME, DIFFERENT CITY: 'Ivy Room' (Albanu, 1 shows) vs 'Ivy Roomm' (Albany, 1 shows)
-SAME NAME, DIFFERENT CITY: 'Ivy Room' (Albany, 32 shows) vs 'Ivy Room' (Albanu, 1 shows)
+SAME NAME, DIFFERENT CITY: 'Ivy Room' (Albany, 40 shows) vs 'Ivy Room' (Albanu, 1 shows)
 SAME NAME, DIFFERENT CITY: 'Warriors Stadium' (San Francisco, 5 shows) vs 'Warriors Stadium' (S.F, 1 shows)
 
 == CITIES NOT ON THE KNOWN LIST (check spelling) ==
@@ -77,7 +74,7 @@ the
 Arena|Oakland  ->  Oakland Arena (7 shows)
 Civic Auditorium|San Francisco  ->  SF Civic Auditorium (13 shows)
 Fox Theater|Oakland  ->  Fox Theater Oakland (30 shows)
-Independent|San Francisco  ->  SF Independent (94 shows)
+Independent|San Francisco  ->  SF Independent (93 shows)
 Masonic|San Francisco  ->  The Masonic (7 shows)
 Planetarium|Richmond  ->  Richmond Planetarium (2 shows)
 San Jose Civic|San Jose  ->  San Jose Civic Center (4 shows)

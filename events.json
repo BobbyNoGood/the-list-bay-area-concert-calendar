@@ -1,32 +1,32 @@
 {
   "meta": {
-    "updated_at": "2026-11-25 03:36 PM PT",
-    "event_count": 845,
-    "week_count": 26,
+    "updated_at": "2026-11-26 03:48 PM PT",
+    "event_count": 850,
+    "week_count": 27,
     "weeks": [
       {
         "start": "2026-11-23",
         "end": "2026-11-29",
         "label": "Nov 23–29, 2026",
-        "count": 62
+        "count": 53
       },
       {
         "start": "2026-11-30",
         "end": "2026-12-06",
         "label": "Nov 30–Dec 6, 2026",
-        "count": 93
+        "count": 97
       },
       {
         "start": "2026-12-07",
         "end": "2026-12-13",
         "label": "Dec 7–13, 2026",
-        "count": 89
+        "count": 90
       },
       {
         "start": "2026-12-14",
         "end": "2026-12-20",
         "label": "Dec 14–20, 2026",
-        "count": 74
+        "count": 75
       },
       {
         "start": "2026-12-21",
@@ -38,13 +38,13 @@
         "start": "2026-12-28",
         "end": "2027-01-03",
         "label": "Dec 28, 2026–Jan 3, 2027",
-        "count": 28
+        "count": 29
       },
       {
         "start": "2027-01-04",
         "end": "2027-01-10",
         "label": "Jan 4–10, 2027",
-        "count": 19
+        "count": 20
       },
       {
         "start": "2027-01-11",
@@ -62,7 +62,7 @@
         "start": "2027-01-25",
         "end": "2027-01-31",
         "label": "Jan 25–31, 2027",
-        "count": 36
+        "count": 37
       },
       {
         "start": "2027-02-01",
@@ -98,13 +98,13 @@
         "start": "2027-03-08",
         "end": "2027-03-14",
         "label": "Mar 8–14, 2027",
-        "count": 29
+        "count": 30
       },
       {
         "start": "2027-03-15",
         "end": "2027-03-21",
         "label": "Mar 15–21, 2027",
-        "count": 24
+        "count": 25
       },
       {
         "start": "2027-03-22",
@@ -122,7 +122,7 @@
         "start": "2027-04-05",
         "end": "2027-04-11",
         "label": "Apr 5–11, 2027",
-        "count": 20
+        "count": 21
       },
       {
         "start": "2027-04-12",
@@ -140,7 +140,7 @@
         "start": "2027-04-26",
         "end": "2027-05-02",
         "label": "Apr 26–May 2, 2027",
-        "count": 14
+        "count": 15
       },
       {
         "start": "2027-05-03",
@@ -159,30 +159,36 @@
         "end": "2027-05-23",
         "label": "May 17–23, 2027",
         "count": 13
+      },
+      {
+        "start": "2027-05-24",
+        "end": "2027-05-30",
+        "label": "May 24–30, 2027",
+        "count": 1
       }
     ],
     "source_pages": [
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.0.html",
-        "events": 62,
-        "first_date": "2026-11-25",
+        "events": 53,
+        "first_date": "2026-11-27",
         "last_date": "2026-11-29"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.1.html",
-        "events": 93,
+        "events": 97,
         "first_date": "2026-11-30",
         "last_date": "2026-12-06"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.2.html",
-        "events": 89,
+        "events": 90,
         "first_date": "2026-12-07",
         "last_date": "2026-12-13"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.3.html",
-        "events": 74,
+        "events": 75,
         "first_date": "2026-12-14",
         "last_date": "2026-12-20"
       },
@@ -194,13 +200,13 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.5.html",
-        "events": 28,
+        "events": 29,
         "first_date": "2026-12-28",
         "last_date": "2027-01-03"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.6.html",
-        "events": 19,
+        "events": 20,
         "first_date": "2027-01-06",
         "last_date": "2027-01-10"
       },
@@ -218,7 +224,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.9.html",
-        "events": 36,
+        "events": 37,
         "first_date": "2027-01-25",
         "last_date": "2027-01-31"
       },
@@ -254,13 +260,13 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.15.html",
-        "events": 29,
+        "events": 30,
         "first_date": "2027-03-09",
         "last_date": "2027-03-14"
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.16.html",
-        "events": 24,
+        "events": 25,
         "first_date": "2027-03-15",
         "last_date": "2027-03-21"
       },
@@ -278,7 +284,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.19.html",
-        "events": 20,
+        "events": 21,
         "first_date": "2027-04-05",
         "last_date": "2027-04-11"
       },
@@ -296,7 +302,7 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.22.html",
-        "events": 14,
+        "events": 15,
         "first_date": "2027-04-26",
         "last_date": "2027-05-02"
       },
@@ -317,109 +323,16 @@
         "events": 13,
         "first_date": "2027-05-17",
         "last_date": "2027-05-22"
+      },
+      {
+        "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
+        "events": 1,
+        "first_date": "2027-05-25",
+        "last_date": "2027-05-25"
       }
     ]
   },
   "events": [
-    {
-      "date": "2026-11-25",
-      "day": "Wed Nov 25",
-      "venue": "August Hall",
-      "city": "San Francisco",
-      "artists": "INCORRECT LISTING: dj Raphi",
-      "details": "",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.augusthallsf.com/",
-      "id": "8566206a2df6"
-    },
-    {
-      "date": "2026-11-25",
-      "day": "Wed Nov 25",
-      "venue": "Black Cat",
-      "city": "San Francisco",
-      "artists": "Joe Warner, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
-      "details": "21+ $15.50 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://blackcatsf.com/",
-      "id": "fbb0fec9df38"
-    },
-    {
-      "date": "2026-11-25",
-      "day": "Wed Nov 25",
-      "venue": "Castro",
-      "city": "San Francisco",
-      "artists": "Jim Lang and The PS 118 AllStars, Craig Bartlett",
-      "details": "a/a $48.60 8pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://castrotheatre.com/",
-      "id": "9308c9b4c69b"
-    },
-    {
-      "date": "2026-11-25",
-      "day": "Wed Nov 25",
-      "venue": "Chapel",
-      "city": "San Francisco",
-      "artists": "Moonalice, Mad Alchemy Liquid Light Show",
-      "details": "a/a $30/$35 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://thechapelsf.com/",
-      "id": "63ff936f4c93"
-    },
-    {
-      "date": "2026-11-25",
-      "day": "Wed Nov 25",
-      "venue": "Great American Music Hall",
-      "city": "San Francisco",
-      "artists": "Andre Nickatina",
-      "details": "a/a $47.50/$60/$65 7pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://gamh.com/",
-      "id": "fcd9d330bce8"
-    },
-    {
-      "date": "2026-11-25",
-      "day": "Wed Nov 25",
-      "venue": "SF Independent",
-      "city": "San Francisco",
-      "artists": "1 Umbrella",
-      "details": "a/a $47.92 7:30pm/8pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://theindependentsf.com/",
-      "id": "4e0688ccb641"
-    },
-    {
-      "date": "2026-11-25",
-      "day": "Wed Nov 25",
-      "venue": "O'Reillys Pub",
-      "city": "San Francisco",
-      "artists": "Noise In The Room, Gooper, Tocca, Elise Nova",
-      "details": "21+ 7pm",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.google.com/search?q=Noise+In+The+Room+O%27Reillys+Pub+San+Francisco+Wed+Nov+25+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "ae76228214b5"
-    },
-    {
-      "date": "2026-11-25",
-      "day": "Wed Nov 25",
-      "venue": "Regency Ballroom",
-      "city": "San Francisco",
-      "artists": "Wrecks, Worry Club, Kid Sistr",
-      "details": "a/a 6pm/7pm #",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://www.theregencyballroom.com/",
-      "id": "a8bcbaa8fef0"
-    },
-    {
-      "date": "2026-11-25",
-      "day": "Wed Nov 25",
-      "venue": "Stay Gold Deli",
-      "city": "Oakland",
-      "artists": "Choke, Opium Den, Pain Scale, Humans Are Temporary",
-      "details": "a/a $10 6pm @",
-      "source": "http://www.foopee.com/punk/the-list/by-date.0.html",
-      "link": "https://staygolddeli.com/",
-      "id": "8893bbb1e349"
-    },
     {
       "date": "2026-11-27",
       "day": "Fri Nov 27",
@@ -1307,6 +1220,17 @@
     {
       "date": "2026-12-03",
       "day": "Thu Dec 3",
+      "venue": "Knockout",
+      "city": "San Francisco",
+      "artists": "Diesel Dudes, Future Kill, Kim, Inverts",
+      "details": "21+ $10 8pm/9pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "link": "https://theknockoutsf.com/",
+      "id": "b33b68ba967c"
+    },
+    {
+      "date": "2026-12-03",
+      "day": "Thu Dec 3",
       "venue": "The Masonic",
       "city": "San Francisco",
       "artists": "Petty Wap",
@@ -1582,6 +1506,18 @@
     {
       "date": "2026-12-05",
       "day": "Sat Dec 5",
+      "venue": "Back Water Arts",
+      "city": "San Jose",
+      "artists": "Beatus Ille, Later Alligator, Memo And The Notebooks",
+      "details": "a/a $12-$15 sliding 7pm @",
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "address": "681 Quinn Ave.",
+      "link": "https://www.google.com/search?q=Beatus+Ille+Back+Water+Arts+San+Jose+Sat+Dec+5+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "c0f3261a8482"
+    },
+    {
+      "date": "2026-12-05",
+      "day": "Sat Dec 5",
       "venue": "Bottom of the Hill",
       "city": "San Francisco",
       "artists": "Sonny & His Rhinestone Sunsets, Kelly McFarling, Noelle & The Deserters",
@@ -1736,13 +1672,13 @@
     {
       "date": "2026-12-05",
       "day": "Sat Dec 5",
-      "venue": "O'Reillys Pub",
+      "venue": "O'Reilly's",
       "city": "San Francisco",
       "artists": "Superbloom, Gozzard, Hot Tub Action, Cancer And Capricorn",
       "details": "21+ $10/$15 8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
       "address": "1840 Haight Street",
-      "link": "https://www.google.com/search?q=Superbloom+O%27Reillys+Pub+San+Francisco+Sat+Dec+5+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "link": "https://www.google.com/search?q=Superbloom+O%27Reilly%27s+San+Francisco+Sat+Dec+5+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "20e47f0b3862"
     },
     {
@@ -1924,6 +1860,18 @@
     {
       "date": "2026-12-06",
       "day": "Sun Dec 6",
+      "venue": "FML Studios",
+      "city": "Oakland",
+      "artists": "Amity St., Young Lovers, Lost Objects, Typoe",
+      "details": "a/a $10 6:30pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "address": "2400 Filbert Street",
+      "link": "https://www.google.com/search?q=Amity+St.+FML+Studios+Oakland+Sun+Dec+6+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "75dcf1f5a7bd"
+    },
+    {
+      "date": "2026-12-06",
+      "day": "Sun Dec 6",
       "venue": "Fillmore",
       "city": "San Francisco",
       "artists": "Matt Rogers (comedian)",
@@ -1964,6 +1912,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
       "link": "https://theindependentsf.com/",
       "id": "1f54c35c5ec4"
+    },
+    {
+      "date": "2026-12-06",
+      "day": "Sun Dec 6",
+      "venue": "Ivy Room",
+      "city": "Albany",
+      "artists": "Scott Amendola & Friends, Jeff Parker, Paul Bryan, Ben Goldberg",
+      "details": "21+ $30 6pm/7pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.1.html",
+      "link": "https://ivyroom.com/",
+      "id": "6d719d2c7060"
     },
     {
       "date": "2026-12-06",
@@ -2529,6 +2488,17 @@
     {
       "date": "2026-12-11",
       "day": "Fri Dec 11",
+      "venue": "Ivy Room",
+      "city": "Albany",
+      "artists": "Hot Laundry, Ransford & Son, Untypical dj Girl, Rock N Roll Adventrue Kids",
+      "details": "21+ $15 ($5 off with a new toy)",
+      "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
+      "link": "https://ivyroom.com/",
+      "id": "29fd7c1074ed"
+    },
+    {
+      "date": "2026-12-11",
+      "day": "Fri Dec 11",
       "venue": "Kilowatt",
       "city": "San Francisco",
       "artists": "Basic",
@@ -2784,12 +2754,12 @@
     {
       "date": "2026-12-12",
       "day": "Sat Dec 12",
-      "venue": "O'Reillys Pub",
+      "venue": "O'Reilly's",
       "city": "San Francisco",
       "artists": "Spongebath, Above The Embers, Black Gold Sun, Agony Aunts",
       "details": "21+ 7pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.2.html",
-      "link": "https://www.google.com/search?q=Spongebath+O%27Reillys+Pub+San+Francisco+Sat+Dec+12+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "link": "https://www.google.com/search?q=Spongebath+O%27Reilly%27s+San+Francisco+Sat+Dec+12+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "791706289047"
     },
     {
@@ -3215,12 +3185,12 @@
       "day": "Thu Dec 17",
       "venue": "111 Minna Gallery",
       "city": "San Francisco",
-      "artists": "Winston Smith's and Alternative Tentacles Bat Show",
-      "details": "21+ 5pm til 10pm (art show)",
+      "artists": "Batnap!, Winston Smith's and Alternative Tentacles Bat Show",
+      "details": "21+ free 5pm til 10pm (art show)",
       "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
-      "address": "111 Minna Street",
-      "link": "https://www.google.com/search?q=Winston+Smith%27s+and+Alternative+Tentacles+Bat+Show+111+Minna+Gallery+San+Francisco+Thu+Dec+17+-site%3Aticketmaster.com+-site%3Alivenation.com",
-      "id": "c02236050711"
+      "address": "111 Minna",
+      "link": "https://www.google.com/search?q=Batnap%21+111+Minna+Gallery+San+Francisco+Thu+Dec+17+-site%3Aticketmaster.com+-site%3Alivenation.com",
+      "id": "a33608a4e3fd"
     },
     {
       "date": "2026-12-17",
@@ -3776,6 +3746,17 @@
     {
       "date": "2026-12-20",
       "day": "Sun Dec 20",
+      "venue": "Ivy Room",
+      "city": "Albany",
+      "artists": "Polly Genius, Kristin Soboditch's All-Lemur Dance Band",
+      "details": "21+ $18.07 5pm/6pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.3.html",
+      "link": "https://ivyroom.com/",
+      "id": "67022828b6bd"
+    },
+    {
+      "date": "2026-12-20",
+      "day": "Sun Dec 20",
       "venue": "Knot Club",
       "city": "Richmond",
       "artists": "Laura Cortese (album release), Solstice Fiddle Party",
@@ -4120,7 +4101,7 @@
       "day": "Thu Dec 31",
       "venue": "Chapel",
       "city": "San Francisco",
-      "artists": "Lemon Twigs, Tchotchke, dj Matt Stout",
+      "artists": "Lemon Twigs, Tchotchke, dj Matt Stout, Candle",
       "details": "a/a $55/$65 8pm/9pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.5.html",
       "link": "https://thechapelsf.com/",
@@ -4303,6 +4284,17 @@
       "id": "e154f102a041"
     },
     {
+      "date": "2027-01-03",
+      "day": "Sun Jan 3",
+      "venue": "Ivy Room",
+      "city": "Albany",
+      "artists": "Big Sandy & His Fly-Rite Boys",
+      "details": "21+ $25 3pm/4pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.5.html",
+      "link": "https://ivyroom.com/",
+      "id": "cc1ce7cabe2e"
+    },
+    {
       "date": "2027-01-06",
       "day": "Wed Jan 6",
       "venue": "SF Independent",
@@ -4444,6 +4436,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.6.html",
       "link": "https://theindependentsf.com/",
       "id": "a8585192d734"
+    },
+    {
+      "date": "2027-01-09",
+      "day": "Sat Jan 9",
+      "venue": "Ivy Room",
+      "city": "Albany",
+      "artists": "Shoplifters United (tribute), North American Scum (tribute)",
+      "details": "21+ $20 8pm/8:30pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.6.html",
+      "link": "https://ivyroom.com/",
+      "id": "3332a0fe8925"
     },
     {
       "date": "2027-01-09",
@@ -4814,11 +4817,11 @@
       "day": "Sat Jan 16",
       "venue": "Ivy Room",
       "city": "Albany",
-      "artists": "Van Goat, Big Surprise",
+      "artists": "Van Goat (album release), Big Surprise (album release)",
       "details": "21+ $21.42 7pm/8pm",
       "source": "http://www.foopee.com/punk/the-list/by-date.7.html",
       "link": "https://ivyroom.com/",
-      "id": "d95aed422a87"
+      "id": "60f1d05c0ef5"
     },
     {
       "date": "2027-01-16",
@@ -5482,6 +5485,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.9.html",
       "link": "https://www.924gilman.org/",
       "id": "159f7ba8afcd"
+    },
+    {
+      "date": "2027-01-28",
+      "day": "Thu Jan 28",
+      "venue": "Chapel",
+      "city": "San Francisco",
+      "artists": "Ty Segall",
+      "details": "a/a $33/$38 7:30pm/8:30pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.9.html",
+      "link": "https://thechapelsf.com/",
+      "id": "5d595480db7d"
     },
     {
       "date": "2027-01-28",
@@ -7497,6 +7511,17 @@
       "id": "4d7955a7810b"
     },
     {
+      "date": "2027-03-10",
+      "day": "Wed Mar 10",
+      "venue": "Ivy Room",
+      "city": "Albany",
+      "artists": "Fred Frith Fremakajo (two sets), Jordan Glenn",
+      "details": "21+ $20 7pm/7:30pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.15.html",
+      "link": "https://ivyroom.com/",
+      "id": "b687544960d1"
+    },
+    {
       "date": "2027-03-11",
       "day": "Thu Mar 11",
       "venue": "August Hall",
@@ -7902,6 +7927,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.16.html",
       "link": "https://gamh.com/",
       "id": "b8703af3a605"
+    },
+    {
+      "date": "2027-03-19",
+      "day": "Fri Mar 19",
+      "venue": "Ivy Room",
+      "city": "Albany",
+      "artists": "Whisper To THunder (tribute), Fred Barchetta (tribute)",
+      "details": "21+ $20 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.16.html",
+      "link": "https://ivyroom.com/",
+      "id": "530c4de4b82f"
     },
     {
       "date": "2027-03-19",
@@ -8591,6 +8627,17 @@
     {
       "date": "2027-04-10",
       "day": "Sat Apr 10",
+      "venue": "Ivy Room",
+      "city": "Albany",
+      "artists": "Drakulas",
+      "details": "21+ $23.48 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.19.html",
+      "link": "https://ivyroom.com/",
+      "id": "cd5e871636ba"
+    },
+    {
+      "date": "2027-04-10",
+      "day": "Sat Apr 10",
       "venue": "Siesta Valley Bowl",
       "city": "Orinda",
       "artists": "Talib Kweli",
@@ -8961,6 +9008,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.22.html",
       "link": "https://rickshawstop.com/",
       "id": "e96f7bb5f29d"
+    },
+    {
+      "date": "2027-04-29",
+      "day": "Thu Apr 29",
+      "venue": "Chapel",
+      "city": "San Francisco",
+      "artists": "Ron Gallo, Heavy Meta X",
+      "details": "a/a $25/$28 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.22.html",
+      "link": "https://thechapelsf.com/",
+      "id": "3e85d5f6916e"
     },
     {
       "date": "2027-04-29",
@@ -9633,6 +9691,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.25.html",
       "link": "https://www.google.com/search?q=Stray+Kids+49%27s+Stadium+Santa+Clara+Sat+May+22+-site%3Aticketmaster.com+-site%3Alivenation.com",
       "id": "ba09b2d85555"
+    },
+    {
+      "date": "2027-05-25",
+      "day": "Tue May 25",
+      "venue": "Rickshaw Stop",
+      "city": "San Francisco",
+      "artists": "Aces, Gatlin",
+      "details": "a/a $30/$35 ($110 vip) 7pm/8pm",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://rickshawstop.com/",
+      "id": "54d65111af29"
     }
   ]
 }
