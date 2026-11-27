@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2026-11-26 03:48 PM PT",
-    "event_count": 850,
+    "updated_at": "2026-11-27 03:25 PM PT",
+    "event_count": 851,
     "week_count": 27,
     "weeks": [
       {
@@ -164,7 +164,7 @@
         "start": "2027-05-24",
         "end": "2027-05-30",
         "label": "May 24–30, 2027",
-        "count": 1
+        "count": 2
       }
     ],
     "source_pages": [
@@ -326,9 +326,9 @@
       },
       {
         "url": "http://www.foopee.com/punk/the-list/by-date.26.html",
-        "events": 1,
+        "events": 2,
         "first_date": "2027-05-25",
-        "last_date": "2027-05-25"
+        "last_date": "2027-05-26"
       }
     ]
   },
@@ -9702,6 +9702,17 @@
       "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
       "link": "https://rickshawstop.com/",
       "id": "54d65111af29"
+    },
+    {
+      "date": "2027-05-26",
+      "day": "Wed May 26",
+      "venue": "Concord Pavilion",
+      "city": "Concord",
+      "artists": "Deftones, Knocked Loose, Julie",
+      "details": "a/a $100+ 7pm #",
+      "source": "http://www.foopee.com/punk/the-list/by-date.26.html",
+      "link": "https://concordpavilion.com/",
+      "id": "4c8efbb0f58c"
     }
   ]
 }

@@ -1,5 +1,5 @@
-VENUE CLEANUP REPORT (data from 2026-11-26 03:48 PM PT)
-Shows: 853 -> 850   Venues: 120 -> 102
+VENUE CLEANUP REPORT (data from 2026-11-27 03:25 PM PT)
+Shows: 854 -> 851   Venues: 121 -> 103
 
 == MERGED VENUES (13) ==
 Shown as: KEPT NAME | city   <=   name that was folded into it
@@ -76,6 +76,7 @@ Civic Auditorium|San Francisco  ->  SF Civic Auditorium (13 shows)
 Fox Theater|Oakland  ->  Fox Theater Oakland (30 shows)
 Independent|San Francisco  ->  SF Independent (93 shows)
 Masonic|San Francisco  ->  The Masonic (7 shows)
+Pavilion|Concord  ->  Concord Pavilion (1 shows)
 Planetarium|Richmond  ->  Richmond Planetarium (2 shows)
 San Jose Civic|San Jose  ->  San Jose Civic Center (4 shows)
 Warriors Stadium|San Francisco  ->  Chase Center (5 shows)
@@ -83,5 +84,4 @@ NOT FOUND (no shows right now): Fox Theater|Redwood City
 NOT FOUND (no shows right now): Frost Amphitheater|Stanford
 NOT FOUND (no shows right now): Mountain Winery|Saratoga
 NOT FOUND (no shows right now): Music Hall|Napa
-NOT FOUND (no shows right now): Pavilion|Concord
 NOT FOUND (no shows right now): Quarry Amphitheater|Santa Cruz
